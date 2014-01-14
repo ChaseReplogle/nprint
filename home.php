@@ -159,7 +159,6 @@ $(function() {
   				<?php the_field( "company_links" );  ?> 
 			<p><a href="<?php the_field( "company_link_location" );  ?> " class="primary_button"><?php the_field( "company_link_text" );  ?> </a></p>
   		</div>
-  		
   		<div class="medium-6 columns letter">
 			<p>"<?php the_field( "letter_text" );  ?> "</p>
 			<img class="avatar left" src="<?php echo get_template_directory_uri(); ?>/_/inc/images/john.jpg" height="50px" width="50px"/>
