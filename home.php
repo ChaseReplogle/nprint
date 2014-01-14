@@ -154,16 +154,14 @@ $(function() {
 <div class="wrapper">
 <div class="row company full">
   		<div class="medium-6 columns row-content">
-  			<h4>More Than Ink and Vinyl</h4>
-  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Proin venenatis dui arcu, vel viverra odio malesuada nec. Nullam tempor dapibus lorem ut molestie. Nullam tempor dapibus lorem ut molestie.</p>	
-  			<p class="support_link"><a href="#">Team</a></p>
-  			<p class="support_link"><a href="#">Mission</a></p>
-			<p class="support_link"><a href="#">History</a></p>
-			<p><a href="#" class="primary_button">The Company</a></p>
+  			<h4><?php the_field( "company_title" );  ?> </h4>
+  			<p><?php the_field( "company_text" );  ?> </p>	
+  				<?php the_field( "company_links" );  ?> 
+			<p><a href="<?php the_field( "company_link_location" );  ?> " class="primary_button"><?php the_field( "company_link_text" );  ?> </a></p>
   		</div>
   		
   		<div class="medium-6 columns letter">
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Proin venenatis dui arcu, vel viverra odio malesuada nec. Nullam tempor dapibus lorem ut molestie. Nullam tempor dapibus lorem ut molestie. Nullam tempor dapibus lorem ut molestie."</p>
+			<p>"<?php the_field( "letter_text" );  ?> "</p>
 			<img class="avatar left" src="<?php echo get_template_directory_uri(); ?>/_/inc/images/john.jpg" height="50px" width="50px"/>
 			<div class="cite-author">
 				<p><strong>John Fuiget</strong></p>	
