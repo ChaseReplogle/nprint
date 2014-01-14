@@ -105,13 +105,13 @@ $(function() {
 
 <div class="wrapper">
 <div class="row craft boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/video-bg.jpg'); background-size:100% 100%;">
-  		<div class="medium-6 columns row-content">
+  		<div class="medium-5 columns row-content">
   			<h4>Craftsmanship</h4>
   			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Proin venenatis dui arcu, vel viverra odio malesuada nec. Nullam tempor dapibus lorem ut molestie. Nullam tempor dapibus lorem ut molestie.</p>
 			<p><a href="#" class="primary_button">Our Process</a></p>
   		</div>
   		
-  		<div class="medium-6 columns row-image">
+  		<div class="medium-7 columns row-image">
   			<div class="embed-container ">
 				<?php the_field( "video_embed" );  ?> 
 			</div>
