@@ -7382,6 +7382,7 @@ body {
 .wrapper {
   background-image: url("../images/pattern.jpg");
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .boxed {
@@ -7395,6 +7396,23 @@ body {
 .full {
   padding: 30px 40px 30px 40px;
   max-width: 70rem;
+}
+
+.left-line {
+  border-left: 1px solid #4f4f4f;
+  padding-left: 0px;
+}
+
+.right-line {
+  border-right: 1px solid #4f4f4f;
+  padding-right: 0px;
+}
+
+img.avatar {
+  -webkit-border-radius: 30px;
+  /* Saf3+, Chrome */
+  border-radius: 30px;
+  /* Opera 10.5, IE 9 */
 }
 
 .row-content h2 {
@@ -7436,33 +7454,13 @@ body {
 }
 .row-content .support_link a {
   margin-top: 5px;
+  color: #9a9a9a;
+  text-decoration: underline;
 }
 
 .content .nav-row {
   padding: 0px 0px 0px 0px;
   border: 0px;
-}
-
-.left-line {
-  border-left: 1px solid #4f4f4f;
-  padding-left: 0px;
-}
-
-.right-line {
-  border-right: 1px solid #4f4f4f;
-  padding-right: 0px;
-}
-
-.support_link a {
-  color: #9a9a9a;
-  text-decoration: underline;
-}
-
-img.avatar {
-  -webkit-border-radius: 30px;
-  /* Saf3+, Chrome */
-  border-radius: 30px;
-  /* Opera 10.5, IE 9 */
 }
 
 .accordion dd > a {
@@ -7494,14 +7492,58 @@ img.avatar {
   background: transparent;
 }
 
-.wrapper {
-  padding-top: 15px;
+.footer-wrapper {
+  background-image: url("../images/pattern.jpg");
+}
+.footer-wrapper .row {
+  padding: 20px 0px;
+  border: 0px;
+}
+.footer-wrapper h3 {
+  color: #9e9e9e;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.footer-wrapper p {
+  color: #9e9e9e;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.footer-wrapper a {
+  color: #4f98c4;
+  text-decoration: underline;
+}
+.footer-wrapper h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  color: #818080;
+  margin-bottom: 15px;
+}
+.footer-wrapper p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.footer-wrapper p a {
+  margin-bottom: 5px;
+  display: block;
+  color: #818080;
+  text-decoration: none;
+}
+.footer-wrapper .logo img {
+  margin-bottom: 10px;
+}
+.footer-wrapper .logo p {
+  font-size: 10px;
+}
+.footer-wrapper .row .columns {
+  margin-bottom: 20px;
 }
 
 .craft .row-content {
   margin-top: 40px;
 }
-
 .craft .row-image {
   margin-right: 0px;
   margin-left: 0px;
@@ -7509,7 +7551,6 @@ img.avatar {
 .craft .row-image img {
   width: 100%;
 }
-
 .craft .row {
   padding: 80px 0px 80px 0px;
 }
@@ -7517,15 +7558,12 @@ img.avatar {
 .portfolio .row {
   padding: 0px 0px 100px 0px;
 }
-
 .portfolio p {
   padding-bottom: 0px;
 }
-
 .portfolio .row-image {
   padding-right: 4%;
 }
-
 .portfolio .nav-row {
   padding: 0px 0px 10px 0px;
 }
@@ -7539,41 +7577,16 @@ img.avatar {
   padding: 50px 50px 100px 50px;
   border: 1px solid #d1d1d1;
 }
-
 .letter .avatar {
   margin-right: 20px;
 }
-
-.cite-author p {
+.letter .cite-author p {
   margin: 0px;
   font-size: 14px;
 }
 
 .support {
   background-color: #fff;
-}
-
-.g7, .team, .footer, .banner-edge {
-  background-image: url("../images/pattern.jpg");
-}
-.g7 .row, .team .row, .footer .row, .banner-edge .row {
-  padding: 30px 0px;
-  border: 0px;
-}
-.g7 h3, .team h3, .footer h3, .banner-edge h3 {
-  color: #9e9e9e;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding-top: 10px;
-}
-.g7 p, .team p, .footer p, .banner-edge p {
-  color: #9e9e9e;
-  font-size: 14px;
-  margin-bottom: 0px;
-}
-.g7 a, .team a, .footer a, .banner-edge a {
-  color: #4f98c4;
-  text-decoration: underline;
 }
 
 .team h3 {
@@ -7587,38 +7600,6 @@ img.avatar {
   width: 100%;
 }
 
-.footer h5 {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 15px;
-  color: #818080;
-  margin-bottom: 15px;
-}
-.footer p {
-  font-size: 12px;
-  line-height: 20px;
-}
-.footer p a {
-  margin-bottom: 5px;
-  display: block;
-  color: #818080;
-  text-decoration: none;
-}
-.footer .logo img {
-  margin-bottom: 10px;
-}
-.footer .logo p {
-  font-size: 10px;
-}
-.footer .row .columns {
-  margin-bottom: 20px;
-}
-
-.banner-edge {
-  height: 100px;
-  overflow: hidden;
-}
-
 @media only screen and (max-width: 40em) {
   .not-mobile {
     display: none;
@@ -7626,10 +7607,11 @@ img.avatar {
 
   .row-content {
     background-color: #fff;
-    padding: 0px 7% 0px 7%;
+    padding: 15px 7% 0px 7%;
   }
   .row-content h4 {
-    padding-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .row-content .primary_button, .row-content .secondary_button {
     display: block;
@@ -7681,7 +7663,7 @@ img.avatar {
 
   .letter {
     background-color: #f2f2f2;
-    padding: 50px 50px 50px 50px;
+    padding: 30px 10%;
     border: 1px solid #d1d1d1;
   }
 
@@ -7698,6 +7680,9 @@ img.avatar {
   }
   .footer .about {
     display: none;
+  }
+  .footer .row {
+    padding: 0px;
   }
 
   .team {
