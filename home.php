@@ -133,6 +133,7 @@ $(function() {
 					    	<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
 					        <?php
+					        	global $post;
 								// load all 'category' terms for the post
 								 $terms = get_the_terms($post->ID, "portfolio_categories");
 								 
@@ -146,7 +147,7 @@ $(function() {
 								}
 					        ?>
 					        <?php $cat_id = "cateogry_" . $post->ID; ?>
-  								<li><a href="#"><i class="<?php echo $custom_filed; ?> <?php if($i == 1)  echo "current-item";  ?>"></i><?php echo $post->name; ?></a></li>
+  								<li><a href="#"><i class="<?php echo $custom_filed; ?>"></i><?php echo $post->name; ?></a></li>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
