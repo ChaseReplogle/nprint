@@ -1,0 +1,409 @@
+body {
+	background-color: black;
+}
+
+.wrapper {
+	background-image: url('../images/pattern.jpg');
+	padding-bottom: 15px;
+}
+
+.boxed {
+	padding: 50px 40px 50px 40px;
+	max-width: 70rem;
+	border: 1px solid $lightgrey;
+	-webkit-box-shadow: 0 2px 20px 0 rgba(0,0,0,.1); box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+}
+
+.full {
+	padding: 30px 40px 30px 40px;
+	max-width: 70rem;
+}
+
+.row-content {
+	h2 {
+		text-transform: uppercase;
+		font-size: 30px;
+		padding-bottom: 5px;
+		font-weight: bold;
+		color: $mainblue;
+	}
+	
+	h3 {
+	
+	}
+
+	h4 {
+		text-transform: uppercase;
+		font-size: 20px;
+		font-weight: bold;
+		color: $darkgrey;
+		padding-bottom: 20px;
+	}
+	
+	p {
+		color: $darkgrey;
+		font-size: 14px;
+	}
+	
+	blockquote {
+		border: 0px;
+		margin-left: 0px;
+		text-indent: 0px;
+		padding: 0px;
+		font-style: italic;
+	}
+	
+	cite {
+		font-size: 12px;
+		color: lighten($grey, 20%);
+		display: block;
+	}
+	
+	p > a {
+		margin-top: 15px;
+		display: inline-block;
+	}
+	
+	.support_link {
+		margin-bottom: 5px;
+	}
+	
+	.support_link a {
+		margin-top: 5px;
+	}
+
+}
+
+.content .nav-row {
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+.left-line {
+	border-left: 1px solid $darkgrey;
+	padding-left: 0px;
+}
+
+.right-line {
+	border-right: 1px solid $darkgrey;
+	padding-right: 0px;
+}
+
+.support_link a {
+	color: lighten($grey, 10%);
+	text-decoration: underline;
+}
+
+img.avatar {
+	-webkit-border-radius: 30px; /* Saf3+, Chrome */
+	border-radius: 30px; /* Opera 10.5, IE 9 */
+}
+
+
+.accordion dd > a {
+	background: none;
+	color: $mainblue;
+	text-decoration: underline;
+	padding: 0px;
+	padding-bottom: 10px;
+}
+
+.accordion dd > a:hover {
+	background: none;
+}
+
+
+.accordion {
+
+	.content {
+		border: 0px;
+		padding: 0px;
+		-webkit-box-shadow: 0 0px 0px 0 rgba(0,0,0,.1); box-shadow: 0 0px 0px 0 rgba(0,0,0,.1);
+		background-color: transparent;
+		background: transparent;
+		
+		p {
+			color: $grey;
+			font-size: 14px;
+		}
+	}
+	
+	.content.active {
+		background-color: transparent;
+		background: transparent;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+	padding-top: 15px;
+}
+
+
+.craft .row-content {
+	margin-top: 40px;
+}
+
+.craft .row-image {
+	margin-right: 0px;
+	margin-left: 0px;
+	
+	img {
+		width: 100%;
+	}
+}
+
+.craft .row {
+	padding: 80px 0px 80px 0px;
+}
+
+.portfolio .row {
+	padding: 0px 0px 100px 0px;
+}
+
+.portfolio p {
+	padding-bottom: 0px;
+}
+
+.portfolio .row-image {
+	padding-right: 4%;
+}
+
+.portfolio .nav-row {
+	padding: 0px 0px 10px 0px;
+}
+
+.company .row {
+	padding: 50px 0px 0px 0px;
+}
+
+.letter {
+	background-color: #fff;
+	padding: 50px 50px 100px 50px;
+	border: 1px solid $lightgrey;
+}
+
+.letter .avatar {
+	 margin-right: 20px;
+} 
+
+.cite-author p {
+	margin: 0px;
+	font-size: 14px;
+}
+
+.support {
+	background-color: #fff;
+}
+
+
+.g7, .team, .footer, .banner-edge {
+	background-image: url('../images/pattern.jpg');
+	
+	.row {
+		padding: 30px 0px;
+		border: 0px;
+	}
+	
+	h3 {
+		color: darken($lightgrey, 20%);
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-top: 10px;
+	}
+	
+	p {
+		color: darken($lightgrey, 20%);
+		font-size: 14px;
+		margin-bottom: 0px;
+	}
+	
+	a {
+		color: $mainblue;
+		text-decoration: underline;
+	}
+}
+
+
+.team {
+	h3 {
+		color: $grey;
+		text-align: center;
+	}
+	
+	p {
+		text-align: center;
+	}
+	
+	img {
+		width: 100%;
+	}
+}
+
+
+
+.footer {
+
+	h5 {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 15px;
+		color: $grey;
+		margin-bottom: 15px;
+	}
+	
+	p {
+		font-size: 12px;
+		line-height: 20px;
+		
+		a {
+			margin-bottom: 5px;
+			display: block;
+			color: $grey;
+			text-decoration: none;
+		}
+	}
+	
+	.logo {
+	
+		img {
+			margin-bottom: 10px;
+		}
+	
+		p {
+			font-size: 10px;
+		}
+	}
+	
+	.row .columns {
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 40em) {
+	.not-mobile {
+		display: none;
+	}
+
+	.row-content {
+		background-color: #fff;
+		padding: 0px 7% 0px 7%;
+		
+		h4 {
+			padding-top: 20px;
+		}
+		
+		.primary_button, .secondary_button {
+			display: block;
+			text-align: center;
+		}
+	}
+	
+	.boxed {
+		padding: 0px 5%;
+		border: 0px;
+	}
+	
+	.boxed {
+		background-image: url('../images/pattern.jpg') !important;
+		background-size: auto !important;
+		border-top: 0px;
+		-webkit-box-shadow: 0 0px 0px 0 rgba(0,0,0,.1); box-shadow: 0 0px 0px 0 rgba(0,0,0,.1);
+		
+		.row {
+			padding: 10px !important;
+		
+			.row-image {
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+			
+			.icon-nav {
+				display: none;
+			}
+		}
+	}
+	
+	.full {
+		padding: 0px 5%;	
+	}
+	
+	.craft .row {
+		padding: 0px 0px 0px 0px;
+	}
+	
+	.craft .row-content {
+		margin-top: 0px;
+	}
+	
+	.portfolio .nav-row {
+		padding: 0px 0px 0px 0px;
+	}
+	
+	.support {
+		background: #fff;
+	}
+	
+	.letter {
+		background-color: $verylightgrey;
+		padding: 50px 50px 50px 50px;
+		border: 1px solid $lightgrey;
+	}
+	
+	.g7 img {
+		float: left !important;
+	}
+	
+	.banner-edge {
+		display: none;
+	}
+	
+	.footer {
+		.logo {
+			display: none;
+		}
+		
+		.about {
+			display: none;
+		}
+	}
+	
+	.team {
+		display: none;
+	}
+
+}
+

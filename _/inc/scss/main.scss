@@ -1,0 +1,26 @@
+* {
+	position: relative;
+	z-index: 10px;
+}
+
+// Venders - Third party css files and customization
+@import "vender/foundation";
+
+// Modules and Variables - Used for sass that doesn't output css. (examples: colors, fonts, etc.)
+@import "modules/colors";
+@import "modules/typography";
+
+// Partials - Basic components of style system
+@import "partials/typography";
+@import "partials/forms";
+@import "partials/navigation";
+@import "partials/content";
+@import "partials/tables";
+@import "partials/buttons";
+@import "partials/icons";
+@import "partials/pagination";
+@import "partials/messages";
+
+
+// Layout
+@import "partials/header";

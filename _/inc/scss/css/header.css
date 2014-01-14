@@ -1,0 +1,7 @@
+.account-nav {
+  height: 40px;
+  line-height: 40px; }
+  .account-nav ul li > a {
+    font-size: 10px; }
+    .account-nav ul li > a span {
+      color: blue; }

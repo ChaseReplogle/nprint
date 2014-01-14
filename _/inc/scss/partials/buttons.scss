@@ -1,0 +1,54 @@
+.primary_button {
+	padding: 12px 23px;
+	background-color: $mainorange;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid darken($mainorange,20%);
+	
+	&:hover {
+		color: #fff;
+		background-color: darken($mainorange,5%);
+	}
+}
+
+
+.secondary_button {
+	padding: 12px 23px;
+	background-color: $mainblue;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid darken($mainblue,20%);
+	
+	&:hover {
+		color: #fff;
+		background-color: darken($mainblue,5%);
+	}
+}
+
+
+.support_button {
+	padding: 12px 23px;
+	background-color: $darkgrey;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid darken($darkgrey,20%);
+	
+	&:hover {
+		color: #fff;
+		background-color: darken($darkgrey,5%);
+	}
+}
+
+
+.clear_button {
+	padding: 12px 23px;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid #fff;
+	
+	&:hover {
+		color: #fff;
+		background-color: $mainblue;
+		border: 1px solid $mainblue;
+	}
+}
