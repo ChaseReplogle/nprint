@@ -211,24 +211,8 @@ $(function() {
   			<h4>Support</h4>
   			<p><?php the_field( "support_text" );  ?></p>
 
-  			<?php
- 
-				global $post;
-				 
-				// load all 'category' terms for the post
-				$terms = get_the_terms($post->ID, 'support_categories');
-				 
-				// we will use the first term to load ACF data from
-				if( !empty($terms) )
-				{
-					$term = array_pop($terms);
-				 
-					$custom_field = get_field('category_image', 'category_' . $term->term_id );
-				 
-					echo $custom_field;
-				}
-			 
-			?>
+  			<h1><?php $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'support_categories' ) ); echo $term->name; ?></h1>
+  			
   			<p class="support_link"><a href="#">Art Department</a></p>
 			<p class="support_link"><a href="#">Sales Representatives</a></p>
 			<p class="support_link"><a href="#">Pre-Press</a></p>
