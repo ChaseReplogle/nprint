@@ -7193,14 +7193,15 @@ a:hover {
   color: #818080;
   background-color: #fff;
   background: #fff;
-  line-height: 65px;
+  line-height: 64px;
   font-size: 14px;
   padding-left: 25px;
   padding-right: 25px;
   border-right: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
 }
 
-.top-bar ul li a:not(.button):first-child {
+.top-bar ul li:first-child {
   border-left: 1px solid #f2f2f2;
 }
 
@@ -7253,7 +7254,6 @@ a:hover {
 
   .main-nav ul li {
     display: list-item;
-    border-bottom: 1px solid #f2f2f2;
   }
 
   .main-nav ul li:first-child {
@@ -7266,6 +7266,10 @@ a:hover {
 
   .main-nav {
     height: 45px;
+  }
+
+  .top-bar .toggle-topbar.menu-icon a {
+    border: 0px;
   }
 
   .top-bar-section .dropdown li.title h5 {
@@ -7634,11 +7638,14 @@ img.avatar {
     padding: 10px !important;
   }
   .boxed .row .row-image {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px;
   }
   .boxed .row .icon-nav {
     display: none;
+  }
+
+  .row .row-image {
+    padding: 0px;
   }
 
   .full {

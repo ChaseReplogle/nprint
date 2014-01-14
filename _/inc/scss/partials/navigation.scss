@@ -7,8 +7,8 @@ $topbar-arrows: false;
 .top-bar ul {display: table; margin: 0 auto; background-color: #fff;}
 .top-bar ul li {display: table-cell; background-color: #fff;}
 .top-bar ul li.current-item a:not(.button) {color: $darkgrey;}
-.top-bar ul li a:not(.button) {color: $grey; background-color: #fff; background: #fff; line-height: 65px; font-size: 14px;padding-left: 25px;padding-right: 25px; border-right: 1px solid $verylightgrey;}
-.top-bar ul li a:not(.button):first-child { border-left: 1px solid $verylightgrey;}
+.top-bar ul li a:not(.button) {color: $grey; background-color: #fff; background: #fff; line-height: 64px; font-size: 14px;padding-left: 25px;padding-right: 25px; border-right: 1px solid $verylightgrey; border-bottom: 1px solid $verylightgrey;}
+.top-bar ul li:first-child { border-left: 1px solid $verylightgrey;}
 .top-bar-section li a:not(.button):hover {background: $verylightgrey;}
 .top-bar {background-color: #fff;}
 .top-bar .toggle-topbar.menu-icon a {color: $grey; text-indent: 50px;}
@@ -25,10 +25,11 @@ $topbar-arrows: false;
 
 @media only screen and (max-width: 40em) {
 	.main-nav ul {margin: auto;}
-	.main-nav ul li {display: list-item;border-bottom: 1px solid $verylightgrey;}
+	.main-nav ul li {display: list-item;}
 	.main-nav ul li:first-child {border-top: 1px solid $verylightgrey;}
 	.main-nav ul li a:not(.button) {line-height: 25px;}
 	.main-nav {height: 45px;}
+	.top-bar .toggle-topbar.menu-icon a {border: 0px;}
 	.top-bar-section .dropdown li.title h5 {margin: 0px;}
 	.top-bar-section .dropdown li.title h5 a {color: $grey; background: $verylightgrey;}
  } 

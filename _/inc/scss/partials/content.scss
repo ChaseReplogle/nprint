@@ -363,13 +363,18 @@ img.avatar {
 			padding: 10px !important;
 		
 			.row-image {
-				padding-left: 0px;
-				padding-right: 0px;
+				padding: 0px;
 			}
 			
 			.icon-nav {
 				display: none;
 			}
+		}
+	}
+
+	.row {
+		.row-image {
+			padding: 0px;
 		}
 	}
 	
