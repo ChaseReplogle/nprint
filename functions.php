@@ -150,4 +150,8 @@
 	// Remove Admin Bar
 	add_filter('show_admin_bar', '__return_false');
 
+function new_excerpt_more( $excerpt ) {
+	return str_replace( '[...]', '...', $excerpt );
+}
+add_filter( 'wp_trim_excerpt', 'new_excerpt_more' );
 ?>
