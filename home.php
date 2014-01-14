@@ -214,8 +214,7 @@ $(function() {
 					if( $post_objects ): ?>
 					    	<?php foreach( $post_objects as $post): ?>
 					        <?php setup_postdata($post); ?>
-					        <?php print_r($post) ?>
-  								<p class="support_link"><a href="#"><?php echo $post->name; ?></a></p>	
+  								<p class="support_link"><a href="/support_categories<?php echo $post->slug; ?>"><?php echo $post->name; ?></a></p>	
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
