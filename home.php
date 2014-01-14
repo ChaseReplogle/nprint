@@ -209,7 +209,11 @@ $(function() {
 		
   		<div class="medium-5 columns row-content">
   			<h4>Support</h4>
-  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Proin venenatis dui arcu, vel viverra odio malesuada nec. Nullam tempor dapibus lorem ut molestie. Nullam tempor dapibus lorem ut molestie.</p>	
+  			<p><?php the_field( "support_text" );  ?></p>
+  			<?php
+  			$value = get_query_var($wp_query->query_vars['support_categories']);
+				echo get_term_by('slug',$value,$wp_query->query_vars['support_categories']);
+  			?>	
   			<p class="support_link"><a href="#">Art Department</a></p>
 			<p class="support_link"><a href="#">Sales Representatives</a></p>
 			<p class="support_link"><a href="#">Pre-Press</a></p>
