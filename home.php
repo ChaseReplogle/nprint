@@ -112,7 +112,7 @@ $(function() {
   		</div>
   		
   		<div class="medium-6 columns row-image">
-			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/video.jpg" alt="Printer"/>
+			<?php the_field( "video_embed" );  ?> 
 		</div>
 </div>
 </div>
