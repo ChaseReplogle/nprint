@@ -132,7 +132,7 @@ $(function() {
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
-  								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-<?php the_field('project_category_icon', 'portfolio_categories_7'); ?>"></i><?php echo $post->name; ?></a></li>
+  								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-"></i><?php echo $post->name; ?></a><?php the_field('project_category_icon', 'portfolio_categories_7'); ?></li>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
