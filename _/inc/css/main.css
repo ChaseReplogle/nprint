@@ -7551,7 +7551,7 @@ img.avatar {
 
 /* Content specific styles */
 .craft .row-content {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .craft .row-image {
   margin-right: 0px;
@@ -7559,12 +7559,12 @@ img.avatar {
 }
 .craft .row-image .embed-container {
   position: relative;
-  padding-bottom: 56.25%;
-  /* 16/9 ratio */
+  padding-bottom: 50.4%;
   padding-top: 30px;
   /* IE6 workaround*/
   height: 0;
   overflow: hidden;
+  border: 1px solid #818080;
 }
 .craft .row-image .embed-container iframe {
   position: absolute;
