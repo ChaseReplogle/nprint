@@ -88,15 +88,7 @@
 </div>
 </div>
 
-<?php
-/**
- * @package WordPress
- * @subpackage HTML5-Reset-WordPress-Theme
- * @since HTML5 Reset 2.0
- */
-?>
-
-	<?php wp_footer(); ?>
+<?php wp_footer(); ?>
 
 
 <!-- here comes the javascript -->
