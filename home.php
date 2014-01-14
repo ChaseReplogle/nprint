@@ -211,8 +211,8 @@ $(function() {
   			<h4>Support</h4>
   			<p><?php the_field( "support_text" );  ?></p>
 
-  			<h1><?php $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'support_categories' ) ); echo $term->name; ?></h1>
-  			
+  			<?php the_field( "featured_categories" );  ?>
+
   			<p class="support_link"><a href="#">Art Department</a></p>
 			<p class="support_link"><a href="#">Sales Representatives</a></p>
 			<p class="support_link"><a href="#">Pre-Press</a></p>
