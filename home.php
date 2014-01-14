@@ -156,9 +156,20 @@ $(function() {
   		<div class="medium-6 columns row-content">
   			<h4><?php the_field( "company_title" );  ?> </h4>
   			<p><?php the_field( "company_text" );  ?> </p>	
-  				<?php the_field( "company_links" );  ?> 
+
+  			<?php $post_objects = get_field('company_links');
+				if( $post_objects ): ?>
+				    <?php foreach( $post_objects as $post): ?>
+				        <?php setup_postdata($post); ?>
+				            <p class="support_link"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+				    <?php endforeach; ?>
+				    <?php wp_reset_postdata(); ?>
+				<?php endif; 
+			?>
+
 			<p><a href="<?php the_field( "company_link_location" );  ?> " class="primary_button"><?php the_field( "company_link_text" );  ?> </a></p>
   		</div>
+  		
   		<div class="medium-6 columns letter">
 			<p>"<?php the_field( "letter_text" );  ?> "</p>
 			<img class="avatar left" src="<?php echo get_template_directory_uri(); ?>/_/inc/images/john.jpg" height="50px" width="50px"/>
