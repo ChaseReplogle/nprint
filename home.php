@@ -42,7 +42,7 @@ $(function() {
 	<div class="row header-info full">
 		<div class="medium-5 columns about-block">
 			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" />
-			<h2><strong>Toll Free</strong> (800) 882-SIGN | <a href="#" >Contact</a></h2>
+			<h2><strong>Toll Free:</strong> <a href="tel:+18885187344"> 888-518-7344 </a> | <a href="#" >Contact</a></h2>
 		</div>
   		<div class="medium-7 columns about-block">
   			<h3><strong>Craftsmanship at a whole new scale.</strong></h3>
