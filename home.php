@@ -189,8 +189,9 @@ $(function() {
 			<dl class="accordion" data-accordion>
 				 <?php $post_objects = get_field('featured_articles');
 					if( $post_objects ): ?>
-					    <?php foreach( $post_objects as $post): ?>
-					    	<?php $i = 0; $i++; ?>
+					    <?php $i = 0; ?>
+					    	<?php foreach( $post_objects as $post): ?>
+					    	<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
 					           <dd>
 								    <a href="#panel<?php echo $i; ?>"><?php the_title(); ?></a>
