@@ -128,10 +128,11 @@ $(function() {
   				
   				<?php $post_objects = get_field('portfolio_categories');
 					if( $post_objects ): ?>
+							<?php  $i = 0 ?>
 					    	<?php foreach( $post_objects as $post): ?>
+					    		<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
-					        	<?php print_r($post);?>
-  								<li><a href="#"><i class="fi-page"></i><?php echo $post->name; ?></a></li>
+  								<li><a href="#"><i class="<?php the_field( "project_category_icon" );  ?> <?php if($i == 1)  echo "current-item";  ?>"></i><?php echo $post->name; ?></a></li>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
