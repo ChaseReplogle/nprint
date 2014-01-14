@@ -132,22 +132,7 @@ $(function() {
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
-					        <?php
-					        	global $post;
-								// load all 'category' terms for the post
-								 $terms = get_the_terms($post->ID, "portfolio_categories");
-								 
-								// we will use the first term to load ACF data from
-								if( !empty($terms) )
-								{
-									$term = array_pop($terms);
-								 
-									$custom_field = the_field('project_category_icon', 'portfolio_categories_7');
-								 	echo $custom_field;
-								}
-					        ?>
-					        <?php $cat_id = "cateogry_" . $post->ID; ?>
-  								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="<?php echo $custom_field; ?>"></i><?php echo $post->name; ?></a></li>
+  								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="<?php the_field('project_category_icon', 'portfolio_categories_7'); ?>"></i><?php echo $post->name; ?></a></li>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
