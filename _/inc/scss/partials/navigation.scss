@@ -1,22 +1,92 @@
+/* Top Bar Main Navigation Styles */
 $topbar-arrows: false; 
-[data-magellan-expedition] {padding: 0px;}
-.top-bar .has-dropdown ul.dropdown {-webkit-box-shadow: 0 5px 10px 0 #707070; box-shadow: 0 5px 10px 0 #707070;}
-.top-bar .has-dropdown > a:after {display: none;}
-.top-bar .has-dropdown > a {padding-right: 15px !important;}
-.top-bar {height: 65px; -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); position: relative; z-index: 50;}
-.top-bar ul {display: table; margin: 0 auto; background-color: #fff;}
-.top-bar ul li {display: table-cell; background-color: #fff;}
-.top-bar ul li.current-item a:not(.button) {color: $darkgrey;}
-.top-bar ul li a:not(.button) {color: $grey; background-color: #fff; background: #fff; line-height: 64px; font-size: 14px;padding-left: 25px;padding-right: 25px; border-right: 1px solid $verylightgrey; border-bottom: 1px solid $verylightgrey;}
-.top-bar ul li:first-child { border-left: 1px solid $verylightgrey;}
-.top-bar-section li a:not(.button):hover {background: $verylightgrey;}
-.top-bar {background-color: #fff;}
-.top-bar .toggle-topbar.menu-icon a {color: $grey; text-indent: 50px;}
-.top-bar .toggle-topbar.menu-icon {left: 0px; padding-left: 15px;}
-.top-bar .toggle-topbar.menu-icon a {text-indent: 0px;}
-.top-bar.expanded .title-area {background: #fff; background-color: #fff;}
-.top-bar.expanded {background: #fff;}
-.top-bar .has-dropdown ul li > a {line-height: 20px; font-size: 12px; border-bottom: 1px solid $verylightgrey;}
+[data-magellan-expedition] {
+	padding: 0px;
+}
+
+.top-bar .has-dropdown ul.dropdown {
+	-webkit-box-shadow: 0 5px 10px 0 #707070; 
+	box-shadow: 0 5px 10px 0 #707070;
+}
+.top-bar .has-dropdown > a:after {
+	display: none;
+}
+
+.top-bar .has-dropdown > a {
+	padding-right: 15px !important;
+}
+
+.top-bar {
+	height: 65px; 
+	-webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
+	position: relative; 
+	z-index: 50;
+	background-color: #fff;
+}
+
+.top-bar ul {
+	display: table; 
+	margin: 0 auto; 
+	background-color: #fff;
+}
+
+.top-bar ul li {
+	display: table-cell; 
+	background-color: #fff;
+}
+
+.top-bar ul li.current-item a:not(.button) {
+	color: $darkgrey;
+}
+
+.top-bar ul li a:not(.button) {
+	color: $grey; 
+	background-color: #fff; 
+	background: #fff; 
+	line-height: 64px; 
+	font-size: 14px;
+	padding-left: 25px;
+	padding-right: 25px; 
+	border-right: 1px solid $verylightgrey; 
+	border-bottom: 1px solid $verylightgrey;
+}
+
+.top-bar ul li:first-child { 
+	border-left: 1px solid $verylightgrey;
+}
+
+.top-bar-section li a:not(.button):hover {
+	background: $verylightgrey;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	color: $grey; text-indent: 50px;
+}
+
+.top-bar .toggle-topbar.menu-icon {
+	left: 0px; padding-left: 15px;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	text-indent: 0px;
+}
+
+.top-bar.expanded .title-area {
+	background: #fff; 
+	background-color: #fff;
+}
+
+.top-bar.expanded {
+	background: #fff;
+}
+
+.top-bar .has-dropdown ul li > a {
+	line-height: 20px; 
+	font-size: 12px; 
+	border-bottom: 1px solid $verylightgrey;
+}
+
 
 .navigation {
 	padding: 0px;
@@ -24,29 +94,79 @@ $topbar-arrows: false;
 }
 
 @media only screen and (max-width: 40em) {
-	.main-nav ul {margin: auto;}
-	.main-nav ul li {display: list-item;}
-	.main-nav ul li:first-child {border-top: 1px solid $verylightgrey;}
-	.main-nav ul li a:not(.button) {line-height: 25px;}
-	.main-nav {height: 45px;}
-	.top-bar .toggle-topbar.menu-icon a {border: 0px;}
-	.top-bar-section .dropdown li.title h5 {margin: 0px;}
-	.top-bar-section .dropdown li.title h5 a {color: $grey; background: $verylightgrey;}
+	.main-nav ul {
+		margin: auto;
+	}
+
+	.main-nav ul li {
+		display: list-item;
+	}
+
+	.main-nav ul li:first-child {
+		border-top: 1px solid $verylightgrey;
+	}
+
+	.main-nav ul li a:not(.button) {
+		line-height: 25px;
+	}
+
+	.main-nav {
+		height: 45px;
+	}
+
+	.top-bar .toggle-topbar.menu-icon a {
+		border: 0px;
+	}
+
+	.top-bar-section .dropdown li.title h5 {
+		margin: 0px;
+	}
+
+	.top-bar-section .dropdown li.title h5 a {
+		color: $grey; background: $verylightgrey;
+	}
  } 
  
+
+
+ /* Account Log In Navigation */
  
 .account-nav {
-	height: 35px; -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); position: relative; z-index: 50; background-color: $darkgrey; background: $darkgrey;
+	height: 35px; 
+	-webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
+	position: relative; 
+	z-index: 50; 
+	background-color: $darkgrey; 
+	background: $darkgrey;
 
-	ul li a:not(.button) {color: $lightgrey; background-color: $darkgrey; background: $darkgrey; line-height: 35px; font-size: 12px; padding-left: 20px;padding-right: 20px; border-right: 0px solid black;}
+	ul li a:not(.button) {
+		color: $lightgrey; 
+		background-color: $darkgrey; 
+		background: $darkgrey; 
+		line-height: 35px; 
+		font-size: 12px; 
+		padding-left: 20px;
+		padding-right: 20px; 
+		border: 0px;
+	}
 	
+	ul li:not(.button):first-child {
+		border: 0px;
+	}
 	
-	ul li a:not(.button):first-child { border-left: 1px solid darken($darkgrey, 5%);}
+	ul li a:not(.button):first-child { 
+		border-left: 1px solid darken($darkgrey, 5%);
+	}
 	
-	.top-bar-section li a:not(.button):hover {background: $darkgrey; color: #fff;}
+	.top-bar-section li a:not(.button):hover {
+		background: $darkgrey; color: #fff;
+	}
 	
 	.top-bar-section li a:not(.button).active {
-		background: $mainblue; background-color: $mainblue; color: #fff;
+		background: $mainblue; 
+		background-color: $mainblue; 
+		color: #fff;
 	}
 }
 
@@ -57,6 +177,8 @@ $topbar-arrows: false;
 	}
 }
 
+
+/* Icon Navigation */
 
 .icon-nav {
 	margin-top: 20px;

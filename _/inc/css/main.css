@@ -7149,6 +7149,7 @@ a:hover {
   line-height: 1.5em;
 }
 
+/* Top Bar Main Navigation Styles */
 [data-magellan-expedition] {
   padding: 0px;
 }
@@ -7172,6 +7173,7 @@ a:hover {
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 50;
+  background-color: #fff;
 }
 
 .top-bar ul {
@@ -7207,10 +7209,6 @@ a:hover {
 
 .top-bar-section li a:not(.button):hover {
   background: #f2f2f2;
-}
-
-.top-bar {
-  background-color: #fff;
 }
 
 .top-bar .toggle-topbar.menu-icon a {
@@ -7281,6 +7279,7 @@ a:hover {
     background: #f2f2f2;
   }
 }
+/* Account Log In Navigation */
 .account-nav {
   height: 35px;
   -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
@@ -7298,7 +7297,10 @@ a:hover {
   font-size: 12px;
   padding-left: 20px;
   padding-right: 20px;
-  border-right: 0px solid black;
+  border: 0px;
+}
+.account-nav ul li:not(.button):first-child {
+  border: 0px;
 }
 .account-nav ul li a:not(.button):first-child {
   border-left: 1px solid #424242;
@@ -7318,6 +7320,7 @@ a:hover {
     line-height: 10px;
   }
 }
+/* Icon Navigation */
 .icon-nav {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -7379,6 +7382,7 @@ a:hover {
     display: none;
   }
 }
+/* Main stock styles */
 body {
   background-color: black;
 }
@@ -7545,6 +7549,7 @@ img.avatar {
   margin-bottom: 20px;
 }
 
+/* Content specific styles */
 .craft .row-content {
   margin-top: 40px;
 }
@@ -7604,6 +7609,7 @@ img.avatar {
   width: 100%;
 }
 
+/* Media Query styles */
 @media only screen and (max-width: 40em) {
   .not-mobile {
     display: none;
