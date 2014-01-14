@@ -7556,6 +7556,8 @@ img.avatar {
 .craft .row-image {
   margin-right: 0px;
   margin-left: 0px;
+}
+.craft .row-image .embed-container {
   position: relative;
   padding-bottom: 56.25%;
   /* 16/9 ratio */
@@ -7564,15 +7566,15 @@ img.avatar {
   height: 0;
   overflow: hidden;
 }
-.craft .row-image img {
-  width: 100%;
-}
-.craft .row-image iframe {
+.craft .row-image .embed-container iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+.craft .row-image img {
+  width: 100%;
 }
 .craft .row {
   padding: 80px 0px 80px 0px;

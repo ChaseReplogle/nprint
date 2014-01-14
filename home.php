@@ -112,7 +112,9 @@ $(function() {
   		</div>
   		
   		<div class="medium-6 columns row-image">
-			<?php the_field( "video_embed" );  ?> 
+  			<div class="embed-container ">
+				<?php the_field( "video_embed" );  ?> 
+			</div>
 		</div>
 </div>
 </div>

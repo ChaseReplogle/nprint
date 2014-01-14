@@ -215,22 +215,25 @@ img.avatar {
 	.row-image {
 		margin-right: 0px;
 		margin-left: 0px;
-		position: relative;
-   	 	padding-bottom: 56.25%; /* 16/9 ratio */
-   		padding-top: 30px; /* IE6 workaround*/
-    	height: 0;
-    	overflow: hidden;
+
+		.embed-container {
+			position: relative;
+	   	 	padding-bottom: 56.25%; /* 16/9 ratio */
+	   		padding-top: 30px; /* IE6 workaround*/
+	    	height: 0;
+	    	overflow: hidden;
+
+			iframe {
+				position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		width: 100%;
+	    		height: 100%;
+			}
+   		}
 		
 		img {
 			width: 100%;
-		}
-
-		iframe {
-			position: absolute;
-    		top: 0;
-    		left: 0;
-    		width: 100%;
-    		height: 100%;
 		}
 	}
 
