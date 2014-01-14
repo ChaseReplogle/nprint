@@ -46,7 +46,7 @@ $(function() {
 		</div>
   		<div class="medium-7 columns about-block">
   			<h3><strong>Craftsmanship at a whole new scale.</strong></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. </p>
+			<p><?php thet_field( "header_text" ); ?> </p>
 			<a href="#" class="clear_button">Become a Client</a>
 			<a href="#" class="clear_button">Log In</a>
   		</div>
