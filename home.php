@@ -125,13 +125,16 @@ $(function() {
 	<div class="row nav-row">
 		<div class="columns right medium-9">
 			<ul class="icon-nav large-block-grid-7">
-  				<li><a href="#"><i class="fi-page"></i>Small Banners</a></li>
-  				<li><a href="#" class="current-item"><i class="fi-page-add"></i>Large Banner</a></li>
-  				<li><a href="#"><i class="fi-photo"></i>Windows</a></li>
-  				<li><a href="#"><i class="fi-arrows-out"></i>Wraps</a></li>
-  				<li><a href="#"><i class="fi-target-two"></i>Die Cuts</a></li>
-  				<li><a href="#"><i class="fi-annotate"></i>Floor Prints</a></li>
-  				<li><a href="#"><i class="fi-home"></i>Exhibit Spaces</a></li>
+  				
+  				<?php $post_objects = get_field('portfolio_categories');
+					if( $post_objects ): ?>
+					    	<?php foreach( $post_objects as $post): ?>
+					        <?php setup_postdata($post); ?>
+  								<li><a href="#"><i class="fi-page"></i><?php echo $post->slug; ?>"><?php echo $post->name; ?></a></li>
+					    <?php endforeach; ?>
+					    <?php wp_reset_postdata(); ?>
+					<?php endif; 
+				?>
   			</ul>
 		</div>
 	</div>
@@ -220,7 +223,7 @@ $(function() {
 					<?php endif; 
 				?>
 
-			<p><a href="/support" class="secondary_button">Support</a></p>
+			<p><a href="/support" class="secondary_button">Support Articles</a></p>
   		</div>
 </div>
 </div>
