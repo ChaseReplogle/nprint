@@ -122,6 +122,8 @@
   $(document).foundation();
 </script>
 
+<?php
+if ( is_home() ) { ?>
 <script>
 $(function() {
 
@@ -164,7 +166,7 @@ $(function() {
 
 });
 </script>
-
+<?php } ?>
 
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/imagesloaded.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>

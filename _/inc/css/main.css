@@ -7560,6 +7560,9 @@ img.avatar {
 .craft .row-image img {
   width: 100%;
 }
+.craft .row-image iframe {
+  width: 100%;
+}
 .craft .row {
   padding: 80px 0px 80px 0px;
 }
