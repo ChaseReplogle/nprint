@@ -210,7 +210,7 @@ $(function() {
   		<div class="medium-5 columns row-content">
   			<h4>Support</h4>
   			<p><?php the_field( "support_text" );  ?></p>
-  			<?php $post_objects = get_field('featured_categories');
+  				<?php $post_objects = get_field('featured_categories');
 					if( $post_objects ): ?>
 					    	<?php foreach( $post_objects as $post): ?>
 					        <?php setup_postdata($post); ?>
@@ -219,6 +219,8 @@ $(function() {
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
 				?>
+
+			<p><a href="/support" class="secondary_button">Support</a></p>
   		</div>
 </div>
 </div>
