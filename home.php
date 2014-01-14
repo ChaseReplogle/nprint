@@ -143,7 +143,7 @@ $(function() {
 									$term = array_pop($terms);
 								 
 									$custom_field = the_field('project_category_icon', 'portfolio_categories_' . $term->term_id);
-								 
+								 	echo $custom_field;
 								}
 					        ?>
 					        <?php $cat_id = "cateogry_" . $post->ID; ?>
