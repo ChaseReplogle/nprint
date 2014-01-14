@@ -214,16 +214,12 @@ $(function() {
 					if( $post_objects ): ?>
 					    	<?php foreach( $post_objects as $post): ?>
 					        <?php setup_postdata($post); ?>
+					        <?php print_r($post) ?>
   								<p class="support_link"><a href="#"><?php echo $post->name; ?></a></p>	
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
 				?>
-
-  			<p class="support_link"><a href="#">Art Department</a></p>
-			<p class="support_link"><a href="#">Sales Representatives</a></p>
-			<p class="support_link"><a href="#">Pre-Press</a></p>
-			<p><a href="#" class="secondary_button">Support</a></p>
   		</div>
 </div>
 </div>
