@@ -187,54 +187,22 @@ $(function() {
 <div class="row support boxed">
   		<div class="medium-7 columns">
 			<dl class="accordion" data-accordion>
-			  <dd>
-			    <a href="#panel1">What is nPrint Graphix?</a>
-			    <div id="panel1" class="content active">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			    </div>
-			  </dd>
-			  
-			  <dd>
-			    <a href="#panel2">How do I make a purchase?</a>
-			    <div id="panel2" class="content">
-			      <p>Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			    </div>
-			  </dd>
-			  
-			  <dd>
-			    <a href="#panel3">How are my items shipped?</a>
-			    <div id="panel3" class="content">
-			      <p>Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			    </div>
-			  </dd>
-			  
-			  <dd>
-			    <a href="#panel4">How do I submit artwork?</a>
-			    <div id="panel4" class="content">
-			      <p>Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			    </div>
-			  </dd>
-			  
-			  
-			  <dd>
-			    <a href="#panel5">What is your turn around time?</a>
-			    <div id="panel5" class="content">
-			      <p>Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			    </div>
-			  </dd>
-			  
-			  
-			  <dd>
-			    <a href="#panel6">What if I need artwork designed?</a>
-			    <div id="panel6" class="content">
-			      <p>Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			    </div>
-			  </dd>
-			  
-			   <dd>
-			    <a href="#">More</a>
-			  </dd>
-		</dl>			
+				 <?php $post_objects = get_field('featured_articles');
+					if( $post_objects ): ?>
+					    <?php foreach( $post_objects as $post): ?>
+					    	<?php $i = 0; $i++; ?>
+					        <?php setup_postdata($post); ?>
+					           <dd>
+								    <a href="#panel<?php echo $i; ?>"><?php the_title(); ?></a>
+								    <div id="panel<?php echo $i; ?>" class="content active">
+										<p><?php the_excerpt(); ?></p>
+								    </div>
+								 </dd>
+					    <?php endforeach; ?>
+					    <?php wp_reset_postdata(); ?>
+					<?php endif; 
+				?>
+			</dl>			
 		</div>
 		
   		<div class="medium-5 columns row-content">
