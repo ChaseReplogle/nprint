@@ -210,8 +210,15 @@ $(function() {
   		<div class="medium-5 columns row-content">
   			<h4>Support</h4>
   			<p><?php the_field( "support_text" );  ?></p>
-
-  			<?php the_field( "featured_categories" );  ?>
+  			<?php $post_objects = get_field('featured_categories');
+					if( $post_objects ): ?>
+					    	<?php foreach( $post_objects as $post): ?>
+					        <?php setup_postdata($post); ?>
+  								<p class="support_link"><a href="#"><?php echo $post->name; ?></a></p>	
+					    <?php endforeach; ?>
+					    <?php wp_reset_postdata(); ?>
+					<?php endif; 
+				?>
 
   			<p class="support_link"><a href="#">Art Department</a></p>
 			<p class="support_link"><a href="#">Sales Representatives</a></p>
