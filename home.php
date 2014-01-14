@@ -147,7 +147,7 @@ $(function() {
 								}
 					        ?>
 					        <?php $cat_id = "cateogry_" . $post->ID; ?>
-  								<li><a href="#"><i class="<?php echo $custom_filed; ?>"></i><?php echo $post->name; ?></a></li>
+  								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="<?php echo $custom_field; ?>"></i><?php echo $post->name; ?></a></li>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
