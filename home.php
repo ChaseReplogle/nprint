@@ -130,7 +130,8 @@ $(function() {
 					if( $post_objects ): ?>
 					    	<?php foreach( $post_objects as $post): ?>
 					        <?php setup_postdata($post); ?>
-  								<li><a href="#"><i class="fi-page"></i><?php echo $post->slug; ?>"><?php echo $post->name; ?></a></li>
+					        	<?php print_r($post);?>
+  								<li><a href="#"><i class="fi-page"></i><?php echo $post->name; ?></a></li>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
