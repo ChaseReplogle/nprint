@@ -117,6 +117,8 @@ $(function() {
 					    	<?php  $i++; ?>
 					    	<?php if( $i < 9) { ?>
 					        <?php setup_postdata($post); ?>
+					        <?php $icon_cat = $taxonomy.'_'.$term_taxonomy_id; ?>
+					        <?php echo $icon_cat; ?>
 					        <?php $icon = get_field('category_icon', $taxonomy.'_'.$term_taxonomy_id); ?>
 					        <?php print_r($post); ?>
   								<li><a href="#" class=""><i class="fi-<?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
