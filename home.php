@@ -132,7 +132,6 @@ $(function() {
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
-					        <?php the_field('project_category_icon', 'portfolio_categories_' . $post->ID); ?>
   								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-<?php echo $post->description; ?>"></i><?php echo $post->name; ?></a></li>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
@@ -142,6 +141,7 @@ $(function() {
 		</div>
 	</div>
 	
+	<div class="portfolio-ajax">
   		<div class="medium-7 columns row-image">
 			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/banner.jpg" alt="Printer"/>
 		</div>
@@ -153,6 +153,7 @@ $(function() {
   		<blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla."</blockquote><cite>- Chase Replogle, Director of Marketing</cite></br>
 			<p><a href="#" class="secondary_button">More Work</a></p>
   		</div>
+  	</div>
 
 </div>
 </div>
@@ -231,5 +232,27 @@ $(function() {
 </div>
 </div>
 
+<script>
+	var $ = jQuery;
+
+	$('.icon-nav a').click(function() {  
+		var category_name = $(this).text();
+		$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-portfolio.php?name=<?php echo $category_name; ?>", {category : category_name }, successFn)
+	});
+
+	$(".icon-nav a").removeAttr('href');
+
+	function successFn(result) {
+		$(".portfolio-ajax").fadeOut( 100 , function() {
+    		$(this).html( result);
+		}).fadeIn( 1000 );
+
+		console.log("Setting result");
+	}
+
+	function errorFn(xhr, status, strErr) {
+		alert(strErr);
+	}
+</script>
 		
 <?php get_footer(); ?>
