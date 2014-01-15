@@ -7335,13 +7335,13 @@ a:hover {
 .icon-nav li a {
   text-align: center;
   color: #d1d1d1;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
 }
 .icon-nav li a i {
   display: block;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   padding-bottom: 10px;
 }
 .icon-nav li a i:hover {
@@ -7598,6 +7598,7 @@ img.avatar {
 }
 .portfolio .row-content h4 {
   padding-bottom: 0px;
+  margin-top: 0px;
 }
 
 .company .row {
