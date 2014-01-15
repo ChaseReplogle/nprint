@@ -64,11 +64,15 @@ $(function() {
   				<?php while(has_sub_field("marketing_messages")): ?>
 				 
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
-				 
-							<?php foreach(get_sub_field("select_message") as $p): ?>
-								<li><a href="#" class="current-item"><i class="fi-<?php echo get_the_field('marketing_icon'); ?>"></i><?php echo get_the_field('marketing_icon_label'); ?></a></li>
-							<?php endforeach; ?>
 
+				 			<?php $post_objects = get_sub_field("select_message");?>
+
+							<?php foreach($post_objects as $p): ?>
+								 <?php setup_postdata($post); ?>
+
+								<li><a href="#" class="current-item"><i class="fi-<?php the_field('marketing_icon'); ?>"></i><?php the_field('marketing_icon_label'); ?></a></li>
+							<?php endforeach; ?>
+							<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 					<?php endif; ?>
 
 				<?php endwhile; ?>
