@@ -1,6 +1,6 @@
 /* Main stock styles */
 body {
-	background-color: black;
+	background-color: #fff;
 }
 
 .wrapper {
@@ -276,6 +276,10 @@ img.avatar {
 
 	.row {
 		padding: 50px 0px 0px 0px;
+	}
+
+	.row-content {
+		padding-right: 4%;
 	}
 }
 
