@@ -7702,6 +7702,11 @@ img.avatar {
   .g7 img {
     float: left !important;
   }
+  .g7 img a {
+    font-size: 12px;
+    margin-top: 10px;
+    display: block;
+  }
 
   .banner-edge {
     display: none;
