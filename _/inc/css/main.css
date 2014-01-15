@@ -7591,6 +7591,7 @@ img.avatar {
 }
 .portfolio .row-image img {
   width: 100%;
+  border: 1px solid #4f4f4f;
 }
 .portfolio .nav-row {
   padding: 0px 0px 10px 0px;
