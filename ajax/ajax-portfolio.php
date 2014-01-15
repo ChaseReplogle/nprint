@@ -19,8 +19,8 @@ query_posts('posts_per_page=1&project_categories='.$title_replaced); ?>
   		<div class="medium-5 columns row-content">
   			<h2>Our Work</h2>
   			<h4><?php the_title(); ?></h4>
-  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Proin venenatis dui arcu, vel viverra odio malesuada nec. Nullam tempor dapibus lorem ut molestie. Nullam tempor dapibus lorem ut molestie.</p>
-  		<blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla."</blockquote><cite>- Chase Replogle, Director of Marketing</cite></br>
+  			<p><?php the_excerpt();?></p>
+  		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
 			<p><a href="#" class="secondary_button">More Work</a></p>
   		</div>
 

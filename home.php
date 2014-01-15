@@ -134,6 +134,7 @@ $(function() {
 					        <?php setup_postdata($post); ?>
   								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-<?php echo $post->description; ?>"></i><?php echo $post->name; ?></a></li>
   								<?php $category_name = $post->name; ?>
+  								<?php $cateogory_[$i] = $post->name; ?>
 					    <?php endforeach; ?>
 
 					    <script>
@@ -166,17 +167,33 @@ $(function() {
 	</div>
 	
 	<div class="portfolio-ajax">
-  		<div class="medium-7 columns row-image">
-			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/banner.jpg" alt="Printer"/>
-		</div>
-	
-  		<div class="medium-5 columns row-content">
-  			<h2>Our Work</h2>
-  			<h4>Sherman Williams Banners</h4>
-  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Proin venenatis dui arcu, vel viverra odio malesuada nec. Nullam tempor dapibus lorem ut molestie. Nullam tempor dapibus lorem ut molestie.</p>
-  		<blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla."</blockquote><cite>- Chase Replogle, Director of Marketing</cite></br>
-			<p><a href="#" class="secondary_button">More Work</a></p>
-  		</div>
+  		<?php 
+
+  		$title_slug = $category_0;
+		$title_lower = strtolower($title_slug);
+		$title_replaced = str_replace( " ", "-", $title_lower);
+
+  		query_posts('posts_per_page=1&project_categories='.$title_replaced); ?>
+
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+			<div class="medium-7 columns row-image">
+					<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/banner.jpg" alt="Printer"/>
+				</div>
+			
+		  		<div class="medium-5 columns row-content">
+		  			<h2>Our Work</h2>
+		  			<h4><?php the_title(); ?></h4>
+		  			<p><?php the_excerpt();?></p>
+		  		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
+					<p><a href="#" class="secondary_button">More Work</a></p>
+		  		</div>
+
+		<?php endwhile; ?>
+
+		<?php endif; ?>
+
+		<?php wp_reset_query(); // reset the query ?>
   	</div>
 
 </div>
