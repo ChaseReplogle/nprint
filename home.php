@@ -66,10 +66,7 @@ $(function() {
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
 
 				 			<?php $post_objects = get_sub_field("select_message");?>
-
-							<?php foreach($post_objects as $p): ?>
 								<li><a href="#" class="current-item"><i class="fi-<?php the_field('marketing_icon', $post_object->ID); ?>"></i><?php the_field('marketing_icon_label', $post_object->ID); ?></a></li>
-							<?php endforeach; ?>
 							<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 					<?php endif; ?>
 
