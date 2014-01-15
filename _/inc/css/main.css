@@ -7600,13 +7600,14 @@ img.avatar {
 .portfolio .nav-row {
   padding: 0px 0px 10px 0px;
 }
-.portfolio .nav-row .columns {
-  border-top: 1px solid #d1d1d1;
-  padding-top: 20px;
-}
 .portfolio .row-content h4 {
   padding-bottom: 0px;
   margin-top: 0px;
+}
+
+.portfolio-nav {
+  border-top: 1px solid #d1d1d1;
+  padding-top: 20px;
 }
 
 .company .row {

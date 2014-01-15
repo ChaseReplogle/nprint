@@ -262,11 +262,6 @@ img.avatar {
 
 	.nav-row {
 		padding: 0px 0px 10px 0px;
-
-		.columns {
-			border-top: 1px solid $lightgrey;
-			padding-top: 20px;
-		}
 	}
 
 	.row-content {
@@ -276,6 +271,11 @@ img.avatar {
 			margin-top: 0px;
 		}
 	}
+}
+
+.portfolio-nav {
+	border-top: 1px solid $lightgrey;
+	padding-top: 20px;
 }
 
 

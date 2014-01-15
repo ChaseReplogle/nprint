@@ -123,7 +123,7 @@ $(function() {
 <div class="row">
 	
 	<div class="row nav-row">
-		<div class="columns medium-centered medium-6">
+		<div class="columns medium-centered medium-6 portfolio-nav">
 			<ul class="icon-nav large-block-grid-6">
   				
   				<?php $post_objects = get_field('portfolio_categories');
