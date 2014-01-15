@@ -7361,6 +7361,8 @@ a:hover {
 .portfolio-nav .icon-nav li {
   padding: 0px;
   margin: 0px;
+  width: 11.1111111111%;
+  display: table-cell;
 }
 .portfolio-nav .icon-nav li a {
   display: table-cell;
@@ -7370,7 +7372,7 @@ a:hover {
   border-right: 0px;
   padding: 0px 0px;
   height: 110px;
-  width: 10%;
+  width: 11.1111111111%;
 }
 .portfolio-nav .icon-nav li:last-child a {
   border-right: 1px solid #d1d1d1;
@@ -7414,8 +7416,7 @@ body {
 
 .wrapper {
   background-image: url("../images/pattern.jpg");
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding: 15px 5%;
 }
 
 .boxed {

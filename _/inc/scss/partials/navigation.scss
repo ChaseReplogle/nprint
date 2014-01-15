@@ -227,6 +227,8 @@ $topbar-arrows: false;
 		li {
 			padding: 0px;
 			margin: 0px;
+			width: 11.1111111111%;
+			display: table-cell;
 
 		}
 
@@ -238,7 +240,7 @@ $topbar-arrows: false;
 			border-right: 0px;
 			padding: 0px 0px;
 			height: 110px;
-			width: 10%;
+			width: 11.1111111111%;
 		}
 
 		li:last-child a{
