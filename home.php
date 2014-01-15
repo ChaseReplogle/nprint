@@ -54,12 +54,9 @@ $(function() {
 
 <?php while(has_sub_field("marketing_messages")): ?>
 				 
-					<?php if(get_row_layout() == "message"): // layout: Content ?>
+<?php if(get_row_layout() == "message"): // layout: Content ?>
 
-			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
-
-			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
-			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
+	<?php get_sub_field("select_message"); ?>	
 
 <div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
 		<div class="medium-7 columns row-image not-mobile">
@@ -68,10 +65,13 @@ $(function() {
 		
   		<div class="medium-5 columns row-content">
   			<ul class="icon-nav medium-block-grid-4">
-  				
+  					<?php foreach(get_sub_field("select_message") as $post_object): ?>
+
+					<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
+					<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
 							<li><a href="#" class="current-item"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
-
+					<?php endforeach; ?>
 
 				</ul>
 
@@ -85,13 +85,13 @@ $(function() {
 </div>
 
 
-						<?php endforeach; ?>
 
-					<?php endif; ?>
 
-				<?php endwhile; ?>
+<?php endif; ?>
 
-				<?php wp_reset_postdata(); ?>
+<?php endwhile; ?>
+
+<?php wp_reset_postdata(); ?>
 
 <div class="wrapper">
 <div class="row craft full" >
