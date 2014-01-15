@@ -155,23 +155,30 @@ function new_excerpt_more( $more ) {
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
-function wp_trim_excerpt($text = '') {
-    global $excerpt_length;
-    $len = $excerpt_length > 0 ? $excerpt_length : 55;
-    $raw_excerpt = $text;
-    if ( '' == $text ) {
-        $text = get_the_content('');
+function excerpt($limit) {
+ $excerpt = explode(' ', get_the_excerpt(), $limit);
+ if (count($excerpt)>=$limit) {
+ array_pop($excerpt);
+ $excerpt = implode(" ",$excerpt).'...';
+ } else {
+ $excerpt = implode(" ",$excerpt);
+ }
+ $excerpt = preg_replace('`[[^]]*]`','',$excerpt);
+ return $excerpt;
+}
 
-        $text = strip_shortcodes( $text );
-
-        $text = apply_filters('the_content', $text);
-        $text = str_replace(']]>', ']]&gt;', $text);
-        $excerpt_length = apply_filters('excerpt_length', $len);
-        $excerpt_more = apply_filters('excerpt_more', ' ' . '[&hellip;]');
-        $text = wp_trim_words( $text, $excerpt_length, $excerpt_more );
-    }
-    $excerpt_length = null;
-    return apply_filters('wp_trim_excerpt', $text, $raw_excerpt);
+function content($limit) {
+ $content = explode(' ', get_the_content(), $limit);
+ if (count($content)>=$limit) {
+ array_pop($content);
+ $content = implode(" ",$content).'...';
+ } else {
+ $content = implode(" ",$content);
+ }
+ $content = preg_replace('/[.+]/','', $content);
+ $content = apply_filters('the_content', $content);
+ $content = str_replace(']]>', ']]&gt;', $content);
+ return $content;
 }
 
 ?>

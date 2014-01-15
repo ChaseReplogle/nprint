@@ -192,7 +192,7 @@ $(function() {
 				
 			  		<div class="medium-5 columns row-content">
 			  			<h4><?php the_title(); ?></h4>
-			  			<p><?php $excerpt_length = 20; the_excerpt();?></p>
+			  			<p><?php echo excerpt(25); ?></p>
 			  		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
 						<p><a href="#" class="secondary_button">View Full Portfolo</a></p>
 			  		</div>
