@@ -70,7 +70,7 @@ $(function() {
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
-							<li><a href="#" class="current-item"><?php echo "<i class='fi-$icon;'></i>"; ?><?php echo $icon_name; ?></a></li>
+							<li><a href="#" class="current-item"><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
 
 						<?php wp_reset_postdata(); ?>
 					<?php endif; ?>
@@ -118,7 +118,7 @@ $(function() {
 
 			 				<?php $icon = get_field('category_icon', 'project_categories_'.$post_object->ID ); ?>
 
-  								<li><a href="#" class=""><i class="fi-<?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
+  								<li><a href="#" class=""><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
 					    	<li class="more-work" ><a href="/more"><i class="fi-pricetag-multiple"></i>More Work</a></li>
