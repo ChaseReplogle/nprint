@@ -146,6 +146,7 @@ $(function() {
 								});
 
 								$( ".icon-nav a" ).click(function() {
+ 									 $(".icon-nav a.current-item").romoveClass();
  									 $( this ).toggleClass( "current-item" );
 								});
 
