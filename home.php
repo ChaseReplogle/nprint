@@ -123,7 +123,7 @@ $(function() {
 <div class="row portfolio boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/banner-bg.jpg'); background-size:100% 100%;">
 	
 	<div class="row nav-row">
-		<div class="columns right medium-12">
+		<div class="columns right medium-10">
 			<ul class="icon-nav large-block-grid-8">
   				
   				<?php $post_objects = get_field('portfolio_categories');
