@@ -7356,6 +7356,7 @@ a:hover {
 
 .portfolio-nav .icon-nav {
   display: table;
+  margin-bottom: 15px;
 }
 .portfolio-nav .icon-nav li {
   padding: 0px;
