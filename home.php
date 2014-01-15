@@ -64,7 +64,7 @@ $(function() {
   		<div class="medium-5 columns row-content">
   			<ul class="icon-nav medium-block-grid-4">
 
-			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
+			 			<?php foreach(get_field("select_message") as $post_object): ?>
 
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
