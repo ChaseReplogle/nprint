@@ -113,13 +113,13 @@ $(function() {
   				<?php $post_objects = get_field('portfolio_categories');
 					if( $post_objects ): ?>
 							<?php $i = 0; ?>
-					    	<?php foreach( $post_objects as $post): ?>
+					    	<?php foreach( $post_objects as $p): ?>
 					    	<?php  $i++; ?>
 					    	<?php if( $i < 9) { ?>
 
-			 				<?php $icon = get_field('category_icon', 'project_categories_'.$post->ID ); ?>
+			 				<?php $icon = get_field('category_icon', 'project_categories_'.$p->ID ); ?>
 
-  								<li><a href="#" class=""><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $post->name; ?></a></li>
+  								<li><a href="#" class=""><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $p->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
 					    	<li class="more-work" ><a href="/more"><i class="fi-pricetag-multiple"></i>More Work</a></li>
