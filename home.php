@@ -137,6 +137,20 @@ $(function() {
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
 				?>
+
+				
+				<?php 
+				    $args = array(
+				      'orderby' => 'id',
+				      'taxonomy' => 'project_categories'
+				  );
+				  $categories = get_categories($args);
+				  foreach ($categories as $cat) {
+				  		$category_name = $cat->name;
+				  		$category_id = $cat->ID;
+				        echo '<a href="#" class="category_link">'.$category_name.'</a></br>';      
+				    }
+				?>
   			</ul>
 		</div>
 	</div>
@@ -226,19 +240,6 @@ $(function() {
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
-				?>
-
-				<?php 
-				    $args = array(
-				      'orderby' => 'id',
-				      'taxonomy' => 'project_categories'
-				  );
-				  $categories = get_categories($args);
-				  foreach ($categories as $cat) {
-				  		$category_name = $cat->name;
-				  		$category_id = $cat->ID;
-				        echo '<a href="#" class="category_link">'.$category_name.'</a></br>';      
-				    }
 				?>
 
 			<p><a href="/support" class="secondary_button">Support Articles</a></p>
