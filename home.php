@@ -145,12 +145,14 @@ $(function() {
 									$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-portfolio.php?name=<?php echo $category_name; ?>", {category : category_name }, successFn)
 								});
 
-								$( ".icon-nav a" ).click(function() {
- 									 $(".icon-nav a.current-item").romoveClass();
- 									 $( this ).toggleClass( "current-item" );
-								});
-
-								$(".icon-nav a").removeAttr('href');
+								$('.icon-nav a').click(
+								    function(e) {
+								    	e.removeAttr('href');
+								        e.preventDefault(); // prevent the default action
+								        e.stopPropagation(); // stop the click from bubbling
+								        $(this).closest('ul').find('.current-item').removeClass('current-item');
+								        $(this).addClass('current-item');
+								    });
 
 								function successFn(result) {
 									$(".portfolio-ajax").fadeOut( 100 , function() {
