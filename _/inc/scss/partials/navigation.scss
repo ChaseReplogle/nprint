@@ -394,7 +394,7 @@ $topbar-arrows: false;
 		color: #000;
 	}
 
-	.page-nav ul li .current_page_parent a:not(.button) {
+	.page-nav ul li.current_page_parent a:not(.button) {
 		content: ":";
 		color: red;
 	}

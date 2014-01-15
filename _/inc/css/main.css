@@ -7492,7 +7492,7 @@ a:hover {
 .page-nav-warpper .page-nav ul li.current_page_item a:not(.button) {
   color: #000;
 }
-.page-nav-warpper .page-nav ul li .current_page_parent a:not(.button) {
+.page-nav-warpper .page-nav ul li.current_page_parent a:not(.button) {
   content: ":";
   color: red;
 }
