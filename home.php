@@ -222,6 +222,7 @@ $(function() {
 					    	<?php foreach( $post_objects as $post): ?>
 					        <?php setup_postdata($post); ?>
   								<p class="support_link"><a href="/support_categories<?php echo $post->slug; ?>"><?php echo $post->name; ?></a></p>	
+  							<?php $category_name = $cat->name; ?>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
