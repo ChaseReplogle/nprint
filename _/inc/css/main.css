@@ -7595,6 +7595,9 @@ img.avatar {
 .portfolio .nav-row {
   padding: 0px 0px 10px 0px;
 }
+.portfolio .row-content h4 {
+  padding-bottom: 0px;
+}
 
 .company .row {
   padding: 50px 0px 0px 0px;
@@ -7615,6 +7618,12 @@ img.avatar {
 
 .support {
   background-color: #fff;
+}
+
+.g7 a {
+  font-size: 12px;
+  margin-top: 10px;
+  display: block;
 }
 
 .team h3 {
@@ -7701,11 +7710,6 @@ img.avatar {
 
   .g7 img {
     float: left !important;
-  }
-  .g7 img a {
-    font-size: 12px;
-    margin-top: 10px;
-    display: block;
   }
 
   .banner-edge {
