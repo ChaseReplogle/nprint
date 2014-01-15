@@ -7451,7 +7451,7 @@ a:hover {
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 50;
-  background-color: #d1d1d1;
+  background-color: transparent;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
 }
@@ -7466,18 +7466,18 @@ a:hover {
   font-weight: bold;
 }
 .page-nav-warpper .page-nav ul {
-  background-color: #d1d1d1;
+  background-color: transparent;
 }
 .page-nav-warpper .page-nav ul li {
-  background-color: #d1d1d1;
+  background-color: transparent;
 }
 .page-nav-warpper .page-nav ul li.current-item a:not(.button) {
   color: #818080;
 }
 .page-nav-warpper .page-nav ul li a:not(.button) {
   color: #818080;
-  background-color: #d1d1d1;
-  background: #d1d1d1;
+  background-color: transparent;
+  background: transparent;
   border-right: 0px;
   border-bottom: 0px;
   line-height: 85px;
@@ -7485,7 +7485,7 @@ a:hover {
   padding: 0px 5px;
 }
 .page-nav-warpper .page-nav ul li a:not(.button):hover {
-  background-color: #d1d1d1;
+  background-color: transparent;
 }
 .page-nav-warpper .page-nav ul li:first-child {
   border-left: 0px;
@@ -7493,18 +7493,18 @@ a:hover {
   border-bottom: 0px;
 }
 .page-nav-warpper .top-bar-section li a:not(.button):hover {
-  background: #f2f2f2;
+  background: transparent;
 }
 .page-nav-warpper .page-nav .toggle-topbar.menu-icon a {
   color: #818080;
   text-indent: 50px;
 }
 .page-nav-warpper .top-bar.expanded .title-area {
-  background: #d1d1d1;
-  background-color: #d1d1d1;
+  background: transparent;
+  background-color: transparent;
 }
 .page-nav-warpper .page-nav.expanded {
-  background: #d1d1d1;
+  background: transparent;
 }
 .page-nav-warpper .page-nav .has-dropdown ul li > a {
   border-bottom: 1px solid #f2f2f2;

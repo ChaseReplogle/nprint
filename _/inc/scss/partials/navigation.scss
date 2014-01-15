@@ -345,7 +345,7 @@ $topbar-arrows: false;
 		box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
 		position: relative; 
 		z-index: 50;
-		background-color: $lightgrey;
+		background-color: transparent;
 		-webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
 		box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
 	}
@@ -362,11 +362,11 @@ $topbar-arrows: false;
 	}
 
 	.page-nav ul {
-		background-color: $lightgrey;
+		background-color: transparent;
 	}
 
 	.page-nav ul li {
-		background-color: $lightgrey;
+		background-color: transparent;
 	}
 
 	.page-nav ul li.current-item a:not(.button) {
@@ -375,8 +375,8 @@ $topbar-arrows: false;
 
 	.page-nav ul li a:not(.button) {
 		color: $grey; 
-		background-color: $lightgrey;
-		background: $lightgrey; 
+		background-color: transparent;
+		background: transparent; 
 		border-right: 0px; 
 		border-bottom: 0px;
 		line-height: 85px;
@@ -385,7 +385,7 @@ $topbar-arrows: false;
 	}
 
 	.page-nav ul li a:not(.button):hover {
-		background-color: $lightgrey;
+		background-color: transparent;
 	}
 
 	.page-nav ul li:first-child { 
@@ -395,7 +395,7 @@ $topbar-arrows: false;
 	}
 
 	.top-bar-section li a:not(.button):hover {
-		background: $verylightgrey;
+		background: transparent;
 	}
 
 	.page-nav .toggle-topbar.menu-icon a {
@@ -404,12 +404,12 @@ $topbar-arrows: false;
 	}
 
 	.top-bar.expanded .title-area {
-		background: $lightgrey; 
-		background-color: $lightgrey;
+		background: transparent; 
+		background-color: transparent;
 	}
 
 	.page-nav.expanded {
-		background: $lightgrey;
+		background: transparent;
 	}
 
 	.page-nav .has-dropdown ul li > a {
