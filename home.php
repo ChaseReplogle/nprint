@@ -63,9 +63,6 @@ $(function() {
 		
   		<div class="medium-5 columns row-content">
   			<ul class="icon-nav medium-block-grid-4">
-  				<?php while(has_sub_field("marketing_messages")): ?>
-				 
-					<?php if(get_row_layout() == "message"): // layout: Content ?>
 
 			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
 
@@ -75,10 +72,6 @@ $(function() {
 							<li><a href="#" class="current-item"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
 
 						<?php endforeach; ?>
-
-					<?php endif; ?>
-
-				<?php endwhile; ?>
 
 				<?php wp_reset_postdata(); ?>
 
