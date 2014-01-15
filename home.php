@@ -147,10 +147,11 @@ $(function() {
 
 								$('.icon-nav a').click(
 								    function(e) {
-								    	e.removeAttr('href');
 								        $(this).closest('ul').find('.current-item').removeClass('current-item');
 								        $(this).addClass('current-item');
-								    });
+								});
+
+								$(".icon-nav a").removeAttr('href');
 
 								function successFn(result) {
 									$(".portfolio-ajax").fadeOut( 100 , function() {
