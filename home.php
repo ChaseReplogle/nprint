@@ -116,7 +116,7 @@ $(function() {
 					    	<?php if( $i < 9) { ?>
 					        <?php setup_postdata($post); ?>
 
-			 				<?php $icon = get_field('category_icon', 'project_categories_'.$post_object->ID ); ?>
+			 				<?php $icon = get_field('category_icon', 'project_categories_'.$post->ID ); ?>
 
   								<li><a href="#" class=""><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $post->name; ?></a></li>
   							<?php } ?>
