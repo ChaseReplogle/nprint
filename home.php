@@ -66,8 +66,8 @@ $(function() {
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
 
 				 			<?php $post_objects = get_sub_field("select_message");?>
-				 				<?php print_r($post_objects); ?>
-								<li><a href="#" class="current-item"><i class="fi-"></i>Test</a></li>
+				 				
+								<li><a href="#" class="current-item"><i class="fi-"></i><?php echo $post_objects->ID; ?></a></li>
 							<?php wp_reset_postdata(); ?>
 					<?php endif; ?>
 
