@@ -7466,12 +7466,15 @@ a:hover {
   background: #4f98c4;
   border-right: 0px;
   border-bottom: 0px;
+  line-height: 85px;
 }
 .page-nav-warpper .page-nav ul li a:not(.button):hover {
   background-color: #4f98c4;
 }
 .page-nav-warpper .page-nav ul li:first-child {
   border-left: 1px solid #f2f2f2;
+  border-right: 0px;
+  border-bottom: 0px;
 }
 .page-nav-warpper .top-bar-section li a:not(.button):hover {
   background: #f2f2f2;

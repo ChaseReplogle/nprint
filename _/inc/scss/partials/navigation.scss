@@ -364,6 +364,7 @@ $topbar-arrows: false;
 		background: $mainblue; 
 		border-right: 0px; 
 		border-bottom: 0px;
+		line-height: 85px;
 	}
 
 	.page-nav ul li a:not(.button):hover {
@@ -372,6 +373,8 @@ $topbar-arrows: false;
 
 	.page-nav ul li:first-child { 
 		border-left: 1px solid $verylightgrey;
+		border-right: 0px; 
+		border-bottom: 0px;
 	}
 
 	.top-bar-section li a:not(.button):hover {
