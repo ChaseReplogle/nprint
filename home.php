@@ -71,7 +71,7 @@ $(function() {
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
 							<li><a href="#" class="
-							<?php if ($i = 1 ) { echo 'current-item'; }; ?>
+							<?php if ($i == 1 ) { echo 'current-item'; }; ?>
 							">
 							<?php echo "<i class='fi-$icon'></i>"; ?>
 							<?php echo $icon_name; ?>
