@@ -7441,7 +7441,7 @@ a:hover {
   }
 }
 .page-nav-warpper {
-  background-color: #4f98c4;
+  background-color: #d1d1d1;
   -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
 }
@@ -7451,7 +7451,7 @@ a:hover {
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 50;
-  background-color: #4f98c4;
+  background-color: #d1d1d1;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
 }
@@ -7460,7 +7460,7 @@ a:hover {
   line-height: 85px;
   margin: 0px;
   padding-right: 15%;
-  color: #fff;
+  color: #818080;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
@@ -7472,10 +7472,10 @@ a:hover {
   background-color: #d1d1d1;
 }
 .page-nav-warpper .page-nav ul li.current-item a:not(.button) {
-  color: #fff;
+  color: #818080;
 }
 .page-nav-warpper .page-nav ul li a:not(.button) {
-  color: #fff;
+  color: #818080;
   background-color: #d1d1d1;
   background: #d1d1d1;
   border-right: 0px;
@@ -7496,7 +7496,7 @@ a:hover {
   background: #f2f2f2;
 }
 .page-nav-warpper .page-nav .toggle-topbar.menu-icon a {
-  color: #fff;
+  color: #818080;
   text-indent: 50px;
 }
 .page-nav-warpper .top-bar.expanded .title-area {

@@ -335,7 +335,7 @@ $topbar-arrows: false;
 }
 
 .page-nav-warpper {
-	background-color: $mainblue;
+	background-color: $lightgrey;
 	-webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
 
@@ -345,7 +345,7 @@ $topbar-arrows: false;
 		box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
 		position: relative; 
 		z-index: 50;
-		background-color: $mainblue;
+		background-color: $lightgrey;
 		-webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
 		box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
 	}
@@ -355,7 +355,7 @@ $topbar-arrows: false;
 		line-height: 85px;
 		margin: 0px;
 		padding-right: 15%;
-		color: #fff;
+		color: $grey;
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -370,11 +370,11 @@ $topbar-arrows: false;
 	}
 
 	.page-nav ul li.current-item a:not(.button) {
-		color: #fff;
+		color: $grey;
 	}
 
 	.page-nav ul li a:not(.button) {
-		color: #fff; 
+		color: $grey; 
 		background-color: $lightgrey;
 		background: $lightgrey; 
 		border-right: 0px; 
@@ -399,7 +399,7 @@ $topbar-arrows: false;
 	}
 
 	.page-nav .toggle-topbar.menu-icon a {
-		color: #fff; 
+		color: $grey; 
 		text-indent: 50px;
 	}
 
