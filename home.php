@@ -151,7 +151,7 @@ $(function() {
 			$title_replaced = str_replace( " ", "-", $title_lower);
 
 	  		query_posts('post_type=projects&posts_per_page=1&project_categories='.$title_replaced); ?>
-
+	  		<?php echo $title_replaced; ?>
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 					<div class="medium-8 columns row-image">
