@@ -9,16 +9,7 @@
 
 <section class="top-bar-section right">
     <!-- Right Nav Section -->
-    <ul> <?php
-			  if($post->post_parent) //inner page
-			  	$section = wp_list_pages("title_li=&include=".$post->post_parent);
-			  else // top level page
-			  	$section = $none;
-			  if ($children) { ?>
-				  <ul class="sub-nav-section">
-				  	<?php echo $section; ?><p>:</p> 
-				  </ul>
-		<?php } ?>
+    <ul> 
   	  <?php
 			  if($post->post_parent) //inner page
 			  	$children = wp_list_pages("title_li=&child_of=".$post->post_parent."&echo=1");
