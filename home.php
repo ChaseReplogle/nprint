@@ -133,23 +133,33 @@ $(function() {
 					    	<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
   								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-<?php echo $post->description; ?>"></i><?php echo $post->name; ?></a></li>
+  								<?php $category_name = $post->name; ?>
 					    <?php endforeach; ?>
+
+					    <script>
+								var $ = jQuery;
+
+								$('.icon-nav a').click(function() {  
+									var category_name = $(this).text();
+									$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-portfolio.php?name=<?php echo $category_name; ?>", {category : category_name }, successFn)
+								});
+
+								$(".icon-nav a").removeAttr('href');
+
+								function successFn(result) {
+									$(".portfolio-ajax").fadeOut( 100 , function() {
+							    		$(this).html( result);
+									}).fadeIn( 1000 );
+
+									console.log("Setting result");
+								}
+
+								function errorFn(xhr, status, strErr) {
+									alert(strErr);
+								}
+							</script>
 					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
-				?>
-
-				
-				<?php 
-				    $args = array(
-				      'orderby' => 'id',
-				      'taxonomy' => 'project_categories'
-				  );
-				  $categories = get_categories($args);
-				  foreach ($categories as $cat) {
-				  		$category_name = $cat->name;
-				  		$category_id = $cat->ID;
-				        echo '<a href="#" class="category_link">'.$category_name.'</a></br>';      
-				    }
 				?>
   			</ul>
 		</div>
@@ -246,28 +256,5 @@ $(function() {
   		</div>
 </div>
 </div>
-
-<script>
-	var $ = jQuery;
-
-	$('.icon-nav a').click(function() {  
-		var category_name = $(this).text();
-		$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-portfolio.php?name=<?php echo $category_name; ?>", {category : category_name }, successFn)
-	});
-
-	$(".icon-nav a").removeAttr('href');
-
-	function successFn(result) {
-		$(".portfolio-ajax").fadeOut( 100 , function() {
-    		$(this).html( result);
-		}).fadeIn( 1000 );
-
-		console.log("Setting result");
-	}
-
-	function errorFn(xhr, status, strErr) {
-		alert(strErr);
-	}
-</script>
 		
 <?php get_footer(); ?>
