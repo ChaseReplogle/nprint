@@ -101,7 +101,6 @@ $(function() {
 					    	<?php  $i++; ?>
 					    	<?php if( $i < 9) { ?>
 					        <?php setup_postdata($post); ?>
-					        <?php print_r ($post); ?>
   								<li><a href="#" class=""><i class="fi-<?php echo $post->description; ?>"></i><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
