@@ -74,6 +74,22 @@ $(function() {
 
 				<?php wp_reset_postdata(); ?>
 
+			<?php 	$posts = get_field('select_message');
+ 
+if( $posts ): ?>
+
+    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+        <?php setup_postdata($post); ?>
+
+		<?php $icon_name = get_field('marketing_icon_label'); ?>
+		<?php $icon = get_field('marketing_icon'); ?>
+
+        <li><a href="#" class="current-item"><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
+    <?php endforeach; ?>
+
+    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+<?php endif; ?>
+
 				</ul>
 
 				<div class="marketing-content">
