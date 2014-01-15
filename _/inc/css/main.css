@@ -7487,6 +7487,10 @@ a:hover {
 }
 .page-nav-warpper .page-nav ul li a:not(.button):hover {
   background-color: transparent;
+  color: #000;
+}
+.page-nav-warpper .page-nav ul li .current_page_item a {
+  color: #000;
 }
 .page-nav-warpper .page-nav ul li:first-child {
   border-left: 0px;
