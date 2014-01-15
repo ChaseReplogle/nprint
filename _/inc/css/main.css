@@ -7440,10 +7440,10 @@ a:hover {
     display: none;
   }
 }
-.page-nav {
+.page-nav-warpper {
   background-color: #4f98c4;
 }
-.page-nav .page-nav {
+.page-nav-warpper .page-nav {
   height: 85px;
   -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
@@ -7451,40 +7451,40 @@ a:hover {
   z-index: 50;
   background-color: #4f98c4;
 }
-.page-nav .page-nav ul {
+.page-nav-warpper .page-nav ul {
   background-color: #4f98c4;
 }
-.page-nav .page-nav ul li {
+.page-nav-warpper .page-nav ul li {
   background-color: #4f98c4;
 }
-.page-nav .page-nav ul li.current-item a:not(.button) {
+.page-nav-warpper .page-nav ul li.current-item a:not(.button) {
   color: #fff;
 }
-.page-nav .page-nav ul li a:not(.button) {
+.page-nav-warpper .page-nav ul li a:not(.button) {
   color: #fff;
   background-color: #4f98c4;
   background: #4f98c4;
   border-right: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
 }
-.page-nav .page-nav ul li:first-child {
+.page-nav-warpper .page-nav ul li:first-child {
   border-left: 1px solid #f2f2f2;
 }
-.page-nav .top-bar-section li a:not(.button):hover {
+.page-nav-warpper .top-bar-section li a:not(.button):hover {
   background: #f2f2f2;
 }
-.page-nav .page-nav .toggle-topbar.menu-icon a {
+.page-nav-warpper .page-nav .toggle-topbar.menu-icon a {
   color: #fff;
   text-indent: 50px;
 }
-.page-nav .top-bar.expanded .title-area {
+.page-nav-warpper .top-bar.expanded .title-area {
   background: #4f98c4;
   background-color: #4f98c4;
 }
-.page-nav .page-nav.expanded {
+.page-nav-warpper .page-nav.expanded {
   background: #4f98c4;
 }
-.page-nav .page-nav .has-dropdown ul li > a {
+.page-nav-warpper .page-nav .has-dropdown ul li > a {
   border-bottom: 1px solid #f2f2f2;
 }
 

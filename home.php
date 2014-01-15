@@ -153,7 +153,6 @@ $(function() {
 					</div>
 				
 			  		<div class="medium-4 columns row-content">
-			  		<?php echo $post->ID ; ?>
 			  			<h4><?php the_title(); ?></h4>
 			  			<p><?php echo excerpt(35); ?></p>
 			  		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
