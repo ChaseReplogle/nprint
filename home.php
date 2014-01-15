@@ -71,9 +71,12 @@ $(function() {
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
 							<li><a href="#" class="current-item"><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
-							<?php endforeach; ?>
-						<?php wp_reset_postdata(); ?>
+
+						<?php endforeach; ?>
+
 					<?php endif; ?>
+
+						<?php wp_reset_postdata(); ?>
 
 				<?php endwhile; ?>
   			</ul>
