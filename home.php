@@ -104,7 +104,7 @@ $(function() {
 
 
 <div class="wrapper">
-<div class="row craft boxed" style="background-image: url('<?php the_field( "video_background" );  ?> '); background-size:100% 100%;">
+<div class="row craft full" style="background-image: url('<?php the_field( "video_background" );  ?> '); background-size:100% 100%;">
   		<div class="medium-5 columns row-content">
   			<h4><?php the_field( "video_title" );  ?> </h4>
   			<p><?php the_field( "video_text" );  ?> </p>
