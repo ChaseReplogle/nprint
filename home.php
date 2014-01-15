@@ -68,7 +68,7 @@ $(function() {
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
-							<li><a href="#" class="current-item"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
+							<li><a href="#"><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
 
 						<?php endforeach; ?>
 
@@ -116,9 +116,8 @@ $(function() {
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
 					    	<?php if( $i < 9) { ?>
-					        <?php setup_postdata($post); ?>
 
-			 				<?php $icon = get_field('category_icon'); ?>
+			 				<?php $icon = get_field('category_icon', 'project_categories_'.$post->ID ); ?>
 
   								<li><a href="#" class=""><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $post->name; ?></a></li>
   							<?php } ?>
