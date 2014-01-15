@@ -170,12 +170,19 @@ $(function() {
   			</ul>
 		</div>
 	</div>
+
+
+		<?php wp_reset_query(); // reset the query ?>
 	
 	<div class="portfolio-ajax portfolio boxed row">
 
+<?php $post_objects = get_field('portfolio_categories');
+					if( $post_objects ): ?>
 		<?php $i == 0; ?>
  			<?php foreach( $post_objects as $post): ?>
  				<?php $i++; ?>
+ 				
+					<?php if($i==2) break; ?>
 
   		<?php query_posts('post_type=projects&posts_per_page=1&project_categories='. $post->ID ); ?>
 
