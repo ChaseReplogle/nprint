@@ -123,7 +123,7 @@ $(function() {
 <div class="row portfolio boxed">
 	
 	<div class="row nav-row">
-		<div class="columns right medium-7">
+		<div class="columns right medium-6">
 			<ul class="icon-nav large-block-grid-6">
   				
   				<?php $post_objects = get_field('portfolio_categories');
@@ -194,7 +194,7 @@ $(function() {
 			  			<h4><?php the_title(); ?></h4>
 			  			<p><?php the_excerpt();?></p>
 			  		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
-						<p><a href="#" class="secondary_button">More Work</a></p>
+						<p><a href="#" class="secondary_button">View Full Portfolo</a></p>
 			  		</div>
 
 			<?php endwhile; ?>
