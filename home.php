@@ -110,15 +110,14 @@ $(function() {
 		<div class="columns medium-centered medium-12 portfolio-nav">
 			<ul class="icon-nav large-block-grid-9">
   				
-					<?php $posts = get_field('portfolio_categories'); ?>
+  				<?php $post_objects = get_field('portfolio_categories');
+					if( $post_objects ): ?>
 							<?php $i = 0; ?>
-					    	<?php foreach( $posts as $p): ?>
+					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
 					    	<?php if( $i < 9) { ?>
-
-			 				<?php $icon = get_field('category_icon', 'project_categories_'.$p->ID ); ?>
-
-  								<li><a href="#" class=""><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $p->name; ?></a></li>
+					        <?php setup_postdata($post); ?>
+  								<li><a href="#" class=""><i class="fi-<?php echo $post->description; ?>"></i><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
 					    	<li class="more-work" ><a href="/more"><i class="fi-pricetag-multiple"></i>More Work</a></li>
@@ -151,6 +150,9 @@ $(function() {
 									alert(strErr);
 								}
 							</script>
+					    
+					<?php endif; 
+				?>
   			</ul>
 		</div>
 	</div>
