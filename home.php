@@ -189,7 +189,6 @@ $(function() {
 					</div>
 				
 			  		<div class="medium-5 columns row-content">
-			  			<h2>Our Work</h2>
 			  			<h4><?php the_title(); ?></h4>
 			  			<p><?php the_excerpt();?></p>
 			  		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
