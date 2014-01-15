@@ -362,8 +362,12 @@ $topbar-arrows: false;
 		color: #fff; 
 		background-color: $mainblue;
 		background: $mainblue; 
-		border-right: 1px solid $verylightgrey; 
-		border-bottom: 1px solid $verylightgrey;
+		border-right: 0px; 
+		border-bottom: 0px;
+	}
+
+	.page-nav ul li a:not(.button):hover {
+		background-color: $mainblue;
 	}
 
 	.page-nav ul li:first-child { 
