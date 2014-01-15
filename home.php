@@ -53,7 +53,12 @@ $(function() {
 <div class="wrapper">
 
 
+<?php while(has_sub_field("marketing_messages")): ?>
+				 
+					<?php if(get_row_layout() == "message"): // layout: Content ?>
 
+			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
+			 				
 <div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
 		<div class="medium-7 columns row-image not-mobile">
 			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/printer.png" class="left-line" alt="Printer"/>
@@ -65,9 +70,8 @@ $(function() {
 				 
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
 
-						<?php $i = 0; ?>
 			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
-			 				<?php  $i++; ?>
+
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
@@ -79,17 +83,25 @@ $(function() {
 
 				<?php endwhile; ?>
 
+				<?php wp_reset_postdata(); ?>
+
 				</ul>
 
-				<h4><?php echo $post_object->post_title; ?></h4>
-	  			<p>There are a lot of places you can print banners. But there will never be another nPrint Graphix. Craftsmen, dedicated to innovation and mastery, nPrint offers you more than ink and vinyl. With a wide range of services and products, just think of us as your own personal team of sign artisans—who just happen to have some of the most impressive printers on earth.</p>
-				<p><a href="#" class="secondary_button">Become a Client</a></p>
-
-				<?php wp_reset_postdata(); ?>
+				<div class="marketing-content">
+					<h4><?php echo $post_object->post_title; ?></h4>
+		  			<p>There are a lot of places you can print banners. But there will never be another nPrint Graphix. Craftsmen, dedicated to innovation and mastery, nPrint offers you more than ink and vinyl. With a wide range of services and products, just think of us as your own personal team of sign artisans—who just happen to have some of the most impressive printers on earth.</p>
+					<p><a href="#" class="secondary_button">Become a Client</a></p>
+				</div>
   		</div>
 </div>
 </div>
+<?php endforeach; ?>
 
+					<?php endif; ?>
+
+				<?php endwhile; ?>
+
+				<?php wp_reset_postdata(); ?>
 
 <div class="wrapper">
 <div class="row craft full" >
