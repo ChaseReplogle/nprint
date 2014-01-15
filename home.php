@@ -184,8 +184,6 @@ $(function() {
 					    	<?php if( $i < 2) { ?>
 					        <?php setup_postdata($post); ?>
 
-					        <?php print_r($post); ?>
-
   		<?php query_posts('post_type=projects&posts_per_page=1&project_categories='. $post->slug ); ?>
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
