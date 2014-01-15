@@ -145,11 +145,11 @@ $(function() {
 									$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-portfolio.php?name=<?php echo $category_name; ?>", {category : category_name }, successFn)
 								});
 
-								$(".icon-nav a").removeAttr('href');
+								$( ".icon-nav a" ).click(function() {
+ 									 $( this ).toggleClass( "current-item" );
+								});
 
-								$(".icon-nav a").click(function() {
-									$.toggleClass('current-item')
-								};
+								$(".icon-nav a").removeAttr('href');
 
 								function successFn(result) {
 									$(".portfolio-ajax").fadeOut( 100 , function() {
