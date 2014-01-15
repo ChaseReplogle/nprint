@@ -171,11 +171,29 @@ $topbar-arrows: false;
 }
 
 .inner-account-nav {
+	height: 45px;
+
+	.title-area {
+		 li {
+		 	position: relative;
+
+		 	img {
+				height: 35px;
+				width: auto;
+				padding: 5px 0px 5px 20px;
+			}
+		 }
+	}
+
 	ul {
 		background-color: transparent;
 
 		li {
 			background-color: transparent;
+
+			a:not(.button) {
+				line-height: 45px;
+			}
 		}
 	}
 }

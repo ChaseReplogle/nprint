@@ -7315,11 +7315,25 @@ a:hover {
   color: #fff;
 }
 
+.inner-account-nav {
+  height: 45px;
+}
+.inner-account-nav .title-area li {
+  position: relative;
+}
+.inner-account-nav .title-area li img {
+  height: 35px;
+  width: auto;
+  padding: 5px 0px 5px 20px;
+}
 .inner-account-nav ul {
   background-color: transparent;
 }
 .inner-account-nav ul li {
   background-color: transparent;
+}
+.inner-account-nav ul li a:not(.button) {
+  line-height: 45px;
 }
 
 @media only screen and (max-width: 40em) {
