@@ -187,7 +187,6 @@ $(function() {
   		<?php query_posts('post_type=projects&posts_per_page=1&project_categories='. $post->slug ); ?>
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					<?php echo $post->ID; ?>
 					<div class="medium-8 columns row-image">
 						<img src="<?php the_field("project_featured_image"); ?>" alt="<?php the_title(); ?>"/>
 					</div>
