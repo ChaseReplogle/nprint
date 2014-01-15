@@ -72,14 +72,12 @@ $(function() {
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
 							<li><?php  $i++; ?><a href="#" class="current-item"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
-						</ul>
+			</ul>
 
-							<?php if( $i == 1) { ?>
-					  			<h4><?php echo $post_object->post_title; ?></h4>
-					  			<p>There are a lot of places you can print banners. But there will never be another nPrint Graphix. Craftsmen, dedicated to innovation and mastery, nPrint offers you more than ink and vinyl. With a wide range of services and products, just think of us as your own personal team of sign artisans—who just happen to have some of the most impressive printers on earth.</p>
-								<p><a href="#" class="secondary_button">Become a Client</a></p>
+	  			<h4><?php echo $post_object->post_title; ?></h4>
+	  			<p>There are a lot of places you can print banners. But there will never be another nPrint Graphix. Craftsmen, dedicated to innovation and mastery, nPrint offers you more than ink and vinyl. With a wide range of services and products, just think of us as your own personal team of sign artisans—who just happen to have some of the most impressive printers on earth.</p>
+				<p><a href="#" class="secondary_button">Become a Client</a></p>
 
-							<?php } ?>
 						<?php endforeach; ?>
 
 					<?php endif; ?>
