@@ -354,7 +354,7 @@ $topbar-arrows: false;
 		color: #ff;
 		line-height: 85px;
 		margin: 0px;
-		padding-right: 5%;
+		padding-right: 15%;
 		color: #fff;
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
@@ -362,11 +362,11 @@ $topbar-arrows: false;
 	}
 
 	.page-nav ul {
-		background-color: $mainblue;
+		background-color: $lightgrey;
 	}
 
 	.page-nav ul li {
-		background-color: $mainblue;
+		background-color: $lightgrey;
 	}
 
 	.page-nav ul li.current-item a:not(.button) {
@@ -375,8 +375,8 @@ $topbar-arrows: false;
 
 	.page-nav ul li a:not(.button) {
 		color: #fff; 
-		background-color: $mainblue;
-		background: $mainblue; 
+		background-color: $lightgrey;
+		background: $lightgrey; 
 		border-right: 0px; 
 		border-bottom: 0px;
 		line-height: 85px;
@@ -385,7 +385,7 @@ $topbar-arrows: false;
 	}
 
 	.page-nav ul li a:not(.button):hover {
-		background-color: $mainblue;
+		background-color: $lightgrey;
 	}
 
 	.page-nav ul li:first-child { 
@@ -404,12 +404,12 @@ $topbar-arrows: false;
 	}
 
 	.top-bar.expanded .title-area {
-		background: $mainblue; 
-		background-color: $mainblue;
+		background: $lightgrey; 
+		background-color: $lightgrey;
 	}
 
 	.page-nav.expanded {
-		background: $mainblue;
+		background: $lightgrey;
 	}
 
 	.page-nav .has-dropdown ul li > a {

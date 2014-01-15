@@ -7459,25 +7459,25 @@ a:hover {
   color: #ff;
   line-height: 85px;
   margin: 0px;
-  padding-right: 5%;
+  padding-right: 15%;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
 .page-nav-warpper .page-nav ul {
-  background-color: #4f98c4;
+  background-color: #d1d1d1;
 }
 .page-nav-warpper .page-nav ul li {
-  background-color: #4f98c4;
+  background-color: #d1d1d1;
 }
 .page-nav-warpper .page-nav ul li.current-item a:not(.button) {
   color: #fff;
 }
 .page-nav-warpper .page-nav ul li a:not(.button) {
   color: #fff;
-  background-color: #4f98c4;
-  background: #4f98c4;
+  background-color: #d1d1d1;
+  background: #d1d1d1;
   border-right: 0px;
   border-bottom: 0px;
   line-height: 85px;
@@ -7485,7 +7485,7 @@ a:hover {
   padding: 0px 5px;
 }
 .page-nav-warpper .page-nav ul li a:not(.button):hover {
-  background-color: #4f98c4;
+  background-color: #d1d1d1;
 }
 .page-nav-warpper .page-nav ul li:first-child {
   border-left: 0px;
@@ -7500,11 +7500,11 @@ a:hover {
   text-indent: 50px;
 }
 .page-nav-warpper .top-bar.expanded .title-area {
-  background: #4f98c4;
-  background-color: #4f98c4;
+  background: #d1d1d1;
+  background-color: #d1d1d1;
 }
 .page-nav-warpper .page-nav.expanded {
-  background: #4f98c4;
+  background: #d1d1d1;
 }
 .page-nav-warpper .page-nav .has-dropdown ul li > a {
   border-bottom: 1px solid #f2f2f2;
