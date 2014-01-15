@@ -27,15 +27,8 @@ $(function() {
     }
 });
 </script>
-	
-<nav class="top-bar account-nav" data-topbar>
-<section class="top-bar-section right">
-    <!-- Right Nav Section -->
-    <ul>
-	  	  <li><a class="active" href="#">Become a Member</a></li>
-	  	  <li><a href="#">Log In</a></li>
-    </ul>
-</nav>
+
+<?php include 'nav-account.php'; ?>
 
 <div class="main-header">	
 	
@@ -53,32 +46,7 @@ $(function() {
 	</div>
 </div> 
 
-<nav class="top-bar main-nav" data-topbar>
-  <ul class="title-area">
-    <li class="name"></li>
-    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-  </ul>
-
-  <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul>
-    	  <li class="current-item"><a href="#">Home</a></li>
-      	  <li class="has-dropdown">
-        	<a href="#">Company</a>
-        	<ul class="dropdown">
-         		 <li><a href="#">Team</a></li>
-         		 <li><a href="#">Mission</a></li>
-         		 <li><a href="#">History</a></li>
-        	</ul>
-      	  </li>
-	  	  <li><a href="#">Products</a></li>
-	  	  <li><a href="#">Process</a></li>
-	  	  <li><a href="#">Portfolio</a></li>
-	  	  <li><a href="#">Support</a></li>
-	  	  <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
-
+<?php include 'nav-main.php'; ?>
 
 </div>
 
