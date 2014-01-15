@@ -83,9 +83,8 @@ $(function() {
 
 					<?php endif; ?>
 
-						<?php wp_reset_postdata(); ?>
-
 				<?php endwhile; ?>
+				<?php wp_reset_postdata(); ?>
   		</div>
 </div>
 </div>
