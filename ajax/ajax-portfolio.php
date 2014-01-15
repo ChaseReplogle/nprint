@@ -17,7 +17,6 @@ query_posts('post_type=projects&posts_per_page=1&project_categories='.$title_rep
 		</div>
 	
   		<div class="medium-5 columns row-content">
-  			<h2>Our Work</h2>
   			<h4><?php the_title(); ?></h4>
   			<p><?php the_excerpt();?></p>
   		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
