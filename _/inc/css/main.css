@@ -7577,6 +7577,9 @@ img.avatar {
   padding: 30px 0px;
 }
 
+.portfolio {
+  background-image: url("../images/banner-bg.jpg");
+}
 .portfolio .row {
   padding: 0px 0px 100px 0px;
 }
