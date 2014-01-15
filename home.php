@@ -176,8 +176,7 @@ $(function() {
 	
 	<div class="portfolio-ajax portfolio boxed row">
 
-<?php $post_objects = get_field('portfolio_categories');
-					if( $post_objects ): ?>
+<?php $post_objects = get_field('portfolio_categories'); ?>
 							<?php $i = 0; ?>
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
