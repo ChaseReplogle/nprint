@@ -147,7 +147,9 @@ $(function() {
 
 								$(".icon-nav a").removeAttr('href');
 
-								$(".icon-nav a").toggleClass('current-item');
+								$(".icon-nav a").click(function() {
+									$.toggleClass('current-item')
+								};
 
 								function successFn(result) {
 									$(".portfolio-ajax").fadeOut( 100 , function() {
