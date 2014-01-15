@@ -4,7 +4,6 @@
     <li class="name">
       <img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" />
     </li>
-    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
 <?php } ?>
 <section class="top-bar-section right">
