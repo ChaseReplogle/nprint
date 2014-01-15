@@ -224,13 +224,13 @@ $(function() {
   								<p class="support_link"><a href="/support_categories<?php echo $post->slug; ?>"><?php echo $post->name; ?></a></p>	
   							<?php $category_name = $cat->name; ?>
 					    <?php endforeach; ?>
+					    <?php wp_reset_postdata(); ?>
 					<?php endif; 
 				?>
 
 				<?php 
 				    $args = array(
 				      'orderby' => 'id',
-				      'hide_empty'=> 0,
 				      'taxonomy' => 'project_categories'
 				  );
 				  $categories = get_categories($args);
