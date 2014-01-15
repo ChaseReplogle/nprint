@@ -115,7 +115,10 @@ $(function() {
 					    	<?php  $i++; ?>
 					    	<?php if( $i < 9) { ?>
 					        <?php setup_postdata($post); ?>
-  								<li><a href="#" class=""><i class="fi-<?php echo $post->description; ?>"></i><?php echo $post->name; ?></a></li>
+
+			 				<?php $icon = get_field('category_icon', 'project_categories_'.$post_object->ID ); ?>
+
+  								<li><a href="#" class=""><i class="fi-<?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
 					    	<li class="more-work" ><a href="/more"><i class="fi-pricetag-multiple"></i>More Work</a></li>
