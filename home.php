@@ -131,7 +131,7 @@ $(function() {
 							<?php $i = 0; ?>
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
-					    	<?php if( $i < 7) { ?>
+					    	<?php if( $i < 6) { ?>
 					        <?php setup_postdata($post); ?>
   								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-<?php echo $post->description; ?>"></i><?php echo $post->name; ?></a></li>
   								<?php $category_name = $post->name; ?>
