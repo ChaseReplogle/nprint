@@ -120,10 +120,10 @@ $(function() {
 </div>
 
 <div class="wrapper">
-<div class="row portfolio boxed">
+<div class="row">
 	
 	<div class="row nav-row">
-		<div class="columns right medium-6">
+		<div class="columns medium-centered medium-6">
 			<ul class="icon-nav large-block-grid-6">
   				
   				<?php $post_objects = get_field('portfolio_categories');
@@ -175,7 +175,7 @@ $(function() {
 		</div>
 	</div>
 	
-	<div class="portfolio-ajax">
+	<div class="portfolio-ajax portfolio boxed row">
   		<?php 
 
 	  		$title_slug = $category_0;
