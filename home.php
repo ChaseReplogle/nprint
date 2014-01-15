@@ -64,14 +64,23 @@ $(function() {
   				<?php while(has_sub_field("marketing_messages")): ?>
 				 
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
-
+							<?php $i = 0; ?>
 			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
-			 					<?php print_r($post_object); ?>
+					    	<?php  $i++; ?>
+					    	<?php if( $i < 5) { ?>
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
 							<li><a href="#" class="current-item"><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
+						</ul>
+							<?php } ?>
 
+							<?php if( $i < 2) { ?>
+					  			<h4><?php echo $post_object->post_title; ?></h4>
+					  			<p>There are a lot of places you can print banners. But there will never be another nPrint Graphix. Craftsmen, dedicated to innovation and mastery, nPrint offers you more than ink and vinyl. With a wide range of services and products, just think of us as your own personal team of sign artisans—who just happen to have some of the most impressive printers on earth.</p>
+								<p><a href="#" class="secondary_button">Become a Client</a></p>
+
+							<?php } ?>
 						<?php endforeach; ?>
 
 					<?php endif; ?>
@@ -79,10 +88,6 @@ $(function() {
 						<?php wp_reset_postdata(); ?>
 
 				<?php endwhile; ?>
-  			</ul>
-  			<h4>Committed to Supporting You</h4>
-  			<p>There are a lot of places you can print banners. But there will never be another nPrint Graphix. Craftsmen, dedicated to innovation and mastery, nPrint offers you more than ink and vinyl. With a wide range of services and products, just think of us as your own personal team of sign artisans—who just happen to have some of the most impressive printers on earth.</p>
-			<p><a href="#" class="secondary_button">Become a Client</a></p>
   		</div>
 </div>
 </div>
