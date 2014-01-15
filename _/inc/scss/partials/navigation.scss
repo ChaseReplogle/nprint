@@ -228,6 +228,12 @@ $topbar-arrows: false;
 			vertical-align: middle;
 			border: 1px solid $lightgrey;
 			background-color: $verylightgrey;
+			padding-top: 15px;
+			height: 110px;
+		}
+
+		li a.current-item {
+			background-color: #fff;
 		}
 	}
 }
