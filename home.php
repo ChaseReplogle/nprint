@@ -64,24 +64,25 @@ $(function() {
   		<div class="medium-5 columns row-content">
   			<ul class="icon-nav medium-block-grid-4">
   						<?php $posts = get_field('select_message'); ?>
+  						<?php $i == 0; ?>
 			 			<?php foreach($posts as $post_object): ?>
+			 				<?php $i++; ?>
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
-							<li><a href="#"><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
+							<li><a href="#"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
 
 						<?php endforeach; ?>
-
-				<?php wp_reset_postdata(); ?>
-
 
 				</ul>
 
 				<div class="marketing-content">
 					<h4><?php echo $post_object->post_title; ?></h4>
-		  			<p>There are a lot of places you can print banners. But there will never be another nPrint Graphix. Craftsmen, dedicated to innovation and mastery, nPrint offers you more than ink and vinyl. With a wide range of services and products, just think of us as your own personal team of sign artisans—who just happen to have some of the most impressive printers on earth.</p>
+		  			<p><?php echo $post_object->content; ?></p>
 					<p><a href="#" class="secondary_button">Become a Client</a></p>
 				</div>
+
+				<?php wp_reset_postdata(); ?>
   		</div>
 </div>
 </div>
