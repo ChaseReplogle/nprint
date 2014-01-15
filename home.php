@@ -120,7 +120,7 @@ $(function() {
 </div>
 
 <div class="wrapper">
-<div class="row">
+<div class="row full">
 	
 	<div class="row nav-row">
 		<div class="columns medium-centered medium-12 portfolio-nav">
@@ -175,7 +175,7 @@ $(function() {
 		</div>
 	</div>
 	
-	<div class="portfolio-ajax portfolio boxed row full">
+	<div class="portfolio-ajax portfolio boxed row">
   		<?php 
 
 	  		$title_slug = $category_0;
