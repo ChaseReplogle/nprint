@@ -7494,6 +7494,7 @@ a:hover {
 }
 .page-nav-warpper .page-nav ul li .current_page_parent a:not(.button) {
   content: ":";
+  color: red;
 }
 .page-nav-warpper .page-nav ul li:first-child {
   border-left: 0px;

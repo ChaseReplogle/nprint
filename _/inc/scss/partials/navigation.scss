@@ -396,6 +396,7 @@ $topbar-arrows: false;
 
 	.page-nav ul li .current_page_parent a:not(.button) {
 		content: ":";
+		color: red;
 	}
 
 	.page-nav ul li:first-child { 
