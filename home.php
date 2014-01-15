@@ -65,13 +65,13 @@ $(function() {
 				 
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
 
-			 			<?php $post_object = get_sub_field("select_message");?>
+			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
 
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
 							<li><a href="#" class="current-item"><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
-
+							<?php endforeach; ?>
 						<?php wp_reset_postdata(); ?>
 					<?php endif; ?>
 
