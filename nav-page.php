@@ -11,11 +11,9 @@
     <!-- Right Nav Section -->
     <ul> <?php
 			  if($post->post_parent) //inner page
-			  	
-			  	$section = wp_list_pages("title_li=&include=".$post->post_parent."&echo=1");
+			  	$section = wp_list_pages("title_li=&include=".$post->post_parent);
 			  else // top level page
-			  	
-			  	$section = wp_list_pages("title_li=&include=".$post->ID."&echo=1");
+			  	$section = wp_list_pages("title_li=&include=".$post->ID);
 			  if ($children) { ?>
 				  <ul>
 				  	<?php echo $section; ?>
@@ -24,13 +22,13 @@
   	  <?php
 			  if($post->post_parent) //inner page
 			  	$children = wp_list_pages("title_li=&child_of=".$post->post_parent."&echo=1");
-			  	$section = wp_list_pages("title_li=&include=".$post->post_parent."&echo=1");
+			  	
 			  else // top level page
 			  	$children = wp_list_pages("title_li=&child_of=".$post->ID."&echo=1");
-			  	$section = wp_list_pages("title_li=&include=".$post->ID."&echo=1");
+			  	
 			  if ($children) { ?>
 				  <ul>
-				  	<?php echo $section; ?>
+				  	
 				  	<?php echo $children; ?>
 				  </ul>
 		<?php } ?>
