@@ -110,10 +110,9 @@ $(function() {
 		<div class="columns medium-centered medium-12 portfolio-nav">
 			<ul class="icon-nav large-block-grid-9">
   				
-  				<?php $post_objects = get_field('portfolio_categories');
-					if( $post_objects ): ?>
+					<?php $posts = get_field('portfolio_categories'); ?>
 							<?php $i = 0; ?>
-					    	<?php foreach( $post_objects as $p): ?>
+					    	<?php foreach( $posts as $p): ?>
 					    	<?php  $i++; ?>
 					    	<?php if( $i < 9) { ?>
 
@@ -152,9 +151,6 @@ $(function() {
 									alert(strErr);
 								}
 							</script>
-					    
-					<?php endif; 
-				?>
   			</ul>
 		</div>
 	</div>
@@ -162,7 +158,7 @@ $(function() {
 	<div class="portfolio-ajax portfolio boxed row">
   		<?php 
 
-	  		query_posts('post_type=projects&posts_per_page=1&project_categories='. $post->ID ); ?>
+	  		query_posts('post_type=projects&posts_per_page=1&project_categories='. $p->ID ); ?>
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
