@@ -124,7 +124,7 @@ $(function() {
 	
 	<div class="row nav-row">
 		<div class="columns right medium-12">
-			<ul class="icon-nav large-block-grid-7">
+			<ul class="icon-nav large-block-grid-8">
   				
   				<?php $post_objects = get_field('portfolio_categories');
 					if( $post_objects ): ?>
