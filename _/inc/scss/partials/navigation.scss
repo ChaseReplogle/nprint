@@ -46,8 +46,8 @@ $topbar-arrows: false;
 	background: #fff; 
 	line-height: 64px; 
 	font-size: 14px;
-	padding-left: 25px;
-	padding-right: 25px; 
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
 	border-right: 1px solid $verylightgrey; 
 	border-bottom: 1px solid $verylightgrey;
 }
@@ -396,6 +396,7 @@ $topbar-arrows: false;
 
 	.page-nav ul li.current_page_parent a:not(.button):after {
 		content: ":";
+		padding-right: 15px;
 	}
 
 
