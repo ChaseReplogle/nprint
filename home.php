@@ -70,7 +70,12 @@ $(function() {
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
-							<li class="<?php echo $i; ?>" ><a href="#"><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
+							<li><a href="#" class="
+							<?php if ($i = 1 ) { echo 'current-item'; }; ?>
+							">
+							<?php echo "<i class='fi-$icon'></i>"; ?>
+							<?php echo $icon_name; ?>
+							</a></li>
 
 						<?php endforeach; ?>
 						<?php wp_reset_postdata(); ?>
