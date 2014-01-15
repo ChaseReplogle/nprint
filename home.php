@@ -123,18 +123,20 @@ $(function() {
 <div class="row portfolio boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/banner-bg.jpg'); background-size:100% 100%;">
 	
 	<div class="row nav-row">
-		<div class="columns right medium-10">
-			<ul class="icon-nav large-block-grid-9">
+		<div class="columns right medium-7">
+			<ul class="icon-nav large-block-grid-6">
   				
   				<?php $post_objects = get_field('portfolio_categories');
 					if( $post_objects ): ?>
 							<?php $i = 0; ?>
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
+					    	<?php if( $i < 7) { ?>
 					        <?php setup_postdata($post); ?>
   								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-<?php echo $post->description; ?>"></i><?php echo $post->name; ?></a></li>
   								<?php $category_name = $post->name; ?>
   								<?php $cateogory_[$i] = $post->name; ?>
+  							<?php } ?>
 					    <?php endforeach; ?>
 					    	<li><a href="/more"><i class="fi-pricetag-multiple"></i>More Work</a></li>
 
