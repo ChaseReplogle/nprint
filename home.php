@@ -65,12 +65,14 @@ $(function() {
 				 
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
 
-				 			<?php $post_object = get_sub_field("select_message");?>
+			 			<?php $post_object = get_sub_field("select_message");?>
 
-				 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
+			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
+			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
-								<li><a href="#" class="current-item"><i class="fi-"></i><?php echo $icon_name; ?></a></li>
-							<?php wp_reset_postdata(); ?>
+							<li><a href="#" class="current-item"><i class="fi-?php echo $icon; ?>"></i><?php echo $icon_name; ?></a></li>
+
+						<?php wp_reset_postdata(); ?>
 					<?php endif; ?>
 
 				<?php endwhile; ?>
