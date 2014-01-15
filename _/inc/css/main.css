@@ -7335,13 +7335,13 @@ a:hover {
 .icon-nav li a {
   text-align: center;
   color: #d1d1d1;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 18px;
 }
 .icon-nav li a i {
   display: block;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   padding-bottom: 10px;
 }
 .icon-nav li a i:hover {
@@ -7352,6 +7352,10 @@ a:hover {
 }
 .icon-nav li a.current-item {
   color: #4f4f4f;
+}
+
+.portfolio .icon-nav {
+  margin-top: 0px;
 }
 
 @media only screen and (max-width: 40em) {
@@ -7595,6 +7599,10 @@ img.avatar {
 }
 .portfolio .nav-row {
   padding: 0px 0px 10px 0px;
+}
+.portfolio .nav-row .columns {
+  border-top: 1px solid #d1d1d1;
+  padding-top: 20px;
 }
 .portfolio .row-content h4 {
   padding-bottom: 0px;

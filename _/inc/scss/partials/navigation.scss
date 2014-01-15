@@ -194,13 +194,13 @@ $topbar-arrows: false;
 		a {
 			text-align: center;
 			color: $lightgrey;
-			font-size: 13px;
+			font-size: 14px;
 			line-height: 18px;
 		
 			i {
 				display: block;
 				text-align: center;
-				font-size: 25px;
+				font-size: 30px;
 				padding-bottom: 10px;
 				
 				&:hover {
@@ -216,6 +216,12 @@ $topbar-arrows: false;
 		a.current-item {
 			color: $darkgrey;
 		}
+	}
+}
+
+.portfolio {
+	.icon-nav {
+		margin-top: 0px;
 	}
 }
 
