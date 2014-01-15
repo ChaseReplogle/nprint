@@ -146,7 +146,7 @@ $(function() {
 	<div class="portfolio-ajax portfolio boxed row">
   		<?php 
 
-	  		$title_slug = $category_0;
+	  		$title_slug = $category_1;
 			$title_lower = strtolower($title_slug);
 			$title_replaced = str_replace( " ", "-", $title_lower);
 
