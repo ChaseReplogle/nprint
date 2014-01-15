@@ -64,13 +64,14 @@ $(function() {
   				<?php while(has_sub_field("marketing_messages")): ?>
 				 
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
-							<?php $i = 0; ?>
+
+						<?php $i = 0; ?>
 			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
-					    	<?php  $i++; ?>
+
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
-							<li><a href="#" class="current-item"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
+							<li><?php  $i++; ?><a href="#" class="current-item"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
 						</ul>
 
 							<?php if( $i == 1) { ?>
