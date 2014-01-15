@@ -169,27 +169,33 @@ $(function() {
 	<div class="portfolio-ajax">
   		<?php 
 
-  		$title_slug = $category_0;
-		$title_lower = strtolower($title_slug);
-		$title_replaced = str_replace( " ", "-", $title_lower);
+	  		$title_slug = $category_0;
+			$title_lower = strtolower($title_slug);
+			$title_replaced = str_replace( " ", "-", $title_lower);
 
-  		query_posts('post_type=projects&posts_per_page=1&project_categories='.$title_replaced); ?>
+	  		query_posts('post_type=projects&posts_per_page=1&project_categories='.$title_replaced); ?>
 
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<div class="medium-7 columns row-image">
-					<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/banner.jpg" alt="Printer"/>
-				</div>
-			
-		  		<div class="medium-5 columns row-content">
-		  			<h2>Our Work</h2>
-		  			<h4><?php the_title(); ?></h4>
-		  			<p><?php the_excerpt();?></p>
-		  		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
-					<p><a href="#" class="secondary_button">More Work</a></p>
-		  		</div>
+				<div class="medium-7 columns row-image">
+						
+						<?php while(has_sub_field("project_images")): ?>
+							<?php if(get_row_layout() == "project_image"): ?>
+								<img src="<?php the_sub_field("image"); ?>" alt="<?php the_title(); ?>"/>
+							<?php endif; ?>
+						<?php endwhile; ?>
 
-		<?php endwhile; ?>
+					</div>
+				
+			  		<div class="medium-5 columns row-content">
+			  			<h2>Our Work</h2>
+			  			<h4><?php the_title(); ?></h4>
+			  			<p><?php the_excerpt();?></p>
+			  		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
+						<p><a href="#" class="secondary_button">More Work</a></p>
+			  		</div>
+
+			<?php endwhile; ?>
 
 		<?php endif; ?>
 
