@@ -17,7 +17,6 @@
 			  if ($children) { ?>
 				  <ul class="sub-nav-section">
 				  	<?php echo $section; ?>
-				  	<li><p>:</p></li> 
 				  </ul>
 		<?php } ?>
   	  <?php
