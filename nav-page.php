@@ -15,8 +15,8 @@
 			  else // top level page
 			  	$section = wp_list_pages("title_li=&include=".$post->ID);
 			  if ($children) { ?>
-				  <ul>
-				  	<?php echo $section; ?>
+				  <ul class="sub-nav-section">
+				  	<?php echo $section; ?> | 
 				  </ul>
 		<?php } ?>
   	  <?php
