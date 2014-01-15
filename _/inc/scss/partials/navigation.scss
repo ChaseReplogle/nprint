@@ -125,7 +125,7 @@ $topbar-arrows: false;
 	.top-bar-section .dropdown li.title h5 a {
 		color: $grey; background: $verylightgrey;
 	}
- } 
+} 
  
 
 
@@ -332,12 +332,13 @@ $topbar-arrows: false;
 	}
 }
 
+}
 
 .page-nav {
 
 	background-color: $mainblue;
 
-	.top-bar {
+	.page-nav {
 		height: 85px; 
 		-webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
 		box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
@@ -346,19 +347,19 @@ $topbar-arrows: false;
 		background-color: $mainblue;
 	}
 
-	.top-bar ul {
+	.page-nav ul {
 		background-color: $mainblue;
 	}
 
-	.top-bar ul li {
+	.page-nav ul li {
 		background-color: $mainblue;
 	}
 
-	.top-bar ul li.current-item a:not(.button) {
+	.page-nav ul li.current-item a:not(.button) {
 		color: #fff;
 	}
 
-	.top-bar ul li a:not(.button) {
+	.page-nav ul li a:not(.button) {
 		color: #fff; 
 		background-color: $mainblue;
 		background: $mainblue; 
@@ -366,7 +367,7 @@ $topbar-arrows: false;
 		border-bottom: 1px solid $verylightgrey;
 	}
 
-	.top-bar ul li:first-child { 
+	.page-nav ul li:first-child { 
 		border-left: 1px solid $verylightgrey;
 	}
 
@@ -374,7 +375,7 @@ $topbar-arrows: false;
 		background: $verylightgrey;
 	}
 
-	.top-bar .toggle-topbar.menu-icon a {
+	.page-nav .toggle-topbar.menu-icon a {
 		color: #fff; 
 		text-indent: 50px;
 	}
@@ -384,13 +385,12 @@ $topbar-arrows: false;
 		background-color: $mainblue;
 	}
 
-	.top-bar.expanded {
+	.page-nav.expanded {
 		background: $mainblue;
 	}
 
-	.top-bar .has-dropdown ul li > a {
+	.page-nav .has-dropdown ul li > a {
 		border-bottom: 1px solid $verylightgrey;
 	}
 }
 
-}
