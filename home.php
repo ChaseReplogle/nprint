@@ -124,14 +124,14 @@ $(function() {
 	
 	<div class="row nav-row">
 		<div class="columns medium-centered medium-12 portfolio-nav">
-			<ul class="icon-nav large-block-grid-12">
+			<ul class="icon-nav large-block-grid-9">
   				
   				<?php $post_objects = get_field('portfolio_categories');
 					if( $post_objects ): ?>
 							<?php $i = 0; ?>
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
-					    	<?php if( $i < 11) { ?>
+					    	<?php if( $i < 8) { ?>
 					        <?php setup_postdata($post); ?>
   								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-<?php echo $post->description; ?>"></i><?php echo $post->name; ?></a></li>
   								<?php $category_name = $post->name; ?>
