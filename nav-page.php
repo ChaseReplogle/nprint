@@ -13,7 +13,7 @@
 			  if($post->post_parent) //inner page
 			  	$section = wp_list_pages("title_li=&include=".$post->post_parent);
 			  else // top level page
-			  	$section = wp_list_pages("title_li=&include=".$post->ID);
+			  	$section = $none;
 			  if ($children) { ?>
 				  <ul class="sub-nav-section">
 				  	<?php echo $section; ?> | 
