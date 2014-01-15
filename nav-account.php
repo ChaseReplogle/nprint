@@ -1,4 +1,4 @@
-<nav class="top-bar account-nav <?php if (! is_home()) { ?>inner-account-nav'<?php } ?>" data-topbar>
+<nav class="top-bar account-nav <?php if (! is_home()) { ?> inner-account-nav <?php } ?>" data-topbar>
 <?php if (! is_home()) { ?>
 <ul class="title-area">
     <li class="name">
