@@ -253,6 +253,12 @@ $topbar-arrows: false;
 	}
 }
 
+@media only screen and (max-width: 40em) {
+	.portfolio-nav {
+		display: none;
+	}
+}
+
 
 @media only screen and (max-width: 40em) {
 .icon-nav { 
