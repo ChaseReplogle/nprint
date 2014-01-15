@@ -117,7 +117,7 @@ $(function() {
 					    	<?php  $i++; ?>
 					    	<?php if( $i < 9) { ?>
 					        <?php setup_postdata($post); ?>
-					        <?php $icon = get_field('category_icon'); ?>
+					        <?php $icon = get_field('category_icon', $post->ID); ?>
   								<li><a href="#" class=""><i class="fi-<?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
