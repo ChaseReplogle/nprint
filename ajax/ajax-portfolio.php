@@ -18,7 +18,7 @@ query_posts('post_type=projects&posts_per_page=1&project_categories='.$title_rep
 	
   		<div class="medium-5 columns row-content">
   			<h4><?php the_title(); ?></h4>
-  			<p><?php echo excerpt(25); ?></p>
+  			<p><?php echo excerpt(35); ?></p>
   		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
 			<p><a href="#" class="secondary_button">View Full Portfolo</a></p>
   		</div>

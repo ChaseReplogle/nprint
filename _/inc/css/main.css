@@ -7375,7 +7375,7 @@ a:hover {
   height: 110px;
   width: 11.1111111111%;
 }
-.portfolio-nav .icon-nav li a.more-work {
+.portfolio-nav .icon-nav .more-work {
   border-right: 1px solid #d1d1d1;
 }
 .portfolio-nav .icon-nav li a.current-item {

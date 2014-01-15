@@ -138,7 +138,7 @@ $(function() {
   								<?php $cateogory_[$i] = $post->name; ?>
   							<?php } ?>
 					    <?php endforeach; ?>
-					    	<li><a href="/more"><i class="fi-pricetag-multiple more-work"></i>More Work</a></li>
+					    	<li class="more-work" ><a href="/more"><i class="fi-pricetag-multiple"></i>More Work</a></li>
 
 					    <script>
 								var $ = jQuery;
