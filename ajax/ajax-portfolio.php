@@ -12,11 +12,11 @@ query_posts('post_type=projects&posts_per_page=1&project_categories='.$title_rep
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-		<div class="medium-7 columns row-image">
+		<div class="medium-8 columns row-image">
 			<img src="<?php the_field("project_featured_image"); ?>" alt="<?php the_title(); ?>"/>
 		</div>
 	
-  		<div class="medium-5 columns row-content">
+  		<div class="medium-4 columns row-content">
   			<h4><?php the_title(); ?></h4>
   			<p><?php echo excerpt(35); ?></p>
   		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>

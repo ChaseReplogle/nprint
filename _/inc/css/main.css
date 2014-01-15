@@ -7611,6 +7611,7 @@ img.avatar {
 
 .portfolio {
   background-image: url("../images/banner-bg.jpg");
+  padding: 50px 30px;
 }
 .portfolio .row {
   padding: 0px 0px 100px 0px;
