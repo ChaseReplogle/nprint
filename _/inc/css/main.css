@@ -7445,6 +7445,8 @@ a:hover {
   -webkit-box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid #fff;
+  background-image: url(../images/lines.png);
+  opacity: .1;
 }
 .page-nav-warpper .page-nav {
   height: 85px;
@@ -7461,6 +7463,7 @@ a:hover {
   line-height: 85px;
   margin: 0px;
   padding-right: 15%;
+  padding-left: 5%;
   color: #818080;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
