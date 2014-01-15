@@ -7357,12 +7357,12 @@ a:hover {
 .portfolio-nav .icon-nav {
   display: table;
 }
-.portfolio-nav .icon-nav li {
+.portfolio-nav .icon-nav li a {
   display: table-cell;
   vertical-align: middle;
   border: 1px solid #d1d1d1;
   background-color: #f2f2f2;
-  padding-top: 15px;
+  padding: 15px 0px;
   height: 110px;
 }
 .portfolio-nav .icon-nav li a.current-item {
