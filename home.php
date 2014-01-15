@@ -45,7 +45,7 @@ $(function() {
 			<h2><strong>Toll Free:</strong> <a href="tel:+18885187344"> 888-518-7344 </a> | <a href="#" >Contact</a></h2>
 		</div>
   		<div class="medium-7 columns about-block">
-  			<h3><strong><?php get_bloginfo ( 'description' );  ?></strong></h3>
+  			<h3><strong><?php echo get_bloginfo ( 'description' );  ?></strong></h3>
 			<p><?php the_field( "header_text" );  ?> </p>
 			<a href="#" class="clear_button">Become a Client</a>
 			<a href="#" class="clear_button">Log In</a>
