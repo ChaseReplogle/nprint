@@ -148,8 +148,6 @@ $(function() {
 								$('.icon-nav a').click(
 								    function(e) {
 								    	e.removeAttr('href');
-								        e.preventDefault(); // prevent the default action
-								        e.stopPropagation(); // stop the click from bubbling
 								        $(this).closest('ul').find('.current-item').removeClass('current-item');
 								        $(this).addClass('current-item');
 								    });
