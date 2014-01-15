@@ -52,21 +52,7 @@ $(function() {
 
 <div class="wrapper">
 
-
 <?php while(has_sub_field("marketing_messages")): ?>
-				 
-					<?php if(get_row_layout() == "message"): // layout: Content ?>
-
-			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
-			 				
-<div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
-		<div class="medium-7 columns row-image not-mobile">
-			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/printer.png" class="left-line" alt="Printer"/>
-		</div>
-		
-  		<div class="medium-5 columns row-content">
-  			<ul class="icon-nav medium-block-grid-4">
-  				<?php while(has_sub_field("marketing_messages")): ?>
 				 
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
 
@@ -75,15 +61,17 @@ $(function() {
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
+<div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
+		<div class="medium-7 columns row-image not-mobile">
+			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/printer.png" class="left-line" alt="Printer"/>
+		</div>
+		
+  		<div class="medium-5 columns row-content">
+  			<ul class="icon-nav medium-block-grid-4">
+  				
+
 							<li><a href="#" class="current-item"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
 
-						<?php endforeach; ?>
-
-					<?php endif; ?>
-
-				<?php endwhile; ?>
-
-				<?php wp_reset_postdata(); ?>
 
 				</ul>
 
@@ -95,7 +83,9 @@ $(function() {
   		</div>
 </div>
 </div>
-<?php endforeach; ?>
+
+
+						<?php endforeach; ?>
 
 					<?php endif; ?>
 
