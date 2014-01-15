@@ -71,16 +71,17 @@ $(function() {
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
 							<li><a href="#"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
-
-						<?php endforeach; ?>
-
 				</ul>
 
+				<?php if($i = 1) { ?>
 				<div class="marketing-content">
 					<h4><?php echo $post_object->post_title; ?></h4>
-		  			<p><?php echo $post_object->content; ?></p>
+		  			<p><?php get_field('marketing_content', $post_object->ID ); ?></p>
 					<p><a href="#" class="secondary_button">Become a Client</a></p>
 				</div>
+				<?php } ?>
+
+				<?php endforeach; ?>
 
 				<?php wp_reset_postdata(); ?>
   		</div>
