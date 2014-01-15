@@ -73,6 +73,8 @@ $(function() {
 							<li><a href="#"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
 				</ul>
 
+				<?php endforeach; ?>
+
 				<?php if($i = 1) { ?>
 				<div class="marketing-content">
 					<h4><?php echo $post_object->post_title; ?></h4>
@@ -80,8 +82,6 @@ $(function() {
 					<p><a href="#" class="secondary_button">Become a Client</a></p>
 				</div>
 				<?php } ?>
-
-				<?php endforeach; ?>
 
 				<?php wp_reset_postdata(); ?>
   		</div>
