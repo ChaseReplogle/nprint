@@ -7369,6 +7369,7 @@ a:hover {
   border-right: 0px;
   padding: 0px 0px;
   height: 110px;
+  width: 100%;
 }
 .portfolio-nav .icon-nav li a:last-child {
   border-right: 1px solid #d1d1d1;
