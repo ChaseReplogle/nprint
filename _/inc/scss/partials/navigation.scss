@@ -226,6 +226,8 @@ $topbar-arrows: false;
 		li {
 			display: table-cell;
 			vertical-align: middle;
+			border: 1px solid $lightgrey;
+			background-color: $verylightgrey;
 		}
 	}
 }

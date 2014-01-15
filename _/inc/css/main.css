@@ -7360,6 +7360,8 @@ a:hover {
 .ortfolio-nav .icon-nav li {
   display: table-cell;
   vertical-align: middle;
+  border: 1px solid #d1d1d1;
+  background-color: #f2f2f2;
 }
 
 @media only screen and (max-width: 40em) {
