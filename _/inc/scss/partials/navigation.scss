@@ -237,10 +237,10 @@ $topbar-arrows: false;
 			border-right: 0px;
 			padding: 0px 0px;
 			height: 110px;
-			width: 100%;
+			width: 10%;
 		}
 
-		li a:last-child {
+		li:last-child a{
 			border-right: 1px solid $lightgrey;
 		}
 

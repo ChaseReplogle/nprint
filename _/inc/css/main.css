@@ -7369,9 +7369,9 @@ a:hover {
   border-right: 0px;
   padding: 0px 0px;
   height: 110px;
-  width: 100%;
+  width: 10%;
 }
-.portfolio-nav .icon-nav li a:last-child {
+.portfolio-nav .icon-nav li:last-child a {
   border-right: 1px solid #d1d1d1;
 }
 .portfolio-nav .icon-nav li a.current-item {
