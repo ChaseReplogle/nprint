@@ -66,7 +66,7 @@ $(function() {
 					<?php if(get_row_layout() == "message"): // layout: Content ?>
 
 			 			<?php foreach(get_sub_field("select_message") as $post_object): ?>
-
+			 					<?php print_r($post_object); ?>
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
