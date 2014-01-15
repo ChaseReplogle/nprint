@@ -70,7 +70,7 @@ $(function() {
 			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
 			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
-							<li><a href="#" class="current-item"><?php echo $i; ?><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
+							<li><a href="#" class="current-item"><?php echo "<i class='fi-$icon'></i>"; ?><?php echo $icon_name; ?></a></li>
 			</ul>
 						<?php endforeach; ?>
 					<?php endif; ?>
