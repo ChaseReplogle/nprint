@@ -11,14 +11,13 @@
     <!-- Right Nav Section -->
     <ul> <?php
 			  if($post->post_parent) //inner page
-			  	$section = wp_list_pages("title_li=&include=".$post->post_parent);?>
-			  	<p>:</p>
-			  <?php else // top level page
+			  	$section = wp_list_pages("title_li=&include=".$post->post_parent);
+			  else // top level page
 			  	$section = $none;
 			  if ($children) { ?>
 				  <ul class="sub-nav-section">
 				  	<?php echo $section; ?>
-				  	<li></li> 
+				  	<li><p>:</p></li> 
 				  </ul>
 		<?php } ?>
   	  <?php
