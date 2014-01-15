@@ -51,6 +51,9 @@ $(function() {
 </div>
 
 <div class="wrapper">
+
+
+
 <div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
 		<div class="medium-7 columns row-image not-mobile">
 			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/printer.png" class="left-line" alt="Printer"/>
@@ -58,10 +61,17 @@ $(function() {
 		
   		<div class="medium-5 columns row-content">
   			<ul class="icon-nav medium-block-grid-4">
-  				<li><a href="#" class="current-item"><i class="fi-print"></i>Commitment</a></li>
-  				<li><a href="#"><i class="fi-lightbulb"></i>Your Ideas</a></li>
-  				<li><a href="#"><i class="fi-wrench"></i>Art & Science</a></li>
-  				<li><a href="#"><i class="fi-dollar-bill"></i>Affordability</a></li>
+  				<?php while(has_sub_field("marketing_messages")): ?>
+				 
+					<?php if(get_row_layout() == "message"): // layout: Content ?>
+				 
+							<?php foreach(get_sub_field("select_message") as $p): ?>
+								<li><a href="#" class="current-item"><i class="fi-<?php echo get_the_field('marketing_icon'); ?>"></i><?php echo get_the_field('marketing_icon_label'); ?></a></li>
+							<?php endforeach; ?>
+
+					<?php endif; ?>
+
+				<?php endwhile; ?>
   			</ul>
   			<h4>Committed to Supporting You</h4>
   			<p>There are a lot of places you can print banners. But there will never be another nPrint Graphix. Craftsmen, dedicated to innovation and mastery, nPrint offers you more than ink and vinyl. With a wide range of services and products, just think of us as your own personal team of sign artisans—who just happen to have some of the most impressive printers on earth.</p>
