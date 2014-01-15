@@ -390,7 +390,7 @@ $topbar-arrows: false;
 		color: #000;
 	}
 
-	.page-nav ul li .current_page_item a {
+	.page-nav ul li .current_page_item a:not(.button) {
 		color: #000;
 	}
 
