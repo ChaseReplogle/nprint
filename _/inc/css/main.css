@@ -7354,10 +7354,10 @@ a:hover {
   color: #4f4f4f;
 }
 
-.ortfolio-nav .icon-nav {
+.portfolio-nav .icon-nav {
   display: table;
 }
-.ortfolio-nav .icon-nav li {
+.portfolio-nav .icon-nav li {
   display: table-cell;
   vertical-align: middle;
   border: 1px solid #d1d1d1;
