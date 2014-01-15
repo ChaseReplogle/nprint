@@ -132,6 +132,10 @@ $(function() {
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
+					        <?php $terms = get_the_terms($post->ID, "project_categories"); 
+					        	$term = array_pop($terms);
+ 									$icon = the_field('project_category_icon', 'project_categories_' . $term->term_id);
+ 									echo $icon; ?>
   								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-"></i><?php echo $post->name; ?></a><?php the_field('project_category_icon', 'portfolio_categories_7'); ?></li>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
