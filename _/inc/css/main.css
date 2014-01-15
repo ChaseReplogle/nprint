@@ -7607,6 +7607,10 @@ img.avatar {
 }
 
 /* Content specific styles */
+.print {
+  margin-top: 25px;
+}
+
 .craft .row-image {
   margin-right: 0px;
   margin-left: 0px;
