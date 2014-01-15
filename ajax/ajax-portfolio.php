@@ -13,7 +13,11 @@ query_posts('post_type=projects&posts_per_page=1&project_categories='.$title_rep
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 	<div class="medium-7 columns row-image">
-			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/banner.jpg" alt="Printer"/>
+			<?php while(has_sub_field("project_images")): ?>
+				<?php if(get_row_layout() == "project_image"): ?>
+					<img src="<?php the_sub_field("image"); ?>" alt="<?php the_title(); ?>"/>
+				<?php endif; ?>
+			<?php endwhile; ?>
 		</div>
 	
   		<div class="medium-5 columns row-content">

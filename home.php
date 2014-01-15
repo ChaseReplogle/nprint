@@ -147,6 +147,8 @@ $(function() {
 
 								$(".icon-nav a").removeAttr('href');
 
+								$(".icon-nav a").toggleClass('current-item');
+
 								function successFn(result) {
 									$(".portfolio-ajax").fadeOut( 100 , function() {
 							    		$(this).html( result);
@@ -178,13 +180,11 @@ $(function() {
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<div class="medium-7 columns row-image">
-						
 						<?php while(has_sub_field("project_images")): ?>
 							<?php if(get_row_layout() == "project_image"): ?>
 								<img src="<?php the_sub_field("image"); ?>" alt="<?php the_title(); ?>"/>
 							<?php endif; ?>
 						<?php endwhile; ?>
-
 					</div>
 				
 			  		<div class="medium-5 columns row-content">
