@@ -7442,6 +7442,8 @@ a:hover {
 }
 .page-nav-warpper {
   background-color: #4f98c4;
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
 }
 .page-nav-warpper .page-nav {
   height: 85px;
@@ -7450,6 +7452,12 @@ a:hover {
   position: relative;
   z-index: 50;
   background-color: #4f98c4;
+  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+.page-nav-warpper .page-nav h2 {
+  color: #ff;
+  line-height: 85px;
 }
 .page-nav-warpper .page-nav ul {
   background-color: #4f98c4;
@@ -7472,7 +7480,7 @@ a:hover {
   background-color: #4f98c4;
 }
 .page-nav-warpper .page-nav ul li:first-child {
-  border-left: 1px solid #f2f2f2;
+  border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
 }
