@@ -224,6 +224,8 @@ $topbar-arrows: false;
 		display: table;
 
 		li {
+			padding: 0px;
+			margin: 0px;
 
 		}
 
@@ -232,8 +234,13 @@ $topbar-arrows: false;
 			vertical-align: middle;
 			border: 1px solid $lightgrey;
 			background-color: $verylightgrey;
-			padding: 15px 0px;
+			border-right: 0px;
+			padding: 0px 0px;
 			height: 110px;
+		}
+
+		li a:last-child {
+			border-right: 1px solid $lightgrey;
 		}
 
 		li a.current-item {
