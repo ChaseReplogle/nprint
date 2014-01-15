@@ -136,7 +136,7 @@ $(function() {
 									alert(strErr);
 								}
 							</script>
-					    <?php wp_reset_postdata(); ?>
+					    
 					<?php endif; 
 				?>
   			</ul>
@@ -150,7 +150,7 @@ $(function() {
 			$title_lower = strtolower($title_slug);
 			$title_replaced = str_replace( " ", "-", $title_lower);
 
-	  		query_posts('post_type=projects&posts_per_page=1&project_categories='.$title_replaced); ?>
+	  		query_posts('post_type=projects&posts_per_page=1&project_categories='. $post->ID ); ?>
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -161,6 +161,7 @@ $(function() {
 			  		<div class="medium-4 columns row-content">
 			  		<?php echo $title_replaced; ?>
 			  		<?php echo $category_1; ?>
+			  		<?php echo $post->ID ; ?>
 			  			<h4><?php the_title(); ?></h4>
 			  			<p><?php echo excerpt(35); ?></p>
 			  		<blockquote>"<?php the_field("client_quote"); ?>"</blockquote><cite><?php the_field("client_title"); ?></cite></br>
