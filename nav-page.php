@@ -7,7 +7,7 @@
     </li>
   </ul>
 
-<section class="top-bar-section right">
+<section class="top-bar-section left">
     <!-- Right Nav Section -->
     <ul>
   	  <?php

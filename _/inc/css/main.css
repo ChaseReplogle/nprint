@@ -7458,6 +7458,7 @@ a:hover {
 .page-nav-warpper .page-nav h2 {
   color: #ff;
   line-height: 85px;
+  margin: 0px;
 }
 .page-nav-warpper .page-nav ul {
   background-color: #4f98c4;
@@ -7475,6 +7476,7 @@ a:hover {
   border-right: 0px;
   border-bottom: 0px;
   line-height: 85px;
+  font-size: 15px;
 }
 .page-nav-warpper .page-nav ul li a:not(.button):hover {
   background-color: #4f98c4;

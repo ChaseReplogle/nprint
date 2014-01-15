@@ -353,6 +353,7 @@ $topbar-arrows: false;
 	.page-nav h2 {
 		color: #ff;
 		line-height: 85px;
+		margin: 0px;
 	}
 
 	.page-nav ul {
@@ -374,6 +375,7 @@ $topbar-arrows: false;
 		border-right: 0px; 
 		border-bottom: 0px;
 		line-height: 85px;
+		font-size: 15px;
 	}
 
 	.page-nav ul li a:not(.button):hover {
