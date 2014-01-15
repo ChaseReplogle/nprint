@@ -1,8 +1,16 @@
 <?php
 require_once( "../../../../wp-config.php" );
 // or require_once( "../../../../wp-load.php" );
-?>
 
+$title_slug = $_GET["category"];
+$title_lower = strtolower($title_slug);
+$title_replaced = str_replace( " ", "-", $title_lower);
+?> 
+
+<?php 
+query_posts('posts_per_page=1&project_categories='.$title_replaced); ?>
+
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 	<div class="medium-7 columns row-image">
 			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/banner.jpg" alt="Printer"/>
@@ -16,7 +24,9 @@ require_once( "../../../../wp-config.php" );
 			<p><a href="#" class="secondary_button">More Work</a></p>
   		</div>
 
+<?php endwhile; ?>
 
+<?php endif; ?>
 
 <?php wp_reset_query(); // reset the query ?>
 
