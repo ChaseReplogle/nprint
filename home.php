@@ -132,12 +132,16 @@ $(function() {
 					    	<?php foreach( $post_objects as $post): ?>
 					    	<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
-					        <?php $terms = get_the_terms($post->ID, "project_categories"); 
-					        	echo $terms;
-					        	$term = array_pop($terms);
-					        		echo $term;
- 									$icon = the_field('project_category_icon', 'project_categories_' . $term->term_id);
- 									echo $icon; ?>
+					        <?php   // Get terms for post
+ $terms = get_the_terms( $post->ID , 'oil' );
+ // Loop over each item since it's an array
+ if ( $terms != null ){
+ foreach( $terms as $term ) {
+ // Print the name method from $term which is an OBJECT
+ print $term->slug ;
+ // Get rid of the other data stored in the object, since it's not needed
+ unset($term);
+} } ?>
   								<li><a href="#" class="<?php if ($i == 1)  echo "current-item";  ?>"><i class="fi-"></i><?php echo $post->name; ?></a><?php the_field('project_category_icon', 'portfolio_categories_7'); ?></li>
 					    <?php endforeach; ?>
 					    <?php wp_reset_postdata(); ?>
