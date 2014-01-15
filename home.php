@@ -227,6 +227,20 @@ $(function() {
 					<?php endif; 
 				?>
 
+				<?php 
+				    $args = array(
+				      'orderby' => 'id',
+				      'hide_empty'=> 0,
+				      'taxonomy' => 'project_categories'
+				  );
+				  $categories = get_categories($args);
+				  foreach ($categories as $cat) {
+				  		$category_name = $cat->name;
+				  		$category_id = $cat->ID;
+				        echo '<a href="#" class="category_link">'.$category_name.'</a></br>';      
+				    }
+				?>
+
 			<p><a href="/support" class="secondary_button">Support Articles</a></p>
   		</div>
 </div>
