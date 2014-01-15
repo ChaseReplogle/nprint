@@ -1,12 +1,12 @@
-<nav class="top-bar account-nav <?php if( !is_home() ) : ?> inner-account-nav <?php endif; ?>" data-topbar>
-<?php if( !is_home() ) : ?>
+<nav class="top-bar account-nav <?php if (! is_home()) { echo 'inner-account-nav'; ?>" data-topbar>
+<?php if /* this it not home */ (! is_home()) { ?>
 <ul class="title-area">
     <li class="name">
       <img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" />
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
-<?php endif; ?>
+<?php } ?>
 <section class="top-bar-section right">
     <!-- Right Nav Section -->
     <ul>

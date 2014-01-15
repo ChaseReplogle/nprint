@@ -7336,6 +7336,10 @@ a:hover {
   line-height: 45px;
 }
 
+.home .title-area {
+  display: none;
+}
+
 @media only screen and (max-width: 40em) {
   .account-nav ul li a:not(.button) {
     line-height: 10px;
@@ -7877,8 +7881,8 @@ img.avatar {
 }
 
 .about-block {
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 150px;
   color: #fff;
 }
 .about-block img {

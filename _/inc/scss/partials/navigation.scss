@@ -198,6 +198,10 @@ $topbar-arrows: false;
 	}
 }
 
+.home .title-area {
+	display: none;
+}
+
 
 @media only screen and (max-width: 40em) {
 	.account-nav ul li a:not(.button) {
