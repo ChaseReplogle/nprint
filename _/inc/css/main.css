@@ -7459,6 +7459,11 @@ a:hover {
   color: #ff;
   line-height: 85px;
   margin: 0px;
+  padding-right: 5%;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .page-nav-warpper .page-nav ul {
   background-color: #4f98c4;
@@ -7477,6 +7482,7 @@ a:hover {
   border-bottom: 0px;
   line-height: 85px;
   font-size: 15px;
+  padding: 0px 5px;
 }
 .page-nav-warpper .page-nav ul li a:not(.button):hover {
   background-color: #4f98c4;
