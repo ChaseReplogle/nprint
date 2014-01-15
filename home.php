@@ -54,18 +54,7 @@ $(function() {
 
 <?php $ids = get_field('featured_message', false, false); ?>
 
-<?php 
-$query = new WP_Query(array(
-	'post_type'      	=> 'conferences',
-	'posts_per_page'	=> 3,
-	'post__in'		=> $ids,
-	'post_status'		=> 'any',
-	'orderby'        	=> 'rand',
-));
-?>
 
-<?php 
-	if ( have_posts() ) : ?>
 
 <div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
 		<div class="medium-7 columns row-image not-mobile">
@@ -95,21 +84,14 @@ $query = new WP_Query(array(
 
 				</ul>
 
-		<?php while ( have_posts() ) :
-			the_post(); 
-?>
-
 				<div class="marketing-content">
-					<h4><?php the_title(); ?></h4>
+					<h4><?php echo $post_object->post_title; ?></h4>
 		  			<p>There are a lot of places you can print banners. But there will never be another nPrint Graphix. Craftsmen, dedicated to innovation and mastery, nPrint offers you more than ink and vinyl. With a wide range of services and products, just think of us as your own personal team of sign artisans—who just happen to have some of the most impressive printers on earth.</p>
 					<p><a href="#" class="secondary_button">Become a Client</a></p>
 				</div>
   		</div>
 </div>
 </div>
-
-<?php endif; ?>
-<?php endwhile; ?>
 
 
 <div class="wrapper">
