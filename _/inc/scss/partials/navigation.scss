@@ -219,9 +219,14 @@ $topbar-arrows: false;
 	}
 }
 
-.portfolio {
+.ortfolio-nav {
 	.icon-nav {
-		margin-top: 0px;
+		display: table;
+
+		li {
+			display: table-cell;
+			vertical-align: middle;
+		}
 	}
 }
 

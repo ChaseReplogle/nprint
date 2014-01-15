@@ -7354,8 +7354,12 @@ a:hover {
   color: #4f4f4f;
 }
 
-.portfolio .icon-nav {
-  margin-top: 0px;
+.ortfolio-nav .icon-nav {
+  display: table;
+}
+.ortfolio-nav .icon-nav li {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media only screen and (max-width: 40em) {
