@@ -175,7 +175,7 @@ $(function() {
 		</div>
 	</div>
 	
-	<div class="portfolio-ajax portfolio boxed row">
+	<div class="portfolio-ajax portfolio boxed row full">
   		<?php 
 
 	  		$title_slug = $category_0;
