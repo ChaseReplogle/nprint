@@ -35,5 +35,7 @@
     </ul>
 </section>
 </nav>
-<h2>Craftsmanship at a whole new level.</h2>
+<div class="row">
+	<h2>Craftsmanship at a whole new level.</h2>
+</div>
 </div>	

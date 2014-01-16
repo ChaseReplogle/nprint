@@ -7463,7 +7463,6 @@ a:hover {
   background-color: transparent;
 }
 .page-nav-warpper .page-nav {
-  height: 6px;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
   position: relative;
