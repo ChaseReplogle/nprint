@@ -58,7 +58,7 @@ $(function() {
 
 <div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
 		
-  		<div class="medium-5 columns row-content">
+  		<div class="medium-5 medium-push-7 columns row-content">
   			<ul class="icon-nav medium-block-grid-4">
   						<?php $posts = get_field('select_message'); ?>
   						<?php $i == 0; ?>
@@ -91,7 +91,7 @@ $(function() {
   		</div>
 
 
-		<div class="medium-7 columns row-image not-mobile left">
+		<div class="medium-7 medium-push-5 columns row-image not-mobile left">
 			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/printer.png" class="left-line" alt="Printer"/>
 		</div>
 
