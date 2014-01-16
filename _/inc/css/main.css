@@ -7461,6 +7461,10 @@ a:hover {
 }
 .page-nav-warpper {
   background-color: transparent;
+  padding: 40px 0px;
+}
+.page-nav-warpper .row {
+  max-width: 70rem;
 }
 .page-nav-warpper .page-nav {
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);

@@ -357,6 +357,11 @@ $topbar-arrows: false;
 
 .page-nav-warpper {
 	background-color: transparent;
+	padding: 40px 0px;
+
+	.row {
+		max-width: 70rem;
+	}
 
 	.page-nav { 
 		-webkit-box-shadow: 0 0px 0px 0 rgba(0,0,0,.2); 
