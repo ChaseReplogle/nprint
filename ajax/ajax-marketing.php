@@ -6,7 +6,7 @@ $post_id = $_GET["post_id"];
 ?> 
 
 <?php 
-query_posts('post_type=marketing_messages&posts_per_page=1&include='.$post_id); ?>
+query_posts('post_type=marketing_messages&posts_per_page=1&include=48'); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
