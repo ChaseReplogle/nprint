@@ -18,19 +18,19 @@
 		
 		<ul class="example-orbit" data-orbit>
 		  <li>
-		    <img src="../assets/img/examples/satelite-orbit.jpg" alt="slide 1" />
+		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-12.20.28-PM.png" alt="slide 1" />
 		    <div class="orbit-caption">
 		      Caption One.
 		    </div>
 		  </li>
 		  <li>
-		    <img src="../assets/img/examples/andromeda-orbit.jpg" alt="slide 2" />
+		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-10.39.12-AM1.png" alt="slide 2" />
 		    <div class="orbit-caption">
 		      Caption Two.
 		    </div>
 		  </li>
 		  <li>
-		    <img src="../assets/img/examples/launch-orbit.jpg" alt="slide 3" />
+		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-12.18.53-PM.png" alt="slide 3" />
 		    <div class="orbit-caption">
 		      Caption Three.
 		    </div>
