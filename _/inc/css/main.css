@@ -7491,7 +7491,9 @@ a:hover {
   background-color: transparent;
 }
 .page-nav-warpper .page-nav ul li.current-item a:not(.button) {
-  color: #818080;
+  background-color: #4f98c4;
+  padding: 10px 20px;
+  color: #fff;
 }
 .page-nav-warpper .page-nav ul li a:not(.button) {
   color: #b4b3b3;
@@ -7712,9 +7714,10 @@ img.avatar {
 .content-row .page-main-content {
   padding: 50px 6%;
   border: 1px solid #d1d1d1;
-  -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
+  margin-bottom: 50px;
 }
 
 /* Content specific styles */

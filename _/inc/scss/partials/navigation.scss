@@ -391,7 +391,9 @@ $topbar-arrows: false;
 	}
 
 	.page-nav ul li.current-item a:not(.button) {
-		color: $grey;
+		background-color: $mainblue;
+		padding: 10px 20px;
+		color: #fff;
 	}
 
 	.page-nav ul li a:not(.button) {
