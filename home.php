@@ -71,7 +71,7 @@ $(function() {
 				<?php if ($i == 1 ) { echo 'current-item'; }; ?>
 				">
 				<?php echo "<i class='fi-$icon'></i>"; ?>
-				<?php echo $icon_name; ?><span class="display: none;"><?php echo $post_object->ID  ?></span>
+				<?php echo $icon_name; ?><span style="display: none;"><?php echo $post_object->ID  ?></span>
 				</a></li>
 
 			<?php endforeach; ?>
@@ -106,18 +106,18 @@ $(function() {
 		<script>
 			var $ = jQuery;
 
-			$('.print .icon-nav a span').click(function() {  
+			$('.marketing-navigation .icon-nav a span').click(function() {  
 				var post_id = $(this).text();
 				$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-marketing.php?name=<?php echo $post->ID ?>", {category : post_id }, successFn)
 			});
 
-			$('.print .icon-nav a').click(
+			$('.marketing-navigation .icon-nav a').click(
 			    function(e) {
 			        $(this).closest('ul').find('.current-item').removeClass('current-item');
 			        $(this).addClass('current-item');
 			});
 
-			$(".print .icon-nav").removeAttr('href');
+			$(".marketing-navigation .icon-nav").removeAttr('href');
 
 			function successFn(result) {
 				$(".portfolio-ajax").fadeOut( 100 , function() {
@@ -177,18 +177,18 @@ $(function() {
 					    <script>
 								var $ = jQuery;
 
-								$('.icon-nav a').click(function() {  
+								$('.portfolio-nav .icon-nav a').click(function() {  
 									var category_name = $(this).text();
 									$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-portfolio.php?name=<?php echo $category_name; ?>", {category : category_name }, successFn)
 								});
 
-								$('.icon-nav a').click(
+								$('.portfolio-nav .icon-nav a').click(
 								    function(e) {
 								        $(this).closest('ul').find('.current-item').removeClass('current-item');
 								        $(this).addClass('current-item');
 								});
 
-								$(".portfolio-nav .icon-nav a").removeAttr('href');
+								$(".portfolio-nav .portfolio-nav .icon-nav a").removeAttr('href');
 
 								function successFn(result) {
 									$(".portfolio-ajax").fadeOut( 100 , function() {
