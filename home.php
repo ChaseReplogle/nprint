@@ -71,7 +71,7 @@ $(function() {
 				<?php if ($i == 1 ) { echo 'current-item'; }; ?>
 				">
 				<?php echo "<i class='fi-$icon'></i>"; ?>
-				<?php echo $icon_name; ?><span style="display: none;"><?php echo $post_object->ID  ?></span>
+				<?php echo $icon_name; ?><span style=""><?php echo $post_object->ID  ?></span>
 				</a></li>
 
 			<?php endforeach; ?>
