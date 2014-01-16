@@ -356,10 +356,10 @@ $topbar-arrows: false;
 
 
 .page-nav-warpper {
-	background-color: $mainblue;
+	background-color: $lightgrey;
 
 	.page-nav {
-		height: 85px; 
+		height: 125px; 
 		-webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
 		box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); 
 		position: relative; 
@@ -372,7 +372,7 @@ $topbar-arrows: false;
 
 	.page-nav h2 {
 		color: #ff;
-		line-height: 85px;
+		line-height: 125px;
 		margin: 0px;
 		padding-right: 15%;
 		padding-left: 5%;

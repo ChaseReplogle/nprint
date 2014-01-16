@@ -7460,10 +7460,10 @@ a:hover {
   }
 }
 .page-nav-warpper {
-  background-color: #4f98c4;
+  background-color: #d1d1d1;
 }
 .page-nav-warpper .page-nav {
-  height: 85px;
+  height: 125px;
   -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   position: relative;
@@ -7475,7 +7475,7 @@ a:hover {
 }
 .page-nav-warpper .page-nav h2 {
   color: #ff;
-  line-height: 85px;
+  line-height: 125px;
   margin: 0px;
   padding-right: 15%;
   padding-left: 5%;
@@ -7723,7 +7723,6 @@ img.avatar {
 .content-row .page-main-content .orbit-container {
   width: 114%;
   margin-left: -7%;
-  margin-top: -40px;
 }
 
 /* Content specific styles */

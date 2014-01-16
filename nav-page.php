@@ -7,7 +7,7 @@
     </li>
   </ul>
 
-<section class="top-bar-section left">
+<section class="top-bar-section right">
     <!-- Right Nav Section -->
     <ul> <?php
 			  if($post->post_parent) //inner page
