@@ -100,6 +100,7 @@
 	</div>
 </div>
 
+
 <div class="case-study">
 	<div class="row">
 		<div class="columns medium-6 medium-centered">
