@@ -103,7 +103,7 @@
 
 <div class="case-study">
 	<div class="row">
-		<div class="columns medium-6 medium-centered">
+		<div class="columns medium-9 medium-centered">
 		<h5>Case Study</h5>
 		<h2>Sherman Williams Banners</h2>
 		<p>Lorem ipsum dolor sit amet ipsum malesuada.</p>
