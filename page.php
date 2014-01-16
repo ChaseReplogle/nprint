@@ -99,48 +99,7 @@
 	</div>
 </div>
 
-<div class="wrapper">
-<div class="row support boxed">
-  		<div class="medium-7 columns">
-			<dl class="accordion" data-accordion>
-				 <?php $post_objects = get_field('featured_articles');
-					if( $post_objects ): ?>
-					    <?php $i = 0; ?>
-					    	<?php foreach( $post_objects as $post): ?>
-					    	<?php  $i++; ?>
-					        <?php setup_postdata($post); ?>
-					           <dd>
-								    <a href="#panel<?php echo $i; ?>"><?php the_title(); ?></a>
-								    <div id="panel<?php echo $i; ?>" class="content 
-								    	<?php if($i == 1)  echo "active";  ?>">
-										<p><?php the_excerpt(); ?></p>
-								    </div>
-								 </dd>
-					    <?php endforeach; ?>
-					    <?php wp_reset_postdata(); ?>
-					<?php endif; 
-				?>
-			</dl>			
-		</div>
-		
-  		<div class="medium-5 columns row-content">
-  			<h4>Support</h4>
-  			<p><?php the_field( "support_text" );  ?></p>
-  				<?php $post_objects = get_field('featured_categories');
-					if( $post_objects ): ?>
-					    	<?php foreach( $post_objects as $post): ?>
-					        <?php setup_postdata($post); ?>
-  								<p class="support_link"><a href="/support_categories<?php echo $post->slug; ?>"><?php echo $post->name; ?></a></p>	
-  							<?php $category_name = $cat->name; ?>
-					    <?php endforeach; ?>
-					    <?php wp_reset_postdata(); ?>
-					<?php endif; 
-				?>
 
-			<p><a href="/support" class="secondary_button">Support Articles</a></p>
-  		</div>
-</div>
-</div>
 
 
 <?php get_footer(); ?>

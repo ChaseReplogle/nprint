@@ -7729,7 +7729,9 @@ img.avatar {
   margin-bottom: 30px;
 }
 .content-row .page-sidebar .ad {
-  background-color: #4f98c4;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  padding: 30px;
 }
 
 /* Content specific styles */
