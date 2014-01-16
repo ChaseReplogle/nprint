@@ -375,6 +375,7 @@ $topbar-arrows: false;
 		z-index: 50;
 		background-color: transparent;
 		max-width: 70rem;
+		padding: 0px 0.9375rem;
 	}
 
 	.page-nav .title-area li a:not(.button)  {
@@ -451,5 +452,11 @@ $topbar-arrows: false;
 
 	.page-nav .has-dropdown ul li > a {
 		border-bottom: 1px solid $verylightgrey;
+	}
+}
+
+@media only screen and (max-width: 40em) { 
+	.page-nav-warppe {
+		display: none;
 	}
 }

@@ -7480,6 +7480,7 @@ a:hover {
   z-index: 50;
   background-color: transparent;
   max-width: 70rem;
+  padding: 0px 0.9375rem;
 }
 .page-nav-warpper .page-nav .title-area li a:not(.button) {
   color: #fff;
@@ -7544,6 +7545,11 @@ a:hover {
   border-bottom: 1px solid #f2f2f2;
 }
 
+@media only screen and (max-width: 40em) {
+  .page-nav-warppe {
+    display: none;
+  }
+}
 /* Main stock styles */
 body {
   background-color: #fff;
