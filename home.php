@@ -229,6 +229,7 @@ $(function() {
 							<?php $image = get_field('project_featured_image');
 							echo $image; ?>
 						" alt="<?php the_title(); ?>"/>
+						<?php var_dump($image); ?>
 					</div>
 				
 			  		<div class="medium-4 columns row-content">
