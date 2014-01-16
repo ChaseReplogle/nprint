@@ -7386,6 +7386,7 @@ a:hover {
   position: absolute;
   top: 30px;
   right: 10px;
+  z-index: 100;
 }
 
 .portfolio-nav .icon-nav {
