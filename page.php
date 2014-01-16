@@ -100,15 +100,16 @@
 	</div>
 </div>
 
-<div class="row case-study">
-	<div class="columns medium-6 medium-centered">
-	<h5>Case Study</h5>
-	<h2>Sherman Williams Banners</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada.</p>
-	<img src="#" />
+<div class="case-study">
+	<div class="row">
+		<div class="columns medium-6 medium-centered">
+		<h5>Case Study</h5>
+		<h2>Sherman Williams Banners</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada.</p>
+		<img src="#" />
+		</div>
 	</div>
 </div>
-
 
 
 
