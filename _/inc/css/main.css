@@ -7751,6 +7751,9 @@ img.avatar {
 .content-row .page-main-content .tabs dd {
   border: 1px solid #d1d1d1;
 }
+.content-row .page-main-content .panel {
+  background-color: #fff;
+}
 .content-row .page-sidebar .ad {
   background-color: #fff;
   border: 1px solid #d1d1d1;
