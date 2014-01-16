@@ -58,8 +58,7 @@ $(function() {
 
 <div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
 		
-  		<div class="medium-5 medium-push-7 columns row-content">
-  			<ul class="icon-nav medium-block-grid-4">
+		<ul class="icon-nav medium-block-grid-4">
   						<?php $posts = get_field('select_message'); ?>
   						<?php $i == 0; ?>
 			 			<?php foreach($posts as $post_object): ?>
@@ -83,6 +82,9 @@ $(function() {
 						<?php $i++; ?>
 					<?php if($i==2) break; ?>
 
+	<div class="marketing-ajax">
+		<div class="medium-5 medium-push-7 columns row-content">
+
 				<div class="marketing-content">
 					<h4><?php echo $post_object->post_title; ?></h4>
 		  			<p><?php echo get_field('marketing_content', $post_object->ID ); ?></p>
@@ -94,9 +96,39 @@ $(function() {
 		<div class="medium-7 medium-pull-5 columns row-image not-mobile left">
 			<img src="<?php echo get_field('marketing_featured_image', $post_object->ID ); ?>" alt="<?php echo $post_object->post_title; ?>"/>
 		</div>
+	</div>
 
 
 		<?php endforeach; ?>
+
+		<script>
+			var $ = jQuery;
+
+			$('.print .icon-nav a').click(function() {  
+				var category_name = $(this).text();
+				$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-marketing.php?name=<?php echo $category_name; ?>", {category : category_name }, successFn)
+			});
+
+			$('.icon-nav a').click(
+			    function(e) {
+			        $(this).closest('ul').find('.current-item').removeClass('current-item');
+			        $(this).addClass('current-item');
+			});
+
+			$(".icon-nav a").removeAttr('href');
+
+			function successFn(result) {
+				$(".portfolio-ajax").fadeOut( 100 , function() {
+		    		$(this).html( result);
+				}).fadeIn( 1000 );
+
+				console.log("Setting result");
+			}
+
+			function errorFn(xhr, status, strErr) {
+				alert(strErr);
+			}
+		</script>
 
 		<?php wp_reset_postdata(); ?>
 </div>
@@ -154,7 +186,7 @@ $(function() {
 								        $(this).addClass('current-item');
 								});
 
-								$(".icon-nav a").removeAttr('href');
+								$(".portfolio-nav .icon-nav a").removeAttr('href');
 
 								function successFn(result) {
 									$(".portfolio-ajax").fadeOut( 100 , function() {
