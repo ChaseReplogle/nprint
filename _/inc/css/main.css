@@ -7477,7 +7477,6 @@ a:hover {
 }
 .page-nav-warpper .page-nav h2 {
   color: #fff;
-  line-height: 65px;
   margin: 0px;
   padding-right: 15%;
   padding-left: 5%;
@@ -7503,7 +7502,6 @@ a:hover {
   background: transparent;
   border-right: 0px;
   border-bottom: 0px;
-  line-height: 65px;
   font-size: 15px;
   padding: 0px 5px;
 }
