@@ -57,9 +57,6 @@ $(function() {
 
 
 <div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
-		<div class="medium-7 columns row-image not-mobile">
-			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/printer.png" class="left-line" alt="Printer"/>
-		</div>
 		
   		<div class="medium-5 columns row-content">
   			<ul class="icon-nav medium-block-grid-4">
@@ -91,11 +88,17 @@ $(function() {
 		  			<p><?php echo get_field('marketing_content', $post_object->ID ); ?></p>
 					<p><a href="<?php echo get_field('marketing_link_location', $post_object->ID ); ?>" class="secondary_button"><?php echo get_field('marketing_link_text', $post_object->ID ); ?></a></p>
 				</div>
-
-				<?php endforeach; ?>
-
-				<?php wp_reset_postdata(); ?>
   		</div>
+
+
+		<div class="medium-7 columns row-image not-mobile left">
+			<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/printer.png" class="left-line" alt="Printer"/>
+		</div>
+
+
+		<?php endforeach; ?>
+
+		<?php wp_reset_postdata(); ?>
 </div>
 </div>
 
