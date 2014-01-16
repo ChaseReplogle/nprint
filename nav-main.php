@@ -4,7 +4,7 @@
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
 
-  <section class="top-bar-section test">
+  <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul>  
         <?php wp_nav_menu( array('menu' => 'Main Navigation', 'container' => false )); ?>
