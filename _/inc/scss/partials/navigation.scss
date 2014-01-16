@@ -42,7 +42,7 @@ $topbar-arrows: false;
 	background-color: $verylightgrey;
 }
 
-.top-bar ul li.current-menu-item .dropdown li.menu-item a:not(.button) {
+.top-bar ul li.current-menu-item ul.sub-menu li.menu-item a:not(.button) {
 	background-color: #fff;
 }
 
