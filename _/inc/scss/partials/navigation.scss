@@ -256,8 +256,9 @@ $topbar-arrows: false;
 
 	.marketing-navigation {
 		position: absolute;
-		top: 20px;
-		right: 5%;
+		top: 30px;
+		right: 30px;
+		z-index: 100;
 	}
 }
 
