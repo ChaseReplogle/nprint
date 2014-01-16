@@ -58,24 +58,26 @@ $(function() {
 
 <div class="row print boxed" style="background-image: url('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bg.jpg'); background-size:100% 100%;">
 		
-		<ul class="icon-nav medium-block-grid-4">
-  						<?php $posts = get_field('select_message'); ?>
-  						<?php $i == 0; ?>
-			 			<?php foreach($posts as $post_object): ?>
-			 				<?php $i++; ?>
-			 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
-			 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
+	<div class="marketing-navigation columns right medium-5">	
+		<ul class="icon-nav medium-block-grid-4" >
+				<?php $posts = get_field('select_message'); ?>
+				<?php $i == 0; ?>
+ 			<?php foreach($posts as $post_object): ?>
+ 				<?php $i++; ?>
+ 				<?php $icon_name = get_field('marketing_icon_label', $post_object->ID ); ?>
+ 				<?php $icon = get_field('marketing_icon', $post_object->ID ); ?>
 
-							<li><a href="#" class="
-							<?php if ($i == 1 ) { echo 'current-item'; }; ?>
-							">
-							<?php echo "<i class='fi-$icon'></i>"; ?>
-							<?php echo $icon_name; ?>
-							</a></li>
+				<li><a href="#" class="
+				<?php if ($i == 1 ) { echo 'current-item'; }; ?>
+				">
+				<?php echo "<i class='fi-$icon'></i>"; ?>
+				<?php echo $icon_name; ?>
+				</a></li>
 
-						<?php endforeach; ?>
-						<?php wp_reset_postdata(); ?>
-				</ul>
+			<?php endforeach; ?>
+			<?php wp_reset_postdata(); ?>
+		</ul>
+	</div>
 
 				<?php $i = 0; ?>
 					<?php foreach($posts as $post_object): ?>
