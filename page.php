@@ -11,7 +11,7 @@
 <?php include 'nav-page.php'; ?>
 
 <div class="row content-row">
-	<div class="columns medium-8 page-main-content">
+	<div class="columns medium-9 page-main-content">
 
 		<h1>nPrint Graphix: The Company</h1>
 
@@ -111,7 +111,7 @@
 
 	</div>
 
-	<div class="columns medium-4 page-sidebar">
+	<div class="columns medium-3 page-sidebar">
 		
 
 	</div>
