@@ -6,8 +6,7 @@
 
   <section class="top-bar-section">
     <!-- Right Nav Section -->
-    <ul>
-    	  
+    <ul>  
         <?php wp_nav_menu( array('menu' => 'Main Navigation', 'container' => false )); ?>
           <!-- <li class="current-item"><a href="#">Home</a></li>
       	  <li class="has-dropdown">
