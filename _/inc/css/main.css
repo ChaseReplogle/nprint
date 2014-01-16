@@ -7806,6 +7806,7 @@ img.avatar {
 }
 .case-study img {
   width: 100%;
+  border: 1px solid #818080;
 }
 
 /* Content specific styles */
