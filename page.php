@@ -11,14 +11,13 @@
 <?php include 'nav-page.php'; ?>
 
 <div class="row content-row">
-	<div class="row">
+	<div class="row page-title">
 		<h1>nPrint Graphix: The Company Dedicated to Serving</h1>
+		<hr>
 	</div>
 
 	<div class="columns medium-8 page-main-content">
 
-
-		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>

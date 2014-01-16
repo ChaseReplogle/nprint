@@ -7705,6 +7705,11 @@ img.avatar {
   margin-bottom: 20px;
 }
 
+.page-title {
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
 .content-row {
   background-image: url("../images/pattern.jpg");
   padding: 40px 0px;
