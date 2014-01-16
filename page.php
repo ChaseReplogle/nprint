@@ -11,7 +11,7 @@
 <?php include 'nav-page.php'; ?>
 
 <div class="row content-row">
-	<div class="row page-title">
+	<div class="columns medium-12 page-title">
 		<h1>nPrint Graphix: The Company</h1>
 		<hr>
 	</div>
