@@ -251,6 +251,16 @@ $topbar-arrows: false;
 	}
 }
 
+.print {
+	position: relative;
+
+	.marketing-navigation {
+		position: absolute;
+		top: 20px;
+		right: 5%;
+	}
+}
+
 .portfolio-nav {
 	.icon-nav {
 		display: table;
