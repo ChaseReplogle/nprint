@@ -108,7 +108,7 @@ $(function() {
 
 			$('.marketing-navigation .icon-nav a span').click(function() {  
 				var post_id = $(this).text();
-				$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-marketing.php?name=<?php echo $post->ID ?>", {category : post_id }, successFn)
+				$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-marketing.php?name=<?php echo $post->ID ?>", {id : post_id }, successFn)
 			});
 
 			$('.marketing-navigation .icon-nav a').click(
