@@ -7,7 +7,7 @@
     </li>
   </ul>
 
-<section class="top-bar-section right">
+<section class="top-bar-section left">
     <!-- Right Nav Section -->
     <ul> <?php
 			  if($post->post_parent) //inner page
@@ -35,4 +35,5 @@
     </ul>
 </section>
 </nav>
+<h2>Craftsmanship at a whole new level.</h2>
 </div>	
