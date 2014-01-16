@@ -108,7 +108,7 @@ $(function() {
 
 			$('.marketing-navigation .icon-nav a').click(function() {  
 				var id = $(this).find( 'span' ).text();
-					$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-marketing.php?name=<?php echo $category_name; ?>", {post_id : id }, successFn)
+					$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-marketing.php?name=<?php echo $category_name; ?>", {post_id : id }, marketsuccessFn)
 			});
 
 
@@ -120,7 +120,7 @@ $(function() {
 
 			$(".marketing-navigation .icon-nav a").removeAttr('href');
 
-			function successFn(result) {
+			function marketsuccessFn(result) {
 				$('.marketing-ajax').fadeOut( 100 , function() {
 		    		$(this).html( result);
 				}).fadeIn( 1000 );
@@ -128,7 +128,7 @@ $(function() {
 				console.log("Setting result");
 			}
 
-			function errorFn(xhr, status, strErr) {
+			function marketerrorFn(xhr, status, strErr) {
 				alert(strErr);
 			}
 		</script>
