@@ -7131,6 +7131,8 @@ body {
 p {
   line-height: 1.8;
   font-size: 15px;
+  color: #4f4f4f;
+  font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
