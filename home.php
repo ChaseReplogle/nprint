@@ -225,12 +225,10 @@ $(function() {
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<div class="medium-8 columns row-image">
-						<?php
-							$attachment_id = get_field('field_name');
-								$size = "large"; // (thumbnail, medium, large, full or custom size)
-								 
-								wp_get_attachment_image( $attachment_id, $size );
-						?>
+						<img src="
+							<?php $image = get_field('project_featured_image');
+							echo $image['size']['large']; ?>
+						" alt="<?php the_title(); ?>"/>
 					</div>
 				
 			  		<div class="medium-4 columns row-content">
