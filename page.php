@@ -39,7 +39,24 @@
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
+		
+		<div class="panel">
+		  <h5>This is a regular panel.</h5>
+		  <p>It has an easy to override visual style, and is appropriately subdued.</p>
+		</div>
+
 		<h4>This is a smaller headline</h4>
+
+		<hr>
+
+		<ul class="clearing-thumbs" data-clearing>
+		  <li><a href="path/to/your/img"><img src="path/to/your/img-th"></a></li>
+		  <li><a href="path/to/your/img"><img src="path/to/your/img-th"></a></li>
+		  <li><a href="path/to/your/img"><img src="path/to/your/img-th"></a></li>
+		</ul>
+
+		<hr>
+
 		<table border="0" bordercolor="" style="background-color:" width="100%" cellpadding="" cellspacing="">
 			<tr>
 				<td>Table Cell</td>
