@@ -107,12 +107,9 @@ $(function() {
 			var $ = jQuery;
 
 			$('.marketing-navigation .icon-nav a span').click(function() {  
-				var category_name = $(this).text();
-									$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-marketing.php?name=<?php echo $category_name; ?>", {category : category_name }, successFn)
-			}
-											
-
-				console.log("Setting test"););
+				var id = $(this).text();
+					$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-marketing.php?name=<?php echo $category_name; ?>", {post_id : id }, successFn)
+			});
 
 
 			$('.marketing-navigation .icon-nav a').click(
@@ -192,7 +189,7 @@ $(function() {
 								        $(this).addClass('current-item');
 								});
 
-								$(".portfolio-nav .portfolio-nav .icon-nav a").removeAttr('href');
+								$(".portfolio-nav .icon-nav a").removeAttr('href');
 
 								function successFn(result) {
 									$(".portfolio-ajax").fadeOut( 100 , function() {
