@@ -6,9 +6,7 @@
 
   <section class="top-bar-section">
     <!-- Right Nav Section -->
-    <ul>
-    	  
-        <?php wp_nav_menu( array('menu' => 'Main Navigation', 'container' => false )); ?>
+    <?php wp_nav_menu( array('menu' => 'Main Navigation', 'container' => false )); ?>
           <!-- <li class="current-item"><a href="#">Home</a></li>
       	  <li class="has-dropdown">
         	<a href="/company">Company</a>
@@ -27,5 +25,4 @@
           $( ".menu-item-has-children" ).addClass( "has-dropdown" );
           $( ".menu-item-has-children ul" ).addClass( "dropdown" );
         </script>
-    </ul>
 </nav>
