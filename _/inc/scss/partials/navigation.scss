@@ -373,7 +373,7 @@ $topbar-arrows: false;
 		max-width: 70rem;
 	}
 
-	.page-nav .title-area li a {
+	.page-nav .title-area li a:not(.button)  {
 		color: #fff;
 		margin: 0px;
 		padding-right: 15%;
