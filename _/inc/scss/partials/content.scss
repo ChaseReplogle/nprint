@@ -204,6 +204,7 @@ img.avatar {
 
 	h1 {
 		color: $grey;
+		font-size: 40px;
 	}
 }
 
@@ -229,6 +230,18 @@ img.avatar {
 			color: $mainblue;
 			font-size: 30px;
 			margin-bottom: 30px;
+		}
+
+		h2 {
+			font-size: 30px;
+		}
+
+		h3 {
+			font-size: 20px;
+		}
+
+		h4, h5, h6 {
+			font-size: 15px;
 		}
 
 		table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
@@ -257,6 +270,25 @@ img.avatar {
 			background-color: #fff;
 			border: 1px solid $lightgrey;
 			padding: 30px;
+
+			h1 {
+				font-size: 30px;
+				color: $mainblue;
+			}
+
+			h2 {
+				font-size: 20px;
+				color: $grey;
+			}
+
+			h3 {
+				font-size: 20px;
+				color: $grey;
+			}
+
+			p {
+				color: $grey;
+			}
 		}
 	}
 }

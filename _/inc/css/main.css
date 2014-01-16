@@ -7493,7 +7493,7 @@ a:hover {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
 }
 .page-nav-warpper .page-nav ul.title-area li.current_page_item a:not(.button) {
   color: #fff;
@@ -7721,6 +7721,7 @@ img.avatar {
 }
 .row .page-title h1 {
   color: #818080;
+  font-size: 40px;
 }
 
 .content-row {
@@ -7738,6 +7739,15 @@ img.avatar {
   color: #4f98c4;
   font-size: 30px;
   margin-bottom: 30px;
+}
+.content-row .page-main-content h2 {
+  font-size: 30px;
+}
+.content-row .page-main-content h3 {
+  font-size: 20px;
+}
+.content-row .page-main-content h4, .content-row .page-main-content h5, .content-row .page-main-content h6 {
+  font-size: 15px;
 }
 .content-row .page-main-content table thead tr th, .content-row .page-main-content table tfoot tr th, .content-row .page-main-content table tbody tr td, .content-row .page-main-content table tr td, .content-row .page-main-content table tfoot tr td {
   border: 1px solid #d1d1d1;
@@ -7758,6 +7768,21 @@ img.avatar {
   background-color: #fff;
   border: 1px solid #d1d1d1;
   padding: 30px;
+}
+.content-row .page-sidebar .ad h1 {
+  font-size: 30px;
+  color: #4f98c4;
+}
+.content-row .page-sidebar .ad h2 {
+  font-size: 20px;
+  color: #818080;
+}
+.content-row .page-sidebar .ad h3 {
+  font-size: 20px;
+  color: #818080;
+}
+.content-row .page-sidebar .ad p {
+  color: #818080;
 }
 
 /* Content specific styles */
