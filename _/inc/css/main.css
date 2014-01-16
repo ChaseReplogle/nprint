@@ -7475,7 +7475,7 @@ a:hover {
   background-color: transparent;
   max-width: 70rem;
 }
-.page-nav-warpper .page-nav h2 {
+.page-nav-warpper .page-nav h2 li a {
   color: #fff;
   margin: 0px;
   padding-right: 15%;
@@ -7483,7 +7483,7 @@ a:hover {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 .page-nav-warpper .page-nav ul {
   background-color: transparent;
