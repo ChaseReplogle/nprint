@@ -121,7 +121,7 @@ $(function() {
 			$(".marketing-navigation .icon-nav a").removeAttr('href');
 
 			function successFn(result) {
-				$(".marketing-ajax").fadeOut( 100 , function() {
+				$('.marketing-ajax').fadeOut( 100 , function() {
 		    		$(this).html( result);
 				}).fadeIn( 1000 );
 
