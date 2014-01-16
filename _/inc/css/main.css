@@ -7475,7 +7475,7 @@ a:hover {
   background-color: transparent;
   max-width: 70rem;
 }
-.page-nav-warpper .page-nav h2 li a {
+.page-nav-warpper .page-nav .title-area li a {
   color: #fff;
   margin: 0px;
   padding-right: 15%;
