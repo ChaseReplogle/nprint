@@ -201,7 +201,7 @@ img.avatar {
 
 .content-row {
 	background-image: url('../images/pattern.jpg');
-	padding: 0px 0px;
+	padding: 40px 0px;
 	max-width: 70rem;
 
 	.page-main-content {
@@ -211,6 +211,12 @@ img.avatar {
 		box-shadow: 0 1px 10px 0 rgba(0,0,0,.05);
 		background-color: #fff;
 		margin-bottom: 50px;
+
+		.orbit-container {
+			width: 114%;
+			margin-left: -7%;
+			margin-top: -40px;
+		}
 	}
 }
 
