@@ -7,7 +7,7 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul>  
-        <?php wp_nav_menu( array('menu' => 'Main Navigation', 'container' => false )); ?>
+        <?php wp_nav_menu( array('menu' => 'Main Navigation')); ?>
     </ul>
 </nav>
 
