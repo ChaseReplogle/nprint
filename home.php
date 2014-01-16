@@ -117,7 +117,7 @@ $(function() {
 			        $(this).addClass('current-item');
 			});
 
-			$(".marketing-navigation .icon-nav").removeAttr('href');
+			$(".marketing-navigation .icon-nav a").removeAttr('href');
 
 			function successFn(result) {
 				$(".portfolio-ajax").fadeOut( 100 , function() {
