@@ -12,6 +12,9 @@
 
 <div class="row content-row">
 	<div class="columns medium-8 page-main-content">
+
+		<h1>nPrint Graphix: The Company</h1>
+
 		<ul class="example-orbit" data-orbit>
 		  <li>
 		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-12.20.28-PM.png" alt="slide 1" />
@@ -32,7 +35,7 @@
 		    </div>
 		  </li>
 		</ul>
-		<h1>Test of Page</h1>
+
 		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 
