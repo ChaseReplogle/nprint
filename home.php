@@ -109,10 +109,11 @@ $(function() {
 			$('.marketing-navigation .icon-nav a span').click(function() {  
 				var category_name = $(this).text();
 									$.get("<?php echo get_template_directory_uri(); ?>/ajax/ajax-marketing.php?name=<?php echo $category_name; ?>", {category : category_name }, successFn)
-								
+			}
+											
 
-				console.log("Setting test");
-			});
+				console.log("Setting test"););
+
 
 			$('.marketing-navigation .icon-nav a').click(
 			    function(e) {
