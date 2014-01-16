@@ -13,9 +13,50 @@
 <div class="row content-row">
 	<div class="columns medium-8 page-main-content">
 		<h3>Test of Page</h3>
+		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
+		<h4>This is a smaller headline</h4>
+		<table border="0" bordercolor="" style="background-color:" width="100%" cellpadding="" cellspacing="">
+			<tr>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+			</tr>
+			<tr>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+			</tr>
+			<tr>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+			</tr>
+			<tr>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+			</tr>
+			<tr>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+			</tr>
+			<tr>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+			</tr>
+			<tr>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+				<td>Table Cell</td>
+			</tr>
+		</table>
+
+
 	</div>
 
 	<div class="columns medium-4 page-sidebar">
