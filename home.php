@@ -96,7 +96,7 @@ $(function() {
 
 		<div class="medium-7 medium-pull-5 columns row-image not-mobile left">
 			<img src="
-				<?php $image = get_field('project_featured_image', $post_object->ID);
+				<?php $image = get_field('marketing_featured_image', $post_object->ID);
 				echo $image['sizes']['large']; ?>
 			" alt="<?php the_title(); ?>"/>
 		</div>
