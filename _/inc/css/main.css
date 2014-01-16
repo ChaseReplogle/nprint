@@ -7788,6 +7788,8 @@ img.avatar {
 .case-study {
   background-color: #d1d1d1;
   border-top: 1px solid #818080;
+  border-bottom: 1px solid #818080;
+  padding-top: 50px;
 }
 .case-study h5 {
   text-align: center;
@@ -7796,7 +7798,10 @@ img.avatar {
   font-size: 13px;
 }
 .case-study h2 {
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+.case-study p {
   text-align: center;
 }
 .case-study img {

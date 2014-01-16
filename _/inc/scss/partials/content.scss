@@ -297,6 +297,8 @@ img.avatar {
 .case-study {
 	background-color: $lightgrey;
 	border-top: 1px solid $grey;
+	border-bottom: 1px solid $grey;
+	padding-top: 50px;
 
 	h5 {
 		text-align: center;
@@ -306,7 +308,11 @@ img.avatar {
 	}
 
 	h2 {
-		font-size: 20px;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	p {
 		text-align: center;
 	}
 
