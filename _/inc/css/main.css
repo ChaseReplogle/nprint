@@ -7789,6 +7789,19 @@ img.avatar {
   background-color: #d1d1d1;
   border-top: 1px solid #818080;
 }
+.case-study h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+}
+.case-study h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.case-study img {
+  width: 100%;
+}
 
 /* Content specific styles */
 .print {

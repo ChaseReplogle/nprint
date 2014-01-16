@@ -107,7 +107,7 @@
 		<h5>Case Study</h5>
 		<h2>Sherman Williams Banners</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada.</p>
-		<img src="#" />
+		<img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-10.33.01-AM.png" />
 		</div>
 	</div>
 </div>
