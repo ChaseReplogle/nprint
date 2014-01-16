@@ -1,6 +1,10 @@
 <div class="contain-to-grid page-nav-warpper">
-<nav class="top-bar page-nav" data-topbar>
 
+<div class="row">
+	<h2>Craftsmanship at a whole new level.</h2>
+</div>
+
+<nav class="top-bar page-nav" data-topbar>
 <ul class="title-area">
     <li class="name">
      	<h2> <?php
@@ -32,7 +36,4 @@
     </ul>
 </section>
 </nav>
-<div class="row">
-	<h2>Craftsmanship at a whole new level.</h2>
-</div>
 </div>	
