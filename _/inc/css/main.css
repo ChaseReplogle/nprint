@@ -7485,7 +7485,7 @@ a:hover {
   font-weight: bold;
   font-size: 25px;
 }
-.page-nav-warpper .page-nav .title-area li.current-item a:not(.button) {
+.page-nav-warpper .page-nav ul.title-area li.current_page_item a:not(.button) {
   color: #fff;
 }
 .page-nav-warpper .page-nav ul {
