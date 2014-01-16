@@ -15,27 +15,6 @@
 
 		<h1>nPrint Graphix: The Company</h1>
 
-		<ul class="example-orbit" data-orbit>
-		  <li>
-		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-12.20.28-PM.png" alt="slide 1" />
-		    <div class="orbit-caption">
-		      Caption One.
-		    </div>
-		  </li>
-		  <li>
-		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-10.39.12-AM1.png" alt="slide 2" />
-		    <div class="orbit-caption">
-		      Caption Two.
-		    </div>
-		  </li>
-		  <li>
-		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-12.18.53-PM.png" alt="slide 3" />
-		    <div class="orbit-caption">
-		      Caption Three.
-		    </div>
-		  </li>
-		</ul>
-
 		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 

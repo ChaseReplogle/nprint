@@ -7463,7 +7463,7 @@ a:hover {
   background-color: transparent;
 }
 .page-nav-warpper .page-nav {
-  height: 125px;
+  height: 6px;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
   position: relative;
@@ -7473,7 +7473,7 @@ a:hover {
 }
 .page-nav-warpper .page-nav h2 {
   color: #818080;
-  line-height: 125px;
+  line-height: 65px;
   margin: 0px;
   padding-right: 15%;
   padding-left: 5%;
@@ -7499,7 +7499,7 @@ a:hover {
   background: transparent;
   border-right: 0px;
   border-bottom: 0px;
-  line-height: 125px;
+  line-height: 65px;
   font-size: 15px;
   padding: 0px 5px;
 }

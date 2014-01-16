@@ -359,7 +359,7 @@ $topbar-arrows: false;
 	background-color: transparent;
 
 	.page-nav {
-		height: 125px; 
+		height: 6px; 
 		-webkit-box-shadow: 0 0px 0px 0 rgba(0,0,0,.2); 
 		box-shadow: 0 0px 0px 0 rgba(0,0,0,.2); 
 		position: relative; 
@@ -370,7 +370,7 @@ $topbar-arrows: false;
 
 	.page-nav h2 {
 		color: $grey;
-		line-height: 125px;
+		line-height: 65px;
 		margin: 0px;
 		padding-right: 15%;
 		padding-left: 5%;
@@ -400,7 +400,7 @@ $topbar-arrows: false;
 		background: transparent; 
 		border-right: 0px; 
 		border-bottom: 0px;
-		line-height: 125px;
+		line-height: 65px;
 		font-size: 15px;
 		padding: 0px 5px;
 	}
