@@ -7191,16 +7191,6 @@ a:hover {
   background-color: #fff;
 }
 
-.top-bar ul li.current-menu-item > a:not(.button), .top-bar ul li.current_page_ancestor > a:not(.button) {
-  color: #4f4f4f;
-  background-color: #f2f2f2;
-}
-
-.top-bar ul.sub-menu li.current-menu-item a:not(.button), .top-bar ul.sub-menu li.current_page_ancestor a:not(.button) {
-  color: #818080;
-  background-color: #fff;
-}
-
 .top-bar ul li a:not(.button) {
   color: #818080;
   background-color: #fff;
