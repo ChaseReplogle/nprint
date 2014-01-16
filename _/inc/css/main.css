@@ -7502,7 +7502,7 @@ a:hover {
   background: transparent;
   border-right: 0px;
   border-bottom: 0px;
-  line-height: 85px;
+  line-height: 125px;
   font-size: 15px;
   padding: 0px 5px;
 }
@@ -7723,6 +7723,11 @@ img.avatar {
 .content-row .page-main-content .orbit-container {
   width: 114%;
   margin-left: -7%;
+}
+.content-row .page-main-content h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4f98c4;
 }
 
 /* Content specific styles */
