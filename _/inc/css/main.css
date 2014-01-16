@@ -7785,6 +7785,10 @@ img.avatar {
   color: #818080;
 }
 
+.case-study {
+  background-color: #d1d1d1;
+}
+
 /* Content specific styles */
 .print {
   margin-top: 25px;
