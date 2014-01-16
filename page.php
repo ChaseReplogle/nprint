@@ -12,7 +12,7 @@
 
 <div class="row content-row">
 	<div class="row page-title">
-		<h1>nPrint Graphix: The Company Dedicated to Serving</h1>
+		<h1>nPrint Graphix: The Company</h1>
 		<hr>
 	</div>
 
