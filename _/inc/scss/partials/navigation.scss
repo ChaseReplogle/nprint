@@ -37,15 +37,7 @@ $topbar-arrows: false;
 	background-color: #fff;
 }
 
-.top-bar ul li.current-menu-item > a:not(.button), .top-bar ul li.current_page_ancestor > a:not(.button) {
-	color: $darkgrey;
-	background-color: $verylightgrey;
-}
 
-.top-bar ul.sub-menu li.current-menu-item a:not(.button), .top-bar ul.sub-menu li.current_page_ancestor a:not(.button) {
-	color: $grey;
-	background-color: #fff;
-}
 
 .top-bar ul li a:not(.button) {
 	color: $grey; 
