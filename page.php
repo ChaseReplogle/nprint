@@ -112,7 +112,10 @@
 	</div>
 
 	<div class="columns medium-4 page-sidebar">
-		
+		<div class="ad">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
+
+		</div>
 
 	</div>
 </div>
