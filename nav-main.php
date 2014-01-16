@@ -8,20 +8,6 @@
     <!-- Right Nav Section -->
     <ul>  
         <?php wp_nav_menu( array('menu' => 'Main Navigation', 'container' => false )); ?>
-          <!-- <li class="current-item"><a href="#">Home</a></li>
-      	  <li class="has-dropdown">
-        	<a href="/company">Company</a>
-        	<ul class="dropdown">
-         		 <li><a href="#">Team</a></li>
-         		 <li><a href="#">Mission</a></li>
-         		 <li><a href="#">History</a></li>
-        	</ul>
-      	  </li>
-	  	  <li><a href="#">Products</a></li>
-	  	  <li><a href="#">Process</a></li>
-	  	  <li><a href="#">Portfolio</a></li>
-	  	  <li><a href="#">Support</a></li>
-	  	  <li><a href="#">Contact</a></li> -->
     </ul>
 </nav>
 
