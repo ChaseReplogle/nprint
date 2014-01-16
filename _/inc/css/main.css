@@ -7460,22 +7460,23 @@ a:hover {
   }
 }
 .page-nav-warpper {
-  background-color: #d1d1d1;
+  background-color: transparent;
 }
 .page-nav-warpper .page-nav {
   height: 125px;
+  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 50;
   background-color: transparent;
   max-width: 70rem;
 }
 .page-nav-warpper .page-nav h2 {
-  color: #ff;
+  color: #818080;
   line-height: 125px;
   margin: 0px;
   padding-right: 15%;
   padding-left: 5%;
-  color: #fff;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
@@ -7490,7 +7491,7 @@ a:hover {
 .page-nav-warpper .page-nav ul li.current-item a:not(.button) {
   background-color: #4f98c4;
   padding: 10px 20px;
-  color: #fff;
+  color: #818080;
 }
 .page-nav-warpper .page-nav ul li a:not(.button) {
   color: #818080;
