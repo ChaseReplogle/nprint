@@ -15,6 +15,28 @@
 		<h3>Test of Page</h3>
 		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
+		
+		<ul class="example-orbit" data-orbit>
+		  <li>
+		    <img src="../assets/img/examples/satelite-orbit.jpg" alt="slide 1" />
+		    <div class="orbit-caption">
+		      Caption One.
+		    </div>
+		  </li>
+		  <li>
+		    <img src="../assets/img/examples/andromeda-orbit.jpg" alt="slide 2" />
+		    <div class="orbit-caption">
+		      Caption Two.
+		    </div>
+		  </li>
+		  <li>
+		    <img src="../assets/img/examples/launch-orbit.jpg" alt="slide 3" />
+		    <div class="orbit-caption">
+		      Caption Three.
+		    </div>
+		  </li>
+		</ul>
+
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 		<h4>This is a smaller headline</h4>
