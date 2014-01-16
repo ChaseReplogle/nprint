@@ -357,7 +357,8 @@ $topbar-arrows: false;
 
 .page-nav-warpper {
 	background-color: $lightorange;
-	padding: 40px 0px;
+	padding: 50px 0px;
+	border-bottom: 1px solid #fff;
 
 	.row {
 		max-width: 70rem;
@@ -373,7 +374,7 @@ $topbar-arrows: false;
 	}
 
 	.page-nav h2 {
-		color: $grey;
+		color: #fff;
 		line-height: 65px;
 		margin: 0px;
 		padding-right: 15%;
@@ -381,7 +382,7 @@ $topbar-arrows: false;
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
 		font-weight: bold;
-		font-size: 28px;
+		font-size: 20px;
 	}
 
 	.page-nav ul {
@@ -395,11 +396,11 @@ $topbar-arrows: false;
 	.page-nav ul li.current-item a:not(.button) {
 		background-color: $mainblue;
 		padding: 10px 20px;
-		color: $grey;
+		color: #fff;
 	}
 
 	.page-nav ul li a:not(.button) {
-		color: $grey;
+		color: #fff;
 		background-color: transparent;
 		background: transparent; 
 		border-right: 0px; 
@@ -420,7 +421,6 @@ $topbar-arrows: false;
 
 	.page-nav ul li.current_page_parent a:not(.button):after {
 		content: ":";
-		padding-right: 15px;
 	}
 
 
@@ -435,7 +435,7 @@ $topbar-arrows: false;
 	}
 
 	.page-nav .toggle-topbar.menu-icon a {
-		color: $grey; 
+		color: #fff; 
 		text-indent: 50px;
 	}
 
