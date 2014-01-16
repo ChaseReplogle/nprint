@@ -75,7 +75,6 @@ $(function() {
 				</a></li>
 
 			<?php endforeach; ?>
-			<?php wp_reset_postdata(); ?>
 		</ul>
 	</div>
 
