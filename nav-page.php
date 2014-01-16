@@ -1,9 +1,5 @@
 <div class="contain-to-grid page-nav-warpper">
 
-<div class="row">
-	<h2>Craftsmanship at a whole new level.</h2>
-</div>
-
 <nav class="top-bar page-nav" data-topbar>
 <ul class="title-area">
     <li class="name">
@@ -11,7 +7,7 @@
 			  if($post->post_parent) //inner page
 			  	$section = wp_list_pages("title_li=&include=".$post->post_parent);
 			  else // top level page
-			  	$section = wp_list_pages("title_li=&child_of=".$post->ID."&echo=1"); ?>
+			  	$section = wp_list_pages("title_li=&p=".$post->ID."&echo=1"); ?>
 				  	<?php echo $section; ?>
 		</h2>
 	</li>
