@@ -384,6 +384,10 @@ $topbar-arrows: false;
 		font-size: 25px;
 	}
 
+	.page-nav .title-area li.current-item a:not(.button) {
+		color: #fff;
+	}
+
 	.page-nav ul {
 		background-color: transparent;
 	}
@@ -416,11 +420,6 @@ $topbar-arrows: false;
 	.page-nav ul li.current_page_item a:not(.button) {
 		color: #000;
 	}
-
-	.page-nav ul li.current_page_parent a:not(.button):after {
-		content: ":";
-	}
-
 
 	.page-nav ul li:first-child { 
 		border-left: 0px;
