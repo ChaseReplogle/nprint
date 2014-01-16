@@ -7725,6 +7725,11 @@ img.avatar {
   padding: 40px 0px;
   max-width: 70rem;
 }
+.content-row .page-main-content h1, .content-row .page-main-content h2, .content-row .page-main-content h3, .content-row .page-main-content h4, .content-row .page-main-content h5, .content-row .page-main-content h6 {
+  color: #818080;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 .content-row .page-main-content h1 {
   color: #4f98c4;
   font-size: 30px;
