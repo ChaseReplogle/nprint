@@ -8,7 +8,7 @@
     <!-- Right Nav Section -->
     <ul>
     	  
-        <?php wp_nav_menu( array('menu' => 'Main Navigation' )); ?>
+        <?php wp_nav_menu( array('menu' => 'Main Navigation', 'container' => false )); ?>
           <!-- <li class="current-item"><a href="#">Home</a></li>
       	  <li class="has-dropdown">
         	<a href="/company">Company</a>
