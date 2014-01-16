@@ -7790,6 +7790,9 @@ img.avatar {
   border-top: 1px solid #818080;
   border-bottom: 1px solid #818080;
   padding-top: 50px;
+  -webkit-box-shadow: inset 0 -2px 20px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 -2px 20px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
 .case-study h5 {
   text-align: center;
