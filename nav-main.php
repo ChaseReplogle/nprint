@@ -25,7 +25,3 @@
     </ul>
 </nav>
 
-<script>
-  $( ".menu-item-has-children" ).addClass( "has-dropdown" );
-  $( ".menu-item-has-children ul" ).addClass( "dropdown" );
-</script>
