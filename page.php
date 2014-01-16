@@ -12,7 +12,7 @@
 
 <div class="row content-row">
 	<div class="columns medium-8 page-main-content">
-		<h3>Test of Page</h3>
+		<h1>Test of Page</h1>
 		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 		
@@ -45,7 +45,7 @@
 		  <p>It has an easy to override visual style, and is appropriately subdued.</p>
 		</div>
 
-		<h4>This is a smaller headline</h4>
+		<h2>This is a smaller headline</h2>
 
 		<hr>
 
