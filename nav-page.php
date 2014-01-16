@@ -7,7 +7,7 @@
 			  if($post->post_parent) //inner page
 			  	$section = wp_list_pages("title_li=&include=".$post->post_parent);
 			  else // top level page
-			  	$section = wp_list_pages("title_li=&p=".$post->ID."&echo=1"); ?>
+			  	$section = wp_list_pages("title_li=&include=".$post->ID."&echo=1"); ?>
 				  	<?php echo $section; ?>
 		</h2>
 	</li>
