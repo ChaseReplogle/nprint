@@ -3,13 +3,7 @@
 
 <ul class="title-area">
     <li class="name">
-     	<h2><?php the_title(); ?></h2>
-    </li>
-  </ul>
-
-<section class="top-bar-section left">
-    <!-- Right Nav Section -->
-    <ul> <?php
+     	<h2> <?php
 			  if($post->post_parent) //inner page
 			  	$section = wp_list_pages("title_li=&include=".$post->post_parent);
 			  else // top level page
@@ -32,7 +26,13 @@
 				  	<?php echo $children; ?>
 				  </ul>
 		<?php } ?>
-    </ul>
+    </h2>
+    </li>
+  </ul>
+
+<section class="top-bar-section right">
+    <!-- Right Nav Section -->
+ 
 </section>
 </nav>
 <div class="row">
