@@ -42,6 +42,10 @@ $topbar-arrows: false;
 	background-color: $verylightgrey;
 }
 
+.top-bar ul li.current-menu-item .dropdown li a:not(.button) {
+	background-color: #fff;
+}
+
 .top-bar ul li a:not(.button) {
 	color: $grey; 
 	background-color: #fff; 
