@@ -91,8 +91,8 @@ $(function() {
   		</div>
 
 
-		<div class="medium-7 medium-push-5 columns row-image not-mobile left">
-			<img src="<?php the_field('marketing_featured_image', $post_object->ID ); ?>" alt="<?php echo $post_object->post_title; ?>"/>
+		<div class="medium-7 medium-pull-5 columns row-image not-mobile left">
+			<img src="<?php echo get_field('marketing_featured_image', $post_object->ID ); ?>" alt="<?php echo $post_object->post_title; ?>"/>
 		</div>
 
 
