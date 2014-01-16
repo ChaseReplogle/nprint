@@ -92,8 +92,9 @@
 
 	<div class="columns medium-4 page-sidebar">
 		<div class="ad">
+			<h3>Title for an Ad Section</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
-
+			<a href="#" class="primary_button">Link to Page</a>
 		</div>
 
 	</div>
