@@ -7719,6 +7719,7 @@ img.avatar {
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
   margin-bottom: 50px;
+  margin-top: -55px;
 }
 .content-row .page-main-content .orbit-container {
   width: 114%;
@@ -7726,7 +7727,6 @@ img.avatar {
 }
 .content-row .page-main-content h1 {
   font-weight: bold;
-  text-transform: uppercase;
   color: #4f98c4;
 }
 
