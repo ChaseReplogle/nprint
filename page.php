@@ -106,7 +106,7 @@
 		<div class="columns medium-6 medium-centered">
 		<h5>Case Study</h5>
 		<h2>Sherman Williams Banners</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada.</p>
+		<p>Lorem ipsum dolor sit amet ipsum malesuada.</p>
 		<img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-16-at-4.24.13-PM.png" />
 		</div>
 	</div>
