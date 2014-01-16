@@ -227,9 +227,8 @@ $(function() {
 					<div class="medium-8 columns row-image">
 						<img src="
 							<?php $image = get_field('project_featured_image');
-							echo $image; ?>
+							echo $image['sizes']['large']; ?>
 						" alt="<?php the_title(); ?>"/>
-						<?php var_dump($image); ?>
 					</div>
 				
 			  		<div class="medium-4 columns row-content">
