@@ -257,8 +257,7 @@ $topbar-arrows: false;
 	.marketing-navigation {
 		position: absolute;
 		top: 30px;
-		right: 30px;
-		z-index: 100;
+		right: 10px;
 	}
 }
 
@@ -301,6 +300,14 @@ $topbar-arrows: false;
 	.portfolio-nav {
 		display: none;
 	}
+
+	.print {
+	position: relative;
+
+	.marketing-navigation {
+		display: none;
+	}
+}
 }
 
 
