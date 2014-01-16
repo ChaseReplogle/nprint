@@ -8,8 +8,9 @@
     <!-- Right Nav Section -->
     <ul>
     	  <li class="current-item"><a href="#">Home</a></li>
+        <?php wp_nav_menu( array('menu' => 'Main Navigation' )); ?>
       	  <li class="has-dropdown">
-        	<a href="#">Company</a>
+        	<a href="/company">Company</a>
         	<ul class="dropdown">
          		 <li><a href="#">Team</a></li>
          		 <li><a href="#">Mission</a></li>
