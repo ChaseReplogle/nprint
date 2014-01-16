@@ -375,7 +375,7 @@ $topbar-arrows: false;
 		margin: 0px;
 		padding-right: 15%;
 		padding-left: 5%;
-		color: lighten($grey, 20%);
+		color: #fff;
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -397,7 +397,7 @@ $topbar-arrows: false;
 	}
 
 	.page-nav ul li a:not(.button) {
-		color: lighten($grey, 20%);
+		color: #fff;
 		background-color: transparent;
 		background: transparent; 
 		border-right: 0px; 
