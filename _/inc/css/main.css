@@ -7732,11 +7732,24 @@ img.avatar {
   color: #818080;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 0px;
 }
 .content-row .page-main-content h1 {
   color: #4f98c4;
   font-size: 30px;
   margin-bottom: 30px;
+}
+.content-row .page-main-content table thead tr th, .content-row .page-main-content table tfoot tr th, .content-row .page-main-content table tbody tr td, .content-row .page-main-content table tr td, .content-row .page-main-content table tfoot tr td {
+  border: 1px solid #d1d1d1;
+}
+.content-row .page-main-content .tabs-content {
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  border-top: 0px;
+  padding: 30px;
+}
+.content-row .page-main-content .tabs dd {
+  border: 1px solid #d1d1d1;
 }
 .content-row .page-sidebar .ad {
   background-color: #fff;
