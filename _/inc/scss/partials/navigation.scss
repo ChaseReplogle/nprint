@@ -37,7 +37,7 @@ $topbar-arrows: false;
 	background-color: #fff;
 }
 
-.top-bar ul.menu-main-navigation li.current-menu-item a:not(.button), .top-bar ul.menu-main-navigation li.current_page_ancestor a:not(.button) {
+.top-bar ul li.current-menu-item > a:not(.button), .top-bar ul li.current_page_ancestor > a:not(.button) {
 	color: $darkgrey;
 	background-color: $verylightgrey;
 }

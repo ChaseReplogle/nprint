@@ -7189,7 +7189,7 @@ a:hover {
   background-color: #fff;
 }
 
-.top-bar ul.menu-main-navigation li.current-menu-item a:not(.button), .top-bar ul.menu-main-navigation li.current_page_ancestor a:not(.button) {
+.top-bar ul li.current-menu-item > a:not(.button), .top-bar ul li.current_page_ancestor > a:not(.button) {
   color: #4f4f4f;
   background-color: #f2f2f2;
 }
