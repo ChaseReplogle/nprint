@@ -23,9 +23,10 @@
 	  	  <li><a href="#">Portfolio</a></li>
 	  	  <li><a href="#">Support</a></li>
 	  	  <li><a href="#">Contact</a></li> -->
-        <script>
-          $( ".menu-item-has-children" ).addClass( "has-dropdown" );
-          $( ".menu-item-has-children ul" ).addClass( "dropdown" );
-        </script>
     </ul>
 </nav>
+
+<script>
+  $( ".menu-item-has-children" ).addClass( "has-dropdown" );
+  $( ".menu-item-has-children ul" ).addClass( "dropdown" );
+</script>
