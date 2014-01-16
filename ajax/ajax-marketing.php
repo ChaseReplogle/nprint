@@ -14,7 +14,7 @@ query_posts('post_type=marketing_messages&posts_per_page=1&include='.$post_id); 
 		<div class="medium-5 medium-push-7 columns row-content">
 
 				<div class="marketing-content">
-					<h4><?php echo $post_object->post_title; ?></h4>
+					<h4><?php the_title(); </h4>
 		  			<p><?php echo get_field('marketing_content', $post_object->ID ); ?></p>
 					<p><a href="<?php echo get_field('marketing_link_location', $post_object->ID ); ?>" class="secondary_button"><?php echo get_field('marketing_link_text', $post_object->ID ); ?></a></p>
 				</div>
