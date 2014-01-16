@@ -7478,10 +7478,11 @@ a:hover {
   margin: 0px;
   padding-right: 15%;
   padding-left: 5%;
-  color: #818080;
+  color: #b4b3b3;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 28px;
 }
 .page-nav-warpper .page-nav ul {
   background-color: transparent;
@@ -7493,7 +7494,7 @@ a:hover {
   color: #818080;
 }
 .page-nav-warpper .page-nav ul li a:not(.button) {
-  color: #818080;
+  color: #b4b3b3;
   background-color: transparent;
   background: transparent;
   border-right: 0px;

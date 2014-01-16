@@ -375,10 +375,11 @@ $topbar-arrows: false;
 		margin: 0px;
 		padding-right: 15%;
 		padding-left: 5%;
-		color: $grey;
+		color: lighten($grey, 20%);
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
 		font-weight: bold;
+		font-size: 28px;
 	}
 
 	.page-nav ul {
@@ -394,7 +395,7 @@ $topbar-arrows: false;
 	}
 
 	.page-nav ul li a:not(.button) {
-		color: $grey; 
+		color: lighten($grey, 20%);
 		background-color: transparent;
 		background: transparent; 
 		border-right: 0px; 
