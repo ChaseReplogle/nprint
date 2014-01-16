@@ -201,6 +201,12 @@ img.avatar {
 .row .page-title {
 	margin-left: 0px;
 	margin-bottom: 30px;
+
+	h1 {
+		color: $grey;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
 }
 
 .content-row {

@@ -7719,6 +7719,11 @@ img.avatar {
   margin-left: 0px;
   margin-bottom: 30px;
 }
+.row .page-title h1 {
+  color: #818080;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 .content-row {
   background-image: url("../images/pattern.jpg");
@@ -8051,6 +8056,7 @@ img.avatar {
 }
 .about-block p {
   padding-bottom: 20px;
+  color: #fff;
 }
 .about-block h2 {
   font-size: 20px;
