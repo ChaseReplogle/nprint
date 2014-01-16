@@ -7194,7 +7194,7 @@ a:hover {
   background-color: #f2f2f2;
 }
 
-.top-bar ul li.current-menu-item .dropdown li a:not(.button) {
+.top-bar ul li.current-menu-item .dropdown li.menu-item a:not(.button) {
   background-color: #fff;
 }
 
