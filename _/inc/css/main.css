@@ -7403,11 +7403,11 @@ a:hover {
   display: table;
   margin-bottom: 15px;
   margin-top: 0px;
+  width: 100%;
 }
 .portfolio-nav .icon-nav li {
   padding: 0px;
   margin: 0px;
-  width: 11.1111111111%;
   display: table-cell;
 }
 .portfolio-nav .icon-nav li a {
