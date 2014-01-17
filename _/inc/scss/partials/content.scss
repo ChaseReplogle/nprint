@@ -326,6 +326,9 @@ img.avatar {
 
 			p {
 				color: darken($lightgrey, 20%);
+				display: block;
+				float: left;
+				font-size: 12px;
 			}
 
 			.side-logo {
@@ -335,6 +338,7 @@ img.avatar {
 			
 			img {
 				width: 50% !important;
+				margin-bottom: 15px;
 			}
 		}
 	}

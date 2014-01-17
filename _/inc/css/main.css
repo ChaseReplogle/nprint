@@ -7823,6 +7823,9 @@ img.avatar {
 }
 .content-row .page-sidebar .contact p {
   color: #9e9e9e;
+  display: block;
+  float: left;
+  font-size: 12px;
 }
 .content-row .page-sidebar .contact .side-logo {
   display: block;
@@ -7830,6 +7833,7 @@ img.avatar {
 }
 .content-row .page-sidebar .contact img {
   width: 50% !important;
+  margin-bottom: 15px;
 }
 
 .case-study {
