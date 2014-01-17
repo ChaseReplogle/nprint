@@ -27,7 +27,6 @@
 
 				  </ul>
 		<?php } ?>
-		<li><a class="right-off-canvas-toggle"><i class="fa fa-search"></i></a></li>
     </ul>
 </section>
 </nav>
