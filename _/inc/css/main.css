@@ -8148,6 +8148,19 @@ img.avatar {
   width: 500px;
 }
 
+ul.dwls_search_results {
+  left: 79px;
+  top: 100px;
+  display: block;
+  width: 250px;
+  background-color: transparent;
+}
+ul.dwls_search_results li a {
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+}
+
 @media only screen and (max-width: 40em) {
   .move-left > .inner-wrap {
     -webkit-transform: translate3d(-250px, 0, 0);
