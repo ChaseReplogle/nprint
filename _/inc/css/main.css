@@ -8150,11 +8150,14 @@ img.avatar {
 }
 
 body ul.dwls_search_results {
-  right: -250px !important;
-  top: 100px !important;
+  right: -500px !important;
+  top: 110px !important;
   display: block;
-  width: 250px !important;
+  width: 440px !important;
   background-color: #333333 !important;
+}
+body ul.dwls_search_results li {
+  padding: 10px 0px;
 }
 body ul.dwls_search_results li a {
   color: #fff;
@@ -8209,8 +8212,8 @@ body ul.dwls_search_results li a {
   }
 
   body ul.dwls_search_results {
-    right: -500px !important;
-    width: 500px !important;
+    right: -250px !important;
+    width: 250px !important;
   }
 }
 .video_screen {

@@ -12,13 +12,14 @@
 }
 
 body ul.dwls_search_results {
-	right: -250px !important;
-	top: 100px !important;
+	right: -500px !important;
+	top: 110px !important;
 	display: block;
-	width: 250px !important;
+	width: 440px !important;
 	background-color: #333333 !important;
 
 	li {
+		padding: 10px 0px;
 
 		a {
 			color: #fff;
@@ -80,8 +81,8 @@ body ul.dwls_search_results {
 	}
 
 	body ul.dwls_search_results {
-		right: -500px !important;
-		width: 500px !important;
+		right: -250px !important;
+		width: 250px !important;
 	}
 }
 
