@@ -270,6 +270,7 @@ img.avatar {
 			background-color: #fff;
 			border: 1px solid $lightgrey;
 			padding: 30px;
+			margin-bottom: 30px;
 
 			h1 {
 				font-size: 30px;
@@ -288,6 +289,24 @@ img.avatar {
 
 			p {
 				color: $grey;
+			}
+		}
+
+		.banner {
+			h1 {
+				color: #fff;
+			}
+
+			h2 {
+				color: #fff;
+			}
+
+			h3 {
+				color: #fff;
+			}
+
+			p {
+				color: #fff;
 			}
 		}
 	}

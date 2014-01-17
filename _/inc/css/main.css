@@ -7780,6 +7780,7 @@ img.avatar {
   background-color: #fff;
   border: 1px solid #d1d1d1;
   padding: 30px;
+  margin-bottom: 30px;
 }
 .content-row .page-sidebar .ad h1 {
   font-size: 30px;
@@ -7795,6 +7796,18 @@ img.avatar {
 }
 .content-row .page-sidebar .ad p {
   color: #818080;
+}
+.content-row .page-sidebar .banner h1 {
+  color: #fff;
+}
+.content-row .page-sidebar .banner h2 {
+  color: #fff;
+}
+.content-row .page-sidebar .banner h3 {
+  color: #fff;
+}
+.content-row .page-sidebar .banner p {
+  color: #fff;
 }
 
 .case-study {
