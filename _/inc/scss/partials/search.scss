@@ -10,12 +10,12 @@
 	width: 500px;
 }
 
-ul.dwls_search_results {
+body ul.dwls_search_results {
 	right: -250px !important;
 	top: 100px !important;
 	display: block;
 	width: 250px !important;
-	background-color: transparent;
+	background-color: transparent !important;
 
 	li {
 
