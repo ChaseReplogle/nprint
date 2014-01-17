@@ -293,6 +293,7 @@ $topbar-arrows: false;
 	}
 }
 
+
 @media only screen and (max-width: 40em) {
 	.portfolio-nav {
 		display: none;
@@ -313,7 +314,7 @@ $topbar-arrows: false;
 	.account-nav {
 
 		ul li a:not(.button) {
-			padding: 0px 10px;
+			padding: 0px 10px 0px 10px;
 
 			.span {
 				display: none;
