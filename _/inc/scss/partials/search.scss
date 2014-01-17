@@ -8,7 +8,7 @@
 
 .left-off-canvas-menu, .right-off-canvas-menu {
 	width: 440px;
-	padding: 30px;
+	padding: 10px 30px 30px 30px;
 }
 
 body ul.dwls_search_results {
@@ -57,14 +57,15 @@ body ul.dwls_search_results {
 }
 
 .close {
-		position: absolute;
-		top: 0px;
-		right: 40px;
+	 a {
+	 	text-align: right;
+	 	margin-bottom: 10px;
 
 		i {
 			font-size: 20px;
 			color: #fff;
 		}
+	}
 }
 
 @media only screen and (max-width: 40em) {

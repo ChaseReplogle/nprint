@@ -8146,7 +8146,7 @@ img.avatar {
 
 .left-off-canvas-menu, .right-off-canvas-menu {
   width: 440px;
-  padding: 30px;
+  padding: 10px 30px 30px 30px;
 }
 
 body ul.dwls_search_results {
@@ -8188,12 +8188,11 @@ body ul.dwls_search_results li a {
   color: #d1d1d1;
 }
 
-.close {
-  position: absolute;
-  top: 0px;
-  right: 40px;
+.close a {
+  text-align: right;
+  margin-bottom: 10px;
 }
-.close i {
+.close a i {
   font-size: 20px;
   color: #fff;
 }
