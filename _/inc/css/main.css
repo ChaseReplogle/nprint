@@ -7558,7 +7558,7 @@ body {
 
 .wrapper {
   background-image: url("../images/pattern.jpg");
-  padding: 15px 5%;
+  padding: 15px 0px;
 }
 
 .boxed {
@@ -7921,6 +7921,10 @@ img.avatar {
 
 /* Media Query styles */
 @media only screen and (max-width: 40em) {
+  .wrapper {
+    padding: 15px 15%;
+  }
+
   .not-mobile {
     display: none;
   }
