@@ -70,7 +70,7 @@ $(function() {
 				<li><a href="#" class="
 				<?php if ($i == 1 ) { echo 'current-item'; }; ?>
 				">
-				<?php echo "<i class='fi-$icon'></i>"; ?>
+				<?php echo "<i class='$icon'></i>"; ?>
 				<?php echo $icon_name; ?><span style="display: none;"><?php echo $post_object->ID  ?></span>
 				</a></li>
 
@@ -172,7 +172,7 @@ $(function() {
 					        <?php setup_postdata($post); ?>
 					        <?php $icon_cat = $taxonomy.'_'.$term_taxonomy_id; ?>
 					        <?php $icon = get_field('category_icon', 'project_categories_'.$post->term_taxonomy_id); ?>
-  								<li><a href="#" class="<?php if ($i == 1 ) { echo 'current-item'; }; ?>"><i class="fi-<?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
+  								<li><a href="#" class="<?php if ($i == 1 ) { echo 'current-item'; }; ?>"><i class="<?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
 					    	<li class="more-work" ><a href="/more"><i class="fi-pricetag-multiple"></i>More Work</a></li>
