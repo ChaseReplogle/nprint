@@ -8151,7 +8151,7 @@ img.avatar {
 
 body ul.dwls_search_results {
   right: -500px !important;
-  top: 130px !important;
+  top: 120px !important;
   display: block;
   width: 440px !important;
   background-color: #333333 !important;
@@ -8169,7 +8169,7 @@ body ul.dwls_search_results li a {
 .search-form {
   width: 100%;
   display: table;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .search-form #s {
   width: 100%;
@@ -8211,12 +8211,13 @@ body ul.dwls_search_results li a {
   }
 
   .left-off-canvas-menu, .right-off-canvas-menu {
-    width: 250px;
+    width: 220px;
+    padding: 10px 15px 15px 15px;
   }
 
   body ul.dwls_search_results {
     right: -250px !important;
-    width: 250px !important;
+    width: 220px !important;
   }
 }
 .video_screen {
