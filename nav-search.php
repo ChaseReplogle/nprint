@@ -3,7 +3,9 @@
         <hr>
         <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
 			<div><input type="text" size="18" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
-				<input type="submit" id="searchsubmit" value="Search" class="btn" />
+				<button type="submit" id="searchsubmit" class="btn btn-success">
+                	<i class="fa fa-search"></i>
+            	</button>
 			</div>
 		</form>
 </aside>

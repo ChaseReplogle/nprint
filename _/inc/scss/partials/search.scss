@@ -8,6 +8,7 @@
 
 .left-off-canvas-menu, .right-off-canvas-menu {
 	width: 500px;
+	padding: 30px;
 }
 
 body ul.dwls_search_results {
@@ -28,50 +29,12 @@ body ul.dwls_search_results {
 
 }
 
-input[type="text"], input[type="password"], textarea {
- 
-        background: #f9f9f9;
-    border: 1px solid #cccccc;
-    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
-    -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
-    -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
-    padding: 2px;
-}
-
 #s {
-color: #999999;
-font-family: Arial, sans-serif; 
-font-size: 13px; 
-margin: 0 -31px 0 0; 
-padding: 10px 30px 10px 8px;
-text-transform: lowercase; 
-width: 200px;
- 
-transition-duration: 400ms;
-transition-property: width, background;
-transition-timing-function: ease; 
- 
-/* Safari and Chrome */
--webkit-transition-duration: 400ms;
--webkit-transition-property: width, background;
--webkit-transition-timing-function: ease; 
- 
-/* Opera */
--o-transition-duration:400ms;
--o-transition-property: width, background;
--o-transition-timing-function: ease; 
- 
- 
+
 } 
 
 #searchsubmit {
-text-indent: -9999px;
-background-image: url('images/searchsubmit.png'); 
-border: medium none;
-height: 23px;
-width: 21px; 
-background-color: white; 
- 
+
 }
 
 @media only screen and (max-width: 40em) {
