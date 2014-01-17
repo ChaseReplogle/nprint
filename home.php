@@ -328,5 +328,36 @@ $(function() {
   		</div>
 </div>
 </div>
+
+<div class="footer-wrapper">
+	<div class="g7">
+		<div class="row">
+			<div class="large-centered large-11 columns">
+				<div class="columns medium-5 ">
+					<img class="right" src="<?php echo get_template_directory_uri(); ?>/_/inc/images/g7.jpg" alt="G7"/>
+				</div>
+				
+				<div class="columns medium-7">
+					<h3>G7 Certified Printer</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. </p>
+					<a href="#">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="team">
+		<div class="row">
+			<div class="columns large-11 large-centered">
+				<h3>We've built a team to help execute and supper your ideas.</h3>
+			</div>
+			<div class="columns large-7 large-centered">
+				<p>Online, on the phone, or in person, our team of experts can help move your project from idea to finished perfection.</p>
+			</div>
+			<div class="columns large-11 large-centered">
+				<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/team.png" alt="nPrint Team"/>
+			</div>
+		</div>
+	</div>
 		
 <?php get_footer(); ?>
