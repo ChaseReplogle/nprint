@@ -118,7 +118,7 @@
 		</div>
 
 		<div class="contact">
-			<img class="left" src="http://nprintgraphix.wpengine.com/wp-content/themes/nprint/_/inc/images/footer-logo.png" alt="Logo" style="width: 100%;">
+			<div class="side-logo"><img class="left" src="http://nprintgraphix.wpengine.com/wp-content/themes/nprint/_/inc/images/footer-logo.png" alt="Logo" style="width: 100%;"></div>
 			<p><strong>Local: </strong>(417) 882-SIGN (7446)
 				<br><strong>Toll Free: </strong>1-888-518-7344
 				<br><strong>Fax: </strong>(417) 877-7523</p>

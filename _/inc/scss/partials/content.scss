@@ -325,7 +325,12 @@ img.avatar {
 			padding-left: 5%;
 
 			p {
-				color: darken($lightgrey, 30%);
+				color: darken($lightgrey, 20%);
+			}
+
+			.side-logo {
+				display: block;
+				width: 100%;
 			}
 			
 			img {
