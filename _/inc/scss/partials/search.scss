@@ -30,16 +30,26 @@ body ul.dwls_search_results {
 }
 
 .search-form {
+	width: 100%;
+	display: table-cell;
 
 	#s {
-		width: 90%;
+		width: 100%;
+		display: table-cell;
 	} 
 
 	#searchsubmit {
-		width: 10%; 
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		height: 2.3125rem;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 0px 10px;
+		background-color: transparent;
 
 		i {
-
+			color: $grey;
 		}
 	}
 }

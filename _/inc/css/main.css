@@ -8162,11 +8162,26 @@ body ul.dwls_search_results li a {
   font-size: 14px;
 }
 
+.search-form {
+  width: 100%;
+  display: table-cell;
+}
 .search-form #s {
-  width: 90%;
+  width: 100%;
+  display: table-cell;
 }
 .search-form #searchsubmit {
-  width: 10%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 2.3125rem;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0px 10px;
+  background-color: transparent;
+}
+.search-form #searchsubmit i {
+  color: #818080;
 }
 
 @media only screen and (max-width: 40em) {
