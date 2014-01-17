@@ -322,13 +322,14 @@ img.avatar {
 		}
 
 		.contact {
-			padding-left: 5%;
+			padding-left: 8%;
 
 			p {
 				color: darken($lightgrey, 20%);
 				display: block;
 				float: left;
 				font-size: 12px;
+				width: 100%;
 			}
 
 			.side-logo {
@@ -640,6 +641,14 @@ img.avatar {
 	
 	.team {
 		display: none;
+	}
+
+	.content-row {
+		.page-sidebar {
+			.contact {
+				display: none;
+			}
+		}
 	}
 
 }

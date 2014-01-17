@@ -7819,13 +7819,14 @@ img.avatar {
   margin-bottom: 15px;
 }
 .content-row .page-sidebar .contact {
-  padding-left: 5%;
+  padding-left: 8%;
 }
 .content-row .page-sidebar .contact p {
   color: #9e9e9e;
   display: block;
   float: left;
   font-size: 12px;
+  width: 100%;
 }
 .content-row .page-sidebar .contact .side-logo {
   display: block;
@@ -8072,6 +8073,10 @@ img.avatar {
   }
 
   .team {
+    display: none;
+  }
+
+  .content-row .page-sidebar .contact {
     display: none;
   }
 }
