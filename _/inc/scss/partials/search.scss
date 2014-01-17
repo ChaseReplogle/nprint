@@ -32,6 +32,7 @@ body ul.dwls_search_results {
 .search-form {
 	width: 100%;
 	display: table;
+	margin-top: 30px;
 
 	#s {
 		width: 100%;
@@ -55,13 +56,14 @@ body ul.dwls_search_results {
 }
 
 .close {
-	i {
 		position: absolute;
 		top: 20px;
 		right: 20px;
-		color: #fff;
-		font-size: 20px;
-	}
+
+		i {
+			font-size: 20px;
+			color: #fff;
+		}
 }
 
 @media only screen and (max-width: 40em) {

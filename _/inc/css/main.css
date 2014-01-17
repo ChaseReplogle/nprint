@@ -8165,6 +8165,7 @@ body ul.dwls_search_results li a {
 .search-form {
   width: 100%;
   display: table;
+  margin-top: 30px;
 }
 .search-form #s {
   width: 100%;
@@ -8184,12 +8185,14 @@ body ul.dwls_search_results li a {
   color: #d1d1d1;
 }
 
-.close i {
+.close {
   position: absolute;
   top: 20px;
   right: 20px;
-  color: #fff;
+}
+.close i {
   font-size: 20px;
+  color: #fff;
 }
 
 @media only screen and (max-width: 40em) {
