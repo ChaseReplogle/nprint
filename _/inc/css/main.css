@@ -7440,7 +7440,7 @@ a:hover {
   .account-nav ul li a:not(.button) {
     padding: 0px 10px 0px 10px;
   }
-  .account-nav ul li a:not(.button) .span {
+  .account-nav ul li a:not(.button) span {
     display: none;
   }
 }
