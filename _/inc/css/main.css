@@ -7797,6 +7797,12 @@ img.avatar {
 .content-row .page-sidebar .ad p {
   color: #818080;
 }
+.content-row .page-sidebar .ad a {
+  display: inline-block;
+}
+.content-row .page-sidebar .banner img {
+  margin: -30px 0px 10px -30px;
+}
 .content-row .page-sidebar .banner h1 {
   color: #fff;
 }
@@ -7805,6 +7811,8 @@ img.avatar {
 }
 .content-row .page-sidebar .banner h3 {
   color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .content-row .page-sidebar .banner p {
   color: #fff;
