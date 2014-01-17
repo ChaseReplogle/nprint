@@ -7511,7 +7511,7 @@ a:hover {
   color: #fff;
 }
 .page-nav-warpper .page-nav ul li a:not(.button) {
-  color: #f2f2f2;
+  color: #d1d1d1;
   background-color: transparent;
   background: transparent;
   border-right: 0px;
@@ -7521,10 +7521,10 @@ a:hover {
 }
 .page-nav-warpper .page-nav ul li a:not(.button):hover {
   background-color: transparent;
-  color: #fff;
+  color: #818080;
 }
 .page-nav-warpper .page-nav ul li.current_page_item a:not(.button) {
-  color: #fff;
+  color: #818080;
 }
 .page-nav-warpper .page-nav ul li:first-child {
   border-left: 0px;
