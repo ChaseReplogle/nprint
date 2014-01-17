@@ -8149,10 +8149,10 @@ img.avatar {
 }
 
 ul.dwls_search_results {
-  left: 79px;
-  top: 100px;
+  right: -250px !important;
+  top: 100px !important;
   display: block;
-  width: 250px;
+  width: 250px !important;
   background-color: transparent;
 }
 ul.dwls_search_results li a {
