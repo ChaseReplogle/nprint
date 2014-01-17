@@ -8187,8 +8187,8 @@ body ul.dwls_search_results li a {
 
 .close {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 0px;
+  right: 40px;
 }
 .close i {
   font-size: 20px;
