@@ -137,6 +137,9 @@ $topbar-arrows: false;
 
 
  /* Account Log In Navigation */
+ .home .title-area {
+	display: none;
+}
  
 .account-nav {
 	height: 35px; 
@@ -146,10 +149,6 @@ $topbar-arrows: false;
 	z-index: 50; 
 	background-color: $darkgrey; 
 	background: $darkgrey;
-
-	ul.title-area {
-		display: none;
-	}
 
 	ul li a:not(.button) {
 		color: $lightgrey; 

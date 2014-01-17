@@ -7290,6 +7290,10 @@ a:hover {
   }
 }
 /* Account Log In Navigation */
+.home .title-area {
+  display: none;
+}
+
 .account-nav {
   height: 35px;
   -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
@@ -7298,9 +7302,6 @@ a:hover {
   z-index: 50;
   background-color: #4f4f4f;
   background: #4f4f4f;
-}
-.account-nav ul.title-area {
-  display: none;
 }
 .account-nav ul li a:not(.button) {
   color: #d1d1d1;
