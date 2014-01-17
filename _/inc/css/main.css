@@ -8145,7 +8145,7 @@ img.avatar {
 }
 
 .left-off-canvas-menu, .right-off-canvas-menu {
-  width: 500px;
+  width: 440px;
   padding: 30px;
 }
 
@@ -8162,11 +8162,10 @@ body ul.dwls_search_results li a {
   font-size: 14px;
 }
 
-#s {
+.search-form #s {
   width: 90%;
 }
-
-#searchsubmit {
+.search-form #searchsubmit {
   width: 10%;
 }
 

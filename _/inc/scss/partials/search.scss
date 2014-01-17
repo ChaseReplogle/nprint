@@ -7,7 +7,7 @@
 }
 
 .left-off-canvas-menu, .right-off-canvas-menu {
-	width: 500px;
+	width: 440px;
 	padding: 30px;
 }
 
@@ -29,15 +29,18 @@ body ul.dwls_search_results {
 
 }
 
-#s {
-	width: 90%;
-} 
+.search-form {
 
-#searchsubmit {
-	width: 10%; 
-	
-	i {
+	#s {
+		width: 90%;
+	} 
 
+	#searchsubmit {
+		width: 10%; 
+
+		i {
+
+		}
 	}
 }
 
