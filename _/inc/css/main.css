@@ -7350,11 +7350,6 @@ a:hover {
   line-height: 45px;
 }
 
-@media only screen and (max-width: 40em) {
-  .account-nav ul li a:not(.button) {
-    line-height: 10px;
-  }
-}
 /* Icon Navigation */
 .icon-nav {
   margin-top: 20px;

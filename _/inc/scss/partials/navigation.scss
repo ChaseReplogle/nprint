@@ -208,15 +208,6 @@ $topbar-arrows: false;
 	}
 }
 
-
-
-@media only screen and (max-width: 40em) {
-	.account-nav ul li a:not(.button) {
-		line-height: 10px;
-	}
-}
-
-
 /* Icon Navigation */
 
 .icon-nav {
