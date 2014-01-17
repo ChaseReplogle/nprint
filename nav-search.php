@@ -1,5 +1,5 @@
 <aside class="right-off-canvas-menu">
-    <div>
-    	<a class="exit-off-canvas">Close</a>
-    </div>
+        <ul class="off-canvas-list">
+        	<li><label><a class="exit-off-canvas">Close</a></label></li>
+      </ul>
 </aside>
