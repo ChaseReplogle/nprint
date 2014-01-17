@@ -7309,8 +7309,8 @@ a:hover {
   background: #4f4f4f;
   line-height: 35px;
   font-size: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 20px;
+  line-height: 45px;
   border: 0px;
 }
 .account-nav ul li:not(.button):first-child {
@@ -7322,7 +7322,6 @@ a:hover {
 .account-nav .top-bar-section li a:not(.button):hover {
   background: #4f4f4f;
   color: #fff;
-  padding: 0px;
 }
 .account-nav .top-bar-section li a:not(.button).active {
   background: #4f98c4;
