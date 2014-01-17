@@ -8164,7 +8164,7 @@ body ul.dwls_search_results li a {
 
 .search-form {
   width: 100%;
-  display: table-cell;
+  display: table;
 }
 .search-form #s {
   width: 100%;
