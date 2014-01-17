@@ -7408,7 +7408,6 @@ a:hover {
 .portfolio-nav .icon-nav li {
   padding: 0px;
   margin: 0px;
-  display: table-cell;
 }
 .portfolio-nav .icon-nav li a {
   display: table-cell;
