@@ -97,7 +97,7 @@
 			<a href="#" class="primary_button">Link to Page</a>
 		</div>
 
-		<div class="ad banner" style="background-image: http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-16-at-6.28.47-PM.png;">
+		<div class="ad banner" style="background-image: url('http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-16-at-6.28.47-PM.png;')">
 			<h3>Title for an Ad Section</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 			<a href="#" class="primary_button">Link to Page</a>
