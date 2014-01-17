@@ -54,6 +54,16 @@ body ul.dwls_search_results {
 	}
 }
 
+.close {
+	i {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		color: #fff;
+		font-size: 20px;
+	}
+}
+
 @media only screen and (max-width: 40em) {
 	.move-left > .inner-wrap {
 		-webkit-transform: translate3d(-250px, 0, 0);
