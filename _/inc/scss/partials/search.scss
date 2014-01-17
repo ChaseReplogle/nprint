@@ -92,7 +92,11 @@ body ul.dwls_search_results {
 	body ul.dwls_search_results {
 		right: -250px !important;
 		width: 220px !important;
-		top: 100px !important;
+		top: 80px !important;
+	}
+
+	.search-form {
+		margin-top: 10px;
 	}
 }
 
