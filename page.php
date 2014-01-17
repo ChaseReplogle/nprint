@@ -119,9 +119,9 @@
 
 		<div class="contact">
 			<p class="logo">nPrint</p>
-			<p><strong>Local: </strong>(417) 882-SIGN (7446)</p>
-			<p><strong>Toll Free: </strong>1-888-518-7344</p>
-			<p><strong>Fax: </strong>(417) 877-7523</p>
+			<p><strong>Local: </strong>(417) 882-SIGN (7446)
+				<br><strong>Toll Free: </strong>1-888-518-7344
+				<br><strong>Fax: </strong>(417) 877-7523</p>
 			<p><strong>nPrint Graphix</strong>
 				<br>1943 West Sunset
 				<br>Springfield, Missouri 65807</p>
