@@ -301,10 +301,25 @@ $topbar-arrows: false;
 	.print {
 	position: relative;
 
-	.marketing-navigation {
-		display: none;
+		.marketing-navigation {
+			display: none;
+		}
 	}
-}
+
+	.home .account-nav .title-area {
+		position: absolute;
+	}
+
+	.account-nav {
+
+		ul li a:not(.button) {
+			padding: 0px 10px;
+
+			.span {
+				display: none;
+			}
+		}
+	}
 }
 
 
@@ -324,6 +339,7 @@ $topbar-arrows: false;
 
 	}
 }
+
 
 .medium-block-grid-4 {
 	li {

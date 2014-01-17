@@ -7432,6 +7432,17 @@ a:hover {
   .print .marketing-navigation {
     display: none;
   }
+
+  .home .account-nav .title-area {
+    position: absolute;
+  }
+
+  .account-nav ul li a:not(.button) {
+    padding: 0px 10px;
+  }
+  .account-nav ul li a:not(.button) .span {
+    display: none;
+  }
 }
 @media only screen and (max-width: 40em) {
   .icon-nav {
