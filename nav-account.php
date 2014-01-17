@@ -11,6 +11,6 @@
     <ul>
 	  	  <li><a class="active" href="#">Become a Member</a></li>
 	  	  <li><a href="#">Log In</a></li>
-	  	  <li><a class="right-off-canvas-toggle">Search <i class="fa fa-search"></i></a></li>
+	  	  <li><a class="right-off-canvas-toggle"><i class="fa fa-search"></i> Search</a></li>
     </ul>
 </nav>
