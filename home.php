@@ -21,7 +21,7 @@ $(function() {
     var BV = new $.BigVideo();
     BV.init();
     if (Modernizr.touch) {
-    BV.show('<?php echo get_template_directory_uri(); ?>/_/inc/images/print-bh.jpg');
+    BV.show();
 	} else {
     BV.show('<?php echo get_template_directory_uri(); ?>/_/inc/videos/npg_test_clips_1280x720.mp4',{ambient:true});
     }
