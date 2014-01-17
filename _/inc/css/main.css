@@ -8162,6 +8162,14 @@ body ul.dwls_search_results li a {
   font-size: 14px;
 }
 
+#s {
+  width: 90%;
+}
+
+#searchsubmit {
+  width: 10%;
+}
+
 @media only screen and (max-width: 40em) {
   .move-left > .inner-wrap {
     -webkit-transform: translate3d(-250px, 0, 0);
