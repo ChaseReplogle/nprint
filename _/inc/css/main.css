@@ -7822,7 +7822,10 @@ img.avatar {
   padding-left: 5%;
 }
 .content-row .page-sidebar .contact p {
-  color: #d1d1d1;
+  color: #848484;
+}
+.content-row .page-sidebar .contact img {
+  width: 50% !important;
 }
 
 .case-study {

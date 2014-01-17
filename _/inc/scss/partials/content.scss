@@ -325,9 +325,12 @@ img.avatar {
 			padding-left: 5%;
 
 			p {
-				color: $lightgrey;
+				color: darken($lightgrey, 30%);
 			}
 			
+			img {
+				width: 50% !important;
+			}
 		}
 	}
 }
