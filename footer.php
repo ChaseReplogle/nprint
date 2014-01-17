@@ -101,7 +101,8 @@
 <aside class="right-off-canvas-menu">
         <!-- whatever you want goes here -->
         <ul>
-          <li><a href="#">Item 1</a></li>
+        	<a class="exit-off-canvas"></a>
+        	<li><a href="#">Item 1</a></li>
         ...
         </ul>
 </aside>
