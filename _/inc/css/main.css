@@ -8158,6 +8158,7 @@ body ul.dwls_search_results {
 }
 body ul.dwls_search_results li {
   padding: 10px 0px;
+  border-bottom: 1px solid #4f4f4f;
 }
 body ul.dwls_search_results li a {
   color: #fff;
