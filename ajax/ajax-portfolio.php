@@ -13,10 +13,10 @@ query_posts('post_type=projects&posts_per_page=1&project_categories='.$title_rep
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		<div class="medium-8 columns row-image">
-			<img src="
+			<a href="<?php the_permalink(); ?>"><img src="
 				<?php $image = get_field('project_featured_image');
 				echo $image['sizes']['large']; ?>
-			" alt="<?php the_title(); ?>"/>
+			" alt="<?php the_title(); ?>"/></a>
 		</div>
 	
   		<div class="medium-4 columns row-content">
