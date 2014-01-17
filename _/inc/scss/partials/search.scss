@@ -8,12 +8,12 @@
 
 .left-off-canvas-menu, .right-off-canvas-menu {
 	width: 440px;
-	padding: 10px 30px 30px 30px;
+	padding: 20px 30px 30px 30px;
 }
 
 body ul.dwls_search_results {
 	right: -500px !important;
-	top: 110px !important;
+	top: 130px !important;
 	display: block;
 	width: 440px !important;
 	background-color: #333333 !important;
@@ -60,11 +60,16 @@ body ul.dwls_search_results {
 .close {
 	 a {
 	 	text-align: right;
-	 	margin-bottom: 10px;
+	 	margin-bottom: 30px;
 
 		i {
 			font-size: 20px;
 			color: #fff;
+			color: $lightgrey;
+
+			&:hover {
+				color: #000;
+			}
 		}
 	}
 }
