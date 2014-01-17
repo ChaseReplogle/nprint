@@ -8169,7 +8169,7 @@ body ul.dwls_search_results li a {
 .search-form {
   width: 100%;
   display: table;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 .search-form #s {
   width: 100%;
@@ -8191,7 +8191,6 @@ body ul.dwls_search_results li a {
 
 .close a {
   text-align: right;
-  margin-bottom: 30px;
 }
 .close a i {
   font-size: 20px;
