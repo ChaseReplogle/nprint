@@ -24,9 +24,10 @@
 				  <ul>
 				  	
 				  	<?php echo $children; ?>
-				  	<li><a class="right-off-canvas-toggle">Right Menu</a></li>
+
 				  </ul>
 		<?php } ?>
+		<li><a class="right-off-canvas-toggle">Right Menu</a></li>
     </ul>
 </section>
 </nav>
