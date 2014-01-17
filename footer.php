@@ -98,6 +98,16 @@
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/video.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/bigvideo.js"></script>
 	
+<aside class="right-off-canvas-menu">
+        <!-- whatever you want goes here -->
+        <ul>
+          <li><a href="#">Item 1</a></li>
+        ...
+        </ul>
+</aside>
+
+</div>
+</div>
 </body>
 
 </html>
