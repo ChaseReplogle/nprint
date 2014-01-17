@@ -6,7 +6,7 @@ body {
 
 .wrapper {
 	background-image: url('../images/pattern.jpg');
-	padding: 15px 0px;
+	padding: 15px 15%;
 }
 
 .boxed {
@@ -475,7 +475,7 @@ img.avatar {
 
 @media only screen and (max-width: 40em) {
 	.wrapper {
-		padding: 15px 15%;
+		padding: 15px 0px;
 	}
 
 	.not-mobile {
