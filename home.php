@@ -48,8 +48,6 @@ $(function() {
 
 <?php include 'nav-main.php'; ?>
 
-</div>
-
 <div class="wrapper">
 
 <?php $ids = get_field('featured_message', false, false); ?>
