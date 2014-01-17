@@ -412,7 +412,7 @@ $topbar-arrows: false;
 	}
 
 	.page-nav ul li a:not(.button) {
-		color: $lightgrey;
+		color: $grey;
 		background-color: transparent;
 		background: transparent; 
 		border-right: 0px; 
@@ -423,11 +423,11 @@ $topbar-arrows: false;
 
 	.page-nav ul li a:not(.button):hover {
 		background-color: transparent;
-		color: $grey;
+		color: #000;
 	}
 
 	.page-nav ul li.current_page_item a:not(.button) {
-		color: $grey;
+		color: #000;
 	}
 
 	.page-nav ul li:first-child { 
@@ -441,7 +441,7 @@ $topbar-arrows: false;
 	}
 
 	.page-nav .toggle-topbar.menu-icon a {
-		color: #fff; 
+		color: $grey; 
 		text-indent: 50px;
 	}
 
