@@ -146,6 +146,10 @@ $topbar-arrows: false;
 	background-color: $darkgrey; 
 	background: $darkgrey;
 
+	.title-area {
+		display: none;
+	}
+
 	ul li a:not(.button) {
 		color: $lightgrey; 
 		background-color: $darkgrey; 
