@@ -15,13 +15,13 @@ body ul.dwls_search_results {
 	top: 100px !important;
 	display: block;
 	width: 250px !important;
-	background-color: transparent !important;
+	background-color: #333333 !important;
 
 	li {
 
 		a {
 			color: #fff;
-			font-weight: normal;
+			font-weight: normal !important;
 			font-size: 14px;
 		}
 	}
