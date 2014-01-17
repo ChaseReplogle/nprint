@@ -7555,7 +7555,8 @@ a:hover {
   }
 }
 .image-hover img:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: .4;
 }
 
 /* Main stock styles */
