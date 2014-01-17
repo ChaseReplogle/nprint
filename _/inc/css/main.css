@@ -7487,7 +7487,7 @@ a:hover {
   padding: 0px 0.9375rem;
 }
 .page-nav-warpper .page-nav .title-area li a:not(.button) {
-  color: #fff;
+  color: #818080;
   margin: 0px;
   padding-right: 15%;
   padding-left: 5%;
@@ -7497,7 +7497,7 @@ a:hover {
   font-size: 20px;
 }
 .page-nav-warpper .page-nav ul.title-area li.current_page_item a:not(.button) {
-  color: #fff;
+  color: #818080;
 }
 .page-nav-warpper .page-nav ul {
   background-color: transparent;
