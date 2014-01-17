@@ -7819,8 +7819,10 @@ img.avatar {
   margin-bottom: 15px;
 }
 .content-row .page-sidebar .contact {
-  color: #d1d1d1;
   padding-left: 5%;
+}
+.content-row .page-sidebar .contact p {
+  color: #d1d1d1;
 }
 
 .case-study {
