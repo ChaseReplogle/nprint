@@ -7554,6 +7554,10 @@ a:hover {
     display: none;
   }
 }
+.image-hover:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* Main stock styles */
 body {
   background-color: #fff;
