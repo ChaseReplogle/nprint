@@ -137,7 +137,7 @@ $topbar-arrows: false;
 
 
  /* Account Log In Navigation */
- .home .title-area {
+ .home .account-nav .title-area {
 	display: none;
 }
  
@@ -171,6 +171,7 @@ $topbar-arrows: false;
 	
 	.top-bar-section li a:not(.button):hover {
 		background: $darkgrey; color: #fff;
+		padding: 0px;
 	}
 	
 	.top-bar-section li a:not(.button).active {

@@ -7290,7 +7290,7 @@ a:hover {
   }
 }
 /* Account Log In Navigation */
-.home .title-area {
+.home .account-nav .title-area {
   display: none;
 }
 
@@ -7322,6 +7322,7 @@ a:hover {
 .account-nav .top-bar-section li a:not(.button):hover {
   background: #4f4f4f;
   color: #fff;
+  padding: 0px;
 }
 .account-nav .top-bar-section li a:not(.button).active {
   background: #4f98c4;
