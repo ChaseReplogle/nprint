@@ -7299,6 +7299,9 @@ a:hover {
   background-color: #4f4f4f;
   background: #4f4f4f;
 }
+.account-nav .title-area {
+  display: none;
+}
 .account-nav ul li a:not(.button) {
   color: #d1d1d1;
   background-color: #4f4f4f;
