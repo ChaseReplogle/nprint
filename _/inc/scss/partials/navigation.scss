@@ -135,6 +135,7 @@ $topbar-arrows: false;
  
 
 
+
  /* Account Log In Navigation */
  
 .account-nav {
@@ -146,7 +147,7 @@ $topbar-arrows: false;
 	background-color: $darkgrey; 
 	background: $darkgrey;
 
-	.title-area {
+	ul.title-area {
 		display: none;
 	}
 

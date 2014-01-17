@@ -7299,7 +7299,7 @@ a:hover {
   background-color: #4f4f4f;
   background: #4f4f4f;
 }
-.account-nav .title-area {
+.account-nav ul.title-area {
   display: none;
 }
 .account-nav ul li a:not(.button) {
