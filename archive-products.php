@@ -35,14 +35,15 @@
 
 	<div class="columns medium-9 page-main-content">
 		<div class="panel">
-			<div class="columns medium-10">
-				<h5>Looking for Pricing?</h5>
-		  		<p>By signing up as an nPrint Member you'll have access to product prices as well as project calculators. You'll be able to place orders online and save quotes. You'll also have access to specials and membership discounts. Signing up for a membership is completely free.</p>
+			<div class="row">
+				<div class="columns medium-8">
+					<h5>Looking for Pricing?</h5>
+			  		<p>By signing up as an nPrint Member you'll have access to product prices as well as project calculators. You'll be able to place orders online and save quotes. You'll also have access to specials and membership discounts. Signing up for a membership is completely free.</p>
+				</div>
+				<div class="columns medium-4">
+					<a href="" class="primary-button">Become a Member</a>
+				</div>
 			</div>
-			<div class="columns medium-2">
-				<a href="" class="primary-button">Become a Member</a>
-			</div>
-			<div>find out more</div>
 		</div>
 	</div>
 </div>
