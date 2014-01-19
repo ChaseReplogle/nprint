@@ -108,7 +108,7 @@
 <script>
 (document).ready(function(){
 	var $ = jQuery;
-	$( ".search-form button" ).submit(function( event ) {
+	$( "#searchsubmit" ).submit(function( event ) {
   		alert( "Handler for .submit() called." );
   		event.preventDefault();
 	});
