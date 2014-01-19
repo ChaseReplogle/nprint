@@ -7987,6 +7987,9 @@ img.avatar {
   text-align: center;
   margin-bottom: 10px;
 }
+.post-type-archive-products .panel p {
+  color: #818080;
+}
 .post-type-archive-products .panel p a {
   color: #b4b3b3;
   text-decoration: underline;
