@@ -8,6 +8,11 @@
 			  else // top level page
 			  	$section = wp_list_pages("title_li=&include=".$post->ID."&echo=1"); ?>
 				  	<?php echo $section; ?>
+
+			<?php
+				if(is_archive())
+				  echo "<li><a>post_type_archive_title();</a></li>";
+			?>
 </ul>
 
 <section class="top-bar-section right">
@@ -28,6 +33,8 @@
 				  </ul>
 		<?php } ?>
     </ul>
+
+
 </section>
 </nav>
 </div>	
