@@ -13,19 +13,27 @@
 		</div>
 
 
-
 <script>
-	jQuery(document).ready(function(ajax){
+			var $ = jQuery;
 
-    jQuery("#searchsubmit").click(function(e){
-        e.preventDefault();
-        var search_val=jQuery("#s").val(); 
-        jQuery.get(search.php,{search_string:search_val},function(data){
-                jQuery(".search-results").append(data);
-        });
-    });   
-});
+			$('#searchsubmit').submit(function() { 
+				return false; 
+				var search_val=jQuery("#s").val();
+					$.get("<?php echo get_template_directory_uri(); ?>/earch.php," {search_string:search_val}, {search_string : search_val }, marketsuccessFn)
+			});
 
-</script>
+
+			function marketsuccessFn(result) {
+				$('.search-results').fadeOut( 100 , function() {
+		    		$(this).html( result);
+				}).fadeIn( 1000 );
+
+				console.log("Setting result");
+			}
+
+			function marketerrorFn(xhr, status, strErr) {
+				alert(strErr);
+			}
+		</script>
 
 </aside>
