@@ -34,7 +34,15 @@
 	</div>
 
 	<div class="columns medium-9 page-main-content">
-	test
+		<div class="panel">
+			<div class="columns medium-10">
+				<h5>Looking for Pricing?</h5>
+		  		<p>By signing up as an nPrint Client you'll have access to product prices as well as project calculators. You'll be able to place orders online and save quotes.</p>
+			</div>
+			<div class="columns medium-2">
+				<a href="" class="primary-button">Become a Client</a>
+			</div>
+		</div>
 	</div>
 </div>
 
