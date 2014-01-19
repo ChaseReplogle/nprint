@@ -523,6 +523,24 @@ img.avatar {
 
 
 
+.product-column {
+	ul {
+		width: 100%;
+		display: block;
+
+		li {
+			list-style: none;
+
+			a {
+				background-color: #fff;
+
+			}
+		}
+	}
+}
+
+
+
 
 
 /* Media Query styles */

@@ -7981,6 +7981,17 @@ img.avatar {
   width: 100%;
 }
 
+.product-column ul {
+  width: 100%;
+  display: block;
+}
+.product-column ul li {
+  list-style: none;
+}
+.product-column ul li a {
+  background-color: #fff;
+}
+
 /* Media Query styles */
 @media only screen and (max-width: 40em) {
   .wrapper {
