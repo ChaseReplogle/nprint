@@ -37,7 +37,7 @@
 		<ul class="example-orbit" data-orbit>
 		  <li>
 		  	<div class="flex-video widescreen vimeo">
-			  <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			  <iframe src="http://player.vimeo.com/video/52488975" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			</div>
 		  </li>
 		  <li>
