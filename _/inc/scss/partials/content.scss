@@ -525,8 +525,21 @@ img.avatar {
 
 .post-type-archive-products {
 	.panel {
+		padding: 30px;
+
 		.primary_button, .secondary_button {
 			display: block;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		p {
+
+			a {
+				color: $lightgrey;
+				text-decoration: underline;
+				font-size: 13px;
+			}
 		}
 	}
 }
