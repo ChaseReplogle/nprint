@@ -15,7 +15,7 @@
 
 
 <script>
-	jQuery(document).ready(function(){
+	jQuery(document).ready(function(ajax){
 
     jQuery("#searchsubmit").click(function(e){
         e.preventDefault();
