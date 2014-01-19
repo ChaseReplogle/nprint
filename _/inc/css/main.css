@@ -7982,6 +7982,10 @@ img.avatar {
   width: 100%;
 }
 
+.post-type-archive-products .panel .primary_button, .post-type-archive-products .panel .secondary_button {
+  display: block;
+}
+
 .product-column ul {
   width: 100%;
   display: block;
