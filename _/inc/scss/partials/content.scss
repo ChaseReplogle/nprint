@@ -563,7 +563,7 @@ img.avatar {
 				border: 1px solid $lightgrey;
 				border-bottom: 0px;
 				display: block;
-				color: $grey;
+				color: lighten($grey, 20%)
 
 				i {
 					float: right;

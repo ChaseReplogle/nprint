@@ -8011,10 +8011,8 @@ img.avatar {
   border: 1px solid #d1d1d1;
   border-bottom: 0px;
   display: block;
-  color: #818080;
-}
-.product-column ul li a i {
-  float: right;
+  color: #b4b3b3 i;
+  color-float: right;
 }
 .product-column ul li a:hover {
   background-color: #f2f2f2;
