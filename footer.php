@@ -106,15 +106,17 @@
 
 
 <script>
-var $ = jQuery;
-("#searchsubmit").click(function(e){
-    e.preventDefault();
-            var search_val=$("#s").val(); 
-    $.post(search.php,{search_string:search_val},function(data){
-    if(data.length>0){
-        $(".search-results").html(data);
-    }
-      });
+(document).ready(function(){
+	var $ = jQuery;
+    $("#searchsubmit").click(function(e){
+        e.preventDefault();
+        var search_val=$("#s").val(); 
+        $.post(search.php,{search_string:search_val},function(data){
+            if(data.length>0){
+                $(".search-results").html(data);
+            }
+        });
+    });   
 });
 </script>
 
