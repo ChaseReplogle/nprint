@@ -108,7 +108,7 @@
 <script>
 (document).ready(function(){
 	var $ = jQuery;
-    $(".search-form button").click(function(e){
+    $(".search-form button").submit(function(e){
         e.preventDefault();
         var search_val=$("#s").val(); 
         $.post(search.php,{search_string:search_val},function(data){
