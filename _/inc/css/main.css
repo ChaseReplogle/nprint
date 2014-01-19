@@ -7992,9 +7992,10 @@ img.avatar {
 .product-column ul li a {
   background-color: #fff;
   width: 100%;
-  padding: 15px 0px 15px 15px;
+  padding: 10px 0px 10px 15px;
   border: 1px solid #d1d1d1;
   border-bottom: 0px;
+  display: block;
 }
 
 /* Media Query styles */
