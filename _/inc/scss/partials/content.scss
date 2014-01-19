@@ -525,7 +525,7 @@ img.avatar {
 
 .post-type-archive-products {
 	.orbit-slides-container {
-		max-height: 461px !important;
+		min-height: 461px !important;
 		overflow: hidden;
 		border: 1px solid $lightgrey;
 
