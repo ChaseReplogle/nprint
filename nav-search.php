@@ -21,9 +21,7 @@
         e.preventDefault();
         var search_val=jQuery("#s").val(); 
         jQuery.get(search.php,{search_string:search_val},function(data){
-            if(data.length>0){
                 jQuery(".search-results").append(data);
-            }
         });
     });   
 });
