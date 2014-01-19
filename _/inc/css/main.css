@@ -7406,6 +7406,7 @@ a:hover {
 .portfolio-nav .icon-nav li {
   padding: 0px;
   margin: 0px;
+  width: 11.11111111111%;
 }
 .portfolio-nav .icon-nav li a {
   display: table-cell;
