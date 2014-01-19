@@ -7313,6 +7313,9 @@ a:hover {
   line-height: 45px;
   border: 0px;
 }
+.account-nav ul li a:not(.button) .fa-search {
+  padding-right: 5px;
+}
 .account-nav ul li:not(.button):first-child {
   border: 0px;
 }

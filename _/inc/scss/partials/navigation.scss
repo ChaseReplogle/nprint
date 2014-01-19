@@ -159,6 +159,10 @@ $topbar-arrows: false;
 		padding: 0px 20px;
 		line-height: 45px;
 		border: 0px;
+
+		.fa-search {
+			padding-right: 5px;
+		}
 	}
 	
 	ul li:not(.button):first-child {

@@ -11,29 +11,4 @@
 
 		<div class="search-results">
 		</div>
-
-
-<script>
-			var $ = jQuery;
-
-			$('#searchsubmit').submit(function(e) { 
-				return false;
-				var search_val=jQuery("#s").val();
-					$.get("<?php echo get_template_directory_uri(); ?>/earch.php," {search_string:search_val}, {search_string : search_val }, marketsuccessFn)
-			});
-
-
-			function marketsuccessFn(result) {
-				$('.search-results').fadeOut( 100 , function() {
-		    		$(this).html( result);
-				}).fadeIn( 1000 );
-
-				console.log("Setting result");
-			}
-
-			function marketerrorFn(xhr, status, strErr) {
-				alert(strErr);
-			}
-		</script>
-
 </aside>
