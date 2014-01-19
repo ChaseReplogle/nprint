@@ -535,11 +535,12 @@ img.avatar {
 		p {
 
 			a {
-				color: $lightgrey;
+				color: lighten($grey, 20%);
 				text-decoration: underline;
 				font-size: 13px;
 				display: block;
-				line-height: 18px;
+				line-height: 20px;
+
 			}
 		}
 	}
@@ -563,7 +564,6 @@ img.avatar {
 				border: 1px solid $lightgrey;
 				border-bottom: 0px;
 				display: block;
-				color: lighten($grey, 20%)
 
 				i {
 					float: right;

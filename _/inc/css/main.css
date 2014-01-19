@@ -7988,11 +7988,11 @@ img.avatar {
   margin-bottom: 10px;
 }
 .post-type-archive-products .panel p a {
-  color: #d1d1d1;
+  color: #b4b3b3;
   text-decoration: underline;
   font-size: 13px;
   display: block;
-  line-height: 18px;
+  line-height: 20px;
 }
 
 .product-column ul {
@@ -8011,8 +8011,9 @@ img.avatar {
   border: 1px solid #d1d1d1;
   border-bottom: 0px;
   display: block;
-  color: #b4b3b3 i;
-  color-float: right;
+}
+.product-column ul li a i {
+  float: right;
 }
 .product-column ul li a:hover {
   background-color: #f2f2f2;
