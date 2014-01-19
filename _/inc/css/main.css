@@ -7787,7 +7787,7 @@ img.avatar {
 }
 .content-row .page-main-content .panel {
   background-color: #fff;
-  padding: 20px;
+  padding: 30px;
 }
 .content-row .page-sidebar .ad {
   background-color: #fff;
@@ -7982,18 +7982,17 @@ img.avatar {
   width: 100%;
 }
 
-.post-type-archive-products .panel {
-  padding: 30px;
-}
 .post-type-archive-products .panel .primary_button, .post-type-archive-products .panel .secondary_button {
   display: block;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .post-type-archive-products .panel p a {
   color: #d1d1d1;
   text-decoration: underline;
   font-size: 13px;
+  display: block;
+  line-height: 18px;
 }
 
 .product-column ul {
