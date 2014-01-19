@@ -11,4 +11,17 @@
 
 		<div class="search-results">
 		</div>
+
+
+
+<script>
+(document).ready(function(){
+	var $ = jQuery;
+	$( "#searchform" ).submit(function( event ) {
+  		alert( "Handler for .submit() called." );
+  		event.preventDefault();
+	}); 
+});
+</script>
+
 </aside>
