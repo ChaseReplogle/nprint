@@ -15,13 +15,11 @@
 
 
 <script>
-(document).ready(function(){
-	var $ = jQuery;
-	$( "#searchform" ).submit(function( event ) {
+	jQuery( "#searchform" ).submit(function( event ) {
   		alert( "Handler for .submit() called." );
   		return false;
 	}); 
-});
+
 </script>
 
 </aside>
