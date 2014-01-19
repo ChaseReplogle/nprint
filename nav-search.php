@@ -12,6 +12,7 @@
 		</div>
 
 		<script>
+		var $ = jQuery;
 			("#searchsubmit").click(function(e){
 			    e.preventDefault();
 			            var search_val=$("#s").val(); 
