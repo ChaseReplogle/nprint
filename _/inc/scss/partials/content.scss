@@ -525,12 +525,12 @@ img.avatar {
 
 .post-type-archive-products {
 	.orbit-slides-container {
-		min-height: 461px !important;
+		height: auto !important;
 		overflow: hidden;
-		border: 1px solid $lightgrey;
 
 		img {
 			width: 100%;
+			border: 1px solid $lightgrey;
 		}
 	}
 

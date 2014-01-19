@@ -7983,12 +7983,12 @@ img.avatar {
 }
 
 .post-type-archive-products .orbit-slides-container {
-  min-height: 461px !important;
+  height: auto !important;
   overflow: hidden;
-  border: 1px solid #d1d1d1;
 }
 .post-type-archive-products .orbit-slides-container img {
   width: 100%;
+  border: 1px solid #d1d1d1;
 }
 .post-type-archive-products .orbit-slide-number {
   display: none;
