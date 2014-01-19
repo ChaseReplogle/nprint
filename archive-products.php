@@ -16,7 +16,25 @@
 		<hr>
 	</div>
 
-	<div class="columns medium-8 page-main-content">
+	<div class="columns medium-3 product-column">
+		<ul>
+			<li><a href="#">Banners</a></li>
+			<li><a href="#">Wraps</a></li>
+			<li><a href="#">Die Cust</a></li>
+			<li><a href="#">Exhibits</a></li>
+			<li><a href="#">Vehicles</a></li>
+			<li><a href="#">Buildings</a></li>
+		</ul>
+		<ul>
+			<li><a href="#">Graphic Design</a></li>
+			<li><a href="#">Proofing</a></li>
+			<li><a href="#">Consultation</a></li>
+			<li><a href="#">Instillation</a></li>
+		</ul>
+	</div>
+
+	<div class="columns medium-9 page-main-content">
+	test
 	</div>
 </div>
 
