@@ -7983,7 +7983,7 @@ img.avatar {
 }
 
 .post-type-archive-products .orbit-slides-container {
-  height: 461px !important;
+  max-height: 461px !important;
   overflow: hidden;
   border: 1px solid #d1d1d1;
 }
