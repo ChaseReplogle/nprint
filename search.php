@@ -6,6 +6,8 @@
  */
  get_header(); ?>
 
+ <div class="search-results">
+
 	<?php if (have_posts()) : ?>
 
 		<h2><?php _e('Search Results','html5reset'); ?></h2>
@@ -38,6 +40,6 @@
 
 	<?php endif; ?>
 
-<?php get_sidebar(); ?>
+</div>
 
 <?php get_footer(); ?>
