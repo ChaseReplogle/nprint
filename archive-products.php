@@ -36,6 +36,11 @@
 	<div class="columns medium-9 page-main-content">
 		<ul class="example-orbit" data-orbit>
 		  <li>
+		  	<div class="flex-video widescreen vimeo">
+			  <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
+		  </li>
+		  <li>
 		  <a href="#">
 		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-12.20.28-PM.png" alt="slide 1" />
 		  </a>
