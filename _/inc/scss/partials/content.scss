@@ -527,12 +527,17 @@ img.avatar {
 	ul {
 		width: 100%;
 		display: block;
+		margin-left: 0px;
 
 		li {
 			list-style: none;
 
 			a {
 				background-color: #fff;
+				width: 100%;
+				padding: 15px 0px 15px 15px;
+				border: 1px solid $lightgrey;
+				border-bottom: 0px;
 
 			}
 		}
