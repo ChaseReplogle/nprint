@@ -18,8 +18,9 @@
 (document).ready(function(){
 	var $ = jQuery;
 	$( "#searchform" ).submit(function( event ) {
+		return false;
   		alert( "Handler for .submit() called." );
-  		event.preventDefault();
+  		
 	}); 
 });
 </script>
