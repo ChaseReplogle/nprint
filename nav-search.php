@@ -16,6 +16,11 @@
 
 <script>
 	jQuery(document).ready(function(){
+
+	$('.right-off-canvas-toggle').click(function(){
+   		 $('#s').focus();
+	});
+
     jQuery("#searchsubmit").click(function(e){
         e.preventDefault();
         var search_val=jQuery("#s").val(); 
