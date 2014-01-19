@@ -7983,11 +7983,14 @@ img.avatar {
 }
 
 .post-type-archive-products .orbit-slides-container {
-  height: 200px !important;
+  height: 400px !important;
   overflow: hidden;
 }
 .post-type-archive-products .orbit-slides-container img {
   width: 100%;
+}
+.post-type-archive-products .orbit-slide-number {
+  display: none;
 }
 .post-type-archive-products .panel .primary_button, .post-type-archive-products .panel .secondary_button {
   display: block;

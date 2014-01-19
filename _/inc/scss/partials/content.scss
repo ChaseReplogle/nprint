@@ -525,12 +525,16 @@ img.avatar {
 
 .post-type-archive-products {
 	.orbit-slides-container {
-		height: 200px !important;
+		height: 400px !important;
 		overflow: hidden;
 
 		img {
 			width: 100%;
 		}
+	}
+
+	.orbit-slide-number {
+		display: none;
 	}
 
 	.panel {
