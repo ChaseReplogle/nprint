@@ -535,11 +535,15 @@ img.avatar {
 			a {
 				background-color: #fff;
 				width: 100%;
-				padding: 10px 0px 10px 15px;
+				padding: 10px 15px 10px 15px;
 				border: 1px solid $lightgrey;
 				border-bottom: 0px;
 				display: block;
+				color: $grey;
 
+				i {
+					float: right;
+				}
 			}
 		}
 	}
