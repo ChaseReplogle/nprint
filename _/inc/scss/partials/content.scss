@@ -528,6 +528,7 @@ img.avatar {
 		width: 100%;
 		display: block;
 		margin-left: 0px;
+		border-bottom: 1px solid $lightgrey;
 
 		li {
 			list-style: none;
@@ -543,6 +544,10 @@ img.avatar {
 
 				i {
 					float: right;
+				}
+
+				&:hover {
+					background-color: $verylightgrey;
 				}
 			}
 		}
