@@ -108,6 +108,11 @@
 <script>
 (document).ready(function(){
 	var $ = jQuery;
+	$( ".search-form button" ).submit(function( event ) {
+  		alert( "Handler for .submit() called." );
+  		event.preventDefault();
+	});
+
     $(".search-form button").submit(function(e){
         e.preventDefault();
         var search_val=$("#s").val(); 
