@@ -33,29 +33,9 @@
 		</ul>
 	</div>
 
-	<div class="columns medium-9 page-main-content">
-		<ul class="example-orbit" data-orbit>
-		  <li>
-		  	<div class="flex-video widescreen vimeo">
-			  <iframe src="http://player.vimeo.com/video/52488975" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			</div>
-		  </li>
-		  <li>
-		  <a href="#">
-		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-12.20.28-PM.png" alt="slide 1" />
-		  </a>
-		  </li>
-		  <li>
-		   <a href="#">
-		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-10.32.46-AM.png" alt="slide 2" />
-		    </a>
-		  </li>
-		  <li>
-		   <a href="#">
-		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-10.39.12-AM1.png" />
-		    </a>
-		  </li>
-		</ul>
+	<div class="flex-video widescreen vimeo">
+		<iframe src="http://player.vimeo.com/video/52488975" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	</div>
 
 		<div class="panel">
 			<div class="row">
