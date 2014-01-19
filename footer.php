@@ -105,17 +105,6 @@
 
 
 
-<script>
-(document).ready(function(){
-	var $ = jQuery;
-	$( "#searchsubmit" ).submit(function( event ) {
-  		alert( "Handler for .submit() called." );
-  		event.preventDefault();
-	}); 
-});
-</script>
-
-
 </body>
 
 </html>

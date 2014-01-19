@@ -111,6 +111,18 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+
+
+<script>
+(document).ready(function(){
+	var $ = jQuery;
+	$( "#searchsubmit" ).submit(function( event ) {
+  		alert( "Handler for .submit() called." );
+  		event.preventDefault();
+	}); 
+});
+</script>
 		
 <div class="off-canvas-wrap">
   <div class="inner-wrap">
