@@ -18,9 +18,8 @@
 (document).ready(function(){
 	var $ = jQuery;
 	$( "#searchform" ).submit(function( event ) {
-		return false;
   		alert( "Handler for .submit() called." );
-  		
+  		return false;
 	}); 
 });
 </script>
