@@ -17,7 +17,7 @@
 			var $ = jQuery;
 
 			$('#searchsubmit').submit(function(e) { 
-				e.preventDefault();
+				return false;
 				var search_val=jQuery("#s").val();
 					$.get("<?php echo get_template_directory_uri(); ?>/earch.php," {search_string:search_val}, {search_string : search_val }, marketsuccessFn)
 			});
