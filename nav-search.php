@@ -7,4 +7,19 @@
             	</button>
 			</div>
 		</form>
+
+		<div class="search-results">
+		</div>
+
+		<script>
+			("#searchsubmit").click(function(e){
+			    e.preventDefault();
+			            var search_val=$("#s").val(); 
+			    $.post(search.php,{search_string:search_val},function(data){
+			    if(data.length>0){
+			        $(".search-results").html(data);
+			    }
+			      });
+			});
+		</script>
 </aside>
