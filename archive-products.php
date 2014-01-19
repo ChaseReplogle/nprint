@@ -41,7 +41,8 @@
 			  		<p>By signing up as an nPrint Member you'll have access to product prices as well as project calculators. You'll be able to place orders online and save quotes. You'll also have access to specials and membership discounts. Signing up for a membership is completely free.</p>
 				</div>
 				<div class="columns medium-4">
-					<a href="" class="primary-button">Become a Member</a>
+					<a href="" class="primary_button">Become a Member</a>
+					<p><a href="#">Learn more about becomeing a member.</a></p>
 				</div>
 			</div>
 		</div>
