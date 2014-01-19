@@ -113,8 +113,8 @@
   		event.preventDefault();
 	});
 
-    $(".search-form button").submit(function(e){
-        e.preventDefault();
+    $(".search-form button").submit(function(form){
+        form.preventDefault();
         var search_val=$("#s").val(); 
         $.post(search.php,{search_string:search_val},function(data){
             if(data.length>0){
