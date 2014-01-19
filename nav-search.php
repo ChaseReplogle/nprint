@@ -20,6 +20,18 @@
   		return false;
 	}); 
 
+	jQuery(document).ready(function(){
+    jQuery("#searchsubmit").click(function(e){
+        e.preventDefault();
+        var search_val=jQuery("#s").val(); 
+        jQuery.post(search.php,{search_string:search_val},function(data){
+            if(data.length>0){
+                jQuery("#results").html(data);
+            }
+        });
+    });   
+});
+
 </script>
 
 </aside>
