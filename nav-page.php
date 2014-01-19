@@ -11,7 +11,7 @@
 
 			<?php
 				if(is_archive())
-				  echo '<li><a>post_type_archive_title();</a></li>';
+				  echo "<li><a>".post_type_archive_title();."</a></li>";
 			?>
 </ul>
 
