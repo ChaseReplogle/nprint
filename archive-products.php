@@ -38,25 +38,16 @@
 		  <li>
 		  <a href="#">
 		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-12.20.28-PM.png" alt="slide 1" />
-		    <div class="orbit-caption">
-		      Banners
-		    </div>
 		  </a>
 		  </li>
 		  <li>
 		   <a href="#">
 		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-10.32.46-AM.png" alt="slide 2" />
-		    <div class="orbit-caption">
-		      Instiallation
-		    </div>
 		    </a>
 		  </li>
 		  <li>
 		   <a href="#">
 		    <img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-10.39.12-AM1.png" />
-		    <div class="orbit-caption">
-		      Wraps
-		    </div>
 		    </a>
 		  </li>
 		</ul>

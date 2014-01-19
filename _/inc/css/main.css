@@ -7985,6 +7985,7 @@ img.avatar {
 .post-type-archive-products .orbit-slides-container {
   height: 400px !important;
   overflow: hidden;
+  border: 1px solig #d1d1d1;
 }
 .post-type-archive-products .orbit-slides-container img {
   width: 100%;
