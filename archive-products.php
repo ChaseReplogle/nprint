@@ -18,6 +18,7 @@
 
 	<div class="columns medium-8 page-main-content">
 	</div>
+</div>
 
 
 <div class="case-study">
@@ -47,5 +48,7 @@
 			</div>
 		</div>
 	</div>
+</div>
+
 
 <?php get_footer(); ?>
