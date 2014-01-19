@@ -33,9 +33,10 @@
 		</ul>
 	</div>
 
-	<div class="flex-video widescreen vimeo">
-		<iframe src="http://player.vimeo.com/video/52488975" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	</div>
+	<div class="columns medium-9 page-main-content">
+	  	<div class="flex-video widescreen vimeo">
+		  <iframe src="http://player.vimeo.com/video/52488975" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		</div>
 
 		<div class="panel">
 			<div class="row">
