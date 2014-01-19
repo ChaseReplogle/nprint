@@ -106,20 +106,13 @@
 
 
 <script>
+(document).ready(function(){
+	var $ = jQuery;
 	$( "#searchsubmit" ).submit(function( event ) {
   		alert( "Handler for .submit() called." );
   		event.preventDefault();
-	});
-
-    $(".search-form button").submit(function(form){
-        form.preventDefault();
-        var search_val=$("#s").val(); 
-        $.post(search.php,{search_string:search_val},function(data){
-            if(data.length>0){
-                $(".search-results").html(data);
-            }
-        });
-    });   
+	}); 
+});
 </script>
 
 
