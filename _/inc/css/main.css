@@ -7982,6 +7982,13 @@ img.avatar {
   width: 100%;
 }
 
+.post-type-archive-products .orbit-slides-container {
+  height: 200px;
+  overflow: hidden;
+}
+.post-type-archive-products .orbit-slides-container img {
+  width: 100%;
+}
 .post-type-archive-products .panel .primary_button, .post-type-archive-products .panel .secondary_button {
   display: block;
   text-align: center;

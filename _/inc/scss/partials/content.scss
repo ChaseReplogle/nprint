@@ -524,6 +524,15 @@ img.avatar {
 
 
 .post-type-archive-products {
+	.orbit-slides-container {
+		height: 200px;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+		}
+	}
+
 	.panel {
 
 		.primary_button, .secondary_button {
