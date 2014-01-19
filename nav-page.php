@@ -10,8 +10,8 @@
 				  	<?php echo $section; ?>
 
 			<?php
-				if(is_archive())
-				  echo "<li><a>".post_type_archive_title();."</a></li>";
+				if(is_archive('products' ))
+				  echo "<li><a>Products and Services</a></li>";
 			?>
 </ul>
 
