@@ -18,18 +18,18 @@
 
 	<div class="columns medium-3 product-column">
 		<ul>
-			<li><a href="#">Banners</a></li>
-			<li><a href="#">Wraps</a></li>
-			<li><a href="#">Die Cust</a></li>
-			<li><a href="#">Exhibits</a></li>
-			<li><a href="#">Vehicles</a></li>
-			<li><a href="#">Buildings</a></li>
+			<li><a href="#">Banners<i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#">Wraps<i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#">Die Cust<i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#">Exhibits<i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#">Vehicles<i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#">Buildings<i class="fa fa-angle-right"></i></a></li>
 		</ul>
 		<ul>
-			<li><a href="#">Graphic Design</a></li>
-			<li><a href="#">Proofing</a></li>
-			<li><a href="#">Consultation</a></li>
-			<li><a href="#">Instillation</a></li>
+			<li><a href="#">Graphic Design<i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#">Proofing<i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#">Consultation<i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#">Instillation<i class="fa fa-angle-right"></i></a></li>
 		</ul>
 	</div>
 
