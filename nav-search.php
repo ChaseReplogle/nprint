@@ -17,14 +17,10 @@
 <script>
 	jQuery(document).ready(function(){
 
-	$('.right-off-canvas-toggle').click(function(){
-   		 $('#s').focus();
-	});
-
     jQuery("#searchsubmit").click(function(e){
         e.preventDefault();
         var search_val=jQuery("#s").val(); 
-        jQuery.post(search.php,{search_string:search_val},function(data){
+        jQuery.get(search.php,{search_string:search_val},function(data){
             if(data.length>0){
                 jQuery(".search-results").append(data);
             }
