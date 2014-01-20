@@ -61,6 +61,7 @@
 
 		<div class="row">
 			<div class="columns medium-12">
+				<hr>
 				<table border="0" bordercolor="" style="background-color:" width="100%" cellpadding="" cellspacing="">
 					<thead>
 				    <tr>
