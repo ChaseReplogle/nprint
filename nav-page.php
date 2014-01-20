@@ -10,7 +10,7 @@
 				  	<?php echo $section; ?>
 
 			<?php
-				if(is_archive('products' ))
+				if(is_archive('products' )) || (is_singular( 'products' )) 
 				  echo "<li><a>Products and Services</a></li>";
 			?>
 </ul>
