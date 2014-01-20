@@ -51,11 +51,43 @@
 			</div>
 
 			<div class="columns medium-7 product-photo">
-				
+
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 				
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
 		
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="columns medium-12">
+				<table border="0" bordercolor="" style="background-color:" width="100%" cellpadding="" cellspacing="">
+					<tr>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+					</tr>
+					<tr>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+					</tr>
+					<tr>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+					</tr>
+					<tr>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+					</tr>
+					<tr>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+						<td>Table Cell</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 
