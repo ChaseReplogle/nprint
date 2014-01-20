@@ -12,13 +12,13 @@
 
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
-		<h1>Products to Help Make Your Ideas a Reality</h1>
+		<h1><?php the_title(); ?></h1>
 		<hr>
 	</div>
 
 	<div class="columns medium-3 product-column">
 		<ul>
-			<li><a href="#">Banners<i class="fa fa-angle-right"></i></a></li>
+			<li class="current-page-item"><a href="#">Banners<i class="fa fa-angle-right"></i></a></li>
 			<li><a href="#">Wraps<i class="fa fa-angle-right"></i></a></li>
 			<li><a href="#">Die Cust<i class="fa fa-angle-right"></i></a></li>
 			<li><a href="#">Exhibits<i class="fa fa-angle-right"></i></a></li>
@@ -41,7 +41,7 @@
 			</div>
 
 			<div class="columns medium-8 product-photo">
-				<h2>Banners</h2>
+
 			</div>
 		</div>
 
