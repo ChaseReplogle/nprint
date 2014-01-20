@@ -8037,6 +8037,13 @@ img.avatar {
   background-color: #d1d1d1;
 }
 
+.single-products {
+  border: 1px sold #818080;
+}
+.single-products .main-img {
+  margin-bottom: 20px;
+}
+
 /* Media Query styles */
 @media only screen and (max-width: 40em) {
   .wrapper {
