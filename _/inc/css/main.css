@@ -8037,11 +8037,14 @@ img.avatar {
   background-color: #d1d1d1;
 }
 
-.single-products {
+.single-products img {
   border: 1px sold #818080;
 }
 .single-products .main-img {
   margin-bottom: 20px;
+}
+.single-products [class*="block-grid-"] > li {
+  margin: 0px;
 }
 
 /* Media Query styles */

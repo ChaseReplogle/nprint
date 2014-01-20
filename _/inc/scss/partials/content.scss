@@ -601,10 +601,17 @@ img.avatar {
 
 
 .single-products {
-	border: 1px sold $grey;
+	
+	img {
+		border: 1px sold $grey;
+	}
 
 	.main-img {
 		margin-bottom: 20px;
+	}
+
+	[class*="block-grid-"] > li {
+		margin: 0px;
 	}
 }
 
