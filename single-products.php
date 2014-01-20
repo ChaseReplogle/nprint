@@ -62,6 +62,14 @@
 		<div class="row">
 			<div class="columns medium-12">
 				<table border="0" bordercolor="" style="background-color:" width="100%" cellpadding="" cellspacing="">
+					<thead>
+				    <tr>
+				      <th width="200">Table Header</th>
+				      <th>Table Header</th>
+				      <th width="150">Table Header</th>
+				      <th width="150">Table Header</th>
+				    </tr>
+				  </thead>
 					<tr>
 						<td>Table Cell</td>
 						<td>Table Cell</td>
