@@ -523,7 +523,7 @@ img.avatar {
 }
 
 
-.post-type-archive-products {
+.post-type-archive-products, .single-products {
 	.orbit-slides-container {
 		height: 461px !important;
 		overflow: hidden;
@@ -588,6 +588,12 @@ img.avatar {
 				&:hover {
 					background-color: $verylightgrey;
 				}
+			}
+		}
+
+		.current-page-item {
+			a {
+				background-color: $lightgrey;
 			}
 		}
 	}
