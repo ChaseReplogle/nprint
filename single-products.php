@@ -36,7 +36,7 @@
 	<div class="columns medium-9 page-main-content">
 	  	
 		<div class="row product-item">
-			<div class="columns medium-6 product-photo">
+			<div class="columns medium-6 product-photo " data-clearing>
 				<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
 
 				<ul class="clearing-thumbs small-block-grid-3">
