@@ -8037,7 +8037,7 @@ img.avatar {
   background-color: #d1d1d1;
 }
 
-.single-products img {
+.single-products img, .single-products a img {
   border: 1px sold #818080;
 }
 .single-products .main-img {
