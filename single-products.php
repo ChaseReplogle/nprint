@@ -103,6 +103,7 @@
 
 		<div class="panel">
 			<div class="row">
+				<hr>
 				<div class="columns medium-12">
 					<h4>Looking for Pricing?</h4>
 				</div>
