@@ -38,7 +38,8 @@
 		<div class="row product-item">
 			<div class="columns medium-5 product-photo">
 				<img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
-				<ul class="clearing-thumbs small-block-grid-3" data-clearing>
+
+				<ul class="clearing-thumbs small-block-grid-3">
   					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
 
   					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
