@@ -36,28 +36,33 @@
 	<div class="columns medium-9 page-main-content">
 	  	
 		<div class="row product-item">
-			<div class="columns medium-6 product-phot ">
-			
+
 				<div class="row">
-					<p>Vinyl banners are a form of outdoor advertising. Most banners are now digitally printed on large format inkjet printers which are capable of printing a full color outdoor billboard on a single piece of material.</p>
+					<div class="columns columns-12">
+						<p>Vinyl banners are a form of outdoor advertising. Most banners are now digitally printed on large format inkjet printers which are capable of printing a full color outdoor billboard on a single piece of material.</p>
+					</div>
 				</div>
 
 				<hr>
 
 				<div class="row">
-					<h3>13 oz Vinyl Banners</h3>
+					<div class="columns columns-12">
+						<h3>13 oz Vinyl Banners</h3>
+					</div>
 				</div>
+				
+				<div class="columns medium-6 product-phot ">
 
-				<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
+					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
 
-				<ul class="clearing-thumbs small-block-grid-3 "  data-clearing>
-  					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img class="clearing-thumbs" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
+					<ul class="clearing-thumbs small-block-grid-3 "  data-clearing>
+	  					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img class="clearing-thumbs" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
 
-  					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img class="clearing-thumbs" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
+	  					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img class="clearing-thumbs" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
 
-  					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
-				</ul>
-			</div>
+	  					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
+					</ul>
+				</div>
 
 			<div class="columns medium-6 product-photo">
 
