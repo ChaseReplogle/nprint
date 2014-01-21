@@ -49,7 +49,11 @@
 					<p>13 Oz. vinyl is ideal for indoor applications only. Typically this material does not have a scrim mesh so it can tear easily, but is smooth so it looks very nice. Roll up banners, banner stands, ceiling banners, blinds for windows, etc., are the most popular choices for this material.</p>
 			
 				</div>
+
+
 				<hr>
+
+
 				<div class="columns medium-5 product-phot ">
 					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
 				</div>
@@ -59,6 +63,22 @@
 					<h3>15 oz Vinyl Banners</h3>
 
 					<p>15 Oz vinyl is designed for long term applications. It is great for indoor and outdoor backlit applications, including pylon signs</p>
+			
+				</div>
+
+
+				<hr>
+
+				
+				<div class="columns medium-5 product-phot ">
+					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
+				</div>
+
+				<div class="columns medium-7">
+
+					<h3>15 oz Block Out Banners</h3>
+
+					<p>Blockout is a 15 oz. smooth, scrimless, blockout banner material best suited for double sided signs and banners, compatible with UV, solvent or screen-printing. Engineered primarily for indoor use, SuperSmooth Blockout may be used outdoors for very short durations. </p>
 			
 				</div>
 		</div>
