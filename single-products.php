@@ -44,12 +44,6 @@
 				</div>
 
 				<hr>
-
-				<div class="row">
-					<div class="columns columns-12">
-						<h3>13 oz Vinyl Banners</h3>
-					</div>
-				</div>
 				
 				<div class="columns medium-6 product-phot ">
 
@@ -65,6 +59,8 @@
 				</div>
 
 			<div class="columns medium-6 product-photo">
+
+				<h3>13 oz Vinyl Banners</h3>
 
 				<p>13 Oz. vinyl is ideal for indoor applications only. Typically this material does not have a scrim mesh so it can tear easily, but is smooth so it looks very nice. Roll up banners, banner stands, ceiling banners, blinds for windows, etc., are the most popular choices for this material.</p>
 		
