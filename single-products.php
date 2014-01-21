@@ -39,7 +39,7 @@
 		<div class="row product-item">
 
 				<div class="columns medium-5 product-phot ">
-					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
+					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-20-at-9.29.16-PM.png" />
 				</div>
 
 				<div class="columns medium-7">
@@ -55,7 +55,7 @@
 
 
 				<div class="columns medium-5 product-phot ">
-					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
+					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-20-at-9.30.36-PM.png" />
 				</div>
 
 				<div class="columns medium-7">
@@ -71,7 +71,7 @@
 
 				
 				<div class="columns medium-5 product-phot ">
-					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
+					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-20-at-9.31.45-PM.png" />
 				</div>
 
 				<div class="columns medium-7">
