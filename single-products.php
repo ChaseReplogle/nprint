@@ -43,27 +43,32 @@
 
 				<hr>
 
-				<div class="columns medium-6 product-phot ">
-
+				<div class="columns medium-5 product-phot ">
 					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
-
-					<ul class="clearing-thumbs small-block-grid-3 "  data-clearing>
-	  					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img class="clearing-thumbs" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
-
-	  					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img class="clearing-thumbs" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
-
-	  					<li><a href="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png"></a></li>
-					</ul>
 				</div>
 
-			<div class="columns medium-6 product-photo">
+				<div class="columns medium-7">
 
-				<h3>13 oz Vinyl Banners</h3>
+					<h3>13 oz Vinyl Banners</h3>
 
-				<p>13 Oz. vinyl is ideal for indoor applications only. Typically this material does not have a scrim mesh so it can tear easily, but is smooth so it looks very nice. Roll up banners, banner stands, ceiling banners, blinds for windows, etc., are the most popular choices for this material.</p>
-		
-			</div>
+					<p>13 Oz. vinyl is ideal for indoor applications only. Typically this material does not have a scrim mesh so it can tear easily, but is smooth so it looks very nice. Roll up banners, banner stands, ceiling banners, blinds for windows, etc., are the most popular choices for this material.</p>
+			
+				</div>
+				<hr>
+				<div class="columns medium-5 product-phot ">
+					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
+				</div>
+
+				<div class="columns medium-7">
+
+					<h3>15 oz Vinyl Banners</h3>
+
+					<p>15 Oz vinyl is designed for long term applications. It is great for indoor and outdoor backlit applications, including pylon signs</p>
+			
+				</div>
 		</div>
+
+
 
 		<div class="row">
 			<div class="columns medium-12">
