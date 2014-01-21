@@ -13,6 +13,7 @@
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
 		<h1><?php the_title(); ?></h1>
+		<p>Vinyl banners are a form of outdoor advertising. Most banners are now digitally printed on large format inkjet printers which are capable of printing a full color outdoor billboard on a single piece of material.</p>
 		<hr>
 	</div>
 
@@ -36,12 +37,6 @@
 	<div class="columns medium-9 page-main-content">
 	  	
 		<div class="row product-item">
-
-				<div class="columns columns-12">
-					<p>Vinyl banners are a form of outdoor advertising. Most banners are now digitally printed on large format inkjet printers which are capable of printing a full color outdoor billboard on a single piece of material.</p>
-				</div>
-
-				<hr>
 
 				<div class="columns medium-5 product-phot ">
 					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-14-at-10.01.30-PM.png" />
