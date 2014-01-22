@@ -39,7 +39,7 @@
 
 				<div class="columns medium-12 project-content">
 					<div class="row">
-						<div class="panel medium-5 columns">
+						<div class="panel">
 							<h2>PBR Arena Wraps</h2>
 							<p class="client">Client: Professional Bull Ride World Tour</p>
 							<img src="
@@ -48,7 +48,7 @@
 							" alt="<?php the_title(); ?>" class="featured-image"/>
 						</div>
 
-						<div class="panel medium-5 columns">
+						<div class="panel">
 							<h2>PBR Arena Wraps</h2>
 							<p class="client">Client: Professional Bull Ride World Tour</p>
 							<img src="
@@ -57,7 +57,7 @@
 							" alt="<?php the_title(); ?>" class="featured-image"/>
 						</div>
 
-						<div class="panel medium-5 columns">
+						<div class="panel">
 							<h2>PBR Arena Wraps</h2>
 							<p class="client">Client: Professional Bull Ride World Tour</p>
 							<img src="
@@ -66,7 +66,7 @@
 							" alt="<?php the_title(); ?>" class="featured-image"/>
 						</div>
 
-						<div class="panel medium-5 columns">
+						<div class="panel">
 							<h2>PBR Arena Wraps</h2>
 							<p class="client">Client: Professional Bull Ride World Tour</p>
 							<img src="
