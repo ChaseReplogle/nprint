@@ -34,7 +34,7 @@
 		</ul>
 	</div>
 
-	<div class="columns medium-9 medium-push-3 page-main-content">
+	<div class="columns medium-9 medium-pull-3 page-main-content">
 	  	
 		<div class="row product-item">
 
