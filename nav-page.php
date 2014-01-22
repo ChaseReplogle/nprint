@@ -18,6 +18,11 @@
 				if(is_post_type_archive('projects' ) || is_singular( 'projects' )) 
 				  echo "<li><a>Portfolio Projects</a></li>";
 			?>
+
+			<?php
+				if(is_post_type_archive('support' ) || is_singular( 'support' )) 
+				  echo "<li><a>Support</a></li>";
+			?>
 </ul>
 
 <section class="top-bar-section right">
