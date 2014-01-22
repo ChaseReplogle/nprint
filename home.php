@@ -294,7 +294,7 @@ $(function() {
 					    	<?php  $i++; ?>
 					        <?php setup_postdata($post); ?>
 					           <dd>
-								    <a href="#panel<?php echo $i; ?>"><?php the_title(); ?></a>
+								    <a href="#panel<?php echo $i; ?>"><i class="fa fa-angle-right"></i><?php the_title(); ?></a>
 								    <div id="panel<?php echo $i; ?>" class="content 
 								    	<?php if($i == 1)  echo "active";  ?>">
 										<p><?php the_excerpt(); ?></p>
