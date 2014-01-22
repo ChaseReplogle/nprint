@@ -310,7 +310,6 @@ $(function() {
 			<script>
 				jQuery('.accordion dd > a').click(function() {  
 					jQuery(this).find('i').toggleClass('fa-angle-right fa-angle-down') // add this line
-					jQuery('.accordion dd > a').toggleClass('fa-angle-down fa-angle-right') // add this line
 				});
 			</script>
 		
