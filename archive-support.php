@@ -31,7 +31,7 @@
 		</div>
 
 		<div class="columns medium-4">
-			<h3>Art</h3>
+			<h3>Artwork</h3>
 			<ul>
 					<li><a href="#">What is the best file format?</a></li>
 					<li><a href="#">How do I upload files?</a></li>
@@ -48,6 +48,29 @@
 					<li><a href="#">What is the typical turn around?</a></li>
 					<li><a href="#">Can I order in person?</a></li>
 					<li><a href="#">Can you come on site?</a></li>
+					<li><a href="#">Do you have a return policy?</a></li>
+				</ul>
+		</div>
+
+		<div class="columns medium-4">
+			<h3>Shipping</h3>	
+				<ul>
+					<li><a href="#">What times of shipping do you offer?</a></li>
+					<li><a href="#">Do you provide installation services?</a></li>
+					<li><a href="#">Can I rush shipping?</a></li>
+					<li><a href="#">Do you ship internationally?</a></li>
+				</ul>
+		</div>
+
+		<div class="columns medium-4">
+			<h3>Finishes</h3>
+			<ul>
+					<li><a href="#">How can I determine the number of grommets I'll need?</a></li>
+					<li><a href="#">What are pole-pockets used for?</a></li>
+					<li><a href="#">Whats the best way to attatch a banner to a building?</a></li>
+					<li><a href="#">Can I print a double sided banner?</a></li>
+					<li><a href="#">While my banner fade in the sunlight?</a></li>
+					<li><a href="#">What is the best type of velcro to use with vinyl banners?</a></li>
 				</ul>
 		</div>
 
@@ -70,18 +93,6 @@
 	</div>
 
 
-</div>
-
-
-<div class="case-study">
-	<div class="row">
-		<div class="columns medium-9 medium-centered">
-			<h5>Case Study</h5>
-			<h2>Sherman Williams Banners</h2>
-			<p>Lorem ipsum dolor sit amet ipsum malesuada.</p>
-			<a href="#" class="image-hover"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-16-at-4.26.50-PM.png" /></a>
-		</div>
-	</div>
 </div>
 
 <div class="footer-wrapper">
