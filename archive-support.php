@@ -16,19 +16,6 @@
 		<hr>
 	</div>
 
-	<div class="team">
-		<div class="row">
-			<div class="columns large-11 large-centered">
-				<h3>We've built a team to help execute and supper your ideas.</h3>
-			</div>
-			<div class="columns large-7 large-centered">
-				<p>Online, on the phone, or in person, our team of experts can help move your project from idea to finished perfection.</p>
-			</div>
-			<div class="columns large-11 large-centered">
-				<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/team.png" alt="nPrint Team"/>
-			</div>
-		</div>
-	</div>
 
 	<div class="row">
 
@@ -64,6 +51,22 @@
 				</ul>
 		</div>
 
+	</div>
+
+	<hr>
+
+	<div class="team">
+		<div class="row">
+			<div class="columns large-11 large-centered">
+				<h3>We've built a team to help execute and supper your ideas.</h3>
+			</div>
+			<div class="columns large-7 large-centered">
+				<p>Online, on the phone, or in person, our team of experts can help move your project from idea to finished perfection.</p>
+			</div>
+			<div class="columns large-11 large-centered">
+				<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/team.png" alt="nPrint Team"/>
+			</div>
+		</div>
 	</div>
 
 
