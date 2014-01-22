@@ -13,6 +13,11 @@
 				if(is_archive('products' ) || is_singular( 'products' )) 
 				  echo "<li><a>Products and Services</a></li>";
 			?>
+
+			<?php
+				if(is_archive('projects' ) || is_singular( 'projects' )) 
+				  echo "<li><a>Portfolio Projects</a></li>";
+			?>
 </ul>
 
 <section class="top-bar-section right">
