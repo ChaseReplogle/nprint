@@ -48,9 +48,13 @@
 					<li><a href="#">What is the typical turn around?</a></li>
 					<li><a href="#">Can I order in person?</a></li>
 					<li><a href="#">Can you come on site?</a></li>
-					<li><a href="#">Do you have a return policy?</a></li>
+					<li><a href="#">Do you have a return?</a></li>
 				</ul>
 		</div>
+
+	</div>
+
+	<div class="row">
 
 		<div class="columns medium-4">
 			<h3>Shipping</h3>	
@@ -74,6 +78,16 @@
 				</ul>
 		</div>
 
+		<div class="columns medium-4">
+			<h3>Payment and Orders</h3>
+			<ul>
+					<li><a href="#">How can I pay for my purchase?</a></li>
+					<li><a href="#">What is the typical turn around?</a></li>
+					<li><a href="#">Can I order in person?</a></li>
+					<li><a href="#">Can you come on site?</a></li>
+				</ul>
+		</div>
+
 	</div>
 
 	<hr>
@@ -94,6 +108,7 @@
 
 
 </div>
+
 
 <div class="footer-wrapper">
 	<div class="g7">
