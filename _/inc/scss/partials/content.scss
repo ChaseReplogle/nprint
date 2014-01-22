@@ -642,14 +642,12 @@ img.avatar {
 
 			td {
 				background-color: transparent;
+				font-size: 13px; 
+				color: $grey;
+				padding: 15px;
 
 				a {
 					color: $mainblue;
-				}
-
-				p {
-					font-size: 13px; 
-					color: $grey;
 				}
 			}
 		}
