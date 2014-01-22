@@ -25,7 +25,7 @@
 			</div>
 		</form>
 
-
+	<div class="row">
 		<div class="columns medium-4">
 			<h3>Products</h3>	
 				<ul>
@@ -59,7 +59,7 @@
 				</ul>
 		</div>
 
-
+	</div>
 		<div class="columns medium-4">
 			<h3>Shipping</h3>	
 				<ul>
@@ -90,6 +90,7 @@
 					<li><a href="#">Can I order in person?</a></li>
 					<li><a href="#">Can you come on site?</a></li>
 				</ul>
+		</div>
 		</div>
 
 	</div>
