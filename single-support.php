@@ -84,14 +84,16 @@
 		</div>
 
 	</div>
+
+	<div class="columns medium-8">	
+		<div class="support-answer">
+			<h2><?php the_permalink(); ?></h2>
+			<p>Customer Service Office</p>
+			<p><?php the_cotnetn(); ?></p>
+		</div>
+	</div>
+
 </div>
-
-
-	<dic class="support-answer">
-	<h2><?php the_permalink(); ?></h2>
-	<p>Customer Service Office</p>
-	<p><?php the_cotnetn(); ?></p>
-	</dic>
 
 	<hr>
 
