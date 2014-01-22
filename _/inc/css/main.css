@@ -8107,15 +8107,6 @@ img.avatar {
 .post-type-archive-projects .content-row .page-main-content .panel:hover {
   background-color: #fff;
 }
-.post-type-archive-projects .columns a {
-  color: #4f98c4;
-  text-decoration: underline;
-  padding: 0px 5px;
-}
-.post-type-archive-projects .columns input {
-  padding: 20px;
-  font-size: 16px;
-}
 .post-type-archive-projects .product-column .panel {
   background-color: transparent;
   border: 0px;
@@ -8132,6 +8123,16 @@ img.avatar {
   font-size: 45px;
   margin-bottom: 15px;
   color: #d1d1d1;
+}
+
+.post-type-archive-support .columns a {
+  color: #4f98c4;
+  text-decoration: underline;
+  padding: 0px 5px;
+}
+.post-type-archive-support .columns input {
+  padding: 20px;
+  font-size: 16px;
 }
 
 /* Media Query styles */
