@@ -681,15 +681,14 @@ img.avatar {
 		.panel {
 			background-color: $verylightgrey;
 			width: 49%;
-			margin-right: 2%;
 			float: left;
 
 			h2 {
 				font-size: 20px;
 			}
 
-			&:nth-child {
-				margin-right: 0px;
+			&:nth-child(odd) {
+				margin-right: 2%;
 			}
 		}
 	}

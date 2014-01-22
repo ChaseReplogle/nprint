@@ -8096,14 +8096,13 @@ img.avatar {
 .post-type-archive-projects .content-row .page-main-content .panel {
   background-color: #f2f2f2;
   width: 49%;
-  margin-right: 2%;
   float: left;
 }
 .post-type-archive-projects .content-row .page-main-content .panel h2 {
   font-size: 20px;
 }
-.post-type-archive-projects .content-row .page-main-content .panel:nth-child {
-  margin-right: 0px;
+.post-type-archive-projects .content-row .page-main-content .panel:nth-child(odd) {
+  margin-right: 2%;
 }
 
 /* Media Query styles */
