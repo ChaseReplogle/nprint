@@ -38,6 +38,14 @@
 					<h2>PBR Arena Wraps</h2>
 					<p class="client">Client: Professional Bull Ride World Tour</p>
 					<p>nPrint was happy to partner with the PBR World Tour to provide wraps for the area and building signage. Its proof, some big sheets of vinyl and big time installation can transform a college baseketball court into a world cass bull riding, rodeo, arena.</p>
+					
+					<table width="100%">
+						<tr>
+							<td width="25%"><a href="#">Project Specs</a></td>
+							<td>Large vinyl Banners 24 oz., Outdoor Mesh Banners, Window Decals</td>
+						</tr>
+					</table>
+
 					<hr>
 
 					<img src="

@@ -8069,6 +8069,9 @@ img.avatar {
 .content-row .page-main-content .project-content .block-grid > li {
   padding: 0px;
 }
+.content-row .page-main-content .project-content table {
+  background-color: transparent;
+}
 .content-row .page-main-content .project-content table tr {
   background-color: transparent;
 }
