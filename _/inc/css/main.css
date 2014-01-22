@@ -8129,13 +8129,13 @@ img.avatar {
   color: #d1d1d1;
 }
 
-.post-type-archive-support .columns a {
+.post-type-archive-support .columns a, .single-support .columns a {
   color: #4f98c4;
   text-decoration: underline;
   padding: 4px;
   display: block;
 }
-.post-type-archive-support .columns #s {
+.post-type-archive-support .columns #s, .single-support .columns #s {
   padding: 20px;
   font-size: 16px;
 }
