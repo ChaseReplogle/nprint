@@ -31,6 +31,12 @@
 			<li><a href="#">Consultation<i class="fa fa-angle-right"></i></a></li>
 			<li><a href="#">Instillation<i class="fa fa-angle-right"></i></a></li>
 		</ul>
+
+		<div class="panel">
+			<i class="fa fa-search-plus"></i> 
+			<h3>View More Projects by Selection a Category Above</h3>
+			<p>There's a lot more we'd like to show you.</p>
+		</div>
 	</div>
 
 	<div class="medium-9 columns page-main-content">
