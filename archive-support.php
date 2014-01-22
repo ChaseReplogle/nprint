@@ -16,7 +16,6 @@
 		<hr>
 	</div>
 
-	<div class="row content-row">
 		 <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
 			<div class="search-form">
 				<input type="text" size="18" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" placeholder="Search"/>
@@ -25,10 +24,9 @@
             	</button>
 			</div>
 		</form>
-	</div>
 
 
-	<div class="row content-row">
+	<div class="row">
 
 		<div class="columns medium-4">
 			<h3>Products</h3>	
@@ -65,7 +63,7 @@
 
 	</div>
 
-	<div class="row content-row">
+	<div class="row">
 
 		<div class="columns medium-4">
 			<h3>Shipping</h3>	
