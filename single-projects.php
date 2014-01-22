@@ -41,7 +41,10 @@
 					<p>nPrint was happy to partner with the PBR World Tour to provide wraps for the area and building signage. Its proof, some big sheets of vinyl and big time installation can transform a college baseketball court into a world cass bull riding, rodeo, arena.</p>
 					<hr>
 
-					
+					<img src="
+						<?php $image = get_field('project_featured_image');
+						echo $image['sizes']['large']; ?>
+					" alt="<?php the_title(); ?>"/>
 
 					<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing>
 
@@ -54,7 +57,12 @@
 								<a href="<?php echo $image['sizes']['large']; ?>"><img src="<?php echo $image['sizes']['thumbnail']; ?>"></a>
 								
 							</li>
+						<?php endif; ?>
+
+					<?php endwhile; ?>
+
 					</ul>
+					
 				</div>
 
 		</div>
