@@ -17,7 +17,7 @@
 		<hr>
 	</div>
 
-	<div class="columns medium-3 small-pull-9 product-column">
+	<div class="columns product-column">
 		<ul>
 			<li class="current-page-item"><a href="#">Banners<i class="fa fa-angle-right"></i></a></li>
 			<li><a href="#">Wraps<i class="fa fa-angle-right"></i></a></li>
@@ -34,7 +34,7 @@
 		</ul>
 	</div>
 
-	<div class="columns medium-9 small-push-3 page-main-content">
+	<div class="columns page-main-content">
 	  	
 		<div class="row product-item">
 
