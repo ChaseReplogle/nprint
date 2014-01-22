@@ -10,12 +10,12 @@
 				  	<?php echo $section; ?>
 
 			<?php
-				if(is_archive('products' ) || is_singular( 'products' )) 
+				if(is_post_type_archive('products' ) || is_singular( 'products' )) 
 				  echo "<li><a>Products and Services</a></li>";
 			?>
 
 			<?php
-				if(is_archive('projects' ) || is_singular( 'projects' )) 
+				if(is_post_type_archive('projects' ) || is_singular( 'projects' )) 
 				  echo "<li><a>Portfolio Projects</a></li>";
 			?>
 </ul>
