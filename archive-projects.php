@@ -29,7 +29,6 @@
 		<div class="panel">
 			<i class="fa fa-search-plus"></i> 
 			<h4>View More Projects by Selection a Category Above</h4>
-			<p>There's a lot more we'd like to show you.</p>
 		</div>
 	</div>
 
