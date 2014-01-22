@@ -697,6 +697,19 @@ img.avatar {
 		}
 	}
 
+	.columns {
+		a {
+			color: $mainblue;
+			text-decoration: underline;
+			padding: 0px 5px;
+		}
+
+		input {
+			padding: 20px;
+			font-size: 16px;
+		}
+	}
+
 	.product-column {
 
 		.panel {

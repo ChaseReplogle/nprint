@@ -8107,6 +8107,15 @@ img.avatar {
 .post-type-archive-projects .content-row .page-main-content .panel:hover {
   background-color: #fff;
 }
+.post-type-archive-projects .columns a {
+  color: #4f98c4;
+  text-decoration: underline;
+  padding: 0px 5px;
+}
+.post-type-archive-projects .columns input {
+  padding: 20px;
+  font-size: 16px;
+}
 .post-type-archive-projects .product-column .panel {
   background-color: transparent;
   border: 0px;
