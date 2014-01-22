@@ -7990,6 +7990,10 @@ img.avatar {
 .team img {
   width: 100%;
 }
+.team a {
+  color: #4f98c4;
+  text-decoration: underline;
+}
 
 .post-type-archive-products .orbit-slides-container, .single-products .orbit-slides-container {
   height: 461px !important;
@@ -8129,6 +8133,7 @@ img.avatar {
   color: #4f98c4;
   text-decoration: underline;
   padding: 0px 5px;
+  display: block;
 }
 .post-type-archive-support .columns input {
   padding: 20px;
