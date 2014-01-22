@@ -34,48 +34,33 @@
 		<div class="row product-item">
 
 				<div class="columns medium-12 product-phot ">
+
 					<h1>PBR Arena Wraps</h1>
 					<p>Client: </p>
 					<p>
 					<p>nPrint was happy to partner with the PBR World Tour to provide wraps for the area and building signage. Its proof, some big sheets of vinyl and big time installation can transform a college baseketball court into a world cass bull riding, rodeo, arena.</p>
 					<hr>
+
 					<img src="
 						<?php $image = get_field('project_featured_image');
 						echo $image['sizes']['large']; ?>
 					" alt="<?php the_title(); ?>"/>
+
 					<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing>
+
 					<?php while(has_sub_field("project_images")): ?>
  
 						<?php if(get_row_layout() == "project_image"): // layout: Content ?>
  
 							<li>
-								<?php $subImage = get_sub_field("image"); ?>
-								<a href="<?php echo $image['sizes']['large']; ?>"><img src="<?php echo $image['sizes']['thumbnail']; ?>"></a>
 								
 							</li>
 					</ul>
 				</div>
 
 		</div>
+		
 
-
-		<hr>
-
-		<div class="panel">
-			<div class="row">
-
-				<div class="columns medium-12">
-					<h4>Looking for Pricing?</h4>
-				</div>
-				<div class="columns medium-8">
-			  		<p>By signing up as an nPrint Member you'll have access to product prices as well as project calculators. You'll be able to place orders online and save quotes. You'll also have access to specials and membership discounts. Signing up for a membership is completely free.</p>
-				</div>
-				<div class="columns medium-4">
-					<a href="" class="primary_button">Become a Member</a>
-					<p><a href="#">Learn more about becomeing a member.</a></p>
-				</div>
-			</div>
-		</div>
 	</div>
 </div>
 
