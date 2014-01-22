@@ -39,14 +39,14 @@
 
 				<div class="columns medium-12 project-content">
 					<div class="row">
-						<div class="panel">
+						<a href="<?php the_permalink(); ?>"><div class="panel">
 							<h2>PBR Arena Wraps</h2>
 							<p class="client">Client: Professional Bull Ride World Tour</p>
 							<img src="
 								<?php $image = get_field('project_featured_image');
 								echo $image['sizes']['large']; ?>
 							" alt="<?php the_title(); ?>" class="featured-image"/>
-						</div>
+						</div></a>
 
 						<div class="panel">
 							<h2>PBR Arena Wraps</h2>
