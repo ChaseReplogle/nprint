@@ -16,7 +16,7 @@
 		<hr>
 	</div>
 
-	<div class="columns medium 4">
+	<div class="columns medium-4">
 		<div class="columns medium-4">
 			<h3>Products</h3>	
 				<ul>
