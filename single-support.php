@@ -87,9 +87,9 @@
 
 	<div class="columns medium-8">	
 		<div class="support-answer">
-			<h2><?php the_permalink(); ?></h2>
+			<h2><?php thePtitle(); ?></h2>
 			<p>Customer Service Office</p>
-			<p><?php the_cotnetn(); ?></p>
+			<p><?php the_content(); ?></p>
 		</div>
 	</div>
 
