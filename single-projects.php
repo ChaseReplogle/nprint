@@ -38,16 +38,11 @@
 	  	
 		<div class="row product-item">
 
-				<div class="columns medium-5 product-phot ">
-					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-20-at-9.29.16-PM.png" />
-				</div>
-
-				<div class="columns medium-7">
-
-					<h3>13 oz Vinyl Banners</h3>
-
-					<p>13 Oz. vinyl is ideal for indoor applications only. Typically this material does not have a scrim mesh so it can tear easily, but is smooth so it looks very nice. Roll up banners, banner stands, ceiling banners, blinds for windows, etc., are the most popular choices for this material.</p>
-			
+				<div class="columns medium-12 product-phot ">
+					<img src="
+						<?php $image = get_field('project_featured_image');
+						echo $image['sizes']['large']; ?>
+					" alt="<?php the_title(); ?>"/>
 				</div>
 
 		</div>
