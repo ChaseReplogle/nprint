@@ -8107,6 +8107,10 @@ img.avatar {
 .post-type-archive-projects .content-row .page-main-content .panel:hover {
   background-color: #fff;
 }
+.post-type-archive-projects .product-column .panel {
+  background-color: transparent;
+  border: 0px;
+}
 .post-type-archive-projects .product-column .panel h4 {
   text-align: center;
   font-size: 18px;
