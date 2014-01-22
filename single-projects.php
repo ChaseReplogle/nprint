@@ -45,7 +45,7 @@
 						echo $image['sizes']['large']; ?>
 					" alt="<?php the_title(); ?>" class="featured-image"/>
 
-					<ul class="block-grid small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing>
+					<ul class="block-grid small-block-grid-3 medium-block-grid-4 large-block-grid-6" data-clearing>
 
 					<?php while(has_sub_field("project_images")): ?>
  
@@ -66,11 +66,11 @@
 
 					<table width="100%">
 						<tr>
-							<td width="33%"><a href="#">Larger Banners</a></td>
+							<td width="25%"><a href="#">Larger Banners</a></td>
 							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue bibendum...</td>
 						</tr>
 						<tr>
-							<td width="33%"><a href="#">Window Wraps</a></td>
+							<td width="25%"><a href="#">Window Wraps</a></td>
 							<td>Sit amet, consectetur adipiscing elit. Curabitur lorem isum dolor congue bibendum...</td>
 						</tr>
 					</table>
