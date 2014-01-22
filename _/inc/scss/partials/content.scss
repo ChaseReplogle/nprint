@@ -618,7 +618,12 @@ img.avatar {
 .content-row .page-main-content .project-content {
 	h2 {
 		color: $grey;
-		font-weight: normal;
+		font-weight: 100;
+	}
+
+	.client {
+		color: $lightgrey;
+		font-style: italic;
 	}
 
 	.featured-image {
