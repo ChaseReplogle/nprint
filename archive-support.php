@@ -24,7 +24,7 @@
             	</button>
 			</div>
 		</form>
-
+</div>
 
 	<div class="row">
 
@@ -115,8 +115,6 @@
 		</div>
 	</div>
 
-
-</div>
 
 
 <div class="footer-wrapper">

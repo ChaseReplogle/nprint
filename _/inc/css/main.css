@@ -8132,7 +8132,7 @@ img.avatar {
 .post-type-archive-support .columns a {
   color: #4f98c4;
   text-decoration: underline;
-  padding: 0px 5px;
+  padding: 4px;
   display: block;
 }
 .post-type-archive-support .columns input {
