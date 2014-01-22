@@ -8135,7 +8135,7 @@ img.avatar {
   padding: 4px;
   display: block;
 }
-.post-type-archive-support .columns input {
+.post-type-archive-support .columns #s {
   padding: 20px;
   font-size: 16px;
 }
