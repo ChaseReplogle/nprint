@@ -8104,6 +8104,9 @@ img.avatar {
 .post-type-archive-projects .content-row .page-main-content .panel:nth-child(odd) {
   margin-right: 2%;
 }
+.post-type-archive-projects .content-row .page-main-content .panel:hover {
+  background-color: #fff;
+}
 .post-type-archive-projects .product-column .panel h4 {
   text-align: center;
   font-size: 18px;

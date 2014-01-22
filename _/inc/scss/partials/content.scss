@@ -690,6 +690,10 @@ img.avatar {
 			&:nth-child(odd) {
 				margin-right: 2%;
 			}
+
+			&:hover {
+				background-color: #fff;
+			}
 		}
 	}
 
