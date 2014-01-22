@@ -676,14 +676,17 @@ img.avatar {
 
 
 .post-type-archive-projects {
+	.post-type-archive-projects {
 
-	.panel {
-		background-color: $verylightgrey;
-		width: 45%;
-		margin-right: 2.5%;
+		.panel {
+			background-color: $verylightgrey;
+			width: 45%;
+			margin-right: 2.5%;
+			float: left;
 
-		h2 {
-			font-size: 20px;
+			h2 {
+				font-size: 20px;
+			}
 		}
 	}
 }
