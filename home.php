@@ -308,7 +308,7 @@ $(function() {
 		</div>
 
 			<script>
-				jQuery('.accordion dt').click(function() {  
+				jQuery('.accordion > a').click(function() {  
 					jQuery(this).find('i').toggleClass('fa-angle-right fa-angle-down') // add this line
     					jQuery('.accordion dt').removeClass('active');
     					jQuery('.accordion_content').slideUp('normal');
