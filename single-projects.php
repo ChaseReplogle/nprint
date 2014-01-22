@@ -41,7 +41,7 @@
 					
 					<table width="100%">
 						<tr>
-							<td width="25%"><a href="#">Project Specs</a></td>
+							<td width="25%">Project Specs</td>
 							<td>Large vinyl Banners 24 oz., Outdoor Mesh Banners, Window Decals</td>
 						</tr>
 					</table>
