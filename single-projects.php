@@ -12,7 +12,7 @@
 
 <div class="row content-row">
 
-	<div class="medium-3 small-push-9 columns product-column large-reset-order">
+	<div class="medium-3 small-push-9 medium-push-3 columns product-column large-reset-order">
 		<ul>
 			<li class="current-page-item"><a href="#">Banners<i class="fa fa-angle-right"></i></a></li>
 			<li><a href="#">Wraps<i class="fa fa-angle-right"></i></a></li>
@@ -29,7 +29,7 @@
 		</ul>
 	</div>
 
-	<div class="medium-9 small-pull-3 columns page-main-content large-reset-order">
+	<div class="medium-9 small-pull-3 medium-push-9 columns page-main-content large-reset-order">
 	  	
 		<div class="row product-item">
 
