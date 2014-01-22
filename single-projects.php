@@ -62,6 +62,21 @@
 
 					</ul>
 
+					<table width="100%">
+						<tr>
+							<td>Larger Banners</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue bibendum...</td>
+							<td><a href="#">Learn More</a></td>
+						</tr>
+						<tr>
+							<td>Window Wraps</td>
+							<td>Sit amet, consectetur adipiscing elit. Curabitur lorem isum dolor congue bibendum...</td>
+							<td><a href="#">Learn More</a></td>
+						</tr>
+					</table>
+
+
+
 				</div>
 
 		</div>
