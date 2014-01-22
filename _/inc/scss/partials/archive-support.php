@@ -30,6 +30,42 @@
 		</div>
 	</div>
 
+	<div class="row">
+
+		<div class="columns medium-4">
+			<h3>Products</h3>	
+				<ul>
+					<li><a href="#">Banners</a></li>
+					<li><a href="#">Wraps</a></li>
+					<li><a href="#">Vehicles</a></li>
+					<li><a href="#">Exhibits</a></li>
+					<li><a href="#">Decals</a></li>
+				</ul>
+		</div>
+
+		<div class="columns medium-4">
+			<h3>Art</h3>
+			<ul>
+					<li><a href="#">What is the best file format?</a></li>
+					<li><a href="#">How do I upload files?</a></li>
+					<li><a href="#">How should my files be set up?</a></li>
+					<li><a href="#">What is bleed?</a></li>
+					<li><a href="#">What is the best resolution for large banners?</a></li>
+				</ul>
+		</div>
+
+		<div class="columns medium-4">
+			<h3>Payment and Orders</h3>
+			<ul>
+					<li><a href="#">How can I pay for my purchase?</a></li>
+					<li><a href="#">What is the typical turn around?</a></li>
+					<li><a href="#">Can I order in person?</a></li>
+					<li><a href="#">Can you come on site?</a></li>
+				</ul>
+		</div>
+
+	</div>
+
 
 </div>
 
