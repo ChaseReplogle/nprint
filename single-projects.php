@@ -12,7 +12,7 @@
 
 <div class="row content-row">
 
-	<div class="medium-3 small-12 small-push-12 columns product-column">
+	<div class="medium-3 medium-push-12 columns product-column">
 		<ul>
 			<li class="current-page-item"><a href="#">Banners<i class="fa fa-angle-right"></i></a></li>
 			<li><a href="#">Wraps<i class="fa fa-angle-right"></i></a></li>
@@ -29,7 +29,7 @@
 		</ul>
 	</div>
 
-	<div class="medium-9 small-12 small-pull-12 columns page-main-content">
+	<div class="medium-9 medium-pull-12 columns page-main-content">
 	  	
 		<div class="row product-item">
 
