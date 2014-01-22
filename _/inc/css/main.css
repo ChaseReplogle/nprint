@@ -8102,6 +8102,9 @@ img.avatar {
 .post-type-archive-projects .content-row .page-main-content .panel h2 {
   font-size: 20px;
 }
+.post-type-archive-projects .content-row .page-main-content .panel:nth-child {
+  margin-right: 0px;
+}
 
 /* Media Query styles */
 @media only screen and (max-width: 40em) {

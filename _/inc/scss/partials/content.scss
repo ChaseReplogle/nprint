@@ -687,6 +687,10 @@ img.avatar {
 			h2 {
 				font-size: 20px;
 			}
+
+			&:nth-child {
+				margin-right: 0px;
+			}
 		}
 	}
 }
