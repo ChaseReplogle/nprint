@@ -24,9 +24,7 @@
             	</button>
 			</div>
 		</form>
-</div>
 
-	<div class="row">
 
 		<div class="columns medium-4">
 			<h3>Products</h3>	
@@ -61,9 +59,6 @@
 				</ul>
 		</div>
 
-	</div>
-
-	<div class="row">
 
 		<div class="columns medium-4">
 			<h3>Shipping</h3>	
