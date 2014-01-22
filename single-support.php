@@ -16,8 +16,8 @@
 		<hr>
 	</div>
 
-	<div class="columns medium-4">
-		<div class="columns medium-4">
+	<div class="columns medium-5">
+		<div class="columns medium-6">
 			<h3>Products</h3>	
 				<ul>
 					<li><a href="#">Banners</a></li>
@@ -28,7 +28,7 @@
 				</ul>
 		</div>
 
-		<div class="columns medium-4">
+		<div class="columns medium-6">
 			<h3>Artwork</h3>
 			<ul>
 					<li><a href="#">What is the best file format?</a></li>
@@ -39,7 +39,7 @@
 				</ul>
 		</div>
 
-		<div class="columns medium-4">
+		<div class="columns medium-6">
 			<h3>Payment and Orders</h3>
 			<ul>
 					<li><a href="#">How can I pay for my purchase?</a></li>
@@ -51,7 +51,7 @@
 		</div>
 
 
-		<div class="columns medium-4">
+		<div class="columns medium-6">
 			<h3>Shipping</h3>	
 				<ul>
 					<li><a href="#">What times of shipping do you offer?</a></li>
@@ -61,7 +61,7 @@
 				</ul>
 		</div>
 
-		<div class="columns medium-4">
+		<div class="columns medium-6">
 			<h3>Finishes</h3>
 			<ul>
 					<li><a href="#">How can I determine the number of grommets I'll need?</a></li>
@@ -73,7 +73,7 @@
 				</ul>
 		</div>
 
-		<div class="columns medium-4">
+		<div class="columns medium-6">
 			<h3>Payment and Orders</h3>
 			<ul>
 					<li><a href="#">How can I pay for my purchase?</a></li>
@@ -85,7 +85,7 @@
 
 	</div>
 
-	<div class="columns medium-8">	
+	<div class="columns medium-7">	
 		<div class="support-answer">
 			<h2><?php thePtitle(); ?></h2>
 			<p>Customer Service Office</p>
