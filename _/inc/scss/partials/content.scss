@@ -634,6 +634,26 @@ img.avatar {
 	img {
 		border: 1px solid $grey;
 	}
+
+	table {
+
+		tr {
+			background-color: transparent;
+
+			td {
+				background-color: transparent;
+
+				a {
+					color: $mainblue;
+				}
+
+				p {
+					font-size: 13px; 
+					color: $grey;
+				}
+			}
+		}
+	}
 }
 
 
