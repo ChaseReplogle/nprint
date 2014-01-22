@@ -8047,6 +8047,18 @@ img.avatar {
   margin: 0px;
 }
 
+.project-content h2 {
+  color: #818080;
+  font-weight: normal;
+}
+.project-content .featured-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.project-content img {
+  border: 1px solid #818080;
+}
+
 /* Media Query styles */
 @media only screen and (max-width: 40em) {
   .wrapper {

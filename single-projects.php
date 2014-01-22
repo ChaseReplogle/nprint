@@ -33,7 +33,7 @@
 	  	
 		<div class="row product-item">
 
-				<div class="columns medium-12 product-phot ">
+				<div class="columns medium-12 project-content">
 
 					<h1>PBR Arena Wraps</h1>
 					<p>Client: </p>
@@ -44,7 +44,7 @@
 					<img src="
 						<?php $image = get_field('project_featured_image');
 						echo $image['sizes']['large']; ?>
-					" alt="<?php the_title(); ?>"/>
+					" alt="<?php the_title(); ?>" class="featured-image"/>
 
 					<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing>
 
@@ -54,7 +54,7 @@
  
 							<li>
 								<?php $subImage = get_sub_field("image"); ?>
-								<a href="<?php echo $image['sizes']['large']; ?>"><img src="<?php echo $image['sizes']['thumbnail']; ?>"></a>
+								<a href="<?php echo $subImage['sizes']['large']; ?>"><img src="<?php echo $subImage['sizes']['thumbnail']; ?>"></a>
 								
 							</li>
 						<?php endif; ?>
@@ -62,7 +62,7 @@
 					<?php endwhile; ?>
 
 					</ul>
-					
+
 				</div>
 
 		</div>

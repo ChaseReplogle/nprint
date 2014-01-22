@@ -615,6 +615,31 @@ img.avatar {
 	}
 }
 
+.project-content {
+	h2 {
+		color: $grey;
+		font-weight: normal;
+	}
+
+	.featured-image {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	img {
+		border: 1px solid $grey;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Query styles */
