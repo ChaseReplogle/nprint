@@ -45,7 +45,7 @@
 						echo $image['sizes']['large']; ?>
 					" alt="<?php the_title(); ?>" class="featured-image"/>
 
-					<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing>
+					<ul class="block-grid small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing>
 
 					<?php while(has_sub_field("project_images")): ?>
  
