@@ -8093,6 +8093,15 @@ img.avatar {
   color: #4f98c4;
 }
 
+.post-type-archive-projects .panel {
+  background-color: #f2f2f2;
+  width: 45%;
+  margin-right: 2.5%;
+}
+.post-type-archive-projects .panel h2 {
+  font-size: 20px;
+}
+
 /* Media Query styles */
 @media only screen and (max-width: 40em) {
   .wrapper {
@@ -8202,6 +8211,11 @@ img.avatar {
 
   .content-row .page-sidebar .contact {
     display: none;
+  }
+
+  .post-type-archive-projects .panel {
+    width: 100%;
+    margin-right: 0px;
   }
 }
 .primary_button {

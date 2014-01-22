@@ -675,7 +675,18 @@ img.avatar {
 }
 
 
+.post-type-archive-projects {
 
+	.panel {
+		background-color: $verylightgrey;
+		width: 45%;
+		margin-right: 2.5%;
+
+		h2 {
+			font-size: 20px;
+		}
+	}
+}
 
 
 
@@ -812,6 +823,15 @@ img.avatar {
 			}
 		}
 	}
+
+	.post-type-archive-projects {
+
+		.panel { 
+			width: 100%;
+			margin-right: 0px;
+		}
+	}
+
 
 }
 
