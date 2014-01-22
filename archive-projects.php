@@ -47,9 +47,7 @@
 								echo $image['sizes']['large']; ?>
 							" alt="<?php the_title(); ?>" class="featured-image"/>
 						</div>
-					</div>
 
-					<div class="row">
 						<div class="medium-6 columns">
 							<h2>PBR Arena Wraps</h2>
 							<p class="client">Client: Professional Bull Ride World Tour</p>
@@ -58,9 +56,7 @@
 								echo $image['sizes']['large']; ?>
 							" alt="<?php the_title(); ?>" class="featured-image"/>
 						</div>
-					</div>
 
-					<div class="row">
 						<div class="medium-6 columns">
 							<h2>PBR Arena Wraps</h2>
 							<p class="client">Client: Professional Bull Ride World Tour</p>
@@ -69,9 +65,7 @@
 								echo $image['sizes']['large']; ?>
 							" alt="<?php the_title(); ?>" class="featured-image"/>
 						</div>
-					</div>
 
-					<div class="row">
 						<div class="medium-6 columns">
 							<h2>PBR Arena Wraps</h2>
 							<p class="client">Client: Professional Bull Ride World Tour</p>
