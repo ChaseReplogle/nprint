@@ -25,7 +25,7 @@
 
 	<div class="columns medium-4">
 			<h3>Shipping</h3>	
-				<ul>
+				<ul class="support-links">
 					<li class="current-page-item"><a href="http://nprintgraphix.wpengine.com/support/how-are-my-items-shipped/">What times of shipping do you offer?</a></li>
 					<li><a href="#">Do you provide installation services?</a></li>
 					<li><a href="#">Can I rush shipping?</a></li>

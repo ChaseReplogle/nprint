@@ -38,7 +38,7 @@
 	<div class="row content-row support-row">
 		<div class="columns medium-4">
 			<h3>Products</h3>	
-				<ul>
+				<ul class="support-links">
 					<li><a href="#">Banners</a></li>
 					<li><a href="#">Wraps</a></li>
 					<li><a href="#">Vehicles</a></li>
@@ -49,7 +49,7 @@
 
 		<div class="columns medium-4">
 			<h3>Artwork</h3>
-			<ul>
+			<ul class="support-links">
 					<li><a href="#">What is the best file format?</a></li>
 					<li><a href="#">How do I upload files?</a></li>
 					<li><a href="#">How should my files be set up?</a></li>
@@ -60,7 +60,7 @@
 
 		<div class="columns medium-4">
 			<h3>Payment and Orders</h3>
-			<ul>
+			<ul class="support-links">
 					<li><a href="#">How can I pay for my purchase?</a></li>
 					<li><a href="#">What is the typical turn around?</a></li>
 					<li><a href="#">Can I order in person?</a></li>
@@ -72,8 +72,8 @@
 	</div>
 	<div class="row content-row support-row">
 		<div class="columns medium-4">
-			<h3>Shipping</h3>	
-				<ul>
+			<h3 >Shipping</h3>	
+				<ul class="support-links">
 					<li><a href="http://nprintgraphix.wpengine.com/support/what-types-of-shipping-do-you-offer/">What times of shipping do you offer?</a></li>
 					<li><a href="#">Do you provide installation services?</a></li>
 					<li><a href="#">Can I rush shipping?</a></li>
@@ -83,7 +83,7 @@
 
 		<div class="columns medium-4">
 			<h3>Finishes</h3>
-			<ul>
+			<ul class="support-links">
 					<li><a href="#">How can I determine the number of grommets I'll need?</a></li>
 					<li><a href="#">What are pole-pockets used for?</a></li>
 					<li><a href="#">Whats the best way to attatch a banner to a building?</a></li>
@@ -94,7 +94,7 @@
 		</div>
 
 		<div class="columns medium-4">
-			<h3>Payment and Orders</h3>
+			<h3 class="support-links">Payment and Orders</h3>
 			<ul>
 					<li><a href="#">How can I pay for my purchase?</a></li>
 					<li><a href="#">What is the typical turn around?</a></li>
