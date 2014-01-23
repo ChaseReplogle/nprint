@@ -8150,7 +8150,8 @@ img.avatar {
   font-size: 16px;
 }
 .post-type-archive-support .columns .search-form #searchsubmit, .single-support .columns .search-form #searchsubmit {
-  padding: 20px;
+  padding: 10px;
+  margin: 10px 0px;
 }
 .post-type-archive-support .team, .single-support .team {
   padding: 30px 0px;
