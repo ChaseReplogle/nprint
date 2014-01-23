@@ -24,6 +24,7 @@
             	</button>
 			</div>
 		</form>
+</div>
 
 	<div class="row">
 		<div class="columns medium-4">
@@ -91,9 +92,9 @@
 					<li><a href="#">Can you come on site?</a></li>
 				</ul>
 		</div>
-		</div>
-
 	</div>
+
+
 
 	<hr>
 
