@@ -8142,8 +8142,11 @@ img.avatar {
   display: block;
 }
 .post-type-archive-support .columns #s, .single-support .columns #s {
-  padding: 35px;
+  padding: 30px;
   font-size: 16px;
+}
+.post-type-archive-support .columns .search-form #searchsubmit, .single-support .columns .search-form #searchsubmit {
+  padding: 20px;
 }
 
 /* Media Query styles */
