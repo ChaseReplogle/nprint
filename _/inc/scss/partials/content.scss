@@ -737,11 +737,18 @@ img.avatar {
 	}
 
 	.columns {
-		.support-links li a {
-			color: $mainblue;
-			text-decoration: underline;
-			padding: 4px;
-			display: block;
+		.support-links {
+			.current-page-item a {
+				color: $lightgrey;
+				text-decoration: none;
+			}
+
+			li a {
+				color: $mainblue;
+				text-decoration: underline;
+				padding: 4px;
+				display: block;
+			}
 		}
 
 		#s {

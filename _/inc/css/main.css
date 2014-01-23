@@ -8135,6 +8135,10 @@ img.avatar {
 .post-type-archive-support .content-row .page-title, .single-support .content-row .page-title {
   margin-bottom: 0px;
 }
+.post-type-archive-support .columns .support-links .current-page-item a, .single-support .columns .support-links .current-page-item a {
+  color: #d1d1d1;
+  text-decoration: none;
+}
 .post-type-archive-support .columns .support-links li a, .single-support .columns .support-links li a {
   color: #4f98c4;
   text-decoration: underline;
