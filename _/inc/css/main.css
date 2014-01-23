@@ -8159,9 +8159,9 @@ img.avatar {
   background-color: #f2f2f2;
   color: #d1d1d1;
   border: 1px solid #d1d1d1;
-  display: block;
+  display: inline-block;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
 }
 .post-type-archive-support .support-answer h2, .single-support .support-answer h2 {
   margin-bottom: 30px;
