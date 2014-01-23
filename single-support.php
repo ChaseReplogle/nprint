@@ -18,13 +18,13 @@
 
 	<div class="columns medium-5">
 
-		<div class="columns medium-6">
-			<h3>Payment and Orders</h3>
-			<ul>
-					<li><a href="#">How can I pay for my purchase?</a></li>
-					<li><a href="#">What is the typical turn around?</a></li>
-					<li><a href="#">Can I order in person?</a></li>
-					<li><a href="#">Can you come on site?</a></li>
+		<div class="columns medium-4">
+			<h3>Shipping</h3>	
+				<ul>
+					<li class="current-page-item"><a href="http://nprintgraphix.wpengine.com/support/how-are-my-items-shipped/">What times of shipping do you offer?</a></li>
+					<li><a href="#">Do you provide installation services?</a></li>
+					<li><a href="#">Can I rush shipping?</a></li>
+					<li><a href="#">Do you ship internationally?</a></li>
 				</ul>
 		</div>
 
