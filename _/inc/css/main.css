@@ -8150,8 +8150,7 @@ img.avatar {
   font-size: 16px;
 }
 .post-type-archive-support .columns .search-form #searchsubmit, .single-support .columns .search-form #searchsubmit {
-  padding: 10px;
-  margin: 10px 0px;
+  padding: 20px;
 }
 .post-type-archive-support .team, .single-support .team {
   padding: 30px 0px;
@@ -8162,7 +8161,7 @@ img.avatar {
   border: 1px solid #d1d1d1;
   display: block;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 .post-type-archive-support .support-answer h2, .single-support .support-answer h2 {
   margin-bottom: 30px;

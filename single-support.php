@@ -34,6 +34,7 @@
 					<li><a href="#">Can I rush shipping?</a></li>
 					<li><a href="#">Do you ship internationally?</a></li>
 				</ul>
+			<a href="/support" class="contact secondary_button">More Support Questions</a>
 	</div>
 
 	<div class="columns medium-8">	
