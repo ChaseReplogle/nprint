@@ -771,7 +771,7 @@ img.avatar {
 		border: 1px solid $lightgrey;
 		display: inline-block;
 		text-align: center;
-		padding: 20px;
+		padding: 10px 25px;
 	}
 
 	.support-answer {
@@ -782,7 +782,12 @@ img.avatar {
 	}
 }
 
+.single-support {
 
+	.support-links {
+		margin-bottom: 20px;
+	}
+}
 
 
 

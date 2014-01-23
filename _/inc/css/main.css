@@ -8161,10 +8161,14 @@ img.avatar {
   border: 1px solid #d1d1d1;
   display: inline-block;
   text-align: center;
-  padding: 20px;
+  padding: 10px 25px;
 }
 .post-type-archive-support .support-answer h2, .single-support .support-answer h2 {
   margin-bottom: 30px;
+}
+
+.single-support .support-links {
+  margin-bottom: 20px;
 }
 
 /* Media Query styles */
