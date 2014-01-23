@@ -8142,6 +8142,9 @@ img.avatar {
   color: #d1d1d1;
   text-decoration: none;
 }
+.post-type-archive-support .columns .support-links li, .single-support .columns .support-links li {
+  color: #818080;
+}
 .post-type-archive-support .columns .support-links li a, .single-support .columns .support-links li a {
   color: #4f98c4;
   text-decoration: underline;
@@ -8179,9 +8182,8 @@ img.avatar {
   width: auto !important;
   height: auto !important;
   top: 0px !important;
-  left: 0 !important;
+  left: 0px !important;
   min-height: 100% !important;
-  min-width: 100% !important;
 }
 
 /* Media Query styles */

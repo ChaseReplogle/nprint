@@ -747,11 +747,15 @@ img.avatar {
 				}
 			}
 
-			li a {
-				color: $mainblue;
-				text-decoration: underline;
-				padding: 4px;
-				display: block;
+			li  {
+				color: $grey;
+
+				a {
+					color: $mainblue;
+					text-decoration: underline;
+					padding: 4px;
+					display: block;
+				}
 			}
 		}
 
@@ -798,9 +802,8 @@ img.avatar {
 	width: auto !important;
 	height: auto !important;
 	top: 0px !important;
-	left: 0 !important;
+	left: 0px !important;
 	min-height: 100% !important;
-	min-width: 100% !important;
 }
 
 
