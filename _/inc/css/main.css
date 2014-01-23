@@ -8148,6 +8148,9 @@ img.avatar {
 .post-type-archive-support .columns .search-form #searchsubmit, .single-support .columns .search-form #searchsubmit {
   padding: 20px;
 }
+.post-type-archive-support .team, .single-support .team {
+  padding: 30px 0px;
+}
 
 /* Media Query styles */
 @media only screen and (max-width: 40em) {
