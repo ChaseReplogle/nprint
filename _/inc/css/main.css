@@ -8151,6 +8151,10 @@ img.avatar {
 .post-type-archive-support .team, .single-support .team {
   padding: 30px 0px;
 }
+.post-type-archive-support .contact, .single-support .contact {
+  background-color: #d1d1d1;
+  color: #818080;
+}
 
 /* Media Query styles */
 @media only screen and (max-width: 40em) {
