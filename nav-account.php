@@ -2,7 +2,7 @@
 <?php if (! is_home()) { ?>
 <ul class="title-area">
     <li class="name">
-      <img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" />
+      <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" /></a>
     </li>
   </ul>
 <?php } ?>
