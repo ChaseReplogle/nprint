@@ -94,8 +94,8 @@
 		</div>
 
 		<div class="columns medium-4">
-			<h3 class="support-links">Payment and Orders</h3>
-			<ul>
+			<h3>Payment and Orders</h3>
+			<ul class="support-links">
 					<li><a href="#">How can I pay for my purchase?</a></li>
 					<li><a href="#">What is the typical turn around?</a></li>
 					<li><a href="#">Can I order in person?</a></li>
