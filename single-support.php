@@ -17,61 +17,6 @@
 	</div>
 
 	<div class="columns medium-5">
-		<div class="columns medium-6">
-			<h3>Products</h3>	
-				<ul>
-					<li><a href="#">Banners</a></li>
-					<li><a href="#">Wraps</a></li>
-					<li><a href="#">Vehicles</a></li>
-					<li><a href="#">Exhibits</a></li>
-					<li><a href="#">Decals</a></li>
-				</ul>
-		</div>
-
-		<div class="columns medium-6">
-			<h3>Artwork</h3>
-			<ul>
-					<li><a href="#">What is the best file format?</a></li>
-					<li><a href="#">How do I upload files?</a></li>
-					<li><a href="#">How should my files be set up?</a></li>
-					<li><a href="#">What is bleed?</a></li>
-					<li><a href="#">What is the best resolution for large banners?</a></li>
-				</ul>
-		</div>
-
-		<div class="columns medium-6">
-			<h3>Payment and Orders</h3>
-			<ul>
-					<li><a href="#">How can I pay for my purchase?</a></li>
-					<li><a href="#">What is the typical turn around?</a></li>
-					<li><a href="#">Can I order in person?</a></li>
-					<li><a href="#">Can you come on site?</a></li>
-					<li><a href="#">Do you have a return?</a></li>
-				</ul>
-		</div>
-
-
-		<div class="columns medium-6">
-			<h3>Shipping</h3>	
-				<ul>
-					<li><a href="#">What times of shipping do you offer?</a></li>
-					<li><a href="#">Do you provide installation services?</a></li>
-					<li><a href="#">Can I rush shipping?</a></li>
-					<li><a href="#">Do you ship internationally?</a></li>
-				</ul>
-		</div>
-
-		<div class="columns medium-6">
-			<h3>Finishes</h3>
-			<ul>
-					<li><a href="#">How can I determine the number of grommets I'll need?</a></li>
-					<li><a href="#">What are pole-pockets used for?</a></li>
-					<li><a href="#">Whats the best way to attatch a banner to a building?</a></li>
-					<li><a href="#">Can I print a double sided banner?</a></li>
-					<li><a href="#">While my banner fade in the sunlight?</a></li>
-					<li><a href="#">What is the best type of velcro to use with vinyl banners?</a></li>
-				</ul>
-		</div>
 
 		<div class="columns medium-6">
 			<h3>Payment and Orders</h3>
@@ -87,7 +32,7 @@
 
 	<div class="columns medium-7">	
 		<div class="support-answer">
-			<h2><?php thePtitle(); ?></h2>
+			<h2><?php the_title(); ?></h2>
 			<p>Customer Service Office</p>
 			<p><?php the_content(); ?></p>
 		</div>
