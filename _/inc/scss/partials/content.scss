@@ -728,7 +728,7 @@ img.avatar {
 
 .post-type-archive-support, .single-support {
 	.content-row {
-		padding: 10px 0px;
+		padding-bottom: 0px;
 
 		.page-title {
 			margin-bottom: 0px;
@@ -773,6 +773,13 @@ img.avatar {
 		display: block;
 		text-align: center;
 		padding: 20px;
+	}
+
+	.support-answer {
+
+		h2 {
+			margin-bottom: 30px;
+		}
 	}
 }
 

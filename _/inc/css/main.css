@@ -8130,7 +8130,7 @@ img.avatar {
 }
 
 .post-type-archive-support .content-row, .single-support .content-row {
-  padding: 10px 0px;
+  padding-bottom: 0px;
 }
 .post-type-archive-support .content-row .page-title, .single-support .content-row .page-title {
   margin-bottom: 0px;
@@ -8163,6 +8163,9 @@ img.avatar {
   display: block;
   text-align: center;
   padding: 20px;
+}
+.post-type-archive-support .support-answer h2, .single-support .support-answer h2 {
+  margin-bottom: 30px;
 }
 
 /* Media Query styles */
