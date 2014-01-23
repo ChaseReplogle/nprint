@@ -67,7 +67,7 @@
 		<div class="columns medium-4">
 			<h3>Shipping</h3>	
 				<ul>
-					<li><a href="http://nprintgraphix.wpengine.com/support/how-are-my-items-shipped/">What times of shipping do you offer?</a></li>
+					<li><a href="http://nprintgraphix.wpengine.com/support/what-types-of-shipping-do-you-offer/">What times of shipping do you offer?</a></li>
 					<li><a href="#">Do you provide installation services?</a></li>
 					<li><a href="#">Can I rush shipping?</a></li>
 					<li><a href="#">Do you ship internationally?</a></li>
