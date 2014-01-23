@@ -10,6 +10,8 @@
 <?php include 'nav-main.php'; ?>
 <?php include 'nav-page.php'; ?>
 
+<?php wp_reset_query(); ?>
+
 <div class="row content-row">
 	<div class="columns medium-10 page-title">
 		<h1>How can we help?</h1>
