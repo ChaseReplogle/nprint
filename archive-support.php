@@ -28,7 +28,7 @@
 	</div>
 </div>
 
-	<div class="row">
+	<div class="row content-row support-row">
 		<div class="columns medium-4">
 			<h3>Products</h3>	
 				<ul>
@@ -63,7 +63,7 @@
 		</div>
 
 	</div>
-	<div class="row">
+	<div class="row content-row support-row">
 		<div class="columns medium-4">
 			<h3>Shipping</h3>	
 				<ul>
