@@ -8165,6 +8165,7 @@ img.avatar {
   display: inline-block;
   text-align: center;
   padding: 15px 25px;
+  font-size: 12px;
 }
 .post-type-archive-support .support-answer h2, .single-support .support-answer h2 {
   margin-bottom: 30px;
