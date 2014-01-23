@@ -21,7 +21,7 @@
 
 	<hr>
 
-	</div>
+</div>
 
 	<div class="columns medium-12">
 		 <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">

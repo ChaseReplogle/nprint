@@ -11,11 +11,17 @@
 <?php include 'nav-page.php'; ?>
 
 <div class="row content-row">
-	<div class="columns medium-12 page-title">
+	<div class="columns medium-10 page-title">
 		<h1>How can we help?</h1>
-		<a href="/contact" class="contact secondary_button">Contact Support</a>
-		<hr>
 	</div>
+
+	<div class="columns medium-2">
+		<a href="/contact" class="contact secondary_button">Contact Support</a>
+	</div>
+
+	<hr>
+
+</div>
 
 	<div class="columns medium-4">
 			<h3>Shipping</h3>	
