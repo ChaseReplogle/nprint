@@ -21,7 +21,7 @@ $(function() {
     var BV = new $.BigVideo();
     BV.init();
     if (Modernizr.touch) {
-    BV.show('http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-10.32.46-AM.png');
+    BV.show('<?php echo get_template_directory_uri(); ?>/_/inc/images/mobile-bg.jpg');
 	} else {
     BV.show('<?php echo get_template_directory_uri(); ?>/_/inc/videos/npg_test_clips_1280x720.mp4',{ambient:true});
     }
