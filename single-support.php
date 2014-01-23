@@ -37,8 +37,8 @@
 	<div class="columns medium-8">	
 		<div class="support-answer">
 			<h2><?php the_title(); ?></h2>
-			<p>Customer Service Office</p>
 			<p><?php the_content(); ?></p>
+			<p>Customer Service Office</p>
 		</div>
 	</div>
 
