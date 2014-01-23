@@ -41,7 +41,6 @@
 		<div class="support-answer">
 			<h2><?php the_title(); ?></h2>
 			<?php the_content(); ?>
-			<p>Customer Service Office</p>
 		</div>
 	</div>
 
