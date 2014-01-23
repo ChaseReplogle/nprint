@@ -7571,7 +7571,7 @@ a:hover {
 
 /* Main stock styles */
 body {
-  background-color: #fff;
+  background-color: #000;
   background-image: url("../images/pattern.jpg");
 }
 
@@ -8179,12 +8179,11 @@ img.avatar {
 }
 
 #big-video-image {
-  width: auto !important;
-  height: auto !important;
-  top: 0px !important;
-  left: 0px !important;
   min-height: 100% !important;
-  width: auto !important;
+  min-width: 100% !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
 }
 
 /* Media Query styles */
