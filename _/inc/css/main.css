@@ -8175,7 +8175,11 @@ img.avatar {
   margin-bottom: 40px;
 }
 
-.video_screen img {
+.big-video-image {
+  width: auto !important;
+  height: auto !important;
+  top: 0px !important;
+  left: 0 !important;
   min-height: 100% !important;
   min-width: 100% !important;
 }
