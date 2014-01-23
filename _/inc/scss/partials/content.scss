@@ -727,6 +727,14 @@ img.avatar {
 }
 
 .post-type-archive-support, .single-support {
+	.content-row {
+		padding: 10px 0px;
+
+		input {
+			padding: 30px;
+		}
+	}
+
 	.columns {
 		a {
 			color: $mainblue;

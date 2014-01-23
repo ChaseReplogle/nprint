@@ -8129,6 +8129,12 @@ img.avatar {
   color: #d1d1d1;
 }
 
+.post-type-archive-support .content-row, .single-support .content-row {
+  padding: 10px 0px;
+}
+.post-type-archive-support .content-row input, .single-support .content-row input {
+  padding: 30px;
+}
 .post-type-archive-support .columns a, .single-support .columns a {
   color: #4f98c4;
   text-decoration: underline;
