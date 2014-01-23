@@ -61,6 +61,7 @@
 		</div>
 
 	</div>
+	<div class="row">
 		<div class="columns medium-4">
 			<h3>Shipping</h3>	
 				<ul>
