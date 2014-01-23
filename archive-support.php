@@ -13,6 +13,7 @@
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
 		<h1>How can we help?</h1>
+		<a href="/contact" class="contact secondary_button">Contact Support</a>
 		<hr>
 	</div>
 

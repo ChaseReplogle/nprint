@@ -13,10 +13,11 @@
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
 		<h1>How can we help?</h1>
+		<a href="/contact" class="contact secondary_button">Contact Support</a>
 		<hr>
 	</div>
 
-	<div class="columns medium-5">
+	<div class="columns medium-4">
 			<h3>Shipping</h3>	
 				<ul>
 					<li class="current-page-item"><a href="http://nprintgraphix.wpengine.com/support/how-are-my-items-shipped/">What times of shipping do you offer?</a></li>
@@ -26,7 +27,7 @@
 				</ul>
 	</div>
 
-	<div class="columns medium-7">	
+	<div class="columns medium-8">	
 		<div class="support-answer">
 			<h2><?php the_title(); ?></h2>
 			<p>Customer Service Office</p>
