@@ -738,9 +738,13 @@ img.avatar {
 
 	.columns {
 		.support-links {
-			.current-page-item a {
+			.current-page-item {
 				color: $lightgrey;
-				text-decoration: none;
+
+				a {
+					color: $lightgrey;
+					text-decoration: none;
+				}
 			}
 
 			li a {
