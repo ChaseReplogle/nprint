@@ -23,6 +23,7 @@
 
 </div>
 
+<div class="row content-row">
 	<div class="columns medium-4">
 			<h3>Shipping</h3>	
 				<ul class="support-links">

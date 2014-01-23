@@ -759,8 +759,11 @@ img.avatar {
 	}
 
 	.contact {
-		background-color: $lightgrey;
-		color: $grey;
+		background-color: $verylightgrey;
+		color: $lightgrey;
+		border: 1px solid $lightgrey;
+		display: block;
+		text-align: center;
 	}
 }
 
