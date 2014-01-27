@@ -16,7 +16,7 @@
 
 			<?php
 				if(is_post_type_archive('projects' ) || is_singular( 'projects' )) 
-				  echo "<li><a>Portfolio Projects</a></li>";
+				  echo "<li><a><i class="fa fa-book"></i> Portfolio Projects</a></li>";
 			?>
 
 			<?php
