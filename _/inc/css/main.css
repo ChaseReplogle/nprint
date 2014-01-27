@@ -7505,6 +7505,14 @@ a:hover {
   font-weight: bold;
   font-size: 20px;
 }
+.page-nav-warpper .page-nav .title-area li a:not(.button) i {
+  position: absolute;
+  color: grey;
+  font-size: 90px;
+  opacity: .1;
+  margin-top: -20px;
+  margin-left: -20px;
+}
 .page-nav-warpper .page-nav ul.title-area li.current_page_item a:not(.button) {
   color: #818080;
 }
