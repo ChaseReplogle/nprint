@@ -19,17 +19,11 @@
 	<div class="medium-3 columns product-column">
 		<ul>
 			<?php 
-			$args=array(
-			  'name' => 'projects'
-			);
-			$output = 'objects'; // or objects
-			$taxonomies=get_taxonomies($args,$output); 
-			if  ($taxonomies) {
-			  foreach ($taxonomies  as $taxonomy ) {
-			    echo '<p>' . $taxonomy->name . '</p>';
-			  }
-			}  
-			?>
+$taxonomies=get_taxonomies('','names'); 
+foreach ($taxonomies as $taxonomy ) {
+  echo '<p>'. $taxonomy. '</p>';
+}
+?>
 			</ul>
 
 		<div class="panel">
