@@ -18,8 +18,19 @@
 
 	<div class="medium-3 columns product-column">
 		<ul>
-			<?php wp_list_categories('orderby=name&taxonomy=products'); ?> 
-		</ul>
+			<?php 
+			$args=array(
+			  'name' => 'projects'
+			);
+			$output = 'objects'; // or objects
+			$taxonomies=get_taxonomies($args,$output); 
+			if  ($taxonomies) {
+			  foreach ($taxonomies  as $taxonomy ) {
+			    echo '<p>' . $taxonomy->name . '</p>';
+			  }
+			}  
+			?>
+			</ul>
 
 		<div class="panel">
 			<i class="fa fa-search-plus"></i> 
