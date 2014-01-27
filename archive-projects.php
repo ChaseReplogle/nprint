@@ -23,8 +23,7 @@
 				$terms = get_terms($taxonomyName,array('parent' => 0));
 
 				foreach($terms as $term) {
-				   $icon = get_field('category_icon', 'product_categories_'.$term->term_id);
-			 	   echo '<li><a href="'.get_term_link($term->slug,$taxonomyName).'"><i class="fa''"></i>'.$term->name.'<i class="fa fa-angle-right"></i></a></li>';
+				   echo '<li><a href="'.get_term_link($term->slug,$taxonomyName).'">'.$term->name.'<i class="fa fa-angle-right"></i></a></li>';
 				}
 			?>
 		</ul>
