@@ -17,14 +17,20 @@
 	</div>
 
 	<div class="medium-3 columns product-column">
-		<ul>
-			<?php 
-$taxonomies=get_taxonomies('','names'); 
-foreach ($taxonomies as $taxonomy ) {
-  echo '<p>'. $taxonomy. '</p>';
+		<?php
+$taxonomyName = "project_categories";
+$terms = get_terms($taxonomyName,array('parent' => 0));
+foreach($terms as $term) {
+    echo '<a href="'.get_term_link($term->slug,$taxonomyName).'">'.$term->name.'</a>';
+    $term_children = get_term_children($term->term_id,$taxonomyName);
+    echo '<ul>';
+    foreach($term_children as $term_child_id) {
+        $term_child = get_term_by('id',$term_child_id,$taxonomyName);
+        echo '<li><a href="' . get_term_link( $term_child->name, $taxonomyName ) . '">' . $term_child->name . '</a></li>';
+    }
+    echo '</ul>';
 }
 ?>
-			</ul>
 
 		<div class="panel">
 			<i class="fa fa-search-plus"></i> 
