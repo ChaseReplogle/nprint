@@ -391,6 +391,11 @@ $topbar-arrows: false;
 		background-color: transparent;
 		max-width: 70rem;
 		padding: 0px 0.9375rem;
+
+		ul {
+			display: block;
+			width: 100%;
+		}
 	}
 
 	.page-nav .title-area li a:not(.button)  {

@@ -7495,6 +7495,10 @@ a:hover {
   max-width: 70rem;
   padding: 0px 0.9375rem;
 }
+.page-nav-warpper .page-nav ul {
+  display: block;
+  width: 100%;
+}
 .page-nav-warpper .page-nav .title-area li a:not(.button) {
   color: #818080;
   margin: 0px;
