@@ -35,12 +35,9 @@ foreach($terms as $term) {
 
 				<div class="columns medium-12 project-content">
 
-					<h2>PBR Arena Wraps</h2>
-					<p class="client">Client: Professional Bull Ride World Tour</p>
-					<p>nPrint was happy to partner with the PBR World Tour to provide wraps for the area and building signage. Its proof, some big sheets of vinyl and big time installation can transform a college baseketball court into a world cass bull riding, rodeo, arena.</p>
-					
-					<table width="100%">
-						<tr>
+					<h2><?php the_title(); ?></h2>
+					<p class="client">Client: <?php the_field('client'); ?></p>
+					<p><?php the_content(); ?></p>
 							<td width="25%">Project Specs</td>
 							<td>Large vinyl Banners 24 oz., Outdoor Mesh Banners, Window Decals</td>
 						</tr>
