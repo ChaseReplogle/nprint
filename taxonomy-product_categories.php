@@ -19,7 +19,7 @@
 			$terms = get_terms($taxonomyName,array('parent' => 0));
 
 			foreach($terms as $term) {
-			    echo '<li><a href="'.get_term_link($term->slug,$taxonomyName).'" class="'$term->slug'">'.$term->name.'<i class="fa fa-angle-right"></i></a></li>';
+			    echo '<li><a href="'.get_term_link($term->slug,$taxonomyName).'" class="'.$term->slug.'">'.$term->name.'<i class="fa fa-angle-right"></i></a></li>';
 			}
 		?>
 		</ul>
