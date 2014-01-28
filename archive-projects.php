@@ -39,11 +39,9 @@ foreach($terms as $term) {
 					<div class="row">
 
 						<?php	
-						$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
-						query_posts( 'post_type=projects&posts_per_page=4&paged=' . $paged);
-
-						while ( have_posts() ) : the_post(); ?>
+						query_posts($query_string.'post_type=projects&posts_per_page=-1'.'&paged='.$paged);
+						while(have_posts()) { the_post(); ?>
 						    
 
 						<a href="<?php the_permalink(); ?>" class="project-panel">
