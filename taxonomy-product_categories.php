@@ -20,6 +20,8 @@
 			$slug = $term->slug;
 			global $post;
 			$pageslug = get_post( $post )->post_name;
+				echo $slug;
+				echo $pageslug;
 			foreach($terms as $term) {
 			    echo '<li><a '; 
 			    if ($slug == $pageslug) {
