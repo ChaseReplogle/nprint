@@ -161,7 +161,7 @@ $(function() {
 		<div class="columns medium-centered medium-12 portfolio-nav">
 			<ul class="icon-nav large-block-grid-9">
   				
-  				<?php $post_objects = get_field('product_categories');
+  				<?php $post_objects = get_field('portfolio_categories');
 					if( $post_objects ): ?>
 							<?php $i = 0; ?>
 					    	<?php foreach( $post_objects as $post): ?>
@@ -214,7 +214,7 @@ $(function() {
 	
 	<div class="portfolio-ajax portfolio boxed row">
 
-		<?php $post_objects = get_field('product_categories'); ?>
+		<?php $post_objects = get_field('portfolio_categories'); ?>
 				<?php $i = 0; ?>
 				<?php foreach( $post_objects as $post): ?>
 					    <?php  $i++; ?>
