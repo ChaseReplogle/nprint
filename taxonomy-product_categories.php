@@ -46,6 +46,7 @@
 
 			$args = array(
 		   'post_type' => 'projects',
+		   'project_categories' => $term->name,
 		   'posts_per_page' => 6,
 		   'post_status' => 'publish',
 		   'paged' => $paged,
