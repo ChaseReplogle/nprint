@@ -78,16 +78,17 @@ foreach($terms as $term) {
 							$posts = get_field('related_products');
 							 
 							if( $posts ): ?>
-							    <tr>
 							    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
 							        <?php setup_postdata($post); ?>
+							        <tr>
 							            <td width="25%"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
 							            <td><?php the_excerpt(); ?></td>
+							        </tr>
 							    <?php endforeach; ?>
-							    </tr>
+							    
 							    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 							<?php endif; ?>
-							
+
 					</table>
 
 
