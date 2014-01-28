@@ -15,16 +15,15 @@
 	<div class="medium-3 columns product-column">
 		<ul>
 		<?php
-			$taxonomyName = "product_categories";
-			$terms = get_terms($taxonomyName,array('parent' => 0));
-			
 			global $post;
 			$category =	$wp_query->queried_object;
 			$pageslug = $category->name;
 
+			$taxonomyName = "product_categories";
+			$terms = get_terms($taxonomyName,array('parent' => 0));
+
 			foreach($terms as $term) {
 
-				
 			    echo '<li><a '; 
 			    echo ' href="'.get_term_link($term->slug,$taxonomyName).'">'.$term->name.'<i class="fa fa-angle-right"></i></a></li>';
 			}
