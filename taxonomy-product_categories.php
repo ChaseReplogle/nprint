@@ -48,6 +48,8 @@
 					<h2><?php the_title(); ?></h2>
 					<p class="client">Client: <?php the_field('client'); ?></p>
 					<p><?php the_content(); ?></p>
+					<table>
+						<tr>
 							<td width="25%">Project Specs</td>
 							<td>Large vinyl Banners 24 oz., Outdoor Mesh Banners, Window Decals</td>
 						</tr>
