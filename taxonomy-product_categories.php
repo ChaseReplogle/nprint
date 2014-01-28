@@ -16,15 +16,19 @@
 		<ul>
 		<?php
 			$taxonomyName = "product_categories";
+			$terms = get_terms($taxonomyName,array('parent' => 0));
+			
 			global $post;
 			$category =	$wp_query->queried_object;
-				$pageslug = $category->name;
+			$pageslug = $category->name;
 
 			foreach($terms as $term) {
+
 				$slug = $term->name;
 
 			    echo '<li><a '; 
-			    
+			    if ($slug == $pageslug) {
+  				echo ' class="current-page-item" ';}
 			    echo ' href="'.get_term_link($term->slug,$taxonomyName).'">'.$term->name.'<i class="fa fa-angle-right"></i></a></li>';
 			}
 		?>
