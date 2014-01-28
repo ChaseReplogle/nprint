@@ -70,7 +70,7 @@
 					<table>
 						<tr>
 							<td width="25%">Project Specs</td>
-							<td>Large vinyl Banners 24 oz., Outdoor Mesh Banners, Window Decals</td>
+							<td><?php the_field('project_specs'); ?></td>
 						</tr>
 					</table>
 
@@ -101,14 +101,22 @@
 					<hr>
 
 					<table width="100%">
-						<tr>
-							<td width="25%"><a href="#">Larger Banners</a></td>
-							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue bibendum...</td>
-						</tr>
-						<tr>
-							<td width="25%"><a href="#">Window Wraps</a></td>
-							<td>Sit amet, consectetur adipiscing elit. Curabitur lorem isum dolor congue bibendum...</td>
-						</tr>
+			
+						<?php 
+							$posts = get_field('related_products');
+							 
+							if( $posts ): ?>
+							    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+							        <?php setup_postdata($post); ?>
+							        <tr>
+							            <td width="25%"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
+							            <td><?php the_excerpt(); ?></td>
+							        </tr>
+							    <?php endforeach; ?>
+							    
+							    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+							<?php endif; ?>
+
 					</table>
 
 
