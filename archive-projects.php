@@ -65,6 +65,12 @@ foreach($terms as $term) {
 				</div>
 
 		</div>
+
+		<div class="row">
+			<div class="columns medium-12">
+				<?php wp_pagenavi(); ?>
+			</div>
+		</div>
 		
 
 	</div>
