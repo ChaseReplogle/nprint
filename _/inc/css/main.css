@@ -7584,16 +7584,16 @@ a:hover {
   opacity: .8;
 }
 
-.wp-pagenavi {
+.page-main-content .wp-pagenavi {
   margin-top: 20px;
   float: right;
 }
-.wp-pagenavi a {
+.page-main-content .wp-pagenavi a {
   padding: 3px 9px;
   color: #d1d1d1;
   border: 1px solid #d1d1d1;
 }
-.wp-pagenavi span {
+.page-main-content .wp-pagenavi span {
   background-color: #fff;
   color: #818080;
   padding: 3px 9px;

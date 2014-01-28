@@ -502,19 +502,22 @@ $topbar-arrows: false;
 }
 
 
-.wp-pagenavi {
-	margin-top: 20px;
-	float: right;
+.page-main-content {
+	
+	.wp-pagenavi {
+		margin-top: 20px;
+		float: right;
 
-	a {
-		padding: 3px 9px;
-		color: $lightgrey;
-		border: 1px solid $lightgrey;
-	}
+		a {
+			padding: 3px 9px;
+			color: $lightgrey;
+			border: 1px solid $lightgrey;
+		}
 
-	span {
-		background-color: #fff;
-		color: $grey;
-		padding: 3px 9px;
+		span {
+			background-color: #fff;
+			color: $grey;
+			padding: 3px 9px;
+		}
 	}
 }
