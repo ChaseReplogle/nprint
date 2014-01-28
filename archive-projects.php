@@ -41,7 +41,7 @@ foreach($terms as $term) {
 						<?php	
 						$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
-						query_posts( 'posts_per_page=6&post_type=projects&paged=' . $paged);
+						query_posts( 'post_type=projects&posts_per_page=4&paged=' . $paged);
 
 						while ( have_posts() ) : the_post(); ?>
 						    
