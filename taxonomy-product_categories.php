@@ -21,9 +21,8 @@
 			$pageslug = $category->name;
 
 			foreach($terms as $term) {
-				$terms = get_terms($taxonomyName,array('parent' => 0));
-				$slug = $terms->name;
-				
+				$slug = $term->name;
+
 			    echo '<li><a '; 
 			    if ($slug == $pageslug) {
   				echo ' class="current-page-item" ';}
