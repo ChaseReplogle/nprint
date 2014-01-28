@@ -10,6 +10,8 @@
 <?php include 'nav-main.php'; ?>
 <?php include 'nav-page.php'; ?>
 
+<?php while () : the_post(); ?>
+
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
 		<h1><?php the_title(); ?></h1>
@@ -83,6 +85,7 @@
 				</div>
 		</div>
 
+<?php endwhile; ?>
 
 		<hr>
 
