@@ -62,10 +62,8 @@ foreach($terms as $term) {
 						</a>
 
 
-						<?php endwhile;
+						<?php endwhile; ?>
 
-						wp_reset_query(); ?>
-						
 					</div>
 				</div>
 
@@ -75,7 +73,9 @@ foreach($terms as $term) {
 			<div class="columns medium-12">
 				<?php wp_pagenavi(); ?>
 			</div>
-		</div>
+		</div>				
+
+		<?php wp_reset_query(); ?>
 		
 
 	</div>
