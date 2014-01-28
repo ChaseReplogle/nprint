@@ -7504,6 +7504,7 @@ a:hover {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
+  width: 40%;
 }
 .page-nav-warpper .page-nav .title-area li a:not(.button) i {
   position: absolute;
