@@ -52,7 +52,7 @@ foreach($terms as $term) {
 							$temp = $wp_query;  // assign original query to temp variable for later use
 							  $wp_query = null;
 							  $wp_query = new WP_Query();
-							  wp_query->query($args);
+							  $wp_query->query($args);
 
 						while (have_posts()) : the_post(); ?>
 						    
