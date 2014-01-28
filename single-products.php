@@ -65,12 +65,6 @@
 
 			<?php endwhile; ?>
 
-		</div>
-	</div>
-
-<?php endwhile;  endif; ?>
-
-
 		<div class="panel">
 			<div class="row">
 
@@ -86,8 +80,12 @@
 				</div>
 			</div>
 		</div>
+
+		
 	</div>
 </div>
+
+<?php endwhile;  endif; ?>
 
 
 <div class="case-study">
