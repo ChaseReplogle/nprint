@@ -11,7 +11,7 @@
 
 			<?php
 				if(is_post_type_archive('products' ) || is_singular( 'products' )) 
-				  echo "<li><a>Products and Services</a></li>";
+				  echo "<li><a><i class='fa fa-crosshairs'></i> Products and Services</a></li>";
 			?>
 
 			<?php
@@ -21,7 +21,7 @@
 
 			<?php
 				if(is_post_type_archive('support' ) || is_singular( 'support' )) 
-				  echo "<li><a>Support</a></li>";
+				  echo "<li><a><i class='fa fa-comments-o'></i> Support</a></li>";
 			?>
 </ul>
 
