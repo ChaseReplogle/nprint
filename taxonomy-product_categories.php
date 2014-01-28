@@ -17,9 +17,10 @@
 		<?php
 			$taxonomyName = "product_categories";
 			$terms = get_terms($taxonomyName,array('parent' => 0));
-			$slug = $term->slug;
+			$slug = $terms->slug;
 			global $post;
-			$pageslug = get_post( $post )->post_name;
+			$category =	$wp_query->queried_object;
+			$pageslug = $category->name;
 				echo $slug;
 				echo $pageslug;
 			foreach($terms as $term) {
