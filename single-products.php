@@ -10,7 +10,7 @@
 <?php include 'nav-main.php'; ?>
 <?php include 'nav-page.php'; ?>
 
-<?php while () : the_post(); ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
@@ -85,7 +85,7 @@
 				</div>
 		</div>
 
-<?php endwhile; ?>
+<?php endwhile;  endif; ?>
 
 		<hr>
 
