@@ -49,10 +49,7 @@ foreach($terms as $term) {
 							   'caller_get_posts'=> 1
 							);
 
-							$temp = $wp_query;  // assign original query to temp variable for later use
-							  $wp_query = null;
-							  $wp_query = new WP_Query();
-							  $wp_query->query($args);
+							$project_query = new WP_Query($args);
 
 						while (have_posts()) : the_post(); ?>
 						    
@@ -78,7 +75,7 @@ foreach($terms as $term) {
 
 		<div class="row">
 			<div class="columns medium-12">
-				<?php wp_pagenavi(); ?>
+				<?php wp_pagenavi( array('query' => $project_query) );?>
 			</div>
 		</div>				
 
