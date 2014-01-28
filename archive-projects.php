@@ -28,9 +28,7 @@ foreach($terms as $term) {
 ?>
 		</ul>
 
-		<div class="panel">
 			<h4>View More Projects by Selection a Category Above</h4>
-		</div>
 	</div>
 
 	<div class="medium-9 columns page-main-content">

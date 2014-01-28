@@ -8119,15 +8119,15 @@ img.avatar {
 .post-type-archive-projects .content-row .page-main-content .panel:hover {
   background-color: #fff;
 }
+.post-type-archive-projects .product-column h4 {
+  text-align: left;
+  font-size: 15px;
+  line-height: 24px;
+  color: #d1d1d1;
+}
 .post-type-archive-projects .product-column .panel {
   background-color: transparent;
   border: 0px;
-}
-.post-type-archive-projects .product-column .panel h4 {
-  text-align: center;
-  font-size: 18px;
-  line-height: 24px;
-  color: #d1d1d1;
 }
 .post-type-archive-projects .product-column .panel i {
   display: block;
