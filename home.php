@@ -169,7 +169,7 @@ $(function() {
 					    	<?php if( $i < 9) { ?>
 					        <?php setup_postdata($post); ?>
 					        <?php $catId = $post->term_id; ?>
-					        <?php $icon = get_field('category_icon', 'product_categories_'.echo $catId; ); ?>
+					        <?php $icon = get_field('category_icon', 'product_categories_'.$catId); ?>
   								<li><a href="#" class="<?php if ($i == 1 ) { echo 'current-item'; }; ?>"><i class="fa <?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
