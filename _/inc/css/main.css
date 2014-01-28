@@ -7595,7 +7595,8 @@ a:hover {
 }
 .page-main-content .wp-pagenavi span {
   background-color: #fff;
-  color: #d1d1d1;
+  color: #818080;
+  border: 1px solid #818080;
   padding: 3px 9px;
 }
 

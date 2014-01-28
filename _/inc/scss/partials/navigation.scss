@@ -516,7 +516,8 @@ $topbar-arrows: false;
 
 		span {
 			background-color: #fff;
-			color: $lightgrey;
+			color: $grey;
+			border: 1px solid $grey;
 			padding: 3px 9px;
 		}
 	}
