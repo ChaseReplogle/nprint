@@ -8122,6 +8122,7 @@ img.avatar {
   width: 48%;
   float: left;
   border: 1px solid #d1d1d1;
+  margin-bottom: 15px;
 }
 .post-type-archive-projects .content-row .page-main-content .project-panel h2 {
   font-size: 20px;
