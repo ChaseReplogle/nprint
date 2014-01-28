@@ -46,11 +46,13 @@ foreach($terms as $term) {
 							   'posts_per_page' => 6,
 							   'post_status' => 'publish',
 							   'paged' => $paged,
-							   'posts_per_page' => 1,
 							   'caller_get_posts'=> 1
 							);
 
-							query_posts($args);
+							$temp = $wp_query;  // assign original query to temp variable for later use
+							  $wp_query = null;
+							  $wp_query = new WP_Query();
+							  wp_query->query($args);
 
 						while (have_posts()) : the_post(); ?>
 						    
