@@ -46,7 +46,7 @@
 		$tax = $wp_query->get_queried_object();
 			$args = array(
 		   'post_type' => 'projects',
-		   'project_categories' => 'Vinyl Banners',
+		   'product_categories' => $tax->name,
 		   'posts_per_page' => 6,
 		   'post_status' => 'publish',
 		   'paged' => $paged,
