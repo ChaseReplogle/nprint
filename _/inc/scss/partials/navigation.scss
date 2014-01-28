@@ -393,6 +393,10 @@ $topbar-arrows: false;
 		padding: 0px 0.9375rem;
 	}
 
+	.title-area ul {
+		width: 40%;
+	}
+
 	.page-nav .title-area li a:not(.button)  {
 		color: $grey;
 		margin: 0px;
