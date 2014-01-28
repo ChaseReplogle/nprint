@@ -168,7 +168,7 @@ $(function() {
 					    	<?php  $i++; ?>
 					    	<?php if( $i < 9) { ?>
 					        <?php setup_postdata($post); ?>
-					        <?php $icon = get_field('category_icon', 'product_categories_24'; ?>
+					        <?php $icon = get_field('category_icon', 'product_categories_24'); ?>
   								<li><a href="#" class="<?php if ($i == 1 ) { echo 'current-item'; }; ?>"><i class="fa <?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
