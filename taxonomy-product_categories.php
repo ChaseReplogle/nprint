@@ -14,6 +14,10 @@
 
 	<div class="medium-3 columns product-column">
 		<ul>
+			<li><a href="/portfolio">Back <i class="fa fa-angle-right"></i></a></li>
+		</ul>
+
+		<ul>
 		<?php
 			global $post;
 			$category =	$wp_query->queried_object;
