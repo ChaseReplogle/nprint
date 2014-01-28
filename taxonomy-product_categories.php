@@ -16,14 +16,14 @@
 		<ul>
 		<?php
 			$taxonomyName = "product_categories";
-			$terms = get_terms($taxonomyName,array('parent' => 0));
-			$slug = $terms->name;
 			global $post;
 			$category =	$wp_query->queried_object;
 			$pageslug = $category->name;
-				echo $slug;
-				echo $pageslug;
+
 			foreach($terms as $term) {
+				$terms = get_terms($taxonomyName,array('parent' => 0));
+				$slug = $terms->name;
+				
 			    echo '<li><a '; 
 			    if ($slug == $pageslug) {
   				echo ' class="current-page-item" ';}
