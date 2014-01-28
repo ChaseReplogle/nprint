@@ -21,19 +21,25 @@
 
 	<div class="columns medium-3 product-column">
 		<ul>
-			<li class="current-page-item"><a href="#">Banners<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Wraps<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Die Cust<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Exhibits<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Vehicles<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Buildings<i class="fa fa-angle-right"></i></a></li>
+		<?php
+			$args = array(
+		   'post_type' => 'products',
+		   'posts_per_page' => -1,
+		   'post_status' => 'publish'
+		);
+
+		$nav_query = new WP_Query($args);
+
+	if ( $nav_query->have_posts() ) : ?>
+
+		<?php while ( $nav_query->have_posts() ) : $nav_query->the_post(); ?>
+	    
+			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?><i class="fa fa-angle-right"></i></a></li>
+
+	<?php endwhile; endif; ?>
+
 		</ul>
-		<ul>
-			<li><a href="#">Graphic Design<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Proofing<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Consultation<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Instillation<i class="fa fa-angle-right"></i></a></li>
-		</ul>
+
 	</div>
 
 	<div class="columns medium-9 page-main-content">
