@@ -965,6 +965,19 @@ img.avatar {
 		}
 	}
 
+	.post-type-archive-projects {
+		.content-row .page-main-content {
+
+			.project-panel {
+				width: 100%;
+
+				&:nth-child(odd) {
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+
 
 }
 
