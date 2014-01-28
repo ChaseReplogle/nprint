@@ -7495,9 +7495,6 @@ a:hover {
   max-width: 70rem;
   padding: 0px 0.9375rem;
 }
-.page-nav-warpper .title-area ul {
-  display: block;
-}
 .page-nav-warpper .page-nav .title-area li a:not(.button) {
   color: #818080;
   margin: 0px;
@@ -7509,7 +7506,7 @@ a:hover {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
-  width: 40%;
+  display: block;
 }
 .page-nav-warpper .page-nav .title-area li a:not(.button) i {
   position: absolute;

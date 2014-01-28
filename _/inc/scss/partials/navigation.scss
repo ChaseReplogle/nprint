@@ -393,10 +393,6 @@ $topbar-arrows: false;
 		padding: 0px 0.9375rem;
 	}
 
-	.title-area ul {
-		display: block;
-	}
-
 	.page-nav .title-area li a:not(.button)  {
 		color: $grey;
 		margin: 0px;
@@ -408,7 +404,7 @@ $topbar-arrows: false;
 		text-transform: uppercase;
 		font-weight: bold;
 		font-size: 20px;
-		width: 40%;
+		display: block;
 
 		i {
 			position: absolute;
