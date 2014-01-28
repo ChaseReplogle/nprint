@@ -11,12 +11,12 @@
 
 			<?php
 				if(is_post_type_archive('products' ) || is_singular( 'products' )) 
-				  echo "<li><a>Products and Services</a></li>";
+				  echo "<li><a>Products</a></li>";
 			?>
 
 			<?php
 				if(is_post_type_archive('projects' ) || is_singular( 'projects' )) 
-				  echo "<li><a>Portfolio Projects</a></li>";
+				  echo "<li><a>Portfolio</a></li>";
 			?>
 
 			<?php
@@ -26,7 +26,7 @@
 
 			<?php
 				if(is_tax( 'product_categories' )) 
-				  echo "<li><a>Portfolio Projects</a></li>";
+				  echo "<li><a>Portfolio</a></li>";
 			?>
 </ul>
 
