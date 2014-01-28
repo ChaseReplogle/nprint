@@ -39,11 +39,16 @@ foreach($terms as $term) {
 					<div class="row">
 
 						<?php
+							$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
 				 			$args = array(
 							   'post_type' => 'projects',
 							   'posts_per_page' => 6,
-							   'paged' => ( get_query_var('paged') ? get_query_var('paged') : 1),
-							   );
+							   'post_status' => 'publish',
+							   'paged' => $paged,
+							   'posts_per_page' => 1,
+							   'caller_get_posts'=> 1
+							);
 
 							query_posts($args);
 
