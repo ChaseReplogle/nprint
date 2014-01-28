@@ -8135,8 +8135,11 @@ img.avatar {
 .post-type-archive-projects .content-row .page-main-content .project-panel:hover {
   background-color: #fff;
 }
+.post-type-archive-projects .content-row .page-main-content .project-panel img {
+  margin: 0px;
+}
 .post-type-archive-projects .content-row .page-main-content .project-panel .project-panel-content {
-  padding-bottom: 20px;
+  padding: 20px;
 }
 .post-type-archive-projects .product-column h4 {
   text-align: left;
