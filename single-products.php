@@ -40,54 +40,34 @@
 	  	
 		<div class="row product-item">
 
-				<div class="columns medium-5 product-phot ">
-					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-20-at-9.29.16-PM.png" />
-				</div>
+			<?php while(has_sub_field("related_products")): ?>
+			 
+				<?php if(get_row_layout() == "sub_product"): ?>
 
-				<div class="columns medium-7">
+					<div class="columns medium-5 product-phot ">
+						<img src="
+						<?php $image = the_sub_field('related_product_image');
+						echo $image['sizes']['large']; ?>
+						" alt="<?php the_sub_field("related_product_title"); ?>" class="featured-image"/>
+					</div>
 
-					<h3>13 oz Vinyl Banners</h3>
+					<div class="columns medium-7">
 
-					<p>13 Oz. vinyl is ideal for indoor applications only. Typically this material does not have a scrim mesh so it can tear easily, but is smooth so it looks very nice. Roll up banners, banner stands, ceiling banners, blinds for windows, etc., are the most popular choices for this material.</p>
-			
-				</div>
+						<h3><?php the_sub_field("related_product_title"); ?></h3>
 
+						<p><?php the_sub_field("related_product_description"); ?></p>
 
-				<hr>
+					</div>
 
+					<hr>
 
-				<div class="columns medium-5 product-phot ">
-					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-20-at-9.30.36-PM.png" />
-				</div>
+				<?php endif; ?>
 
-				<div class="columns medium-7">
+			<?php endwhile; ?>
 
-					<h3>15 oz Vinyl Banners</h3>
-
-					<p>15 Oz vinyl is designed for long term applications. It is great for indoor and outdoor backlit applications, including pylon signs</p>
-			
-				</div>
-
-
-				<hr>
-
-				
-				<div class="columns medium-5 product-phot ">
-					<img class="main-img" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-20-at-9.31.45-PM.png" />
-				</div>
-
-				<div class="columns medium-7">
-
-					<h3>15 oz Block Out Banners</h3>
-
-					<p>Blockout is a 15 oz. smooth, scrimless, blockout banner material best suited for double sided signs and banners, compatible with UV, solvent or screen-printing. Engineered primarily for indoor use, SuperSmooth Blockout may be used outdoors for very short durations. </p>
-			
-				</div>
-		</div>
 
 <?php endwhile;  endif; ?>
 
-		<hr>
 
 		<div class="panel">
 			<div class="row">
