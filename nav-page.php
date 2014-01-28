@@ -11,17 +11,17 @@
 
 			<?php
 				if(is_post_type_archive('products' ) || is_singular( 'products' )) 
-				  echo "<li><a><i class='fa fa-crosshairs'></i> Products and Services</a></li>";
+				  echo "<li><a>Products and Services</a></li>";
 			?>
 
 			<?php
 				if(is_post_type_archive('projects' ) || is_singular( 'projects' )) 
-				  echo "<li><a><i class='fa fa-book'></i> Portfolio Projects</a></li>";
+				  echo "<li><a>Portfolio Projects</a></li>";
 			?>
 
 			<?php
 				if(is_post_type_archive('support' ) || is_singular( 'support' )) 
-				  echo "<li><a><i class='fa fa-comments-o'></i> Support</a></li>";
+				  echo "<li><a>Support</a></li>";
 			?>
 </ul>
 
