@@ -169,10 +169,10 @@ $(function() {
 					    	<?php if( $i < 9) { ?>
 					        <?php setup_postdata($post); ?>
 					        <?php $icon = get_field('category_icon', 'product_categories_'.$post->term_id); ?>
-  								<li><a href="#" class="<?php if ($i == 1 ) { echo 'current-item'; }; ?>"><i class="fa <?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
+  								<li><a href="#" class="ajax <?php if ($i == 1 ) { echo 'current-item'; }; ?>"><i class="fa <?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
-					    	<li class="more-work" ><a href="/more"><i class="fa fa-briefcase"></i>More Work</a></li>
+					    	<li class="more-work" ><a href="/portfolio"><i class="fa fa-briefcase"></i>More Work</a></li>
 
 					    <script>
 								var $ = jQuery;
@@ -188,7 +188,7 @@ $(function() {
 								        $(this).addClass('current-item');
 								});
 
-								$(".portfolio-nav .icon-nav a").removeAttr('href');
+								$(".portfolio-nav .icon-nav a.ajax").removeAttr('href');
 
 								function successFn(result) {
 									$(".portfolio-ajax").fadeOut( 100 , function() {
@@ -234,7 +234,7 @@ $(function() {
 			  		<div class="medium-4 columns row-content">
 			  			<h4><?php the_title(); ?></h4>
 			  			<p><?php echo excerpt(55); ?></p>
-						<p><a href="#" class="secondary_button">View Full Portfolo</a></p>
+						<p><a href="/portfolio" class="secondary_button">View Full Portfolo</a></p>
 			  		</div>
 
 			<?php endwhile; ?>
