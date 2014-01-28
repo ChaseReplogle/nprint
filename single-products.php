@@ -18,6 +18,7 @@
 		<p><?php the_content(); ?></p>
 		<hr>
 	</div>
+<?php endwhile; endif; ?>
 
 	<div class="columns medium-3 product-column">
 		<ul>
@@ -46,6 +47,8 @@
 	  	
 		<div class="row product-item">
 
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 				<?php while(has_sub_field("related_products")): ?>
 			 
 				<?php if(get_row_layout() == "sub_product"): ?>
@@ -67,9 +70,8 @@
 
 					<hr>
 
-				<?php endif; ?>
-
-			<?php endwhile; ?>
+		<?php endwhile; endif; ?>
+		
 		</div>
 
 <?php endwhile;  endif; ?>
