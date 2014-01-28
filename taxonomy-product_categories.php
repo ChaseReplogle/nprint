@@ -37,9 +37,23 @@
 
 	<div class="medium-9 columns page-main-content">
 
-	<?php if ( have_posts() ) :
+	<?php
+		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
-	while ( have_posts() ) : the_post(); ?>
+			$args = array(
+		   'post_type' => 'projects',
+		   'posts_per_page' => 6,
+		   'post_status' => 'publish',
+		   'paged' => $paged,
+		   'caller_get_posts'=> 1
+		);
+
+		$project_query = new WP_Query($args);
+
+	if ( $project_query->have_posts() ) : ?>
+
+		<?php while ( $project_query->have_posts() ) : $project_query->the_post(); ?>
+	    
 	  	
 		<div class="row product-item">
 
