@@ -51,7 +51,9 @@ foreach($terms as $term) {
 
 							$project_query = new WP_Query($args);
 
-						while (have_posts()) : the_post(); ?>
+						if ( $project_query->have_posts() ) : ?>
+
+  						<?php while ( $project_query->have_posts() ) : $project_query->the_post(); ?>
 						    
 
 						<a href="<?php the_permalink(); ?>" class="project-panel">
@@ -65,6 +67,7 @@ foreach($terms as $term) {
 						</div>
 						</a>
 
+						<?php endif; ?>
 
 						<?php endwhile; ?>
 
