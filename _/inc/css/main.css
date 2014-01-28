@@ -7588,6 +7588,15 @@ a:hover {
   margin-top: 20px;
   float: right;
 }
+.wp-pagenavi a {
+  padding: 3px 9px;
+  color: #d1d1d1;
+  border: 1px solid #d1d1d1;
+}
+.wp-pagenavi span {
+  background-color: #fff;
+  color: #818080;
+}
 
 /* Main stock styles */
 body {
