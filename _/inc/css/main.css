@@ -7596,6 +7596,7 @@ a:hover {
 .wp-pagenavi span {
   background-color: #fff;
   color: #818080;
+  padding: 3px 9px;
 }
 
 /* Main stock styles */
