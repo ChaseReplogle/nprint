@@ -18,7 +18,6 @@
 		<p><?php the_content(); ?></p>
 		<hr>
 	</div>
-<?php endwhile; endif; ?>
 
 	<div class="columns medium-3 product-column">
 		<ul>
@@ -37,7 +36,10 @@
 	    
 			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?><i class="fa fa-angle-right"></i></a></li>
 
+		<?php wp_reset_postdata(); ?>
+		
 	<?php endwhile; endif; ?>
+
 
 		</ul>
 
@@ -46,8 +48,6 @@
 	<div class="columns medium-9 page-main-content">
 	  	
 		<div class="row product-item">
-
-		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 				<?php while(has_sub_field("related_products")): ?>
 			 
@@ -70,10 +70,9 @@
 
 					<hr>
 
-				<?php endwhile; endif; ?>
-				
-		<?php endwhile; endif; ?>
+				<?php endif; ?>
 
+			<?php endwhile; ?>
 		</div>
 
 <?php endwhile;  endif; ?>
