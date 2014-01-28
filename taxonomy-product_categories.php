@@ -43,10 +43,10 @@
 
 	<?php
 		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-
+		$tax = $wp_query->get_queried_object();
 			$args = array(
 		   'post_type' => 'projects',
-		   'project_categories' => $term->name,
+		   'project_categories' => $tax->name,
 		   'posts_per_page' => 6,
 		   'post_status' => 'publish',
 		   'paged' => $paged,
