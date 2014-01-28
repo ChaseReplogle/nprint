@@ -13,7 +13,7 @@
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
 		<h1><?php the_title(); ?></h1>
-		<p>Vinyl banners are a form of outdoor advertising. Most banners are now digitally printed on large format inkjet printers which are capable of printing a full color outdoor billboard on a single piece of material.</p>
+		<p><?php the_content(); ?></p>
 		<hr>
 	</div>
 
