@@ -70,8 +70,10 @@
 
 					<hr>
 
+				<?php endwhile; endif; ?>
+				
 		<?php endwhile; endif; ?>
-		
+
 		</div>
 
 <?php endwhile;  endif; ?>
