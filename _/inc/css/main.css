@@ -8125,11 +8125,17 @@ img.avatar {
 .post-type-archive-projects .content-row .page-main-content .project-panel h2 {
   font-size: 20px;
 }
+.post-type-archive-projects .content-row .page-main-content .project-panel p {
+  margin: 0px;
+}
 .post-type-archive-projects .content-row .page-main-content .project-panel:nth-child(odd) {
   margin-right: 2%;
 }
 .post-type-archive-projects .content-row .page-main-content .project-panel:hover {
   background-color: #fff;
+}
+.post-type-archive-projects .content-row .page-main-content .project-panel .project-panel-content {
+  padding-bottom: 20px;
 }
 .post-type-archive-projects .product-column h4 {
   text-align: left;

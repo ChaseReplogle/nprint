@@ -698,12 +698,20 @@ img.avatar {
 				font-size: 20px;
 			}
 
+			p {
+				margin: 0px;
+			}
+
 			&:nth-child(odd) {
 				margin-right: 2%;
 			}
 
 			&:hover {
 				background-color: #fff;
+			}
+
+			.project-panel-content {
+				padding-bottom: 20px;
 			}
 		}
 	}
