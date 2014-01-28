@@ -7496,7 +7496,7 @@ a:hover {
   padding: 0px 0.9375rem;
 }
 .page-nav-warpper .title-area ul {
-  width: 40%;
+  display: block;
 }
 .page-nav-warpper .page-nav .title-area li a:not(.button) {
   color: #818080;
