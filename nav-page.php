@@ -11,22 +11,22 @@
 
 			<?php
 				if(is_post_type_archive('products' ) || is_singular( 'products' )) 
-				  echo "<li><a>Products</a></li>";
+				  echo "<li><a href='/products'>Products</a></li>";
 			?>
 
 			<?php
 				if(is_post_type_archive('projects' ) || is_singular( 'projects' )) 
-				  echo "<li><a>Portfolio</a></li>";
+				  echo "<li><a href='/portfolio'>Portfolio</a></li>";
 			?>
 
 			<?php
 				if(is_post_type_archive('support' ) || is_singular( 'support' )) 
-				  echo "<li><a>Support</a></li>";
+				  echo "<li><a href='/support'>Support</a></li>";
 			?>
 
 			<?php
 				if(is_tax( 'product_categories' )) 
-				  echo "<li><a>Portfolio</a></li>";
+				  echo "<li><a href='/portfolio'>Portfolio</a></li>";
 			?>
 </ul>
 
