@@ -25,6 +25,10 @@
 			foreach($terms as $term) {
 
 			    echo '<li><a '; 
+			    if($term->name==$pageslug)
+					{
+						echo ' class="current-page-item" ';
+					}
 			    echo ' href="'.get_term_link($term->slug,$taxonomyName).'">'.$term->name.'<i class="fa fa-angle-right"></i></a></li>';
 			}
 		?>
