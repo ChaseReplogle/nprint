@@ -80,9 +80,7 @@ foreach($terms as $term) {
 			<div class="columns medium-12">
 				<?php wp_pagenavi( array('query' => $project_query) );?>
 			</div>
-		</div>				
-
-		<?php wp_reset_query(); ?>
+		</div>			
 		
 
 	</div>
