@@ -7584,6 +7584,11 @@ a:hover {
   opacity: .8;
 }
 
+.wp-pagenavi {
+  margin-top: 20px;
+  float: right;
+}
+
 /* Main stock styles */
 body {
   background-color: #000;
