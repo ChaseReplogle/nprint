@@ -14,18 +14,14 @@
 
 	<div class="medium-3 columns product-column">
 		<ul>
-			<li class="current-page-item"><a href="#">Banners<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Wraps<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Die Cust<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Exhibits<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Vehicles<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Buildings<i class="fa fa-angle-right"></i></a></li>
-		</ul>
-		<ul>
-			<li><a href="#">Graphic Design<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Proofing<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Consultation<i class="fa fa-angle-right"></i></a></li>
-			<li><a href="#">Instillation<i class="fa fa-angle-right"></i></a></li>
+		<?php
+$taxonomyName = "product_categories";
+$terms = get_terms($taxonomyName,array('parent' => 0));
+foreach($terms as $term) {
+    echo '<li><a href="'.get_term_link($term->slug,$taxonomyName).'">'.$term->name.'<i class="fa fa-angle-right"></i></a></li>';
+
+}
+?>
 		</ul>
 	</div>
 

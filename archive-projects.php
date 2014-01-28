@@ -37,41 +37,26 @@ foreach($terms as $term) {
 
 				<div class="columns medium-12 project-content">
 					<div class="row">
+
+						<?php	query_posts( 'posts_per_page=4&post_type=projects');
+
+						while ( have_posts() ) : the_post(); ?>
+						    
+
 						<a href="<?php the_permalink(); ?>"><div class="panel">
-							<h2>PBR Arena Wraps</h2>
-							<p class="client">Client: Professional Bull Ride World Tour</p>
+							<h2><?php the_title(); ?></h2>
+							<p class="client">Client: <?php the_field('client'); ?></p>
 							<img src="
 								<?php $image = get_field('project_featured_image');
 								echo $image['sizes']['large']; ?>
 							" alt="<?php the_title(); ?>" class="featured-image"/>
 						</div></a>
 
-						<div class="panel">
-							<h2>PBR Arena Wraps</h2>
-							<p class="client">Client: Professional Bull Ride World Tour</p>
-							<img src="
-								<?php $image = get_field('project_featured_image');
-								echo $image['sizes']['large']; ?>
-							" alt="<?php the_title(); ?>" class="featured-image"/>
-						</div>
 
-						<div class="panel">
-							<h2>PBR Arena Wraps</h2>
-							<p class="client">Client: Professional Bull Ride World Tour</p>
-							<img src="
-								<?php $image = get_field('project_featured_image');
-								echo $image['sizes']['large']; ?>
-							" alt="<?php the_title(); ?>" class="featured-image"/>
-						</div>
+						<?php endwhile;
 
-						<div class="panel">
-							<h2>PBR Arena Wraps</h2>
-							<p class="client">Client: Professional Bull Ride World Tour</p>
-							<img src="
-								<?php $image = get_field('project_featured_image');
-								echo $image['sizes']['large']; ?>
-							" alt="<?php the_title(); ?>" class="featured-image"/>
-						</div>
+						wp_reset_query(); ?>
+						
 					</div>
 				</div>
 
