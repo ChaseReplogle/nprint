@@ -38,7 +38,10 @@ foreach($terms as $term) {
 				<div class="columns medium-12 project-content">
 					<div class="row">
 
-						<?php	query_posts( 'posts_per_page=6&post_type=projects');
+						<?php	
+						$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
+						query_posts( 'posts_per_page=6&post_type=projects&paged=' . $paged);
 
 						while ( have_posts() ) : the_post(); ?>
 						    
