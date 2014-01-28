@@ -25,7 +25,7 @@
 			?>
 
 			<?php
-				if(is_tax( 'product_categories' ); 
+				if(is_tax( 'product_categories' )) 
 				  echo "<li><a>Portfolio Projects</a></li>";
 			?>
 </ul>
