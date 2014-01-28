@@ -29,7 +29,6 @@ foreach($terms as $term) {
 		</ul>
 
 		<div class="panel">
-			<i class="fa fa-search-plus"></i> 
 			<h4>View More Projects by Selection a Category Above</h4>
 		</div>
 	</div>
