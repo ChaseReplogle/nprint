@@ -16,7 +16,7 @@
 		<ul>
 			<li><a href="/portfolio">Back <i class="fa fa-angle-right"></i></a></li>
 		</ul>
-		
+
 		<ul>
 		<?php
 $taxonomyName = "product_categories";
@@ -42,7 +42,7 @@ foreach($terms as $term) {
 					<table width="100%">
 						<tr>
 							<td width="25%">Project Specs</td>
-							<td>Large vinyl Banners 24 oz., Outdoor Mesh Banners, Window Decals</td>
+							<td><?php the_field('project_specs'); ?></td>
 						</tr>
 					</table>
 
@@ -73,14 +73,21 @@ foreach($terms as $term) {
 					<hr>
 
 					<table width="100%">
-						<tr>
-							<td width="25%"><a href="#">Larger Banners</a></td>
-							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue bibendum...</td>
-						</tr>
-						<tr>
-							<td width="25%"><a href="#">Window Wraps</a></td>
-							<td>Sit amet, consectetur adipiscing elit. Curabitur lorem isum dolor congue bibendum...</td>
-						</tr>
+			
+						<?php 
+							$posts = get_field('related_products');
+							 
+							if( $posts ): ?>
+							    <tr>
+							    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+							        <?php setup_postdata($post); ?>
+							            <td width="25%"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
+							            <td><?php the_excerpt(); ?></td>
+							    <?php endforeach; ?>
+							    </tr>
+							    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+							<?php endif; ?>
+							
 					</table>
 
 
