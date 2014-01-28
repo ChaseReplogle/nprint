@@ -67,9 +67,9 @@ foreach($terms as $term) {
 						</div>
 						</a>
 
-						<?php endif; ?>
-
 						<?php endwhile; ?>
+
+						<?php endif; ?>
 
 					</div>
 				</div>
