@@ -40,7 +40,7 @@
 	  	
 		<div class="row product-item">
 
-			<?php while(has_sub_field("related_products")): ?>
+				<?php while(has_sub_field("related_products")): ?>
 			 
 				<?php if(get_row_layout() == "sub_product"): ?>
 
@@ -64,6 +64,11 @@
 				<?php endif; ?>
 
 			<?php endwhile; ?>
+		</div>
+
+<?php endwhile;  endif; ?>
+
+		<hr>
 
 		<div class="panel">
 			<div class="row">
@@ -80,12 +85,8 @@
 				</div>
 			</div>
 		</div>
-
-		
 	</div>
 </div>
-
-<?php endwhile;  endif; ?>
 
 
 <div class="case-study">
