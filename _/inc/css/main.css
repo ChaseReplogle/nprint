@@ -8056,6 +8056,9 @@ img.avatar {
 .product-column ul li a:hover {
   background-color: #f2f2f2;
 }
+.product-column ul li a.current-page-item {
+  background-color: #d1d1d1;
+}
 .product-column ul .current-page-item a {
   background-color: #d1d1d1;
 }
