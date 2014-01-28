@@ -43,14 +43,18 @@ foreach($terms as $term) {
 						while ( have_posts() ) : the_post(); ?>
 						    
 
-						<a href="<?php the_permalink(); ?>"><div class="panel">
+						<a href="<?php the_permalink(); ?>" class="project-panel">
+
+						<div class="project-panel-content">
 							<h2><?php the_title(); ?></h2>
 							<p class="client">Client: <?php the_field('client'); ?></p>
+						</div>
 							<img src="
 								<?php $image = get_field('project_featured_image');
 								echo $image['sizes']['large']; ?>
 							" alt="<?php the_title(); ?>" class="featured-image"/>
-						</div></a>
+
+						</a>
 
 
 						<?php endwhile;
