@@ -169,7 +169,7 @@ $(function() {
 					    	<?php if( $i < 9) { ?>
 					        <?php setup_postdata($post); ?>
 					        <?php $icon_cat = $taxonomy.'_'.$term_taxonomy_id; ?>
-					        <?php $icon = get_field('category_icon', 'project_categories_'.$post->term_taxonomy_id); ?>
+					        <?php $icon = get_field('category_icon', 'product_categories_'.$post->term_taxonomy_id); ?>
   								<li><a href="#" class="<?php if ($i == 1 ) { echo 'current-item'; }; ?>"><i class="fa <?php echo $icon; ?>"></i><?php echo $post->name; ?></a></li>
   							<?php } ?>
 					    <?php endforeach; ?>
@@ -214,7 +214,7 @@ $(function() {
 	
 	<div class="portfolio-ajax portfolio boxed row">
 
-		<?php $post_objects = get_field('project_categories'); ?>
+		<?php $post_objects = get_field('product_categories'); ?>
 				<?php $i = 0; ?>
 				<?php foreach( $post_objects as $post): ?>
 					    <?php  $i++; ?>
@@ -222,7 +222,7 @@ $(function() {
 					    	<?php if( $i < 2) { ?>
 					        <?php setup_postdata($post); ?>
 
-  		<?php query_posts('post_type=projects&posts_per_page=1&project_categories='. $post->slug ); ?>
+  		<?php query_posts('post_type=projects&posts_per_page=1&product_categories='. $post->slug ); ?>
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<div class="medium-8 columns row-image">
