@@ -89,6 +89,8 @@ foreach($terms as $term) {
 
 		</div>
 
+		<hr>
+
 	<?php endwhile; endif; ?>
 		
 

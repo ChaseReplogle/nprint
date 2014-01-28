@@ -23,6 +23,11 @@
 				if(is_post_type_archive('support' ) || is_singular( 'support' )) 
 				  echo "<li><a>Support</a></li>";
 			?>
+
+			<?php
+				if(is_tax( 'product_categories' ); 
+				  echo "<li><a>Portfolio Projects</a></li>";
+			?>
 </ul>
 
 <section class="top-bar-section right">
