@@ -7626,6 +7626,9 @@ body .gform_confirmation_message a {
   width: auto !important;
   float: none !important;
 }
+.daves-wordpress-live-search_result .post_thumb {
+  margin: 3px 20px 10px 0 !important;
+}
 
 /* Main stock styles */
 body {
