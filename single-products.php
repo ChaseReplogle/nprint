@@ -27,7 +27,7 @@
 		   'posts_per_page' => -1,
 		   'post_status' => 'publish',
 		   'orderby' => 'menu_order',
-		   'order' => 'DESC'
+		   'order' => 'ASC'
 		);
 
 		$nav_query = new WP_Query($args);
