@@ -7152,6 +7152,12 @@ a:hover {
   line-height: 1.5em;
 }
 
+.gform_body input {
+  font-size: 14px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
 /* Top Bar Main Navigation Styles */
 [data-magellan-expedition] {
   padding: 0px;
