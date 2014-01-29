@@ -49,12 +49,10 @@
 
 	</div>
 
-</div>
-
 <?php endwhile; ?>
 <?php endif; ?>
 
-
+</div>
 </div>
 
 <div class="footer-wrapper">
