@@ -24,6 +24,7 @@
 			<?php
 
 			$pagename = get_the_title();
+				echo $pagename;
 			$args = array(
 		   'post_type' => 'products',
 		   'posts_per_page' => -1,
