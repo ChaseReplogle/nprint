@@ -39,7 +39,7 @@
 	<div class="columns medium-12 page-main-content">
 		
 		<div class="search-item">
-			<a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a>
+			<a class="support_button <?php echo get_post_type( get_the_ID() ); ?>"><?php echo get_post_type( get_the_ID() ); ?></a>
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<h3><a href="<?php the_permalink(); ?>"><?php the_field('full_title'); ?></a></h3>
 			<p><a href="<?php the_permalink(); ?>"><?php the_permalink(); ?></a></p>
