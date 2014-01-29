@@ -26,19 +26,6 @@
 
 	<div class="columns medium-4 page-sidebar">
 
-		<div class="ad banner" style="background-image: url('http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-16-at-6.28.47-PM.png');">
-			<img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/printer.png" />
-			<h3>Title for an Ad Section</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada.</p>
-			<a href="#" class="secondary_button">Link to Page</a>
-		</div>
-
-		<div class="ad">
-			<h3>Title for an Ad Section</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. Etiam porta velit non tincidunt tempor.</p>
-			<a href="#" class="primary_button">Link to Page</a>
-		</div>
-
 		<div class="contact">
 			<div class="side-logo"><img class="left" src="http://nprintgraphix.wpengine.com/wp-content/themes/nprint/_/inc/images/footer-logo.png" alt="Logo" style="width: 100%;"></div>
 			<p><strong>Local: </strong>(417) 882-SIGN (7446)
