@@ -6,40 +6,71 @@
  */
  get_header(); ?>
 
- <div class="search-results">
+<?php include 'nav-account.php'; ?>
+<?php include 'nav-main.php'; ?>
+<?php include 'nav-page.php'; ?>
 
-	<?php if (have_posts()) : ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-		<h2><?php _e('Search Results','html5reset'); ?></h2>
+<div class="row content-row">
+	<div class="columns medium-12 page-title">
+		<h1>Search Results</h1>
+		<hr>
+	</div>
 
-		<?php post_navigation(); ?>
+	<div class="columns medium-8 page-main-content">
+		
+		<h2><?php the_title(); ?></h2>
+		<h3><?php the_field('full_title'); ?></h3>
+		<p><?php the_excerpt(); ?></p>
 
-		<?php while (have_posts()) : the_post(); ?>
+	</div>
 
-			<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
+	<div class="columns medium-4 page-sidebar">
 
-				<h2><?php the_title(); ?></h2>
-
-				<?php posted_on(); ?>
-
-				<div class="entry">
-
-					<?php the_excerpt(); ?>
-
-				</div>
-
-			</article>
-
-		<?php endwhile; ?>
-
-		<?php post_navigation(); ?>
-
-	<?php else : ?>
-
-		<h2><?php _e('Nothing Found','html5reset'); ?></h2>
-
-	<?php endif; ?>
-
+		<div class="contact">
+			<div class="side-logo"><img class="left" src="http://nprintgraphix.wpengine.com/wp-content/themes/nprint/_/inc/images/footer-logo.png" alt="Logo" style="width: 100%;"></div>
+			<p><strong>Local: </strong>(417) 882-SIGN (7446)
+				<br><strong>Toll Free: </strong>1-888-518-7344
+				<br><strong>Fax: </strong>(417) 877-7523</p>
+			<p><strong>nPrint Graphix</strong>
+				<br>1943 West Sunset
+				<br>Springfield, Missouri 65807</p>
+			<p><strong>Business Hours</strong>
+				<br>Monday - Friday: 8:00 am - 5:00 pm</p>
+		</div>
+	</div>
 </div>
+
+<?php endwhile; endif; ?>
+
+<div class="case-study">
+	<div class="row">
+		<div class="columns medium-9 medium-centered">
+			<h5>Case Study</h5>
+			<h2>Sherman Williams Banners</h2>
+			<p>Lorem ipsum dolor sit amet ipsum malesuada.</p>
+			<a href="#" class="image-hover"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-16-at-4.26.50-PM.png" /></a>
+		</div>
+	</div>
+</div>
+
+<div class="footer-wrapper">
+	<div class="g7">
+		<div class="row">
+			<div class="large-centered large-11 columns">
+				<div class="columns medium-5 ">
+					<img class="right" src="<?php echo get_template_directory_uri(); ?>/_/inc/images/g7.jpg" alt="G7"/>
+				</div>
+				
+				<div class="columns medium-7">
+					<h3>G7 Certified Printer</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ipsum malesuada, eleifend massa quis, tincidunt nulla. Etiam porta velit non tincidunt tempor. </p>
+					<a href="#">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 <?php get_footer(); ?>
