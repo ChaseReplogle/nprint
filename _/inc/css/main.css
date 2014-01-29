@@ -7619,6 +7619,14 @@ body .gform_confirmation_message a {
   padding: 3px 9px;
 }
 
+.daves-wordpress-live-search_result .excerpt {
+  display: none;
+}
+.daves-wordpress-live-search_result .daves-wordpress-live-search_title {
+  width: auto;
+  float: none;
+}
+
 /* Main stock styles */
 body {
   background-color: #000;
