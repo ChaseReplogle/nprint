@@ -8292,6 +8292,7 @@ img.avatar {
   .search .content-row .page-main-content .support_button {
     position: relative;
     display: inline-block;
+    margin-bottom: 10px;
   }
 }
 /* Media Query styles */
