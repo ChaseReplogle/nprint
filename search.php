@@ -6,60 +6,40 @@
  */
  get_header(); ?>
 
-<?php include 'nav-account.php'; ?>
-<?php include 'nav-main.php'; ?>
-<div class="contain-to-grid page-nav-warpper">
+ <div class="search-results">
 
-<nav class="top-bar page-nav" data-topbar>
-<ul class="title-area">
-			<?php
-				if(is_search()) 
-				  echo "<li><a>Search</a></li>";
-			?>
-</ul>
+	<?php if (have_posts()) : ?>
 
-<section class="top-bar-section right">
-    <!-- Right Nav Section -->
-    <ul>
-    </ul>
-</section>
-</nav>
-</div>	
+		<h2><?php _e('Search Results','html5reset'); ?></h2>
 
+		<?php post_navigation(); ?>
 
+		<?php while (have_posts()) : the_post(); ?>
 
-<div class="row content-row">
-	<div class="columns medium-12 page-title">
-		<h1>Search Results</h1>
-		<hr>
-	</div>
+			<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
-<?php if ( have_posts() ) : ?>                
- 
-<?php while ( have_posts() ) : the_post() ?>
+				<h2><?php the_title(); ?></h2>
 
-	<div class="columns medium-12 page-main-content">
-		
-		<div class="search-item">
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a></h2>
-			<h3><a href="<?php the_permalink(); ?>"><?php the_field('full_title'); ?></a></h3>
-			<p><a href="<?php the_permalink(); ?>"><?php the_permalink(); ?></a></p>
-			<p><?php the_excerpt(); ?></p>
-		</div>
+				<?php posted_on(); ?>
 
-		<hr>
+				<div class="entry">
 
-	</div>
+					<?php the_excerpt(); ?>
+
+				</div>
+
+			</article>
+
+		<?php endwhile; ?>
+
+		<?php post_navigation(); ?>
+
+	<?php else : ?>
+
+		<h2><?php _e('Nothing Found','html5reset'); ?></h2>
+
+	<?php endif; ?>
 
 </div>
-
-<?php endwhile; ?>
-<?php endif; ?>
-
-
-
-
-<div class="footer-wrapper">
-
 
 <?php get_footer(); ?>
