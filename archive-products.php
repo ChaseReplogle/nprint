@@ -20,7 +20,7 @@
 		<ul>
 			<?php
 
-			$pagename = $post->post_name
+			$pagename = $post->post_name;
 
 			$args = array(
 		   'post_type' => 'products',
