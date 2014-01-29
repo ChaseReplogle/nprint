@@ -1,4 +1,3 @@
-
 <?php
 /**
  * @package WordPress
@@ -35,12 +34,10 @@
 		<hr>
 	</div>
 
+
 	<div class="columns medium-12 page-main-content">
-
-	<?php if ( have_posts() ) : ?>
-
-
-				<?php
+		
+		<?php
 					// Start the Loop.
 					while ( have_posts() ) : the_post(); ?>
 
@@ -64,11 +61,16 @@
 
 				endif; ?>
 
-		
+		<hr>
 
 	</div>
 
 </div>
+
+
+
+
+
 
 <div class="footer-wrapper">
 
