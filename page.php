@@ -10,9 +10,11 @@
 <?php include 'nav-main.php'; ?>
 <?php include 'nav-page.php'; ?>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
-		<h1><?php the_title(); ?></h1>
+		<h1><?php the_field('full_title'); ?></h1>
 		<hr>
 	</div>
 
@@ -51,6 +53,7 @@
 	</div>
 </div>
 
+<?php endwhile; endif; ?>
 
 <div class="case-study">
 	<div class="row">
