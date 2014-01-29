@@ -8273,6 +8273,12 @@ img.avatar {
 .search a {
   color: #818080;
 }
+.search a:hover {
+  color: #000;
+}
+.search p {
+  margin-bottom: 5px;
+}
 .search .support_button {
   position: absolute;
   top: 0;

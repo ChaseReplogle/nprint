@@ -837,6 +837,14 @@ img.avatar {
 
 	a {
 		color: $grey;
+
+		&:hover {
+			color: #000;
+		}
+	}
+
+	p {
+		margin-bottom: 5px;
 	}
 
 	.support_button {
