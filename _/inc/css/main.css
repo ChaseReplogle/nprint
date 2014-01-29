@@ -8293,13 +8293,6 @@ img.avatar {
   color: #818080;
 }
 
-@media only screen and (max-width: 40em) {
-  .search .support_button {
-    position: relative;
-    margin-bottom: 8px;
-    display: inline-block;
-  }
-}
 /* Media Query styles */
 @media only screen and (max-width: 40em) {
   .wrapper {
