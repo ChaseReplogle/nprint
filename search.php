@@ -12,6 +12,7 @@
 
 <nav class="top-bar page-nav" data-topbar>
 <ul class="title-area">
+		<li><a>Search <?php printf( __( '%s', 'twentytwelve' ), '<span>' . get_search_query() . '</span>' ); ?></a></li>
 			<?php
 				if(is_search()) 
 				  echo "<li><a>Search</a></li>";
