@@ -8289,6 +8289,7 @@ img.avatar {
 }
 .search .support_button:hover {
   background-color: #fff;
+  color: #818080;
 }
 
 @media only screen and (max-width: 40em) {
