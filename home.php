@@ -147,7 +147,7 @@ $(function() {
   		</div>
   		
   		<div class="medium-7 columns row-image">
-  			<div class="embed-container ">
+  			<div class="video ">
 				<?php the_field( "video_embed" );  ?> 
 			</div>
 		</div>
