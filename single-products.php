@@ -38,8 +38,8 @@
 	if ( $nav_query->have_posts() ) : ?>
 
 		<?php while ( $nav_query->have_posts() ) : $nav_query->the_post(); ?>
-	    	<?php echo $nav_query->name; ?>
-			<li <?php if($nav_query->name==$pagename)
+
+			<li <?php if($post->post_name==$pagename)
 					{
 						echo ' class="current-page-item" ';
 					} ?>
