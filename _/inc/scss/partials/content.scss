@@ -857,6 +857,16 @@ img.avatar {
 	}
 }
 
+@media only screen and (max-width: 40em) {
+	.search {
+		.content-row .page-main-content {
+			.support_button {
+				position: relative;
+			}
+		}
+	}
+}
+
 
 
 /* Media Query styles */
