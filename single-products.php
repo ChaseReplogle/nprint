@@ -39,7 +39,9 @@
 
 		<?php while ( $nav_query->have_posts() ) : $nav_query->the_post(); ?>
 
-			<li <?php if($post->post_name==$pagename)
+			<?php $queryName = get_the_title(); ?>
+
+			<li <?php if($queryName==$pagename)
 					{
 						echo ' class="current-page-item" ';
 					} ?>
