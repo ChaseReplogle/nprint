@@ -525,12 +525,12 @@ $topbar-arrows: false;
 
 .daves-wordpress-live-search_result {
 	.excerpt {
-		display: none;
+		display: none !important;
 	}
 
-	.daves-wordpress-live-search_title {
-		width: auto;
-		float: none;
+	a.daves-wordpress-live-search_title {
+		width: auto !important;
+		float: none !important;
 
 	}
 }

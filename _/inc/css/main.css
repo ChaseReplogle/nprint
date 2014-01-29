@@ -7620,11 +7620,11 @@ body .gform_confirmation_message a {
 }
 
 .daves-wordpress-live-search_result .excerpt {
-  display: none;
+  display: none !important;
 }
-.daves-wordpress-live-search_result .daves-wordpress-live-search_title {
-  width: auto;
-  float: none;
+.daves-wordpress-live-search_result a.daves-wordpress-live-search_title {
+  width: auto !important;
+  float: none !important;
 }
 
 /* Main stock styles */
