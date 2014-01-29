@@ -7157,6 +7157,12 @@ body .gform_wrapper input[type=text], body .gform_wrapper input[type=url], body 
   padding-left: 10px;
   margin-bottom: 5px;
 }
+body .gform_wrapper textarea {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
 
 /* Top Bar Main Navigation Styles */
 [data-magellan-expedition] {
