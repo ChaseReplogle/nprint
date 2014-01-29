@@ -18,9 +18,9 @@
 		<hr>
 	</div>
 
-	<div class="columns medium-8 page-main-content">
+	<div class="columns medium-12 page-main-content">
 		
-		<h2><?php the_title(); ?></h2>
+		<h2><?php the_title(); ?><a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a></h2>
 		<h3><?php the_field('full_title'); ?></h3>
 		<p><?php the_permalink(); ?></p>
 		<p><?php the_excerpt(); ?></p>
