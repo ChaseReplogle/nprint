@@ -12,11 +12,8 @@
 
 <nav class="top-bar page-nav" data-topbar>
 <ul class="title-area">
-		<li><a>Search <?php printf( __( '%s', 'twentytwelve' ), '<span>' . get_search_query() . '</span>' ); ?></a></li>
-			<?php
-				if(is_search()) 
-				  echo "<li><a>Search</a></li>";
-			?>
+	<li><a>Search</a></li>
+
 </ul>
 
 <section class="top-bar-section right">
@@ -31,14 +28,10 @@
 
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
-		<h1>Search Results</h1>
+		<h1>Search Results For: <?php printf( __( '%s', 'twentytwelve' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 		<hr>
 	</div>
 
-<?php
-$wp_query->query_vars["posts_per_page"] = 100;
-$wp_query->get_posts();
-?>
 
 <?php if ( have_posts() ) : ?>                
  
