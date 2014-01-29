@@ -1,3 +1,4 @@
+
 <?php
 /**
  * @package WordPress
@@ -34,29 +35,40 @@
 		<hr>
 	</div>
 
-<?php if ( have_posts() ) : ?>                
- 
-<?php while ( have_posts() ) : the_post() ?>
-
 	<div class="columns medium-12 page-main-content">
-		
-		<div class="search-item">
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-			<h3><a href="<?php the_permalink(); ?>"><?php the_field('full_title'); ?></a></h3>
-			<p><a href="<?php the_permalink(); ?>"><?php the_permalink(); ?></a></p>
-			<p><?php the_excerpt(); ?></p>
-			<a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a>
-		</div>
 
-		<hr>
+	<?php if ( have_posts() ) : ?>
+
+
+				<?php
+					// Start the Loop.
+					while ( have_posts() ) : the_post(); ?>
+
+						<div class="search-item">
+							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+							<h3><a href="<?php the_permalink(); ?>"><?php the_field('full_title'); ?></a></h3>
+							<p><a href="<?php the_permalink(); ?>"><?php the_permalink(); ?></a></p>
+							<p><?php the_excerpt(); ?></p>
+							<a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a>
+						</div>
+
+						<hr>
+
+					<?php endwhile;
+					// Previous/next post navigation.
+					twentyfourteen_paging_nav();
+
+				else :
+					// If no content, include the "No posts found" template.
+					get_template_part( 'content', 'none' );
+
+				endif; ?>
+
+		
 
 	</div>
 
 </div>
-
-<?php endwhile; ?>
-<?php endif; ?>
-
 
 <div class="footer-wrapper">
 
