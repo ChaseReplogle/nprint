@@ -1,49 +1,65 @@
 <?php
 /**
- * The template for displaying Search Results pages
- *
  * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @subpackage HTML5-Reset-WordPress-Theme
+ * @since HTML5 Reset 2.0
  */
+ get_header(); ?>
 
-get_header(); ?>
+<?php include 'nav-account.php'; ?>
+<?php include 'nav-main.php'; ?>
+<div class="contain-to-grid page-nav-warpper">
 
-	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-			<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyfourteen' ), get_search_query() ); ?></h1>
-			</header><!-- .page-header -->
-
-				<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
-
-						/*
-						 * Include the post format-specific template for the content. If you want to
-						 * use this in a child theme, then include a file called called content-___.php
-						 * (where ___ is the post format) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
-
-					endwhile;
-					// Previous/next post navigation.
-					twentyfourteen_paging_nav();
-
-				else :
-					// If no content, include the "No posts found" template.
-					get_template_part( 'content', 'none' );
-
-				endif;
+<nav class="top-bar page-nav" data-topbar>
+<ul class="title-area">
+			<?php
+				if(is_search()) 
+				  echo "<li><a>Search</a></li>";
 			?>
+</ul>
 
-		</div><!-- #content -->
-	</section><!-- #primary -->
+<section class="top-bar-section right">
+    <!-- Right Nav Section -->
+    <ul>
+    </ul>
+</section>
+</nav>
+</div>	
 
-<?php
-get_sidebar( 'content' );
-get_sidebar();
-get_footer();
+
+
+<div class="row content-row">
+	<div class="columns medium-12 page-title">
+		<h1>Search Results</h1>
+		<hr>
+	</div>
+
+<?php if ( have_posts() ) : ?>                
+ 
+<?php while ( have_posts() ) : the_post() ?>
+
+	<div class="columns medium-12 page-main-content">
+		
+		<div class="search-item">
+			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a></h2>
+			<h3><a href="<?php the_permalink(); ?>"><?php the_field('full_title'); ?></a></h3>
+			<p><a href="<?php the_permalink(); ?>"><?php the_permalink(); ?></a></p>
+			<p><?php the_excerpt(); ?></p>
+		</div>
+
+		<hr>
+
+	</div>
+
+</div>
+
+<?php endwhile; ?>
+<?php endif; ?>
+
+
+
+
+<div class="footer-wrapper">
+
+
+<?php get_footer(); ?>
