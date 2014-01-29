@@ -10,7 +10,7 @@
 <?php include 'nav-main.php'; ?>
 <?php include 'nav-page.php'; ?>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
@@ -18,12 +18,16 @@
 		<hr>
 	</div>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 	<div class="columns medium-12 page-main-content">
 		
-		<h2><?php the_title(); ?><a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a></h2>
-		<h3><?php the_field('full_title'); ?></h3>
-		<p><?php the_permalink(); ?></p>
-		<p><?php the_excerpt(); ?></p>
+		<div class="search-item">
+			<h2><?php the_title(); ?> <a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a></h2>
+			<h3><?php the_field('full_title'); ?></h3>
+			<p><?php the_permalink(); ?></p>
+			<p><?php the_excerpt(); ?></p>
+		</div>
 
 	</div>
 
