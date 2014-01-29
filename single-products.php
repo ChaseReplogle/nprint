@@ -23,7 +23,7 @@
 		<ul>
 			<?php
 
-			$pagename = $post->post_name;
+			$pagename = get_the_title();
 				echo $pagename;
 			$args = array(
 		   'post_type' => 'products',
