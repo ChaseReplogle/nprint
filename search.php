@@ -32,6 +32,10 @@
 		<hr>
 	</div>
 
+<?php
+$wp_query->query_vars["posts_per_page"] = 100;
+$wp_query->get_posts();
+?>
 
 <?php if ( have_posts() ) : ?>                
  
