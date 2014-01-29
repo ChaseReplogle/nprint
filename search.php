@@ -41,10 +41,11 @@
 	<div class="columns medium-12 page-main-content">
 		
 		<div class="search-item">
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a></h2>
+			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<h3><a href="<?php the_permalink(); ?>"><?php the_field('full_title'); ?></a></h3>
 			<p><a href="<?php the_permalink(); ?>"><?php the_permalink(); ?></a></p>
 			<p><?php the_excerpt(); ?></p>
+			<a class="support_button"><?php echo get_post_type( get_the_ID() ); ?></a>
 		</div>
 
 		<hr>
