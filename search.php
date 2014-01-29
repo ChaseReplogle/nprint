@@ -8,7 +8,23 @@
 
 <?php include 'nav-account.php'; ?>
 <?php include 'nav-main.php'; ?>
-<?php include 'nav-page.php'; ?>
+<div class="contain-to-grid page-nav-warpper">
+
+<nav class="top-bar page-nav" data-topbar>
+<ul class="title-area">
+			<?php
+				if(is_search()) 
+				  echo "<li><a>Search</a></li>";
+			?>
+</ul>
+
+<section class="top-bar-section right">
+    <!-- Right Nav Section -->
+    <ul>
+    </ul>
+</section>
+</nav>
+</div>	
 
 
 
@@ -30,6 +46,8 @@
 			<p><?php the_permalink(); ?></p>
 			<p><?php the_excerpt(); ?></p>
 		</div>
+
+		<hr>
 
 	</div>
 
