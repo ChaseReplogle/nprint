@@ -28,6 +28,11 @@
 				if(is_tax( 'product_categories' )) 
 				  echo "<li><a href='/portfolio'>Portfolio</a></li>";
 			?>
+
+			<?php
+				if(is_search()) 
+				  echo "<li><a>Search</a></li>";
+			?>
 </ul>
 
 <section class="top-bar-section right">
