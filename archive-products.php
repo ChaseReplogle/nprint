@@ -21,7 +21,7 @@
 			<?php
 
 			$pagename = $post->post_name;
-
+				echo $pagename;
 			$args = array(
 		   'post_type' => 'products',
 		   'posts_per_page' => -1,
@@ -35,7 +35,7 @@
 	if ( $nav_query->have_posts() ) : ?>
 
 		<?php while ( $nav_query->have_posts() ) : $nav_query->the_post(); ?>
-	    
+	    	<?php echo $nav_query->name; ?>
 			<li <?php if($nav_query->name==$pagename)
 					{
 						echo ' class="current-page-item" ';
