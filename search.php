@@ -18,7 +18,9 @@
 		<hr>
 	</div>
 
-<?php while ( have_posts() ) : the_post(); ?>
+<?php if ( have_posts() ) : ?>                
+ 
+<?php while ( have_posts() ) : the_post() ?>
 
 	<div class="columns medium-12 page-main-content">
 		
@@ -34,6 +36,7 @@
 </div>
 
 <?php endwhile; ?>
+<?php endif; ?>
 
 <div class="case-study">
 	<div class="row">
