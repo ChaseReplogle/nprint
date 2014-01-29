@@ -8294,7 +8294,6 @@ img.avatar {
 @media only screen and (max-width: 40em) {
   .search .support_button {
     position: relative;
-    display: inline-block;
     margin-bottom: 8px;
   }
 }
