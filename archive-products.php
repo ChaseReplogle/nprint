@@ -37,11 +37,7 @@
 
 			<?php $queryName = get_the_title(); ?>
 
-			<li <?php if($queryName==$pagename)
-					{
-						echo ' class="current-page-item" ';
-					} ?>
-			><a href="<?php the_permalink(); ?>"><?php the_title(); ?><i class="fa fa-angle-right"></i></a></li>
+			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?><i class="fa fa-angle-right"></i></a></li>
 
 		<?php wp_reset_postdata(); ?>
 
