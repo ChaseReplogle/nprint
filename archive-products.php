@@ -19,6 +19,9 @@
 	<div class="columns medium-3 product-column">
 		<ul>
 			<?php
+
+			$pagename = $post->post_name
+
 			$args = array(
 		   'post_type' => 'products',
 		   'posts_per_page' => -1,
@@ -33,7 +36,11 @@
 
 		<?php while ( $nav_query->have_posts() ) : $nav_query->the_post(); ?>
 	    
-			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?><i class="fa fa-angle-right"></i></a></li>
+			<li <?php if($nav_query->name==$pagename)
+					{
+						echo ' class="current-page-item" ';
+					} ?>
+			><a href="<?php the_permalink(); ?>"><?php the_title(); ?><i class="fa fa-angle-right"></i></a></li>
 
 		<?php wp_reset_postdata(); ?>
 
