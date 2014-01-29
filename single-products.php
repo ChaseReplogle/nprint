@@ -26,7 +26,8 @@
 		   'post_type' => 'products',
 		   'posts_per_page' => -1,
 		   'post_status' => 'publish',
-		   'orderby' => 'menu_order'
+		   'orderby' => 'menu_order',
+		   'order' => 'DESC'
 		);
 
 		$nav_query = new WP_Query($args);
