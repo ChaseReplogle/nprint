@@ -25,7 +25,8 @@
 			$args = array(
 		   'post_type' => 'products',
 		   'posts_per_page' => -1,
-		   'post_status' => 'publish'
+		   'post_status' => 'publish',
+		   'orderby' => 'menu_order'
 		);
 
 		$nav_query = new WP_Query($args);
@@ -37,7 +38,7 @@
 			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?><i class="fa fa-angle-right"></i></a></li>
 
 		<?php wp_reset_postdata(); ?>
-		
+
 	<?php endwhile; endif; ?>
 
 
