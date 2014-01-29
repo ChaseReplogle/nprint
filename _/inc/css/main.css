@@ -7163,6 +7163,13 @@ body .gform_wrapper textarea {
   padding-top: 10px;
   margin-bottom: 5px;
 }
+body .gform_confirmation_message p {
+  color: #818080;
+}
+body .gform_confirmation_message a {
+  color: #4f98c4;
+  text-decoration: underline;
+}
 
 /* Top Bar Main Navigation Styles */
 [data-magellan-expedition] {

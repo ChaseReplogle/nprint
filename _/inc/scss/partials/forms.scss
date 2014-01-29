@@ -13,4 +13,16 @@ body {
 		padding-top: 10px;
 		margin-bottom: 5px;
 	}
+
+	.gform_confirmation_message {
+
+		p {
+			color: $grey;
+		}
+
+		a {
+			color: $mainblue;
+			text-decoration: underline;
+		}
+	}
 }
