@@ -54,7 +54,6 @@
 <?php endif; ?>
 
 </div>
-</div>
 
 <div class="footer-wrapper">
 
