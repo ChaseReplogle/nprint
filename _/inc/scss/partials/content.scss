@@ -829,6 +829,15 @@ img.avatar {
 	.content-row .page-main-content {
 		margin-bottom: 10px;
 	}
+
+	.support_button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-color: $verylightgrey;
+		color: $grey;
+		border: 1px solid $lightgrey;
+	}
 }
 
 

@@ -8266,6 +8266,14 @@ img.avatar {
 .search .content-row .page-main-content {
   margin-bottom: 10px;
 }
+.search .support_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  color: #818080;
+  border: 1px solid #d1d1d1;
+}
 
 /* Media Query styles */
 @media only screen and (max-width: 40em) {
