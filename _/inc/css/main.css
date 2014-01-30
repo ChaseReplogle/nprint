@@ -7944,9 +7944,11 @@ img.avatar {
 }
 .content-row .page-sidebar .ad p {
   color: #818080;
+  line-height: 1.6;
 }
 .content-row .page-sidebar .ad a {
   display: inline-block;
+  margin: 20px 0px;
 }
 .content-row .page-sidebar .banner img {
   margin: -30px 0px 10px -30px;
