@@ -19,7 +19,7 @@
     <div class="row">
       <div class="columns medium-6">
         <?php $args = array(
-         'redirect' => site_url( $_SERVER['REQUEST_URI'] ) }; ?>
+         'redirect' => site_url( $_SERVER['/dashboard'] ) ); ?>
         <?php wp_login_form( $args ); ?>
       </div>
       <div class="columns medium-6">
