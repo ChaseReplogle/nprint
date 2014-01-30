@@ -14,7 +14,7 @@
 </aside>
 
 <script>
-$( "#search-link" ).click(function() {
-  $( "#s" ).focus();
+jQuery( "#search-link" ).click(function() {
+  jQuery( "#s" ).focus();
 });
 </script>
