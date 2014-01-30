@@ -15,6 +15,13 @@
     </ul>
 </nav>
 
-<div class="login-dropdown">
-   <?php wp_login_form( $args ); ?> 
+<div id="myModal" class="reveal-modal" data-reveal>
+    <div class="row">
+      <div class="columns medium-6">
+        <?php wp_login_form( $args ); ?>
+      </div>
+      <div class="columns medium-6">
+        Test
+      </div>
+    </div> 
 </div>
