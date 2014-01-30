@@ -14,3 +14,7 @@
 	  	  <li><a class="right-off-canvas-toggle" id="search-link"><i class="fa fa-search"></i> <span>Search</span></a></li>
     </ul>
 </nav>
+
+<div class="login-dropdown">
+   <?php wp_login_form( $args ); ?> 
+</div>
