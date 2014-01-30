@@ -7351,11 +7351,16 @@ body .gform_confirmation_message a {
   color: #fff;
 }
 
-.login-dropdown {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  background-color: #fff;
+.reveal-modal {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  top: 100px;
+  z-index: 99999;
+}
+
+.reveal-modal-bg {
+  z-index: 999;
 }
 
 .inner-account-nav {
