@@ -7364,6 +7364,7 @@ body .gform_confirmation_message a {
   font-size: 12px;
   text-decoration: underline;
   color: #4f98c4;
+  margin-bottom: 30px;
 }
 .reveal-modal p {
   margin-bottom: 5px;
