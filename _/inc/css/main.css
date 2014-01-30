@@ -7359,6 +7359,16 @@ body .gform_confirmation_message a {
   margin-bottom: 20px;
   color: #818080;
 }
+.reveal-modal .membership-wrap {
+  display: table;
+}
+.reveal-modal .membership-wrap .membership {
+  display: table-cell;
+}
+.reveal-modal .membership-wrap .membership .membership-content {
+  text-align: center;
+  vertical-align: middle;
+}
 
 .reveal-modal-bg {
   z-index: 999;

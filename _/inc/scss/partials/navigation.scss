@@ -192,6 +192,20 @@ $topbar-arrows: false;
 		margin-bottom: 20px;
 		color: $grey;
 	}
+
+	.membership-wrap {
+		display: table;
+
+		.membership {
+			display: table-cell;
+
+			.membership-content {
+				text-align: center;
+				vertical-align: middle;
+				
+			}
+		}
+	}
 }
 
 .reveal-modal-bg {
