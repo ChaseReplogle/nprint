@@ -28,7 +28,11 @@
         <?php wp_login_form( $args ); ?>
       </div>
       <div class="columns medium-6">
-        Test
+        <div class="membership">
+        <h2>Not Yet a Member?</h2>
+        <p>Lorum ipsum dolor set amour estes lorum dolor.</p>
+        <a href="#">Create an Account</a>
+        </div>
       </div>
     </div> 
 
