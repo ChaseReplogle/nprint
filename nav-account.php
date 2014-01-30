@@ -19,11 +19,19 @@
     <div class="row">
       <div class="columns medium-6">
         <?php $args = array(
-         'redirect' => site_url( '/dashboard' ) ); ?>
+          'redirect' => site_url( '/dashboard' ),
+          'label_username' => __( '' ),
+          'label_password' => __( '' ),
+         ); ?>
         <?php wp_login_form( $args ); ?>
       </div>
       <div class="columns medium-6">
         Test
       </div>
     </div> 
+
+    <script>
+      jQuery('#user_login').attr( 'placeholder', 'Username' );
+      jQuery('#user_pass').attr( 'placeholder', 'Password' );
+    </script>
 </div>
