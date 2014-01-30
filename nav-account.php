@@ -27,7 +27,7 @@
          ); ?>
         <?php wp_login_form( $args ); ?>
       </div>
-      <div class="columns medium-5 membership-wrap right">
+      <div class="columns medium-6 membership-wrap right">
         <div class="membership">
           <div class="membership-content">
             <h2>Not Yet a Member?</h2>

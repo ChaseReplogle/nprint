@@ -201,10 +201,13 @@ $topbar-arrows: false;
 
 		p {
 			color: $lightgrey;
+			margin-bottom: 15px;
 		}
 
-		a {
-
+		a.support_button {
+			color: $grey;
+			border: 1px solid $grey;
+			background-color: $lightgrey;
 		}
 	}
 
