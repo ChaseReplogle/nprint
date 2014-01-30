@@ -7364,12 +7364,17 @@ body .gform_confirmation_message a {
 }
 .reveal-modal .membership-content p {
   color: #d1d1d1;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .reveal-modal .membership-content a.support_button {
   color: #818080;
   border: 1px solid #818080;
   background-color: #d1d1d1;
+  display: inline-block;
+  opacity: .4;
+}
+.reveal-modal .membership-content a.support_button:hover {
+  opacity: .9;
 }
 .reveal-modal .membership-wrap .membership {
   background-color: #f2f2f2;

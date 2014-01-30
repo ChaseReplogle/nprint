@@ -201,13 +201,19 @@ $topbar-arrows: false;
 
 		p {
 			color: $lightgrey;
-			margin-bottom: 15px;
+			margin-bottom: 25px;
 		}
 
 		a.support_button {
 			color: $grey;
 			border: 1px solid $grey;
 			background-color: $lightgrey;
+			display: inline-block;
+			opacity: .4;
+
+			&:hover {
+				opacity: .9;
+			}
 		}
 	}
 
