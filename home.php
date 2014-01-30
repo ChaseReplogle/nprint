@@ -147,7 +147,7 @@ $(function() {
   		</div>
   		
   		<div class="medium-7 columns row-image">
-  			<div class="video flex-video">
+  			<div class="video flex-video widescreen vimeo">
 				<?php the_field( "video_embed" );  ?> 
 			</div>
 		</div>
