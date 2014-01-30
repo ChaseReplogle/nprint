@@ -306,6 +306,18 @@ img.avatar {
 				display: inline-block;
 				margin: 20px 0px;
 			}
+
+			&:after {
+			  content: "";
+			  background-color: $mainblue;
+			  opacity: 0.5;
+			  top: 0;
+			  left: 0;
+			  bottom: 0;
+			  right: 0;
+			  position: absolute;
+			  z-index: -1; 
+			 }  
 		}
 
 		.banner {
