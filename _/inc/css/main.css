@@ -7359,6 +7359,15 @@ body .gform_confirmation_message a {
   margin-bottom: 20px;
   color: #818080;
 }
+.reveal-modal #wp-submit {
+  float: right;
+  padding: 12px 0px;
+  background-color: #4f98c4;
+  border: 1px solid darken #4f98c4, 20%;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
 .reveal-modal .membership-content h2 {
   margin-bottom: 5px;
 }

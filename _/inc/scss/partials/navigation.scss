@@ -193,6 +193,16 @@ $topbar-arrows: false;
 		color: $grey;
 	}
 
+	#wp-submit {
+		float: right;
+		padding: 12px 0px;
+		background-color: $mainblue;
+		border: 1px solid darken ($mainblue, 20%);
+		color: #fff;
+		display: block;
+		width: 100%;
+	}
+
 	.membership-content {
 
 		h2 {
