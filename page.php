@@ -33,7 +33,8 @@
 		if( $posts ): ?>
 		    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
 		        <?php setup_postdata($post); ?>
-		        <div class="ad banner" style="background-image: url('http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-16-at-6.28.47-PM.png');">
+		        <div class="ad banner" style="background-image: url('<?php $backgroundimage = get_field('marketing_background_image');
+							echo $backgroundimage['sizes']['large']; ?>');">
 					<img src="
 							<?php $image = get_field('marketing_featured_image');
 							echo $image['sizes']['large']; ?>
