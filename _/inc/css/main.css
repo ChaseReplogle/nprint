@@ -7360,6 +7360,12 @@ body .gform_confirmation_message a {
   color: #4f98c4;
   font-weight: bold;
 }
+.reveal-modal p {
+  margin-bottom: 5px;
+}
+.reveal-modal input {
+  padding: 20px 10px;
+}
 .reveal-modal #wp-submit {
   float: right;
   padding: 12px 0px;
