@@ -7360,6 +7360,11 @@ body .gform_confirmation_message a {
   color: #4f98c4;
   font-weight: bold;
 }
+.reveal-modal a {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #4f98c4;
+}
 .reveal-modal p {
   margin-bottom: 5px;
 }
@@ -7374,6 +7379,7 @@ body .gform_confirmation_message a {
   color: #fff;
   display: block;
   width: 100%;
+  margin-bottom: 10px;
 }
 .reveal-modal .membership-content h2 {
   margin-bottom: 5px;

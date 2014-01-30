@@ -194,6 +194,12 @@ $topbar-arrows: false;
 		font-weight: bold;
 	}
 
+	a {
+		font-size: 12px;
+		text-decoration: underline;
+		color: $mainblue;
+	}
+
 	p {
 		margin-bottom: 5px;
 	}
@@ -210,6 +216,7 @@ $topbar-arrows: false;
 		color: #fff;
 		display: block;
 		width: 100%;
+		margin-bottom: 10px;
 	}
 
 	.membership-content {
