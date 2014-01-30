@@ -7352,10 +7352,6 @@ body .gform_confirmation_message a {
 }
 
 .reveal-modal {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-  top: 100px;
   z-index: 99999;
 }
 
