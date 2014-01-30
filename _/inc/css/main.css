@@ -7357,7 +7357,8 @@ body .gform_confirmation_message a {
 .reveal-modal h2 {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #818080;
+  color: #4f98c4;
+  font-weight: bold;
 }
 .reveal-modal #wp-submit {
   float: right;
@@ -7370,6 +7371,8 @@ body .gform_confirmation_message a {
 }
 .reveal-modal .membership-content h2 {
   margin-bottom: 5px;
+  color: #818080;
+  font-weight: normal;
 }
 .reveal-modal .membership-content p {
   color: #d1d1d1;

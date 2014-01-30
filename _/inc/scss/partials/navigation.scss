@@ -190,7 +190,8 @@ $topbar-arrows: false;
 	h2 {
 		font-size: 20px;
 		margin-bottom: 20px;
-		color: $grey;
+		color: $mainblue;
+		font-weight: bold;
 	}
 
 	#wp-submit {
@@ -207,6 +208,8 @@ $topbar-arrows: false;
 
 		h2 {
 			margin-bottom: 5px;
+			color: $grey;
+			font-weight: normal;
 		}
 
 		p {
