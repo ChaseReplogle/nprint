@@ -281,6 +281,8 @@ img.avatar {
 			border: 1px solid $lightgrey;
 			padding: 30px;
 			margin-bottom: 30px;
+			z-index: 1;
+			position: relative;
 
 			h1 {
 				font-size: 30px;
@@ -320,7 +322,7 @@ img.avatar {
 			&:after {
 			  content: "";
 			  background-color: $mainblue;
-			  opacity: 0.8;
+			  opacity: 0.6;
 			  top: 0;
 			  left: 0;
 			  bottom: 0;

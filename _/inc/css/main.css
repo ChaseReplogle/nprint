@@ -7929,6 +7929,8 @@ img.avatar {
   border: 1px solid #d1d1d1;
   padding: 30px;
   margin-bottom: 30px;
+  z-index: 1;
+  position: relative;
 }
 .content-row .page-sidebar .ad h1 {
   font-size: 30px;
@@ -7963,7 +7965,7 @@ img.avatar {
 .content-row .page-sidebar .ad:after {
   content: "";
   background-color: #4f98c4;
-  opacity: 0.8;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
