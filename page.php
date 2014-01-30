@@ -26,6 +26,27 @@
 
 	<div class="columns medium-4 page-sidebar">
 
+		<?php 
+ 
+		$posts = get_field('related_marketing');
+		 
+		if( $posts ): ?>
+		    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+		        <?php setup_postdata($post); ?>
+		        <div class="ad banner" style="background-image: url('http://nprintgraphix.wpengine.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-16-at-6.28.47-PM.png');">
+					<img src="
+							<?php $image = get_field('marketing_featured_image');
+							echo $image['sizes']['large']; ?>
+						" alt="<?php the_title(); ?>"/>
+					<h3><?php the_title(); ?></h3>
+					<p><?php the_field('marketing_content'); ?></p>
+					<a href="<?php the_field('marketing_link_location'); ?>" class="secondary_button"><?php the_field('marketing_link_text'); ?></a>
+				</div>
+		    <?php endforeach; ?>
+		    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+		<?php endif; ?>
+
+
 		<div class="contact">
 			<div class="side-logo"><img class="left" src="http://nprintgraphix.wpengine.com/wp-content/themes/nprint/_/inc/images/footer-logo.png" alt="Logo" style="width: 100%;"></div>
 			<p><strong>Local: </strong>(417) 882-SIGN (7446)

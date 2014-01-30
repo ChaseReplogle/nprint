@@ -7397,6 +7397,7 @@ body .gform_confirmation_message a {
   background-color: #d1d1d1;
   display: inline-block;
   opacity: .4;
+  text-decoration: none;
 }
 .reveal-modal .membership-content a.support_button:hover {
   opacity: .9;
