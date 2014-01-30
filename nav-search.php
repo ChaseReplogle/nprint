@@ -12,3 +12,9 @@
 		<div class="search-results">
 		</div>
 </aside>
+
+<script>
+$( "#search-link" ).click(function() {
+  $( "#s" ).focus();
+});
+</script>
