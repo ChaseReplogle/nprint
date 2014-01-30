@@ -22,6 +22,7 @@
           'redirect' => site_url( '/dashboard' ),
           'label_username' => __( '' ),
           'label_password' => __( '' ),
+          'remember' => false,
          ); ?>
         <?php wp_login_form( $args ); ?>
       </div>
