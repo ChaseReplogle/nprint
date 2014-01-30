@@ -26,6 +26,7 @@
           'remember' => false,
          ); ?>
         <?php wp_login_form( $args ); ?>
+        <a href="<?php echo wp_lostpassword_url(); ?>" title="Lost Password">Lost Password?</a>
       </div>
       <div class="columns medium-6 membership-wrap right">
         <div class="membership">
