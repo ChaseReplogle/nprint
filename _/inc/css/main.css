@@ -7354,6 +7354,11 @@ body .gform_confirmation_message a {
 .reveal-modal {
   z-index: 99999;
 }
+.reveal-modal h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #818080;
+}
 
 .reveal-modal-bg {
   z-index: 999;

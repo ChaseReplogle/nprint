@@ -186,6 +186,12 @@ $topbar-arrows: false;
 
 .reveal-modal {
 	z-index: 99999;
+
+	h2 {
+		font-size: 20px;
+		margin-bottom: 20px;
+		color: $grey;
+	}
 }
 
 .reveal-modal-bg {
