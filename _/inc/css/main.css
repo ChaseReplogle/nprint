@@ -7359,6 +7359,12 @@ body .gform_confirmation_message a {
   margin-bottom: 20px;
   color: #818080;
 }
+.reveal-modal .membership-content h2 {
+  margin-bottom: 5px;
+}
+.reveal-modal .membership-content p {
+  color: #d1d1d1;
+}
 .reveal-modal .membership-wrap .membership {
   background-color: #f2f2f2;
   padding: 60px 0px;

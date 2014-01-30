@@ -193,6 +193,21 @@ $topbar-arrows: false;
 		color: $grey;
 	}
 
+	.membership-content {
+
+		h2 {
+			margin-bottom: 5px;
+		}
+
+		p {
+			color: $lightgrey;
+		}
+
+		a {
+
+		}
+	}
+
 	.membership-wrap {
 
 		.membership {

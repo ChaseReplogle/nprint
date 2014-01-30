@@ -27,12 +27,12 @@
          ); ?>
         <?php wp_login_form( $args ); ?>
       </div>
-      <div class="columns medium-6 membership-wrap">
+      <div class="columns medium-5 membership-wrap right">
         <div class="membership">
           <div class="membership-content">
             <h2>Not Yet a Member?</h2>
             <p>Lorum ipsum dolor set amour estes lorum dolor.</p>
-            <a href="#">Create an Account</a>
+            <a href="#" class="support_button">Create an Account</a>
           </div>
         </div>
       </div>
