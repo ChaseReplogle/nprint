@@ -285,38 +285,48 @@ img.avatar {
 			h1 {
 				font-size: 30px;
 				color: $mainblue;
+				z-index: 1;
+				position: relative;
 			}
 
 			h2 {
 				font-size: 20px;
 				color: $grey;
+				z-index: 1;
+				position: relative;
 			}
 
 			h3 {
 				font-size: 20px;
 				color: $grey;
+				z-index: 1;
+				position: relative;
 			}
 
 			p {
 				color: $grey;
 				line-height: 1.6;
+				z-index: 1;
+				position: relative;
 			}
 
 			a {
 				display: inline-block;
 				margin: 20px 0px;
+				z-index: 1;
+				position: relative;
 			}
 
 			&:after {
 			  content: "";
 			  background-color: $mainblue;
-			  opacity: 0.5;
+			  opacity: 0.8;
 			  top: 0;
 			  left: 0;
 			  bottom: 0;
 			  right: 0;
 			  position: absolute;
-			  z-index: -1; 
+			  z-index: 0; 
 			 }  
 		}
 

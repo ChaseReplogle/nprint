@@ -7933,33 +7933,43 @@ img.avatar {
 .content-row .page-sidebar .ad h1 {
   font-size: 30px;
   color: #4f98c4;
+  z-index: 1;
+  position: relative;
 }
 .content-row .page-sidebar .ad h2 {
   font-size: 20px;
   color: #818080;
+  z-index: 1;
+  position: relative;
 }
 .content-row .page-sidebar .ad h3 {
   font-size: 20px;
   color: #818080;
+  z-index: 1;
+  position: relative;
 }
 .content-row .page-sidebar .ad p {
   color: #818080;
   line-height: 1.6;
+  z-index: 1;
+  position: relative;
 }
 .content-row .page-sidebar .ad a {
   display: inline-block;
   margin: 20px 0px;
+  z-index: 1;
+  position: relative;
 }
 .content-row .page-sidebar .ad:after {
   content: "";
   background-color: #4f98c4;
-  opacity: 0.5;
+  opacity: 0.8;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
 }
 .content-row .page-sidebar .banner img {
   margin: -30px 0px 10px -30px;
