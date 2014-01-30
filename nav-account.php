@@ -18,6 +18,7 @@
 <div id="myModal" class="reveal-modal" data-reveal>
     <div class="row">
       <div class="columns medium-6">
+        <h2>Sign Into Your Account</h2>
         <?php $args = array(
           'redirect' => site_url( '/dashboard' ),
           'label_username' => __( '' ),
@@ -32,7 +33,7 @@
     </div> 
 
     <script>
-      jQuery('#user_login').attr( 'placeholder', 'Username' );
+      jQuery('#user_login').attr( 'placeholder', 'Email' );
       jQuery('#user_pass').attr( 'placeholder', 'Password' );
     </script>
 </div>
