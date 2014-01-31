@@ -15,8 +15,9 @@
     </ul>
 </nav>
 
-<div id="myModal" class="reveal-modal" data-reveal>
+
     <div class="row">
+      <div id="myModal" class="reveal-modal" data-reveal>
       <div class="columns medium-6">
         <h2>Sign Into Your Account</h2>
         <?php $args = array(
