@@ -12,7 +12,14 @@
         <!-- Right Nav Section -->
         <ul>
             <li><a class="" href="#">Dashboard</a></li>
-            <li><a href="#">Account</a></li>
+            <li><a href="#" class="has-dropdown">Account</a>
+              <ul>
+                <li><a href="#">Information</a>
+                <li><a href="#">Shipping</a>
+                <li><a href="#">Past Orders</a>
+                <li><a href="#">Log Off</a>
+              </ul>
+            </li>
             <li><a class="right-off-canvas-toggle" id="search-link"><i class="fa fa-search"></i> <span>Search</span></a></li>
         </ul>
     </nav>
