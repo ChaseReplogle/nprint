@@ -7974,7 +7974,8 @@ img.avatar {
   z-index: 0;
 }
 .content-row .page-sidebar .banner img {
-  margin: -30px 0px 10px -30px;
+  margin: 0px 0px 10px 0px;
+  z-index: 99999;
 }
 .content-row .page-sidebar .banner h1 {
   color: #fff;

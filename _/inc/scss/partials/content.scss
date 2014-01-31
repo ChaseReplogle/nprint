@@ -334,7 +334,8 @@ img.avatar {
 
 		.banner {
 			img {
-				margin: -30px 0px 10px -30px;
+				margin: 0px 0px 10px 0px;
+				z-index: 99999;
 			}
 
 			h1 {
