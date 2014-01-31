@@ -185,6 +185,10 @@ $topbar-arrows: false;
 
 	ul li:hover ul.dropdown {
 		display: block;
+
+		li a:not(.button) {
+			line-height: 40px;
+		}
 	}
 }
 

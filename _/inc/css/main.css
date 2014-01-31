@@ -7353,6 +7353,9 @@ body .gform_confirmation_message a {
 .account-nav ul li:hover ul.dropdown {
   display: block;
 }
+.account-nav ul li:hover ul.dropdown li a:not(.button) {
+  line-height: 40px;
+}
 
 .reveal-modal {
   z-index: 99999;
