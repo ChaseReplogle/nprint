@@ -7350,11 +7350,11 @@ body .gform_confirmation_message a {
   background-color: #4f98c4;
   color: #fff;
 }
+.account-nav ul li ul.dropdown li a:not(.button) {
+  line-height: 40px;
+}
 .account-nav ul li:hover ul.dropdown {
   display: block;
-}
-.account-nav ul li:hover ul.dropdown li a:not(.button) {
-  line-height: 40px;
 }
 
 .reveal-modal {

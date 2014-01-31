@@ -183,12 +183,15 @@ $topbar-arrows: false;
 		color: #fff;
 	}
 
-	ul li:hover ul.dropdown {
-		display: block;
+	ul li ul.dropdown {
 
 		li a:not(.button) {
 			line-height: 40px;
 		}
+	}
+
+	ul li:hover ul.dropdown {
+		display: block;
 	}
 }
 
