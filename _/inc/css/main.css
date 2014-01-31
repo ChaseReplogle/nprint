@@ -7398,6 +7398,7 @@ body .gform_confirmation_message a {
   display: inline-block;
   opacity: .4;
   text-decoration: none;
+  position: relative;
 }
 .reveal-modal .membership-content a.support_button:hover {
   opacity: .9;

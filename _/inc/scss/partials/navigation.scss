@@ -240,6 +240,7 @@ $topbar-arrows: false;
 			display: inline-block;
 			opacity: .4;
 			text-decoration: none;
+			position: relative;
 
 			&:hover {
 				opacity: .9;
