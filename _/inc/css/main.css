@@ -7406,7 +7406,7 @@ body .gform_confirmation_message a {
 }
 .reveal-modal .membership-wrap .membership {
   background-color: #f2f2f2;
-  padding: 60px 0px;
+  padding: 60px 20px;
   border: 2px dashed #d1d1d1;
 }
 .reveal-modal .membership-wrap .membership .membership-content {
