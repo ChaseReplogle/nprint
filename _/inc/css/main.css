@@ -7350,7 +7350,7 @@ body .gform_confirmation_message a {
   background-color: #4f98c4;
   color: #fff;
 }
-.account-nav ul li a:hover ul.dropdown {
+.account-nav ul li.has-dropdown:hover ul.dropdown {
   display: block;
 }
 

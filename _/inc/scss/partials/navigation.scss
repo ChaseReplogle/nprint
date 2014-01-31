@@ -183,7 +183,7 @@ $topbar-arrows: false;
 		color: #fff;
 	}
 
-	ul li a:hover ul.dropdown {
+	ul li.has-dropdown:hover ul.dropdown {
 		display: block;
 	}
 }
