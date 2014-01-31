@@ -7350,6 +7350,9 @@ body .gform_confirmation_message a {
   background-color: #4f98c4;
   color: #fff;
 }
+.account-nav .has-dropdown:hover ul.dropdown {
+  display: block;
+}
 
 .reveal-modal {
   z-index: 99999;
@@ -8128,6 +8131,9 @@ img.avatar {
   background-color: #fff;
 }
 
+.g7 {
+  padding: 30px 0px;
+}
 .g7 a {
   font-size: 12px;
   margin-top: 10px;

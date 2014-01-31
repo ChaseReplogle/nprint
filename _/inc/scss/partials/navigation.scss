@@ -182,6 +182,10 @@ $topbar-arrows: false;
 		background-color: $mainblue; 
 		color: #fff;
 	}
+
+	.has-dropdown:hover ul.dropdown {
+		display: block;
+	}
 }
 
 .reveal-modal {
