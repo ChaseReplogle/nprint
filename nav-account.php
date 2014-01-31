@@ -13,7 +13,7 @@
         <ul>
             <li><a class="" href="#">Dashboard</a></li>
             <li><a href="#" class="has-dropdown">Account</a>
-              <ul>
+              <ul class="dropdown">
                 <li><a href="#">Information</a>
                 <li><a href="#">Shipping</a>
                 <li><a href="#">Past Orders</a>
