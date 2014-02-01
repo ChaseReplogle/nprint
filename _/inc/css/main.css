@@ -7152,6 +7152,15 @@ a:hover {
   line-height: 1.5em;
 }
 
+address {
+  line-height: 1.8;
+  font-size: 15px;
+  color: #4f4f4f;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  color: #818080;
+}
+
 body .gform_wrapper input[type=text], body .gform_wrapper input[type=url], body .gform_wrapper input[type=email], body .gform_wrapper input[type=tel], body .gform_wrapper input[type=number], body .gform_wrapper input[type=password] {
   font-size: 14px;
   padding-left: 10px;
@@ -8595,6 +8604,14 @@ img.avatar {
   color: #fff;
   background-color: #3f8cbb;
   background: #3f8cbb;
+}
+
+.edit {
+  color: #818080;
+  background-color: #f2f2f2;
+  border: 1px solid #d1d1d1;
+  padding: 10px 15px;
+  font-size: 10px;
 }
 
 .move-left > .inner-wrap {
