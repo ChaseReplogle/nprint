@@ -39,6 +39,9 @@
 		li {
 			list-style: none;
 			display: block;
+			padding: 10px 0px;
+			border: 1px solid $lightgrey;
+			border-bottom: 0px;
 		}
 	}
 }
