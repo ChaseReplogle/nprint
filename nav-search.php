@@ -13,8 +13,3 @@
 		</div>
 </aside>
 
-<script>
-jQuery( "#search-link" ).click(function() {
-  jQuery( "#s" ).focus();
-});
-</script>
