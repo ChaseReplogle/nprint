@@ -8542,14 +8542,6 @@ img.avatar {
   color: #fff;
   font-size: 14px;
   border: 1px solid #2b6182;
-  background: none;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  text-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
 }
 .secondary_button:hover {
   color: #fff;
@@ -8589,6 +8581,14 @@ img.avatar {
   border: 1px solid #2b6182;
   display: inline-block;
   margin-top: 20px;
+  background: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 .page .woocommerce a.button:hover, .page .woocommerce button.button:hover, .page .woocommerce input.button:hover, .page .woocommerce #respond input#submit:hover, .page .woocommerce #content input.button:hover, .page .woocommerce-page a.button:hover, .page .woocommerce-page button.button:hover, .page .woocommerce-page input.button:hover, .page .woocommerce-page #respond input#submit:hover, .page .woocommerce-page #content input.button:hover {
   color: #fff;

@@ -18,14 +18,6 @@
 	color: #fff;
 	font-size: 14px;
 	border: 1px solid darken($mainblue,20%);
-	background: none;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	text-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
 	
 	&:hover {
 		color: #fff;
@@ -71,6 +63,14 @@
 		border: 1px solid darken($mainblue,20%);
 		display: inline-block;
 		margin-top: 20px;
+		background: none;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		text-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
 		
 		&:hover {
 			color: #fff;
