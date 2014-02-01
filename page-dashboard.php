@@ -42,7 +42,7 @@ Template Name: Dashboard
 					<a href="#" class="quote-delete">Delete</a>
 				</span>
 				<span>
-					<a href="#" class="quote-delete"><i class="fa fa-times"></i></a>
+					<a href="#" class="quote-delete">x</a>
 				</span>
 			</li>
 
@@ -54,7 +54,7 @@ Template Name: Dashboard
 					<a href="#" class="quote-delete">Delete</a>
 				</span>
 				<span>
-					<a href="#" class="quote-delete"><i class="fa fa-times"></i></a>
+					<a href="#" class="quote-delete">x</a>
 				</span>
 			</li>
 
