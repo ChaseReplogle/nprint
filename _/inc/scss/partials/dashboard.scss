@@ -46,6 +46,10 @@
 
 			a {
 				color: $grey;
+
+				&:hover {
+					color: $mainblue;
+				}
 			}
 
 			span {
@@ -79,7 +83,7 @@
 					color: $red;
 
 					&:hover {
-						color: darken($red, 50%);
+						color: darken($red, 10%);
 					}
 				}
 			}

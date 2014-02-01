@@ -8568,6 +8568,9 @@ img.avatar {
 .save-quotes ul li a {
   color: #818080;
 }
+.save-quotes ul li a:hover {
+  color: #4f98c4;
+}
 .save-quotes ul li span {
   float: right;
   color: #818080;
@@ -8595,7 +8598,7 @@ img.avatar {
   color: #c0392b;
 }
 .save-quotes ul li span .quote-delete:hover {
-  color: black;
+  color: #962d22;
 }
 .save-quotes ul li:last-child {
   border-bottom: 1px solid #d1d1d1;
