@@ -8590,6 +8590,12 @@ img.avatar {
   color: #fff;
   text-decoration: none;
 }
+.save-quotes ul li span .quote-delete {
+  color: #c0392b;
+}
+.save-quotes ul li span .quote-delete:hover {
+  color: black;
+}
 .save-quotes ul li:last-child {
   border-bottom: 1px solid #d1d1d1;
 }

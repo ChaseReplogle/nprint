@@ -55,7 +55,8 @@
 
 				a {
 					font-size: 11px;
-					padding-left: 5px;
+					padding-left: 2px;
+					padding-right: 2px;
 
 					&:hover {
 						color: $mainblue;
@@ -71,6 +72,14 @@
 					&:hover {
 						color: #fff;
 						text-decoration: none;
+					}
+				}
+
+				.quote-delete {
+					color: $red;
+
+					&:hover {
+						color: darken($red, 50%);
 					}
 				}
 			}
