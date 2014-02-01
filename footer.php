@@ -91,6 +91,10 @@
   $(document).foundation();
 </script>
 
+<script>
+  jQuery('#user_login').attr( 'placeholder', 'Email' );
+  jQuery('#user_pass').attr( 'placeholder', 'Password' );
+</script>
 
 
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/imagesloaded.js"></script>
