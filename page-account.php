@@ -20,13 +20,13 @@ Template Name: Account
 
 <div class="row content-row">
 
-	<div class="columns medium-5 page-main-content">
+	<div class="columns medium-7 page-main-content">
 		
 	<?php the_content(); ?>
 
 	</div>
 
-	<div class="columns medium-7 page-sidebar">
+	<div class="columns medium-5 page-sidebar">
 
 		
 	</div>
