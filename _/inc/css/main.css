@@ -8560,9 +8560,22 @@ img.avatar {
 .save-quotes ul li {
   list-style: none;
   display: block;
-  padding: 10px 0px;
+  padding: 10px 20px;
   border: 1px solid #d1d1d1;
   border-bottom: 0px;
+  background-color: #f2f2f2;
+}
+.save-quotes ul li a {
+  color: #818080;
+}
+.save-quotes ul li span {
+  float: right;
+}
+.save-quotes ul li span a {
+  font-size: 11px;
+}
+.save-quotes ul li:last-child {
+  border-bottom: 1px solid #d1d1d1;
 }
 
 .primary_button {

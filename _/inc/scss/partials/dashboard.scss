@@ -39,9 +39,26 @@
 		li {
 			list-style: none;
 			display: block;
-			padding: 10px 0px;
+			padding: 10px 20px;
 			border: 1px solid $lightgrey;
 			border-bottom: 0px;
+			background-color: $verylightgrey;
+
+			a {
+				color: $grey;
+			}
+
+			span {
+				float: right;
+
+				a {
+					font-size: 11px;
+				}
+			}
+		}
+
+		li:last-child {
+			border-bottom: 1px solid $lightgrey;
 		}
 	}
 }
