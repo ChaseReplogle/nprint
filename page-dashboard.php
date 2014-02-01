@@ -27,13 +27,26 @@ Template Name: Dashboard
 			<p>Use our online project calculator to create and save quotes.</p>
 			<a href="#" class="secondary-button">Let's Get Started</a>
 		</div>
-
 	</div>
+
 
 	<div class="columns medium-7 page-sidebar">
-
-		
+		<h2>Saved Quotes</h2>
+		<ul>
+			<li>
+				<a href="#" class="quote-title">Exhibit Backdrops</a>
+				<span class="quote-actions">
+					<a href="#" class="quote-edit">Edit</a>
+					<a href="#" class="quote-print">Print</a>
+					<a href="#" class="quote-delete">Delete</a>
+				</span>
+				<span>
+					<a href="#" class="quote-delete"><i class="fa fa-times"></i></a>
+				</span>
+			</li>
+		</ul>		
 	</div>
+
 </div>
 
 <?php endwhile; endif; ?>
