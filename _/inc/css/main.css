@@ -8572,7 +8572,7 @@ img.avatar {
   border: 1px solid #4f98c4;
 }
 
-.button {
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {
   padding: 12px 23px;
   background-color: #4f98c4;
   color: #fff;
@@ -8581,7 +8581,7 @@ img.avatar {
   display: inline-block;
   margin-top: 20px;
 }
-.button:hover {
+.woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce #content input.button:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page #content input.button:hover {
   color: #fff;
   background-color: #3f8cbb;
 }
