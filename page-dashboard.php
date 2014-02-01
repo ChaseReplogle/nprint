@@ -59,7 +59,9 @@ Template Name: Dashboard
 				</span>
 			</li>
 
-		</ul>		
+		</ul>	
+
+		<a href="#" class="view-all">View All</a>	
 	</div>
 
 </div>
