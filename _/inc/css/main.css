@@ -8575,7 +8575,8 @@ img.avatar {
 }
 .save-quotes ul li span a {
   font-size: 11px;
-  padding-left: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 .save-quotes ul li span a:hover {
   color: #4f98c4;
