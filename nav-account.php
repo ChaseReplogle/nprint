@@ -11,7 +11,7 @@
     <section class="top-bar-section right">
         <!-- Right Nav Section -->
         <ul>
-            <li><a class="" href="#">Dashboard</a></li>
+            <li><a class="" href="/dashboard">Dashboard</a></li>
             <li><a href="/account" class="has-dropdown">Account</a>
               <ul class="dropdown">
                 <?php wp_list_pages('title_li=&child_of=123'); ?>

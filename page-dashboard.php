@@ -14,7 +14,7 @@ Template Name: Dashboard
 
 <?php include 'nav-account.php'; ?>
 <?php include 'nav-main.php'; ?>
-<?php include 'nav-page.php'; ?>
+<?php include 'nav-dashboard.php'; ?>
 
 <div class="row content-row">
 
