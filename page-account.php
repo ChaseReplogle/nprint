@@ -20,6 +20,7 @@ Template Name: Account
 
 	<div class="columns medium-5 page-main-content">
 		
+	<?php the_content(); ?>
 
 	</div>
 
