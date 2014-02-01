@@ -65,9 +65,6 @@
         </div> 
     </div>
 
-<script>
-  jQuery('#user_login').attr( 'placeholder', 'Email' );
-  jQuery('#user_pass').attr( 'placeholder', 'Password' );
-</script>
+
 
 <?php endif; ?>
