@@ -44,6 +44,7 @@
 
         <div class="row">
           <div id="myModal" class="reveal-modal" data-reveal>
+          <a class="close-reveal-modal"><i class="close fa fa-minus-square-o"></i></a>
           <div class="columns medium-6">
             <h2>Sign Into Your Account</h2>
             <?php $args = array(
@@ -64,7 +65,6 @@
               </div>
             </div>
           </div>
-          <a class="close-reveal-modal"><i class="close fa fa-minus-square-o"></i></a>
         </div> 
 
         <script>
