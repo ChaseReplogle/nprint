@@ -54,6 +54,12 @@
 		<?php } ?>
     </ul>
 
+    <?php if (is_page(116) || $post->post_parent=="116") { ?>
+    	<ul>
+    		<li><a href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>"><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count);?> - <?php echo $woocommerce->cart->get_cart_total(); ?> Cart <i class="fa fa-shopping-cart"></i></a></li>
+    	</ul>
+	<?php } ?>
+
 
 </section>
 </nav>
