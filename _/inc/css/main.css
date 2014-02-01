@@ -8543,7 +8543,7 @@ img.avatar {
   font-size: 14px;
   border: 1px solid #2b6182;
   background: none;
-  webkit-border-radius: 2px;
+  -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
   text-shadow: none;
