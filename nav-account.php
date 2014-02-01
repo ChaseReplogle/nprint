@@ -12,12 +12,9 @@
         <!-- Right Nav Section -->
         <ul>
             <li><a class="" href="#">Dashboard</a></li>
-            <li><a href="#" class="has-dropdown">Account</a>
+            <li><a href="/account" class="has-dropdown">Account</a>
               <ul class="dropdown">
-                <li><a href="#">Information</a>
-                <li><a href="#">Shipping</a>
-                <li><a href="#">Past Orders</a>
-                <li><a href="#">Log Off</a>
+                <?php wp_list_pages('title_li=&child_of=123'); ?>
               </ul>
             </li>
             <li><a class="right-off-canvas-toggle" id="search-link"><i class="fa fa-search"></i> <span>Search</span></a></li>
