@@ -26,6 +26,8 @@ Template Name: Account
 
 	</div>
 
+	<hr>
+
 </div>
 
 <?php endwhile; endif; ?>
