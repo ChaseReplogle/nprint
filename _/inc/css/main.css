@@ -8689,6 +8689,9 @@ img.avatar {
   padding: 10px 15px;
   font-size: 10px;
 }
+.edit:hover {
+  color: #1b1a1a;
+}
 
 .move-left > .inner-wrap {
   -webkit-transform: translate3d(-500px, 0, 0);
