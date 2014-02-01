@@ -68,6 +68,8 @@ Template Name: Dashboard
 
 </div>
 
+<hr>
+
 <?php endwhile; endif; ?>
 
 <div class="footer-wrapper">
