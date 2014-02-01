@@ -8570,6 +8570,8 @@ img.avatar {
 }
 .save-quotes ul li span {
   float: right;
+  color: #818080;
+  font-size: 11px;
 }
 .save-quotes ul li span a {
   font-size: 11px;
