@@ -45,7 +45,7 @@ Template Name: Dashboard
 					<a href="#" class="quote-edit">Edit</a>
 					<a href="#" class="quote-print">Print</a>
 					<a href="#" class="quote-delete">Delete</a>
-					<a href="#" class="quote-delete">x</a>
+					<a href="#" class="quote-cart">Add to Cart</a>
 				</span>
 			</li>
 
@@ -55,7 +55,7 @@ Template Name: Dashboard
 					<a href="#" class="quote-edit">Edit</a>
 					<a href="#" class="quote-print">Print</a>
 					<a href="#" class="quote-delete">Delete</a>
-					<a href="#" class="quote-delete">x</a>
+					<a href="#" class="quote-cart">Add to Cart</a>
 				</span>
 			</li>
 
