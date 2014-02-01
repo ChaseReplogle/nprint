@@ -32,6 +32,9 @@ Template Name: Dashboard
 
 	<div class="columns medium-8 page-sidebar">
 		<h2>Saved Quotes</h2>
+
+		<hr>
+
 		<ul>
 
 			<li>
