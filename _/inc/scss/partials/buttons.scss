@@ -57,7 +57,6 @@
 .page {
 	.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {
 		padding: 12px 23px;
-		background-color: $mainblue;
 		color: #fff;
 		font-size: 14px;
 		border: 1px solid darken($mainblue,20%);
@@ -71,10 +70,13 @@
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
+		background: $mainblue;
+		background-color: $mainblue;
 		
 		&:hover {
 			color: #fff;
 			background-color: darken($mainblue,5%);
+			background: darken($mainblue,5%);
 		}
 	}
 }
