@@ -8575,10 +8575,16 @@ img.avatar {
   font-size: 11px;
   padding-left: 5px;
 }
+.save-quotes ul li span a:hover {
+  color: #4f98c4;
+}
 .save-quotes ul li span .quote-cart {
   padding: 5px 10px;
   color: #fff;
   margin-left: 15px;
+}
+.save-quotes ul li span .quote-cart:hover {
+  color: #fff;
 }
 .save-quotes ul li:last-child {
   border-bottom: 1px solid #d1d1d1;
