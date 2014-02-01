@@ -21,12 +21,12 @@ Template Name: Dashboard
 <div class="row content-row">
 
 	<div class="columns medium-4 page-main-content">
-		<a href="/dashboard/calculators">
+		<a href="/calculators">
 			<div class="calculator-button">
 				<i class="fa fa-table"></i>
 				<h3>Calculate a Quote</h3>
 				<p>Use our online project calculator to create and save quotes.</p>
-				<a href="/dashboard/calculators" class="secondary_button">Let's Get Started</a>
+				<a href="/calculators" class="secondary_button">Let's Get Started</a>
 			</div>
 		</a>
 	</div>
