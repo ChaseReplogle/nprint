@@ -4,3 +4,17 @@
 		margin-bottom: 40px;
 	}
 }
+
+.calculator-button {
+	background-color: $verylightgrey;
+	padding: 30px;
+	border: 1px solid $lightgrey;
+
+	i {
+		width: 100%;
+		text-align: center;
+		font-size: 140px;
+		margin-bottom: 10px;
+		color: $lightgrey;
+	}
+}

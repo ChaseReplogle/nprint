@@ -25,7 +25,7 @@ Template Name: Dashboard
 			<i class="fa fa-table"></i>
 			<h3>Calculate a Quote</h3>
 			<p>Use our online project calculator to create and save quotes.</p>
-			<a href="#" class="secondary-button">Let's Get Started</a>
+			<a href="#" class="secondary_button">Let's Get Started</a>
 		</div>
 	</div>
 

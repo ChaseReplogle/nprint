@@ -8533,6 +8533,23 @@ img.avatar {
     margin-right: 0px;
   }
 }
+.woocommerce .myaccount_address {
+  margin-bottom: 40px;
+}
+
+.calculator-button {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border: 1px solid #d1d1d1;
+}
+.calculator-button i {
+  width: 100%;
+  text-align: center;
+  font-size: 140px;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+}
+
 .primary_button {
   padding: 12px 23px;
   background-color: #e6b279;
