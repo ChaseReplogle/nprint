@@ -8539,8 +8539,9 @@ img.avatar {
 
 .calculator-button {
   background-color: #f2f2f2;
-  padding: 30px;
+  padding: 30px 30px 50px 30px;
   border: 1px solid #d1d1d1;
+  text-align: center;
 }
 .calculator-button i {
   width: 100%;
