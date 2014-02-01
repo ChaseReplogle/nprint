@@ -32,7 +32,7 @@ Template Name: Dashboard
 	</div>
 
 
-	<div class="columns medium-8 page-sidebar">
+	<div class="columns medium-8 page-sidebar save-quotes">
 		<h2>Saved Quotes</h2>
 
 		<hr>
