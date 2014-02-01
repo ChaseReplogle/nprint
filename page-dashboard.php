@@ -21,7 +21,12 @@ Template Name: Dashboard
 <div class="row content-row">
 
 	<div class="columns medium-5 page-main-content">
-		
+		<div class="calculator-button">
+			<i class="fa fa-table"></i>
+			<h3>Calculate a Quote</h3>
+			<p>Use our online project calculator to create and save quotes.</p>
+			<a href="#" class="secondary-button">Let's Get Started</a>
+		</div>
 
 	</div>
 
