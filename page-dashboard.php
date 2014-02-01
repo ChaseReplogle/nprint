@@ -16,6 +16,8 @@ Template Name: Dashboard
 <?php include 'nav-main.php'; ?>
 <?php include 'nav-dashboard.php'; ?>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 <div class="row content-row">
 
 	<div class="columns medium-5 page-main-content">
@@ -28,6 +30,8 @@ Template Name: Dashboard
 		
 	</div>
 </div>
+
+<?php endwhile; endif; ?>
 
 <div class="footer-wrapper">
 
