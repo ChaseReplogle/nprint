@@ -8572,6 +8572,20 @@ img.avatar {
   border: 1px solid #4f98c4;
 }
 
+.button {
+  padding: 12px 23px;
+  background-color: #4f98c4;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #2b6182;
+  display: inline-block;
+  margin-top: 20px;
+}
+.button:hover {
+  color: #fff;
+  background-color: #3f8cbb;
+}
+
 .move-left > .inner-wrap {
   -webkit-transform: translate3d(-500px, 0, 0);
   -moz-transform: translate3d(-500px, 0, 0);

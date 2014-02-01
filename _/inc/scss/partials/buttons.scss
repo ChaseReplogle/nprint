@@ -52,3 +52,18 @@
 		border: 1px solid $mainblue;
 	}
 }
+
+.button {
+	padding: 12px 23px;
+	background-color: $mainblue;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid darken($mainblue,20%);
+	display: inline-block;
+	margin-top: 20px;
+	
+	&:hover {
+		color: #fff;
+		background-color: darken($mainblue,5%);
+	}
+}
