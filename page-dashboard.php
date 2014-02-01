@@ -42,8 +42,8 @@ Template Name: Dashboard
 			<li>
 				<a href="#" class="quote-title">Exhibit Backdrops</a>
 				<span class="quote-actions">
-					<a href="#" class="quote-edit">Edit</a>
-					<a href="#" class="quote-print">Print</a>
+					<a href="#" class="quote-edit">Edit</a><p>|</p>
+					<a href="#" class="quote-print">Print</a><p>|</p>
 					<a href="#" class="quote-delete">Delete</a>
 					<a href="#" class="quote-cart secondary_button">Add to Cart</a>
 				</span>
@@ -52,8 +52,8 @@ Template Name: Dashboard
 			<li>
 				<a href="#" class="quote-title">Lightpole Signs</a>
 				<span class="quote-actions">
-					<a href="#" class="quote-edit">Edit</a>
-					<a href="#" class="quote-print">Print</a>
+					<a href="#" class="quote-edit">Edit</a><p>|</p>
+					<a href="#" class="quote-print">Print</a><p>|</p>
 					<a href="#" class="quote-delete">Delete</a>
 					<a href="#" class="quote-cart secondary_button">Add to Cart</a>
 				</span>
