@@ -20,7 +20,7 @@ Template Name: Dashboard
 
 <div class="row content-row">
 
-	<div class="columns medium-5 page-main-content">
+	<div class="columns medium-4 page-main-content">
 		<div class="calculator-button">
 			<i class="fa fa-table"></i>
 			<h3>Calculate a Quote</h3>
@@ -30,9 +30,10 @@ Template Name: Dashboard
 	</div>
 
 
-	<div class="columns medium-7 page-sidebar">
+	<div class="columns medium-8 page-sidebar">
 		<h2>Saved Quotes</h2>
 		<ul>
+
 			<li>
 				<a href="#" class="quote-title">Exhibit Backdrops</a>
 				<span class="quote-actions">
@@ -44,6 +45,19 @@ Template Name: Dashboard
 					<a href="#" class="quote-delete"><i class="fa fa-times"></i></a>
 				</span>
 			</li>
+
+			<li>
+				<a href="#" class="quote-title">Lightpole Signs</a>
+				<span class="quote-actions">
+					<a href="#" class="quote-edit">Edit</a>
+					<a href="#" class="quote-print">Print</a>
+					<a href="#" class="quote-delete">Delete</a>
+				</span>
+				<span>
+					<a href="#" class="quote-delete"><i class="fa fa-times"></i></a>
+				</span>
+			</li>
+
 		</ul>		
 	</div>
 
