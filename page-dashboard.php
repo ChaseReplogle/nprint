@@ -61,6 +61,8 @@ Template Name: Dashboard
 
 		</ul>	
 
+		<hr>
+
 		<a href="#" class="view-all">View All</a>	
 	</div>
 
