@@ -63,8 +63,8 @@
                 <a href="#" class="support_button">Create an Account</a>
               </div>
             </div>
-            <a class="close-reveal-modal"><i class="fa fa-minus-square-o"></i></a>
           </div>
+          <a class="close-reveal-modal"><i class="close fa fa-minus-square-o"></i></a>
         </div> 
 
         <script>
