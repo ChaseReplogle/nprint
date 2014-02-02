@@ -80,7 +80,7 @@ Template Name: Calculator
 $ = jQuery;
 	var $mail = $("#rangevalue").text();
 
-	$(".mark-up input").keyup(function() {
+	$("#input_2_31").keyup(function() {
 	    $mail.val( this.value );
 	});
 </script>
