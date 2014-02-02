@@ -31,15 +31,14 @@ Template Name: Calculator
 			<hr>
 
 			<div class="container">
-			  <div class="slider">
-			  <input id="percent" type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
-				<output id="rangevalue">12</output>
-			  </div>
+
 			</div>
 
 			<script>
 				$ = jQuery;
 				$('#input_2_31').attr('type', 'range');
+				$('#input_2_31').attr('min', '0');
+				$('#input_2_31').attr('max', '100');
 				$('#input_2_31').attr('onchange', 'rangevalue.value=value');
 				$('#input_2_31').after('<output id="rangevalue">0</output>');
 			</script>
