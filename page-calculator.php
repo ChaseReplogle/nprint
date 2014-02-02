@@ -78,13 +78,14 @@ Template Name: Calculator
 
 <script>
 $ = jQuery;
-	var percent = $("#rangevalue").text();
+	
 
 	$("#percent").change(function() {
-  alert( "Handler for .change() called." );
+		var percent = $("#rangevalue").text();
+  		$("#input_2_31").val(percent);
 	});
 
-	$("#input_2_31").val(percent); 
+	 
 
 </script>
 
