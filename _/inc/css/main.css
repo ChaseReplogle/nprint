@@ -8609,7 +8609,7 @@ img.avatar {
   border-bottom: 1px solid #d1d1d1;
 }
 
-.cost-total {
+#cost-total {
   background-color: #fff;
   border: 1px solid #d1d1d1;
   padding: 30px;
