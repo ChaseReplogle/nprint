@@ -24,6 +24,14 @@ Template Name: Calculator
 		
 	<?php the_content(); ?>
 
+	<script>
+	$ = jQuery;
+	$("#percent").change(function() {
+		var percent = $("#rangevalue").text();
+  		$("#input_2_31").val(percent);
+	});
+</script>
+
 	</div>
 
 	<div class="columns medium-4">
