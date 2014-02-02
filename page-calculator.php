@@ -76,19 +76,6 @@ Template Name: Calculator
 });
 </script>
 
-<script>
-$ = jQuery;
-	
-
-	$("#percent").change(function() {
-		var percent = $("#rangevalue").text();
-  		$("#input_2_31").val(percent);
-	});
-
-	 
-
-</script>
-
 <div class="footer-wrapper">
 
 

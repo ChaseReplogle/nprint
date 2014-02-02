@@ -109,6 +109,15 @@
 
 	<?php wp_head(); ?>
 
+
+<script>
+	$ = jQuery;
+	$("#percent").change(function() {
+		var percent = $("#rangevalue").text();
+  		$("#input_2_31").val(percent);
+	});
+</script>
+
 </head>
 
 <body <?php body_class(); ?>>
