@@ -78,12 +78,11 @@ Template Name: Calculator
 
 <script>
 $ = jQuery;
-	$(document).ready(function(){
-        $('.mark-up input').change(function(){
-            var val = $('.mark-up input').val();
-            $('#percent').val(val);
-        });
-     });
+	var $mail = $("#percent");
+
+	$(".mark-up input").keyup(function() {
+	    $mail.val( this.value );
+	});
 </script>
 
 <div class="footer-wrapper">
