@@ -71,12 +71,14 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/main.css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/bigvideo.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="all" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 
 	<!-- This is an un-minified, complete version of Modernizr. 
 		 Before you move to production, you should generate a custom build that only has the detects you need. -->
 	<script src="<?php echo get_template_directory_uri(); ?>/_/js/modernizr-2.6.2.dev.js"></script>
+	
 	
 	<!-- Application-specific meta tags -->
 	<?php if (true == of_get_option('meta_app_win_name')) {
