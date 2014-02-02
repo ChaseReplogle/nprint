@@ -45,6 +45,8 @@ Template Name: Calculator
 				</script>
 
 			</div>
+
+			<a href="#" class="support_button">Cancel</a>
 		</div>
 
 	</div>
