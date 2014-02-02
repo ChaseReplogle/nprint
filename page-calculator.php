@@ -28,13 +28,14 @@ Template Name: Calculator
 
 	<div class="columns medium-4">
 		<div id="cost-total">
-			<div id="defaultval">
-				Slider Value: <span id="currentval">10</span>
+			<hr>
+
+			<div class="container">
+			  <div class="slider">
+			  <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
+				<output id="rangevalue">50</output>
 			  </div>
-			  
-			  <div id="defaultslide"></div>
-			  
-			  <br>
+			  </div>
 
 		</div>
 
@@ -72,22 +73,6 @@ Template Name: Calculator
  
   }
  
-});
-</script>
-
-<script>
-	$ = jQuery;
-	$(function(){
-  $('#defaultslide').slider({ 
-    max: 100,
-    min: 0,
-    value: 10,
-    slide: function(e,ui) {
-      $('#currentval').html(ui.value);
-    }
-  });
-
-  });
 });
 </script>
 
