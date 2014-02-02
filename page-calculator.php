@@ -30,9 +30,7 @@ Template Name: Calculator
 		<div id="cost-total">
 
 		<script>
-			jQuery( ".cost" ).after( "<div id='cost'>" );
-			jQuery( ".gform_body" ).appeand( "</div>" );
-			jQuery("#cost").prependTo("#cost-total");
+			jQuery("#field_2_31").prependTo("#cost-total");
 		</script>
 
 		</div>
