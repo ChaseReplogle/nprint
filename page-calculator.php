@@ -78,10 +78,10 @@ Template Name: Calculator
 
 <script>
 	$ = jQuery;
-	$( ".mark-up input" )
+	$( "#percent" )
   .keyup(function() {
     var value = $( this ).val();
-    $( "#percent" ).text( value );
+    $( ".mark-up input" ).text( value );
   })
   .keyup();
 </script>
