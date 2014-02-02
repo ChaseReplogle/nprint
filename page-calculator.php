@@ -56,7 +56,7 @@ Template Name: Calculator
       var windowTop = $(window).scrollTop(); // returns number 
  
       if (stickyTop < windowTop){
-        $('#cost-total').css({ position: 'fixed', top: 0 });
+        $('#cost-total').css({ position: 'fixed', top: 20 });
       }
       else {
         $('#cost-total').css('position','static');
