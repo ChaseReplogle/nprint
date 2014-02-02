@@ -72,7 +72,7 @@ Template Name: Calculator
         $('#cost-total').css({ position: 'fixed', top: 20, width: '28%' });
       }
       else {
-        $('#cost-total').css('position','static');
+        $('#cost-total').css('position','static', width: 'auto');
       }
  
     });
