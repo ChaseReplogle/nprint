@@ -28,7 +28,6 @@ Template Name: Calculator
 
 	<div class="columns medium-4">
 		<div id="cost-total">
-
 			<div class="nmbr" id="first"></div>
 
 
