@@ -81,7 +81,7 @@ $ = jQuery;
 	var $mail = $("#rangevalue").text();
 
 	$("#input_2_31").keyup(function() {
-	    $mail.val( this.value );
+	    $(this).val("10");
 	});
 </script>
 
