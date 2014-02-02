@@ -45,17 +45,28 @@ Template Name: Calculator
 
 	jQuery(".cost").prependTo("#cost-total");
 
-	var top = $("#cost-total").offset().top - parseFloat($("#cost-total").css("marginTop").replace(/auto/, 0));
+	$(function(){ // document ready
  
-	$(window).scroll(function (event) {
-	     var y = $(this).scrollTop();
-		  
-	     if (y >= (top-20)) {
-	          $("#cost-total").addClass("fixed");
-	     } else {
-	          $("#cost-total").removeClass("fixed");
-	     }
-	});
+  if (!!$('#cost-total').offset()) { // make sure ".sticky" element exists
+ 
+    var stickyTop = $('#cost-total').offset().top; // returns number 
+ 
+    $(window).scroll(function(){ // scroll event
+ 
+      var windowTop = $(window).scrollTop(); // returns number 
+ 
+      if (stickyTop < windowTop){
+        $('#cost-total').css({ position: 'fixed', top: 0 });
+      }
+      else {
+        $('#cost-total').css('position','static');
+      }
+ 
+    });
+ 
+  }
+ 
+});
 </script>
 
 <div class="footer-wrapper">
