@@ -29,6 +29,8 @@ Template Name: Calculator
 	<div class="columns medium-4">
 		<div id="cost-total">
 
+			<div class="nmbr" id="first"></div>
+
 
 		</div>
 
@@ -70,30 +72,17 @@ Template Name: Calculator
 </script>
 
 <script>
-$ = jQuery;
-
-$(document).ready(function(e){
-  
-  $("<style type='text/css' id='dynamic' />").appendTo("head");
-   
-   
-   console.log(e)
-  $("#dynamic").text(".slider input']::-webkit-slider-thumb:after{content:'25';}");
-        var valNeg = 0;  
-
-  $('.slider input').on('change',function(e){
-  e.preventDefault();
-  var $this = $(this),
-      val = $this.val();
-    
-    valNeg++;
-  console.log(val);
- 
-    $("#dynamic").text(".slider input']::-webkit-slider-thumb:after{content:'" + val + "';} .slider input']:after{-webkit-transform:scale(."+ val*2 +");} .slider input]:before{-webkit-transform:scale(."+ valNeg*2 +");}");
-   
-});   
-  
-});
+	$ = jQuery;
+	$(function () {
+	    $(".nmbr").slider({
+	        range: "min",
+	        min: 1,
+	        max: 100,
+	        slide: function (event, ui) {
+	            $("input[name=" + $(this).attr("id") + "_value]").val(ui.value);
+	        }
+	    });
+	});
 </script>
 
 <div class="footer-wrapper">
