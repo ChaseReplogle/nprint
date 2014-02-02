@@ -77,13 +77,9 @@ Template Name: Calculator
 </script>
 
 <script>
-	$ = jQuery;
-	$( "#percent" )
-  .keyup(function() {
-  	var text = $( this ).text();
+$ = jQuery;
+  var text = $( "#percent" ).text();
   $( ".mark-up input" ).val( text );
-  })
-  .keyup();
 </script>
 
 <div class="footer-wrapper">
