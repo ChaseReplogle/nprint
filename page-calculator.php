@@ -26,23 +26,25 @@ Template Name: Calculator
 
 	</div>
 
-	<div class="columns medium-4" id="cost">
-		<div id="cost-total">
-			<hr>
+	<div class="columns medium-4">
+		<div id="cost">
+			<div id="cost-total">
+				<hr>
 
-			<div class="container">
+				<div class="container">
+
+				</div>
+
+				<script>
+					$ = jQuery;
+					$('#input_2_31').attr('type', 'range');
+					$('#input_2_31').attr('min', '0');
+					$('#input_2_31').attr('max', '100');
+					$('#input_2_31').attr('onchange', 'rangevalue.value=value');
+					$('#input_2_31').after('<output id="rangevalue">0</output>');
+				</script>
 
 			</div>
-
-			<script>
-				$ = jQuery;
-				$('#input_2_31').attr('type', 'range');
-				$('#input_2_31').attr('min', '0');
-				$('#input_2_31').attr('max', '100');
-				$('#input_2_31').attr('onchange', 'rangevalue.value=value');
-				$('#input_2_31').after('<output id="rangevalue">0</output>');
-			</script>
-
 		</div>
 
 	</div>
@@ -71,10 +73,10 @@ Template Name: Calculator
       var windowTop = $(window).scrollTop(); // returns number 
  
       if (stickyTop < windowTop){
-        $('#cost').css({ position: 'fixed', top: 20, width: '28%' });
+        $('#cost').css({ position: 'fixed', top: 20});
       }
       else {
-        $('#cost').css({ position: 'static', top: 0, width: 'auto' });
+        $('#cost').css({ position: 'static', });
       }
  
     });
