@@ -43,6 +43,8 @@ Template Name: Calculator
 					var percent = $("#rangevalue").text();
 			  		$("#input_2_31").val(percent);
 				});
+
+				$('#input_2_31 <input>').attr('type', 'range');
 			</script>
 
 		</div>
