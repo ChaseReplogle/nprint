@@ -26,7 +26,7 @@ Template Name: Calculator
 
 	</div>
 
-	<div class="columns medium-4">
+	<div class="columns medium-4" id="cost">
 		<div id="cost-total">
 			<hr>
 
@@ -56,7 +56,9 @@ Template Name: Calculator
 <script>
 	$ = jQuery;
 
-	jQuery(".cost").prependTo("#cost-total");
+	$(".cost").prependTo("#cost");
+
+	$(".gform_footer").prependTo("#cost");
 
 	$(function(){ // document ready
  
