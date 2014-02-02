@@ -44,7 +44,7 @@ Template Name: Calculator
 			  		$("#input_2_31").val(percent);
 				});
 
-				$('#input_2_31 <input>').attr('type', 'range');
+				$('#input_2_31').attr('type', 'range');
 			</script>
 
 		</div>
