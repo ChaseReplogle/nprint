@@ -78,10 +78,10 @@ Template Name: Calculator
 
 <script>
 $ = jQuery;
-	var $mail = $("#rangevalue").text();
+	var percent = $("#rangevalue").text();
 
-	$("#input_2_31").val("10"); 
-	
+	$("#input_2_31").val(percent); 
+
 </script>
 
 <div class="footer-wrapper">
