@@ -8659,6 +8659,12 @@ img.avatar {
   width: 100%;
   color: #579e81;
 }
+#cost-total #field_2_32 {
+  display: none;
+}
+#cost-total #field_2_33 {
+  display: none;
+}
 
 .primary_button {
   padding: 12px 23px;
