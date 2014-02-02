@@ -29,9 +29,6 @@ Template Name: Calculator
 	<div class="columns medium-4">
 		<div id="cost-total">
 
-		<script>
-			jQuery("#field_2_31").prependTo("#cost-total");
-		</script>
 
 		</div>
 
@@ -42,6 +39,10 @@ Template Name: Calculator
 </div>
 
 <?php endwhile; endif; ?>
+
+<script>
+	jQuery("#field_2_31").prependTo("#cost-total");
+</script>
 
 <div class="footer-wrapper">
 
