@@ -56,9 +56,9 @@ Template Name: Calculator
 	$('#input_2_31').attr('onchange', 'rangevalue.value=value');
 	$('#input_2_31').after('<output id="rangevalue">0</output>');
 
-	$(".cost").prependTo("#cost-total");
+	$(".cost").add("#cost-total");
 
-	$(".gform_footer").prependTo("#cost");
+	$(".gform_footer").add("#cost");
 
 	$(function(){ // document ready
  
