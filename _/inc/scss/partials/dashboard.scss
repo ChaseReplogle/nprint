@@ -106,8 +106,88 @@
 	border: 1px solid $lightgrey;
 	padding: 30px;
 	display: block;
+
+	li {
+		list-style: none;
+	}
+
+	.slider {
+
+		/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size:.8em;
 }
 
-.fixed {
-     position: fixed;
+$f-4: 'Coda', sans-serif; //for the computer
+
+$c-1:#7B72E9 ; 
+$c-2:darken($c-1,30%);
+ 
+$s-1:8.2em; // If you change the general size, you may have to fix things. 
+
+
+
+@mixin reset {
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+
+input{
+  &[type='range']{
+   margin:22em auto;
+   display:block;
+   background:#fff;
+   height:.4em;   
+    width:22em;
+    border:0;
+    outline:0;
+    &::-webkit-slider-thumb{
+       display:block;
+       background:#fff;
+       height:1.4em;
+       width:1.4em;
+      padding:1.4em;
+       border-radius:100%;    
+
+      
+      &:after{
+        content:attr(val);
+        margin:-.65em;
+        display:block;
+        color:$c-1;
+        font-size:1.4em;
+        font-weight:600;
+        text-align:center;
+      }  
+    }
+    
+    
+    
+    &:before,&:after{
+    content:'';
+    display:block;
+    position:absolute;
+    border-radius:100%;
+}
+    &:after{
+       height:1.4em;
+       width:1.4em;
+      
+      background:#fff;
+      margin:-.5em 1em;
+    }
+    &:before{ 
+       height:1.6em; 
+       width:1.6em;
+      background:transparent;
+      margin:-.6em -2.5em;
+    }
+  }
+  
+}
+	}
 }
