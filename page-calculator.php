@@ -42,29 +42,20 @@ Template Name: Calculator
 
 <script>
 	$ = jQuery;
-	
+
 	jQuery(".cost").prependTo("#cost-total");
 
-	$(function() {
+	var top = $("#cost-total").offset().top - parseFloat($("#cost-total").css("marginTop").replace(/auto/, 0));
  
-    var $sidebar   = $("#cost-total"),
-        $window    = $(window),
-        offset     = $sidebar.offset(),
-        topPadding = 15;
- 
-    $window.scroll(function() {
-        if ($window.scrollTop() > offset.top) {
-            $sidebar.stop().animate({
-                marginTop: $window.scrollTop() - offset.top + topPadding
-            });
-        } else {
-            $sidebar.stop().animate({
-                marginTop: 0
-            });
-        }
-    });
- 
-});
+	$(window).scroll(function (event) {
+	     var y = $(this).scrollTop();
+		  
+	     if (y >= (top-20)) {
+	          $("#cost-total").addClass("fixed");
+	     } else {
+	          $("#cost-total").removeClass("fixed");
+	     }
+	});
 </script>
 
 <div class="footer-wrapper">

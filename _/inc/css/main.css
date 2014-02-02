@@ -8613,6 +8613,11 @@ img.avatar {
   background-color: #fff;
   border: 1px solid #d1d1d1;
   padding: 30px;
+  display: block;
+}
+
+.fixed {
+  position: fixed;
 }
 
 .primary_button {
