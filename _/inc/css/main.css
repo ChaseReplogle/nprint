@@ -8631,7 +8631,7 @@ img.avatar {
   margin: auto;
   transition: all 0.3s ease;
 }
-#cost-total input[type="range"] .instruction {
+#cost-total .instruction {
   display: none;
 }
 #cost-total input[type="range"]:hover {
