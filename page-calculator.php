@@ -28,8 +28,13 @@ Template Name: Calculator
 
 	<div class="columns medium-4">
 		<div id="cost-total">
-			<div class="nmbr" id="first"></div>
-
+			<div id="defaultval">
+				Slider Value: <span id="currentval">10</span>
+			  </div>
+			  
+			  <div id="defaultslide"></div>
+			  
+			  <br>
 
 		</div>
 
@@ -72,16 +77,18 @@ Template Name: Calculator
 
 <script>
 	$ = jQuery;
-	$(function () {
-	    $(".nmbr").slider({
-	        range: "min",
-	        min: 1,
-	        max: 100,
-	        slide: function (event, ui) {
-	            $("input[name=" + $(this).attr("id") + "_value]").val(ui.value);
-	        }
-	    });
-	});
+	$(function(){
+  $('#defaultslide').slider({ 
+    max: 100,
+    min: 0,
+    value: 10,
+    slide: function(e,ui) {
+      $('#currentval').html(ui.value);
+    }
+  });
+
+  });
+});
 </script>
 
 <div class="footer-wrapper">
