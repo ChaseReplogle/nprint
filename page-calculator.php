@@ -81,7 +81,7 @@ Template Name: Calculator
 	$( ".mark-up input" )
   .keyup(function() {
     var value = $( this ).val();
-    $( "#rangevalue" ).text( value );
+    $( "#percent" ).text( value );
   })
   .keyup();
 </script>
