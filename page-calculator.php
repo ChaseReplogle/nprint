@@ -41,7 +41,7 @@ Template Name: Calculator
 <?php endwhile; endif; ?>
 
 <script>
-	jQuery("#field_2_31").prependTo("#cost-total");
+	jQuery(".cost").prependTo("#cost-total");
 </script>
 
 <div class="footer-wrapper">
