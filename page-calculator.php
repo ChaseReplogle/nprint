@@ -56,9 +56,9 @@ Template Name: Calculator
 <script>
 	$ = jQuery;
 
-	$(".cost").prependTo("#cost");
+	$(".cost").prependTo("#cost-total");
 
-	$(".gform_footer").prependTo("#cost");
+	$(".gform_footer").appendTo("#cost");
 
 	$(function(){ // document ready
  
