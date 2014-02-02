@@ -39,12 +39,9 @@ Template Name: Calculator
 
 			<script>
 				$ = jQuery;
-				$("#percent").change(function() {
-					var percent = $("#rangevalue").text();
-			  		$("#input_2_31").val(percent);
-				});
-
 				$('#input_2_31').attr('type', 'range');
+				$('#input_2_31').attr('onchange', 'rangevalue.value=value');
+				$('#input_2_31').after('<output id="rangevalue">0</output>');
 			</script>
 
 		</div>
