@@ -42,6 +42,14 @@ Template Name: Calculator
 
 <script>
 	jQuery(".cost").prependTo("#cost-total");
+
+	jQuery(function() {
+		var fixadent = jQuery("#cost-total"), pos = fixadent.offset();
+		jQuery(window).scroll(function() {
+		if(jQuery(this).scrollTop() > (pos.top + 10) && fixadent.css('position') == 'static') { fixadent.addClass('fixed'); }
+		else if(jQuery(this).scrollTop() <= pos.top && fixadent.hasClass('fixed')){ fixadent.removeClass('fixed'); }
+		})
+	});
 </script>
 
 <div class="footer-wrapper">
