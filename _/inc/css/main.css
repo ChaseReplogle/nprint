@@ -8609,6 +8609,12 @@ img.avatar {
   border-bottom: 1px solid #d1d1d1;
 }
 
+.cost-total {
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  padding: 30px;
+}
+
 .primary_button {
   padding: 12px 23px;
   background-color: #e6b279;
