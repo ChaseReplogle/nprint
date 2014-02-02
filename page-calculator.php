@@ -80,7 +80,7 @@ Template Name: Calculator
 $ = jQuery;
 	var percent = $("#rangevalue").text();
 
-	$(percent).change(function() {
+	$("#rangevalue").text()).change(function() {
   alert( "Handler for .change() called." );
 	});
 
