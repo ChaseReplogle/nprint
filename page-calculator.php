@@ -32,8 +32,8 @@ Template Name: Calculator
 
 			<div class="container">
 			  <div class="slider">
-			  <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
-				<output id="rangevalue">50</output>
+			  <input id="percent" type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
+				<output id="rangevalue">10</output>
 			  </div>
 			  </div>
 
@@ -74,6 +74,16 @@ Template Name: Calculator
   }
  
 });
+</script>
+
+<script>
+	$ = jQuery;
+	$( ".mark-up input" )
+  .keyup(function() {
+    var value = $( this ).val();
+    $( "#rangevalue" ).text( value );
+  })
+  .keyup();
 </script>
 
 <div class="footer-wrapper">

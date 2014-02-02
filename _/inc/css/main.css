@@ -8620,7 +8620,6 @@ img.avatar {
 }
 #cost-total .slider {
   width: 100%;
-  margin: 50% auto;
 }
 #cost-total input[type="range"] {
   -webkit-appearance: none !important;
