@@ -20,9 +20,22 @@ Template Name: Calculator
 
 <div class="row content-row">
 
-	<div class="columns medium-12 page-main-content">
+	<div class="columns medium-8 page-main-content">
 		
 	<?php the_content(); ?>
+
+	</div>
+
+	<div class="columns medium-4">
+		<div id="cost-total">
+
+		<script>
+			jQuery( ".cost" ).before( "<div id='cost'>" );
+			jQuery( ".gform_footer top_label" ).before( "</div>" );
+			jQuery("#cost").prependTo("#cost-total");
+		</script>
+
+		</div>
 
 	</div>
 
