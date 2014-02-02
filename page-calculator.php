@@ -41,15 +41,30 @@ Template Name: Calculator
 <?php endwhile; endif; ?>
 
 <script>
+	$ = jQuery;
+	
 	jQuery(".cost").prependTo("#cost-total");
 
-	jQuery(function() {
-		var fixadent = jQuery("#cost-total"), pos = fixadent.offset();
-		jQuery(window).scroll(function() {
-		if(jQuery(this).scrollTop() > (pos.top + 10) && fixadent.css('position') == 'static') { fixadent.addClass('fixed'); }
-		else if(jQuery(this).scrollTop() <= pos.top && fixadent.hasClass('fixed')){ fixadent.removeClass('fixed'); }
-		})
-	});
+	$(function() {
+ 
+    var $sidebar   = $("#cost-total"),
+        $window    = $(window),
+        offset     = $sidebar.offset(),
+        topPadding = 15;
+ 
+    $window.scroll(function() {
+        if ($window.scrollTop() > offset.top) {
+            $sidebar.stop().animate({
+                marginTop: $window.scrollTop() - offset.top + topPadding
+            });
+        } else {
+            $sidebar.stop().animate({
+                marginTop: 0
+            });
+        }
+    });
+ 
+});
 </script>
 
 <div class="footer-wrapper">
