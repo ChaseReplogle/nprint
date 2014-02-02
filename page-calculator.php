@@ -80,8 +80,8 @@ Template Name: Calculator
 	$ = jQuery;
 	$( "#percent" )
   .keyup(function() {
-    var value = $( this ).val();
-    $( ".mark-up input" ).text( value );
+  	var text = $( this ).text();
+  $( ".mark-up input" ).val( text );
   })
   .keyup();
 </script>
