@@ -35,15 +35,6 @@ Template Name: Calculator
 
 				</div>
 
-				<script>
-					$ = jQuery;
-					$('#input_2_31').attr('type', 'range');
-					$('#input_2_31').attr('min', '0');
-					$('#input_2_31').attr('max', '100');
-					$('#input_2_31').attr('onchange', 'rangevalue.value=value');
-					$('#input_2_31').after('<output id="rangevalue">0</output>');
-				</script>
-
 			</div>
 
 			<a href="#" class="support_button">Cancel</a>
@@ -59,10 +50,15 @@ Template Name: Calculator
 
 <script>
 	$ = jQuery;
+	$('#input_2_31').attr('type', 'range');
+	$('#input_2_31').attr('min', '0');
+	$('#input_2_31').attr('max', '100');
+	$('#input_2_31').attr('onchange', 'rangevalue.value=value');
+	$('#input_2_31').after('<output id="rangevalue">0</output>');
+
+	$(".gform_footer").prependTo("#cost");
 
 	$(".cost").prependTo("#cost-total");
-
-	$(".gform_footer").appendTo("#cost");
 
 	$(function(){ // document ready
  
@@ -75,10 +71,10 @@ Template Name: Calculator
       var windowTop = $(window).scrollTop(); // returns number 
  
       if (stickyTop < windowTop){
-        $('#cost').css({ position: 'fixed', top: 20});
+        $('#cost').css({ position: 'fixed', top: 20, width: '27.5%'});
       }
       else {
-        $('#cost').css({ position: 'static', });
+        $('#cost').css({ position: 'static', width: 'auto'});
       }
  
     });
