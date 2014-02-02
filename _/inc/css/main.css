@@ -8669,6 +8669,13 @@ img.avatar {
   display: none;
 }
 
+@media only screen and (max-width: 40em) {
+  #cost-total {
+    width: auto !important;
+    position: static !important;
+    top: 0px !important;
+  }
+}
 .primary_button {
   padding: 12px 23px;
   background-color: #e6b279;
