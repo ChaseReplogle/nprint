@@ -78,7 +78,7 @@ Template Name: Calculator
 
 <script>
 $ = jQuery;
-	var $mail = $("#percent");
+	var $mail = $("#rangevalue").text();
 
 	$(".mark-up input").keyup(function() {
 	    $mail.val( this.value );
