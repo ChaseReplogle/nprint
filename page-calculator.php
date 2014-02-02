@@ -33,7 +33,7 @@ Template Name: Calculator
 			<div class="container">
 			  <div class="slider">
 			  <input id="percent" type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
-				<output id="rangevalue">10</output>
+				<output id="rangevalue">12</output>
 			  </div>
 			  </div>
 
