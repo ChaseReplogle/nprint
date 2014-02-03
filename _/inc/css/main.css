@@ -7252,6 +7252,8 @@ body .gform_wrapper ul li.half_right {
 body .clear-break {
   margin: 0px 0px 10px 0px !important;
   border: 0px !important;
+  padding-top: 0px !important;
+  height: 1px;
 }
 
 @media only screen and (max-width: 40em) {
