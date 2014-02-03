@@ -26,7 +26,7 @@ Template Name: Calculator
 
 	</div>
 
-	<div class="columns medium-4 sidebar">
+	<div class="columns medium-4">
 		<div id="cost">
 			<div id="cost-total">
 
@@ -40,7 +40,6 @@ Template Name: Calculator
 		</div>
 
 	</div>
-
 
 	<hr>
 
@@ -61,8 +60,28 @@ Template Name: Calculator
 
 	$(".gform_footer").appendTo("#cost");
 
-	$('.sidebar').stickyScroll({ container: $('.row') })
-
+	$(function(){ // document ready
+ 
+  if (!!$('#cost').offset()) { // make sure ".sticky" element exists
+ 
+    var stickyTop = $('#cost').offset().top; // returns number 
+ 
+    $(window).scroll(function(){ // scroll event
+ 
+      var windowTop = $(window).scrollTop(); // returns number 
+ 
+      if (stickyTop < windowTop){
+        $('#cost').css({ position: 'fixed', top: 20, width: '28%'});
+      }
+      else {
+        $('#cost').css({ position: 'static', width: 'auto'});
+      }
+ 
+    });
+ 
+  }
+ 
+});
 </script>
 
 <div class="footer-wrapper">
