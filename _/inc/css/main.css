@@ -7179,6 +7179,15 @@ body .gform_confirmation_message a {
   color: #4f98c4;
   text-decoration: underline;
 }
+body .gfield_select {
+  padding: 12px;
+}
+body .gform_wrapper li.gfield.gf_list_2col label.gfield_label, body .gform_wrapper li.gfield.gf_list_3col label.gfield_label, body .gform_wrapper li.gfield.gf_list_4col label.gfield_label, body .gform_wrapper li.gfield.gf_list_5col label.gfield_label, body .gform_wrapper li.gfield.gf_list_inline label.gfield_label {
+  margin: 0px;
+}
+body input[type="file"], body input[type="checkbox"], body input[type="radio"], body select {
+  margin-bottom: 0px;
+}
 
 /* Top Bar Main Navigation Styles */
 [data-magellan-expedition] {
