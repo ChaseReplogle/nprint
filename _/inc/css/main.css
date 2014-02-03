@@ -8724,7 +8724,7 @@ img.avatar {
   z-index: 99999999;
 }
 #cost-total input[type="range"]:hover {
-  background-color: #d1d1d1;
+  background-color: #f2f2f2;
 }
 #cost-total input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none !important;
@@ -8778,6 +8778,12 @@ img.avatar {
 }
 #cost-total #field_2_30 label, #cost-total #field_2_32 label {
   color: #d1d1d1;
+}
+
+.page-template-page-calculator-php .gform_wrapper {
+  background-color: #f2f2f2;
+  border: 1px solid #d1d1d1;
+  padding: 30px;
 }
 
 @media only screen and (max-width: 40em) {

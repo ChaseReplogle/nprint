@@ -184,7 +184,7 @@
 	}
 
 	input[type="range"]:hover {
-	  background-color: $lightgrey;
+	  background-color: $verylightgrey;
 	}
 
 	input[type="range"]::-webkit-slider-thumb {
@@ -251,6 +251,12 @@
 		}
 	}
 
+}
+
+.page-template-page-calculator-php .gform_wrapper {
+	background-color: $verylightgrey;
+	border: 1px solid $lightgrey;
+	padding: 30px;
 }
 
 @media only screen and (max-width: 40em) {
