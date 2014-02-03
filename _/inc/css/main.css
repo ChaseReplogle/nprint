@@ -8846,6 +8846,9 @@ img.avatar {
   width: 100%;
   padding: 25px 0px;
 }
+.page-template-page-calculator-php .gform_wrapper .gform_footer input.support {
+  background-color: #f3f3f3;
+}
 
 @media only screen and (max-width: 40em) {
   #cost {
