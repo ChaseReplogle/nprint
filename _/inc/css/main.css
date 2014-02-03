@@ -7237,6 +7237,16 @@ body .gform_wrapper .gsection h2 {
   left: 40px;
   color: #4f98c4;
 }
+body .half_left {
+  width: 48%;
+  float: left;
+  display: block;
+}
+body .half_right {
+  width: 48%;
+  float: right;
+  display: block;
+}
 
 /* Top Bar Main Navigation Styles */
 [data-magellan-expedition] {
