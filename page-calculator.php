@@ -36,7 +36,8 @@ Template Name: Calculator
 				<div class="clear"></div>
 			</div>
 
-			<a href="#" class="secondary_button" id="submit_button">Save & Add to Cart</a>
+			<a href="/dashboard" class="support_button">Cancel</a>
+			<a href="" class="secondary_button" id="submit_button">Save & Add to Cart</a>
 
 		</div>
 
