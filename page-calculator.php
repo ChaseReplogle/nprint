@@ -50,11 +50,11 @@ Template Name: Calculator
 
 <script>
 	$ = jQuery;
-	$('#input_2_31').attr('type', 'range');
-	$('#input_2_31').attr('min', '0');
-	$('#input_2_31').attr('max', '100');
-	$('#input_2_31').attr('onchange', 'rangevalue.value=value');
-	$('#input_2_31').after('<output id="rangevalue">0</output>');
+	$('.percent').attr('type', 'range');
+	$('.percent').attr('min', '0');
+	$('.percent').attr('max', '100');
+	$('.percent').attr('onchange', 'rangevalue.value=value');
+	$('.percent').after('<output id="rangevalue">0</output>');
 
 	$(".cost").prependTo("#cost-total");
 
