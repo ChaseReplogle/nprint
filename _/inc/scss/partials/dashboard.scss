@@ -256,10 +256,10 @@
 		}
 	}
 
-	input[type='submit'] {
-		display: none;
-	}
+}
 
+.page-template-page-calculator-php input[type='submit'] {
+	display: none;
 }
 
 @media only screen and (max-width: 40em) {
