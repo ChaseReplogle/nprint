@@ -58,7 +58,7 @@ Template Name: Calculator
 
 	$(".cost").prependTo("#cost-total");
 
-	$(".top").prependTo('<i class="fa fa-caret-square-o-up"></i>');
+	$(".top").prepend('<i class="fa fa-caret-square-o-up"></i>');
 
 	$(function(){ // document ready
  
