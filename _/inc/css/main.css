@@ -8837,6 +8837,11 @@ img.avatar {
 .page-template-page-calculator-php input[type='submit'] {
   display: block;
 }
+.page-template-page-calculator-php .gform_wrapper .gform_footer {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #d1d1d1;
+}
 
 @media only screen and (max-width: 40em) {
   #cost {
