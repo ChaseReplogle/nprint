@@ -7237,19 +7237,34 @@ body .gform_wrapper .gsection h2 {
   left: 40px;
   color: #4f98c4;
 }
-body .half_left {
+body .gform_wrapper ul li.half_left {
   width: 48%;
   float: left;
   display: block;
   clear: left;
 }
-body .half_right {
+body .gform_wrapper ul li.half_right {
   width: 48%;
   float: right;
   display: block;
   clear: right;
 }
 
+@media only screen and (max-width: 40em) {
+  .gform_wrapper ul li.half_left {
+    width: 100%;
+    float: none;
+    display: block;
+    clear: both;
+  }
+
+  .gform_wrapper ul li.half_right {
+    width: 100%;
+    float: none;
+    display: block;
+    clear: both;
+  }
+}
 /* Top Bar Main Navigation Styles */
 [data-magellan-expedition] {
   padding: 0px;

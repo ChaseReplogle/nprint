@@ -96,17 +96,34 @@ body {
 		}
 	}
 
-	.half_left {
+	.gform_wrapper ul li.half_left {
 		width: 48%;
 		float: left;
 		display: block;
 		clear: left;
 	}
 
-	.half_right {
+	.gform_wrapper ul li.half_right {
 		width: 48%;
 		float: right;
 		display: block;
 		clear: right;
+	}
+}
+
+
+@media only screen and (max-width: 40em) {
+	.gform_wrapper ul li.half_left {
+		width: 100%;
+		float: none;
+		display: block;
+		clear: both;
+	}
+
+	.gform_wrapper ul li.half_right {
+		width: 100%;
+		float: none;
+		display: block;
+		clear: both;
 	}
 }
