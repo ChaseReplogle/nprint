@@ -136,6 +136,19 @@
 		display: block;
 		background-color: lightgrey;
 		margin: 20px 0px;
+		padding: 30px;
+
+		label {
+			text-align: center;
+			width: 100%;
+		}
+
+		span {
+			font-size: 35px;
+			text-align: center;
+			width: 100%;
+			display: block;
+		}
 	}
 
 	input[type="range"] {

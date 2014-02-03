@@ -8669,6 +8669,17 @@ img.avatar {
   display: block;
   background-color: lightgrey;
   margin: 20px 0px;
+  padding: 30px;
+}
+#cost-total #field_2_29 label {
+  text-align: center;
+  width: 100%;
+}
+#cost-total #field_2_29 span {
+  font-size: 35px;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 #cost-total input[type="range"] {
   -webkit-appearance: none !important;
