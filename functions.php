@@ -181,21 +181,4 @@ function content($limit) {
  return $content;
 }
 
-$formID = 2;    // replace with ID of your form
-add_filter("gform_post_data_$formID", 'wpse_78826_gformPostData', 10, 3);
-
-/**
-* dirty hack to write checkbox field values as serialised arrays
-* to please Advanced Custom Fields, which is _doing_it_wrong()
-* @param array $post_data not really the $_POST data, more like a summary of it
-* @param array $form the GF form "object"
-* @param array $lead the GF lead / entry "object"
-* @return array
-*/
-function wpse_78826_gformPostData($post_data , $form, $lead) {
-    $post_data['post_custom_fields']['checkboxen'] = serialize(explode(',', $post_data['post_custom_fields']['checkboxen']));
-
-    return $post_data;
-}
-
 ?>
