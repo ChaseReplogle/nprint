@@ -8664,6 +8664,12 @@ img.avatar {
 #cost-total .slider {
   width: 100%;
 }
+#cost-total #field_2_29 {
+  width: 100%;
+  display: block;
+  background-color: lightgrey;
+  margin: 20px 0px;
+}
 #cost-total input[type="range"] {
   -webkit-appearance: none !important;
   width: 100%;

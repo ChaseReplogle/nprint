@@ -128,8 +128,15 @@
 	}
 
 	.slider {
-  width: 100%;
-}
+  		width: 100%;
+	}
+
+	#field_2_29 {
+		width: 100%;
+		display: block;
+		background-color: lightgrey;
+		margin: 20px 0px;
+	}
 
 	input[type="range"] {
 	  -webkit-appearance: none !important;
