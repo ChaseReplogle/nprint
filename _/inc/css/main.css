@@ -8800,6 +8800,9 @@ img.avatar {
 #cost-total #field_2_30 label, #cost-total #field_2_32 label {
   color: #b4b3b3;
 }
+#cost-total input[type='submit'] {
+  visibility: hidden;
+}
 
 @media only screen and (max-width: 40em) {
   #cost {
