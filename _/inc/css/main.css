@@ -7223,7 +7223,7 @@ body input[type=range]:focus {
 }
 body .gform_wrapper .gsection {
   margin: 60px 0px 10px 0px;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 body .gform_wrapper .gsection i {
   position: absolute;
@@ -7234,7 +7234,7 @@ body .gform_wrapper .gsection i {
 body .gform_wrapper .gsection h2 {
   position: absolute;
   top: 0px;
-  left: 30px;
+  left: 40px;
   color: #4f98c4;
 }
 

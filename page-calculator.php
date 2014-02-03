@@ -35,9 +35,6 @@ Template Name: Calculator
 				</div>
 				<div class="clear"></div>
 			</div>
-
-			<a href="#" class="support_button">Cancel</a>
-			<a href="#" class="secondary_button" id="submit_button">Cancel</a>
 		</div>
 
 	</div>
@@ -61,11 +58,7 @@ Template Name: Calculator
 
 	$(".top").prepend('<i class="fa fa-caret-square-o-up"></i>');
 
-	$(document).ready(function() { 
-	    $('#submit_button').click(function() {
-	        $('.gform_button').submit();
-	    });
-	});
+	$('.gform_button').append('<a href="/dashboard" class="support_button">Cancel</a>');
 
 	$(function(){ // document ready
  
