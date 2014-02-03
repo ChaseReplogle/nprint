@@ -33,7 +33,7 @@ Template Name: Calculator
 				<div class="container">
 
 				</div>
-
+				<div class="clear"></div>
 			</div>
 
 			<a href="#" class="support_button">Cancel</a>
