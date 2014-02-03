@@ -59,7 +59,7 @@ body {
 		line-height: 20px;
 	}
 
-	input[type=text], input[type=range], textarea {
+	input[type=range] {
 	  -webkit-transition: all 0.30s ease-in-out;
 	  -moz-transition: all 0.30s ease-in-out;
 	  -ms-transition: all 0.30s ease-in-out;
@@ -70,7 +70,7 @@ body {
 	  border: 0px solid #DDDDDD;
 	}
 	 
-	input[type=text]:focus, input[type=range]:focus, textarea:focus {
+	input[type=range]:focus {
 	  box-shadow: 0 0 0px rgba(81, 203, 238, 1);
 	  padding: 0px 0px 0px 0px;
 	  margin: 0px 0px 0px 0px;

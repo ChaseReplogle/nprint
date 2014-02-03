@@ -7205,7 +7205,7 @@ body .gform_wrapper span.gform_description {
   font-size: 13px;
   line-height: 20px;
 }
-body input[type=text], body input[type=range], body textarea {
+body input[type=range] {
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
   -ms-transition: all 0.30s ease-in-out;
@@ -7215,7 +7215,7 @@ body input[type=text], body input[type=range], body textarea {
   margin: 0px 0px 0px 0px;
   border: 0px solid #DDDDDD;
 }
-body input[type=text]:focus, body input[type=range]:focus, body textarea:focus {
+body input[type=range]:focus {
   box-shadow: 0 0 0px #51cbee;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
