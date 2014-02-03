@@ -26,7 +26,7 @@ Template Name: Calculator
 
 	</div>
 
-	<div class="columns medium-4">
+	<div class="columns medium-4 sidebar">
 		<div id="cost">
 			<div id="cost-total">
 
