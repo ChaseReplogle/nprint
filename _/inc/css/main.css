@@ -8682,6 +8682,9 @@ img.avatar {
   width: 100%;
   display: block;
 }
+#cost-total #field_2_29 .ginput_product_price_label {
+  display: none;
+}
 #cost-total input[type="range"] {
   -webkit-appearance: none !important;
   width: 100%;
