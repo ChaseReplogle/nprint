@@ -41,8 +41,6 @@ Template Name: Calculator
 
 	</div>
 
-	<hr>
-
 </div>
 
 <?php endwhile; endif; ?>
@@ -97,6 +95,9 @@ Template Name: Calculator
 </script>
 
 <div class="footer-wrapper">
+
+
+	<hr>
 
 
 <?php get_footer(); ?>

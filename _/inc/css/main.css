@@ -8658,6 +8658,7 @@ img.avatar {
 .sidebar {
   height: 100%;
   position: absolute;
+  right: 0px;
 }
 
 #cost .support_button {
