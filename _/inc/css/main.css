@@ -8752,13 +8752,11 @@ img.avatar {
 #cost-total .ginput_product_price_label {
   display: none;
 }
-#cost-total #field_2_30 {
+#cost-total #field_2_30, #cost-total #field_2_32 {
   width: 50%;
   float: left;
-}
-#cost-total #field_2_32 {
-  width: 50%;
-  float: right;
+  text-align: center;
+  color: #d1d1d1;
 }
 
 @media only screen and (max-width: 40em) {

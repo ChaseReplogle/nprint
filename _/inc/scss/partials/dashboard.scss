@@ -237,14 +237,11 @@
 		display: none;
 	}
 
-	#field_2_30 {
+	#field_2_30, #field_2_32 {
 		width: 50%;
 		float: left;
-	}
-
-	#field_2_32 {
-		width: 50%;
-		float: right;
+		text-align: center;
+		color: $lightgrey;
 	}
 
 }
