@@ -7221,6 +7221,9 @@ body input[type=range]:focus {
   margin: 0px 0px 0px 0px;
   border: 0px solid #51cbee;
 }
+body .gform_wrapper .top {
+  margin: 60px 0px 10px 0px;
+}
 
 /* Top Bar Main Navigation Styles */
 [data-magellan-expedition] {
@@ -8783,9 +8786,6 @@ img.avatar {
 }
 #cost-total #field_2_30 label, #cost-total #field_2_32 label {
   color: #b4b3b3;
-}
-#cost-total .top {
-  margin: 60px 0px 10px 0pz;
 }
 
 @media only screen and (max-width: 40em) {
