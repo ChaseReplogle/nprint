@@ -8801,7 +8801,7 @@ img.avatar {
   color: #b4b3b3;
 }
 #cost-total input[type='submit'] {
-  visibility: hidden;
+  display: none;
 }
 
 @media only screen and (max-width: 40em) {
