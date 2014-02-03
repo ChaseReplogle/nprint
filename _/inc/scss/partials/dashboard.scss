@@ -105,22 +105,6 @@
 	z-index: 9999;
 }
 
-#cost {
-	.support_button {
-		display: block;
-		margin: 10px 0px;
-		text-align: center;
-		color: $lightgrey;
-		background-color: $verylightgrey;
-		border: 1px solid $lightgrey;
-	}
-
-	#submit_button {
-		width: 100%;
-		display: block;
-	}
-}
-
 #cost-total {
 	background-color: #fff;
 	border: 1px solid $lightgrey;
@@ -275,6 +259,7 @@
 
 			label {
 				font-weight: normal;
+				font-size: 13px;
 			}
 		}
 
@@ -289,6 +274,15 @@
 			}
 		}
 
+	}
+
+	.support_button {
+		display: block;
+		margin: 10px 0px;
+		text-align: center;
+		color: $lightgrey;
+		background-color: $verylightgrey;
+		border: 1px solid $lightgrey;
 	}
 }
 
