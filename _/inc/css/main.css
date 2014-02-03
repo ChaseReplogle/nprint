@@ -8673,6 +8673,10 @@ img.avatar {
 #cost-total .instruction {
   display: none;
 }
+#cost-total .percent {
+  width: 70%;
+  float: left;
+}
 #cost-total input[type="range"]:hover {
   background-color: #b2d5aa;
 }
@@ -8697,13 +8701,14 @@ img.avatar {
   box-shadow: 0px 0px 1px #3c6d59;
 }
 #cost-total #rangevalue {
+  width: 20%;
+  font: right;
   text-align: center;
   font-family: "Quantico", sans-serif;
   font-size: 18px;
   display: block;
   margin: auto;
-  padding: 10px 0px;
-  width: 100%;
+  padding: 0px;
   color: #579e81;
 }
 #cost-total #field_2_32 {

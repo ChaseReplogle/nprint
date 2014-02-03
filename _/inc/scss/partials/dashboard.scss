@@ -147,6 +147,11 @@
 	  display: none;
 	}
 
+	.percent {
+		width: 70%;
+		float: left;
+	}
+
 	input[type="range"]:hover {
 	  background-color: #b2d5aa;
 	}
@@ -176,13 +181,14 @@
 	}
 
 	#rangevalue {
+	  width: 20%;
+	  font: right;
 	  text-align: center;
 	  font-family: "Quantico", sans-serif;
 	  font-size: 18px;
 	  display: block;
 	  margin: auto;
-	  padding: 10px 0px;
-	  width: 100%;
+	  padding: 0px;
 	  color: #579e81;
 	}
 
