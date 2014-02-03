@@ -8655,6 +8655,11 @@ img.avatar {
   border-bottom: 1px solid #d1d1d1;
 }
 
+.sidebar {
+  height: 100%;
+  position: absolute;
+}
+
 #cost .support_button {
   display: block;
   margin: 10px 0px;

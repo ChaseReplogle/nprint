@@ -26,7 +26,7 @@ Template Name: Calculator
 
 	</div>
 
-	<div class="columns medium-4">
+	<div class="columns medium-4 sidebar">
 		<div id="cost">
 			<div id="cost-total">
 
@@ -62,7 +62,7 @@ Template Name: Calculator
 
 	$$(document).ready(function () {
 
-	    var length = $('.medium-4').height() - $('#cost').height() + $('.medium-4').offset().top;
+	    var length = $('.sidebar').height() - $('#cost').height() + $('.sidebar').offset().top;
 
 	    $(window).scroll(function () {
 
