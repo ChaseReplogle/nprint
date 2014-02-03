@@ -8758,6 +8758,9 @@ img.avatar {
   text-align: center;
   color: #d1d1d1;
 }
+#cost-total #field_2_30 label, #cost-total #field_2_32 label {
+  color: #d1d1d1;
+}
 
 @media only screen and (max-width: 40em) {
   #cost {

@@ -242,6 +242,10 @@
 		float: left;
 		text-align: center;
 		color: $lightgrey;
+
+		label {
+			color: $lightgrey;
+		}
 	}
 
 }
