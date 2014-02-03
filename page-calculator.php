@@ -54,7 +54,7 @@ Template Name: Calculator
 	$('.percent').attr('min', '0');
 	$('.percent').attr('max', '100');
 	$('.percent').attr('onchange', 'rangevalue.value=value');
-	$('.percent').after('<output id="rangevalue">0</output>');
+	$('.percent').after('<output id="rangevalue">0%</output>');
 
 	$(".cost").prependTo("#cost-total");
 
