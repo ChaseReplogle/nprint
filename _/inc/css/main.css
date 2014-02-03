@@ -8685,6 +8685,10 @@ img.avatar {
   box-shadow: 0px 0px 3px #3c6d59;
   transition: all 0.5s ease;
   outline: none;
+  display: block;
+  width: 80%;
+  float: left;
+  z-index: 99999999;
 }
 #cost-total input[type="range"]::-webkit-slider-thumb:focus {
   outline-color: transparent;
@@ -8699,13 +8703,14 @@ img.avatar {
 #cost-total #rangevalue {
   width: 20%;
   float: right;
-  text-align: center;
+  text-align: right;
   font-family: "Quantico", sans-serif;
   font-size: 18px;
   display: block;
   margin: auto;
   padding: 0px;
   color: #579e81;
+  font-size: 14px;
 }
 #cost-total #rangevalue:after {
   content: '%';
