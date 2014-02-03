@@ -58,7 +58,6 @@ Template Name: Calculator
 	$('.percent').after('<div class="clear"></div>');
 
 	$(".cost").prependTo("#cost-total");
-	$("input[type="submit"]").prependTo("#cost-total");
 
 	$(".top-icon").prepend('<i class="fa fa-caret-square-o-up"></i>');
 	$(".bottom-icon").prepend('<i class="fa fa-caret-square-o-down"></i>');
