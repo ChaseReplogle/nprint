@@ -7744,6 +7744,10 @@ body {
   background-image: url("../images/pattern.jpg");
 }
 
+.clear {
+  clear: both;
+}
+
 .wrapper {
   background-image: url("../images/pattern.jpg");
   padding: 15px 5%;
