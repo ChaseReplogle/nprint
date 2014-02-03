@@ -62,19 +62,19 @@ Template Name: Calculator
 
 	$(function(){ // document ready
  
-  if (!!$('#cost').offset()) { // make sure ".sticky" element exists
+  if (!!$('.sidebar').offset()) { // make sure ".sticky" element exists
  
-    var stickyTop = $('#cost').offset().top; // returns number 
+    var stickyTop = $('.sidebar').offset().top; // returns number 
  
     $(window).scroll(function(){ // scroll event
  
       var windowTop = $(window).scrollTop(); // returns number 
  
       if (stickyTop < windowTop){
-        $('#cost').css({ position: 'fixed', top: 20, width: '28%'});
+        $('.sidebar').css({ position: 'fixed', top: 20, width: '28%'});
       }
       else {
-        $('#cost').css({ position: 'static', width: 'auto'});
+        $('.sidebar').css({ position: 'static', width: 'auto'});
       }
  
     });
