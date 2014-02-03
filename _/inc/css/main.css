@@ -8711,6 +8711,9 @@ img.avatar {
   padding: 0px;
   color: #579e81;
 }
+#cost-total #rangevalue:after {
+  content: '%';
+}
 #cost-total #field_2_32 {
   display: none;
 }

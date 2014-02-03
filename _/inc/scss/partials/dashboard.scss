@@ -190,6 +190,10 @@
 	  margin: auto;
 	  padding: 0px;
 	  color: #579e81;
+
+	  &:after {
+	  	content: '%';
+	  }
 	}
 
 	#field_2_32 {
