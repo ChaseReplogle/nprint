@@ -40,6 +40,9 @@ Template Name: Calculator
 		</div>
 
 	</div>
+	
+
+	<hr>
 
 </div>
 
@@ -63,9 +66,6 @@ Template Name: Calculator
 </script>
 
 <div class="footer-wrapper">
-
-
-	<hr>
 
 
 <?php get_footer(); ?>
