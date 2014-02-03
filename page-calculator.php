@@ -62,8 +62,6 @@ Template Name: Calculator
 	$(".right-icon").prepend('<i class="fa fa-caret-square-o-right"></i>');
 	$(".specs-icon").prepend('<i class="fa fa-pencil-square-o"></i>');
 
-	$('.gform_button').preped('<a href="/dashboard" class="support_button">Cancel</a>');
-
 	$(function(){ // document ready
  
   if (!!$('#cost').offset()) { // make sure ".sticky" element exists
