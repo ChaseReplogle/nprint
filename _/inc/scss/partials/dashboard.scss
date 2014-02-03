@@ -110,6 +110,11 @@
 		background-color: $verylightgrey;
 		border: 1px solid $lightgrey;
 	}
+
+	input[type="submit"] {
+		width: 100%;
+		display: block;
+	}
 }
 
 #cost-total {
