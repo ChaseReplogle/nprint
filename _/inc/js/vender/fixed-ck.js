@@ -1,0 +1,11 @@
+/**
+ * StickyScroll
+ * written by Rick Harris - @iamrickharris
+ * 
+ * Requires jQuery 1.4+
+ * 
+ * Make elements stick to the top of your page as you scroll
+ *
+ * See README for details
+ *
+*/(function(e){e.fn.stickyScroll=function(t){var n={init:function(t){function r(){return e(document).height()-n.container.offset().top-n.container.attr("offsetHeight")}function i(){return n.container.offset().top}function s(t){return e(t).attr("offsetHeight")}var n;if(t.mode!=="auto"&&t.mode!=="manual"){t.container&&(t.mode="auto");t.bottomBoundary&&(t.mode="manual")}n=e.extend({mode:"auto",container:e("body"),topBoundary:null,bottomBoundary:null},t);n.container=e(n.container);if(!n.container.length){console&&console.log("StickyScroll: the element "+t.container+" does not exist, we're throwing in the towel");return}if(n.mode==="auto"){n.topBoundary=i();n.bottomBoundary=r()}return this.each(function(t){var o=e(this),u=e(window),a=Date.now()+t,f=s(o);o.data("sticky-id",a);u.bind("scroll.stickyscroll-"+a,function(){var t=e(document).scrollTop(),r=e(document).height()-t-f;r<=n.bottomBoundary?o.offset({top:e(document).height()-n.bottomBoundary-f}).removeClass("sticky-active").removeClass("sticky-inactive").addClass("sticky-stopped"):t>n.topBoundary?o.offset({top:e(window).scrollTop()}).removeClass("sticky-stopped").removeClass("sticky-inactive").addClass("sticky-active"):t<n.topBoundary&&o.css({position:"",top:"",bottom:""}).removeClass("sticky-stopped").removeClass("sticky-active").addClass("sticky-inactive")});u.bind("resize.stickyscroll-"+a,function(){if(n.mode==="auto"){n.topBoundary=i();n.bottomBoundary=r()}f=s(o);e(this).scroll()});o.addClass("sticky-processed");u.scroll()})},reset:function(){return this.each(function(){var t=e(this),n=t.data("sticky-id");t.css({position:"",top:"",bottom:""}).removeClass("sticky-stopped").removeClass("sticky-active").removeClass("sticky-inactive").removeClass("sticky-processed");e(window).unbind(".stickyscroll-"+n)})}};if(n[t])return n[t].apply(this,Array.prototype.slice.call(arguments,1));if(typeof t=="object"||!t)return n.init.apply(this,arguments);console&&console.log("Method"+t+" does not exist on jQuery.stickyScroll")}})(jQuery);

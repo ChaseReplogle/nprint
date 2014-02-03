@@ -1,3 +1,15 @@
+/**
+ * StickyScroll
+ * written by Rick Harris - @iamrickharris
+ * 
+ * Requires jQuery 1.4+
+ * 
+ * Make elements stick to the top of your page as you scroll
+ *
+ * See README for details
+ *
+*/
+
 (function($) {
   $.fn.stickyScroll = function(options) {
   
