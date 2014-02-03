@@ -7211,15 +7211,15 @@ body input[type=text], body input[type=range], body textarea {
   -ms-transition: all 0.30s ease-in-out;
   -o-transition: all 0.30s ease-in-out;
   outline: none;
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid #DDDDDD;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px solid #DDDDDD;
 }
 body input[type=text]:focus, body input[type=range]:focus, body textarea:focus {
-  box-shadow: 0 0 5px #51cbee;
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid #51cbee;
+  box-shadow: 0 0 0px #51cbee;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px solid #51cbee;
 }
 
 /* Top Bar Main Navigation Styles */
