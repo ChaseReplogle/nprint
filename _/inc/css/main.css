@@ -8837,6 +8837,12 @@ img.avatar {
 .page-template-page-calculator-php input[type='submit'] {
   display: block;
 }
+.page-template-page-calculator-php .gform_wrapper .support {
+  background-color: transparent;
+}
+.page-template-page-calculator-php .gform_wrapper .support input {
+  background-color: #d1d1d1;
+}
 .page-template-page-calculator-php .gform_wrapper .gform_footer {
   margin-top: 60px;
   padding-top: 30px;
@@ -8845,12 +8851,6 @@ img.avatar {
 .page-template-page-calculator-php .gform_wrapper .gform_footer input[type=submit] {
   width: 100%;
   padding: 25px 0px;
-}
-.page-template-page-calculator-php .gform_wrapper .gform_footer .support {
-  background-color: transparent;
-}
-.page-template-page-calculator-php .gform_wrapper .gform_footer .support input {
-  background-color: #d1d1d1;
 }
 
 @media only screen and (max-width: 40em) {
