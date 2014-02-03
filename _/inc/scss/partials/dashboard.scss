@@ -147,6 +147,12 @@
 	  display: none;
 	}
 
+	input[type="range"] {
+	  width: 80%;
+	  float: left;
+	  z-index: 99999999;
+	}
+
 	input[type="range"]:hover {
 	  background-color: #b2d5aa;
 	}
@@ -161,9 +167,6 @@
 	  transition: all 0.5s ease;
 	  outline: none;
 	  display: block;
-	  width: 80%;
-	  float: left;
-	  z-index: 99999999;
 
 	  &:focus {
 		  outline-color: transparent;

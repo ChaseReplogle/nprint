@@ -8673,6 +8673,11 @@ img.avatar {
 #cost-total .instruction {
   display: none;
 }
+#cost-total input[type="range"] {
+  width: 80%;
+  float: left;
+  z-index: 99999999;
+}
 #cost-total input[type="range"]:hover {
   background-color: #b2d5aa;
 }
@@ -8686,9 +8691,6 @@ img.avatar {
   transition: all 0.5s ease;
   outline: none;
   display: block;
-  width: 80%;
-  float: left;
-  z-index: 99999999;
 }
 #cost-total input[type="range"]::-webkit-slider-thumb:focus {
   outline-color: transparent;
