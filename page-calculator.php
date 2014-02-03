@@ -29,7 +29,6 @@ Template Name: Calculator
 	<div class="columns medium-4">
 		<div id="cost">
 			<div id="cost-total">
-				<hr>
 
 				<div class="container">
 
