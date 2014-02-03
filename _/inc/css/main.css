@@ -7188,6 +7188,9 @@ body .gform_wrapper li.gfield.gf_list_2col label.gfield_label, body .gform_wrapp
 body input[type="file"], body input[type="checkbox"], body input[type="radio"], body select {
   margin-bottom: 0px;
 }
+body .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
+  padding-left: 5px;
+}
 body .gfield_description {
   padding: 0px;
 }
