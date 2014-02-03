@@ -8846,6 +8846,9 @@ img.avatar {
   width: 100%;
   padding: 25px 0px;
 }
+.page-template-page-calculator-php .gform_wrapper .gform_footer .support {
+  background-color: transparent;
+}
 .page-template-page-calculator-php .gform_wrapper .gform_footer .support input {
   background-color: #f3f3f3;
 }

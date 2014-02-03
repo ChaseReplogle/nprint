@@ -274,8 +274,12 @@
 			padding: 25px 0px;
 		}
 
-		.support input {
-			background-color: rgb(243, 243, 243);
+		.support {
+			background-color: transparent;
+
+			input {
+				background-color: rgb(243, 243, 243);
+			}
 		}
 
 	}
