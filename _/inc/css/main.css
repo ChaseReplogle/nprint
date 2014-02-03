@@ -7189,7 +7189,8 @@ body input[type="file"], body input[type="checkbox"], body input[type="radio"], 
   margin-bottom: 0px;
 }
 body .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
-  padding-left: 5px;
+  margin-left: 5px;
+  margin-right: 12px;
 }
 body .gfield_description {
   padding: 0px;
@@ -8671,6 +8672,10 @@ img.avatar {
   box-shadow: 0px 0px 3px #3c6d59;
   transition: all 0.5s ease;
   outline: none;
+}
+#cost-total input[type="range"]::-webkit-slider-thumb:focus {
+  outline-color: transparent;
+  outline-style: none;
 }
 #cost-total input[type="range"]::-webkit-slider-thumb:hover {
   background-color: #457d66;
