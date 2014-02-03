@@ -8668,6 +8668,9 @@ img.avatar {
 #cost-total #field_2_33 {
   display: none;
 }
+#cost-total .ginput_product_price_label {
+  display: none;
+}
 
 @media only screen and (max-width: 40em) {
   #cost {
