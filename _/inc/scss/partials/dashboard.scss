@@ -254,7 +254,7 @@
 }
 
 .page-template-page-calculator-php .gform_wrapper {
-	background-color: $verylightgrey;
+	background-color: lighten($verylightgrey, 10%);
 	border: 1px solid $lightgrey;
 	padding: 30px;
 }
