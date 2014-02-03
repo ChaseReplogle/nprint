@@ -7241,11 +7241,13 @@ body .half_left {
   width: 48%;
   float: left;
   display: block;
+  clear: left;
 }
 body .half_right {
   width: 48%;
   float: right;
   display: block;
+  clear: right;
 }
 
 /* Top Bar Main Navigation Styles */

@@ -100,11 +100,13 @@ body {
 		width: 48%;
 		float: left;
 		display: block;
+		clear: left;
 	}
 
 	.half_right {
 		width: 48%;
 		float: right;
 		display: block;
+		clear: right;
 	}
 }
