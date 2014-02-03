@@ -26,7 +26,7 @@ body {
 		}
 	}
 
-	.gfield_select {
+	.gform_wrapper select {
 		padding: 12px;
 	}
 
@@ -36,5 +36,15 @@ body {
 
 	input[type="file"], input[type="checkbox"], input[type="radio"], select {
 		margin-bottom: 0px;
+	}
+
+	.gfield_description {
+		padding: 0px;
+
+		a {
+			color: $lightgrey;
+			text-decoration: underline;
+			font-size: 12px;
+		}
 	}
 }
