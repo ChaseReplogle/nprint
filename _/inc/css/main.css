@@ -7249,6 +7249,10 @@ body .gform_wrapper ul li.half_right {
   display: block;
   clear: right;
 }
+body .clear-break {
+  margin: 20px 0px 10px 0px !important;
+  border: 0px !important;
+}
 
 @media only screen and (max-width: 40em) {
   .gform_wrapper ul li.half_left {
