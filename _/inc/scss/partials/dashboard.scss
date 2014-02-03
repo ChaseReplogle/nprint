@@ -134,8 +134,8 @@
 	#field_2_29 {
 		width: 100%;
 		display: block;
-		background-color: $verylightgrey;
-		border: 1px solid $lightgrey;
+		background-color: lighten($verylightgrey, 20%);
+		border: 1px solid lighten($lightgrey, 20%);
 		margin: 45px 0px 20px 0px;
 		padding: 30px;
 
@@ -149,6 +149,7 @@
 			text-align: center;
 			width: 100%;
 			display: block;
+			color: $grey;
 		}
 
 		.ginput_product_price_label  {
