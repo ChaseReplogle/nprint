@@ -58,7 +58,7 @@ Template Name: Calculator
 
 	$(".gform_footer").appendTo("#cost");
 
-	$('#cost').stickyScroll({ container: $('.sidebar') })
+	$('.sidebar').stickyScroll({ container: $('.row-content') })
 
 </script>
 
