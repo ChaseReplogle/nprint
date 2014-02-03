@@ -67,7 +67,7 @@ Template Name: Calculator
 	$(".specs-icon").prepend('<i class="fa fa-pencil-square-o"></i>');
 
 	$( "#submit_button" ).click(function() {
-	  $( "input[type='submit']" ).trigger( "click" );
+	  $("form").submit();
 	});
 
 	$(function(){ // document ready
