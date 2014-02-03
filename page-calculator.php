@@ -58,7 +58,7 @@ Template Name: Calculator
 
 	$(".gform_footer").appendTo("#cost");
 
-	$$(document).ready(function () {
+	$(document).ready(function () {
 
 	    var length = $('.sidebar').height() - $('#cost').height() + $('.sidebar').offset().top;
 
