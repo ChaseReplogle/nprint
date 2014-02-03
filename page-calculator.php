@@ -57,6 +57,10 @@ Template Name: Calculator
 	$(".cost").prependTo("#cost-total");
 
 	$(".top").prepend('<i class="fa fa-caret-square-o-up"></i>');
+	$(".bottom").prepend('<i class="fa fa-caret-square-o-down"></i>');
+	$(".left").prepend('<i class="fa fa-caret-square-o-left"></i>');
+	$(".right").prepend('<i class="fa fa-caret-square-o-right"></i>');
+	$(".specs").prepend('<i class="fa fa-pencil-square-o"></i>');
 
 	$('.gform_button').append('<a href="/dashboard" class="support_button">Cancel</a>');
 
