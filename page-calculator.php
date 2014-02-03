@@ -58,40 +58,8 @@ Template Name: Calculator
 
 	$(".gform_footer").appendTo("#cost");
 
-	$(document).ready(function () {
+	$('#cost').stickyScroll({ container: $('.content-row') })
 
-	    var length = $('.sidebar').height() - $('#cost').height() + $('.sidebar').offset().top;
-
-	    $(window).scroll(function () {
-
-	        var scroll = $(this).scrollTop();
-	        var height = $('#cost').height() + 'px';
-
-	        if (scroll < $('.sidebar').offset().top) {
-
-	            $('#cost').css({
-	                'position': 'absolute',
-	                'top': '0'
-	            });
-
-	        } else if (scroll > length) {
-
-	            $('#cost').css({
-	                'position': 'absolute',
-	                'bottom': '0',
-	                'top': 'auto'
-	            });
-
-	        } else {
-
-	            $('#sidebar').css({
-	                'position': 'fixed',
-	                'top': '0',
-	                'height': height
-	            });
-	        }
-	    });
-	});
 </script>
 
 <div class="footer-wrapper">
