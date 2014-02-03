@@ -8757,6 +8757,7 @@ img.avatar {
   padding: 0px;
   color: #818080;
   font-size: 16px;
+  margin-top: -3px;
 }
 #cost-total #rangevalue:after {
   content: '%';
@@ -8774,7 +8775,7 @@ img.avatar {
   width: 50%;
   float: left;
   text-align: center;
-  color: #d1d1d1;
+  color: #b4b3b3;
 }
 #cost-total #field_2_30 label, #cost-total #field_2_32 label {
   color: #d1d1d1;

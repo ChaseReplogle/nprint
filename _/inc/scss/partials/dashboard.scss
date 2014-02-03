@@ -222,6 +222,7 @@
 	  padding: 0px;
 	  color: $grey;
 	  font-size: 16px;
+	  margin-top: -3px;
 
 	  &:after {
 	  	content: '%';
@@ -244,7 +245,7 @@
 		width: 50%;
 		float: left;
 		text-align: center;
-		color: $lightgrey;
+		color: lighten($grey, 20%);
 
 		label {
 			color: $lightgrey;
