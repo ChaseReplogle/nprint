@@ -8780,12 +8780,6 @@ img.avatar {
   color: #d1d1d1;
 }
 
-.page-template-page-calculator-php .gform_wrapper {
-  background-color: white;
-  border: 1px solid #d1d1d1;
-  padding: 30px;
-}
-
 @media only screen and (max-width: 40em) {
   #cost {
     width: auto !important;
