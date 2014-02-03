@@ -58,8 +58,6 @@ Template Name: Calculator
 
 	$(".cost").prependTo("#cost-total");
 
-	$(".gform_footer").appendTo("#cost");
-
 	$(function(){ // document ready
  
   if (!!$('.sidebar').offset()) { // make sure ".sticky" element exists
