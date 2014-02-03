@@ -7199,6 +7199,11 @@ body .gfield_description a {
   text-decoration: underline;
   font-size: 12px;
 }
+body .gform_wrapper span.gform_description {
+  color: #818080;
+  font-size: 13px;
+  line-height: 20px;
+}
 
 /* Top Bar Main Navigation Styles */
 [data-magellan-expedition] {
