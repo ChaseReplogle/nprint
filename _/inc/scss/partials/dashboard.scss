@@ -134,7 +134,8 @@
 	#field_2_29 {
 		width: 100%;
 		display: block;
-		background-color: lightgrey;
+		background-color: $verylightgrey;
+		border: 1px solid $lightgrey;
 		margin: 20px 0px;
 		padding: 30px;
 
