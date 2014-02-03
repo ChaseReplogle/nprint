@@ -265,9 +265,14 @@
 	}
 
 	.gform_wrapper .gform_footer {
-		margin-top: 40px;
+		margin-top: 60px;
 		padding-top: 30px;
 		border-top: 1px solid $lightgrey;
+
+		input[type=submit] {
+			width: 100%;
+			padding: 25px 0px;
+		}
 
 	}
 }
