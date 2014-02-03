@@ -101,6 +101,10 @@
 	}
 }
 
+.sidebar {
+	z-index: 9999;
+}
+
 #cost {
 	.support_button {
 		display: block;
