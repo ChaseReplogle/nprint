@@ -24,6 +24,8 @@ Template Name: Calculator
 		
 	<?php the_content(); ?>
 
+	<a href="/dashboard" class="support_button">Cancel</a>
+
 	</div>
 
 	<div class="columns medium-4 sidebar">
@@ -35,8 +37,6 @@ Template Name: Calculator
 				</div>
 				<div class="clear"></div>
 			</div>
-
-			<a href="/dashboard" class="support_button">Cancel</a>
 
 		</div>
 
