@@ -287,9 +287,9 @@
 		border: 1px solid $lightgrey;
 
 		&:hover {
-			background-color: $lightgrey;
-			color: $grey;
-			border: 1px solid $grey;
+			color: $lightgrey;
+			background-color: $verylightgrey;
+			border: 1px solid $lightgrey;
 		}
 	}
 }

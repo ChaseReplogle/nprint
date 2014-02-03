@@ -8854,9 +8854,9 @@ img.avatar {
   border: 1px solid #d1d1d1;
 }
 .page-template-page-calculator-php .support_button:hover {
-  background-color: #d1d1d1;
-  color: #818080;
-  border: 1px solid #818080;
+  color: #d1d1d1;
+  background-color: #f2f2f2;
+  border: 1px solid #d1d1d1;
 }
 
 @media only screen and (max-width: 40em) {
