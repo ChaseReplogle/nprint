@@ -248,7 +248,7 @@
 		color: lighten($grey, 20%);
 
 		label {
-			color: $lightgrey;
+			color: lighten($grey, 20%);
 		}
 	}
 
