@@ -7223,6 +7223,19 @@ body input[type=range]:focus {
 }
 body .gform_wrapper .gsection {
   margin: 60px 0px 10px 0px;
+  padding-top: 30px;
+}
+body .gform_wrapper .gsection i {
+  position: absolute;
+  top: 0px;
+  font-size: 30px;
+  color: #4f98c4;
+}
+body .gform_wrapper .gsection h2 {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  color: #4f98c4;
 }
 
 /* Top Bar Main Navigation Styles */

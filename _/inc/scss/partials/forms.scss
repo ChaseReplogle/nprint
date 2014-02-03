@@ -79,5 +79,20 @@ body {
 
 	.gform_wrapper .gsection {
 		margin: 60px 0px 10px 0px;
+		padding-top: 30px;
+
+		i {
+			position: absolute;
+			top: 0px;
+			font-size: 30px;
+			color: $mainblue;
+		}
+
+		h2 {
+			position: absolute;
+			top: 0px;
+			left: 30px;
+			color: $mainblue;
+		}
 	}
 }
