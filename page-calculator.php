@@ -37,6 +37,7 @@ Template Name: Calculator
 			</div>
 
 			<a href="#" class="support_button">Cancel</a>
+			<a href="#" class="secondary_button" id="submit_button">Cancel</a>
 		</div>
 
 	</div>
@@ -59,6 +60,12 @@ Template Name: Calculator
 	$(".cost").prependTo("#cost-total");
 
 	$(".top").prepend('<i class="fa fa-caret-square-o-up"></i>');
+
+	$(document).ready(function() { 
+	    $('#submit_button').click(function() {
+	        $('.gform_button').submit();
+	    });
+	});
 
 	$(function(){ // document ready
  
