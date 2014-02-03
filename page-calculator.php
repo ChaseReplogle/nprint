@@ -35,6 +35,9 @@ Template Name: Calculator
 				</div>
 				<div class="clear"></div>
 			</div>
+
+			<a href="#" class="secondary_button" id="submit_button">Save & Add to Cart</a>
+
 		</div>
 
 	</div>
@@ -61,6 +64,10 @@ Template Name: Calculator
 	$(".left-icon").prepend('<i class="fa fa-caret-square-o-left"></i>');
 	$(".right-icon").prepend('<i class="fa fa-caret-square-o-right"></i>');
 	$(".specs-icon").prepend('<i class="fa fa-pencil-square-o"></i>');
+
+	$( "#submit_button" ).click(function() {
+	  $( "input[type='submit']" ).trigger( "click" );
+	});
 
 	$(function(){ // document ready
  
