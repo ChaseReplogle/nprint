@@ -8670,6 +8670,7 @@ img.avatar {
   border-radius: 30px;
   box-shadow: 0px 0px 3px #3c6d59;
   transition: all 0.5s ease;
+  outline: none;
 }
 #cost-total input[type="range"]::-webkit-slider-thumb:hover {
   background-color: #457d66;
