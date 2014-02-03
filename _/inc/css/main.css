@@ -8802,7 +8802,7 @@ img.avatar {
 }
 
 .page-template-page-calculator-php input[type='submit'] {
-  display: none;
+  display: block;
 }
 
 @media only screen and (max-width: 40em) {
