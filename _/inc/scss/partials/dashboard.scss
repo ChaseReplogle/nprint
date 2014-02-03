@@ -267,6 +267,7 @@
 			margin-top: 60px;
 			padding-top: 30px;
 			border-top: 1px solid $lightgrey;
+			padding-bottom: 0px;
 
 			input[type=submit] {
 				width: 100%;
@@ -279,10 +280,17 @@
 	.support_button {
 		display: block;
 		margin: 10px 0px;
+		padding: 20px 0px;
 		text-align: center;
 		color: $lightgrey;
 		background-color: $verylightgrey;
 		border: 1px solid $lightgrey;
+
+		&:hover {
+			background-color: $lightgrey;
+			color: $grey;
+			border: 1px solid $grey;
+		}
 	}
 }
 
