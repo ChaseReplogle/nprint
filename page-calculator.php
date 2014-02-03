@@ -60,28 +60,40 @@ Template Name: Calculator
 
 	$(".gform_footer").appendTo("#cost");
 
-	$(function(){ // document ready
- 
-  if (!!$('#cost').offset()) { // make sure ".sticky" element exists
- 
-    var stickyTop = $('#cost').offset().top; // returns number 
- 
-    $(window).scroll(function(){ // scroll event
- 
-      var windowTop = $(window).scrollTop(); // returns number 
- 
-      if (stickyTop < windowTop){
-        $('#cost').css({ position: 'fixed', top: 20, width: '28%'});
-      }
-      else {
-        $('#cost').css({ position: 'static', width: 'auto'});
-      }
- 
-    });
- 
-  }
- 
-});
+	$$(document).ready(function () {
+
+	    var length = $('.medium-4').height() - $('#cost').height() + $('.medium-4').offset().top;
+
+	    $(window).scroll(function () {
+
+	        var scroll = $(this).scrollTop();
+	        var height = $('#cost').height() + 'px';
+
+	        if (scroll < $('.sidebar').offset().top) {
+
+	            $('#cost').css({
+	                'position': 'absolute',
+	                'top': '0'
+	            });
+
+	        } else if (scroll > length) {
+
+	            $('#cost').css({
+	                'position': 'absolute',
+	                'bottom': '0',
+	                'top': 'auto'
+	            });
+
+	        } else {
+
+	            $('#sidebar').css({
+	                'position': 'fixed',
+	                'top': '0',
+	                'height': height
+	            });
+	        }
+	    });
+	});
 </script>
 
 <div class="footer-wrapper">
