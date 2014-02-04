@@ -261,6 +261,16 @@
 		display: none !important;
 	}
 
+	.close-reveal-modal {
+		position: absolute;
+		top: 0px;
+		right: 10px;
+		width: 100%;
+		text-align: right;
+		margin: 0px;
+		text-decoration: none;
+	}
+
 	.f-dropdown.content {
 		padding: 0px;
 		background-color: transparent;
