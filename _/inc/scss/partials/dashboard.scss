@@ -165,41 +165,7 @@
 	  display: none;
 	}
 
-	input[type="range"] {
-	  width: 80%;
-	  float: left;
-	  z-index: 99999999;
-	}
-
-	input[type="range"]:hover {
-	  background-color: $verylightgrey;
-	}
-
-	input[type="range"]::-webkit-slider-thumb {
-	  -webkit-appearance: none !important;
-	  width: 20px;
-	  height: 20px;
-	  background-color: $lightgrey;
-	  border-radius: 30px;
-	  transition: all 0.5s ease;
-	  outline: none;
-	  display: block;
-	  position: relative;
-	  z-index: 9999999999999;
-
-	  &:focus {
-		  outline-color: transparent;
-		  outline-style: none;
-		}
-	}
-
-	input[type="range"]::-webkit-slider-thumb:hover {
-	  background-color: $lightgrey;
-	}
-
-	input[type="range"]::-webkit-slider-thumb:active {
-	  box-shadow: 0px 0px 0px $lightgrey;
-	}
+	
 
 	#rangevalue {
 	  width: 20%;
