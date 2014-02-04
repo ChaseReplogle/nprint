@@ -9049,7 +9049,7 @@ body ul.dwls_search_results li a {
 #calculator {
   width: 325px;
   height: auto;
-  margin: 100px auto;
+  margin: 0px 0px 20px 0px;
   padding: 20px 20px 9px;
   background: #9dd2ea;
   background: linear-gradient(#9dd2ea, #8bceec);
