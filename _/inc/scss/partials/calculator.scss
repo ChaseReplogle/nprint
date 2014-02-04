@@ -79,13 +79,13 @@
 
 .keys span.eval {
 	background: $mainblue;
-	box-shadow: 0px 4px darken($mainblue, 10%);
+	box-shadow: 0px 2px darken($mainblue, 10%);
 	color: white;
 }
 
 .top span.clear {
 	background: $mainorange;
-	box-shadow: 0px 4px darken($mainorange, 10%);
+	box-shadow: 0px 2px darken($mainorange, 10%);
 	color: white;
 }
 
@@ -97,13 +97,13 @@
 
 .keys span.eval:hover {
 	background: darken($mainblue, 10%);
-	box-shadow: 0px 4px darken($mainblue, 15%);
+	box-shadow: 0px 2px darken($mainblue, 15%);
 	color: #ffffff;
 }
 
 .top span.clear:hover {
 	background: darken($mainorange, 10%);
-	box-shadow: 0px 4px darken($mainorange, 15%);
+	box-shadow: 0px 2px darken($mainorange, 15%);
 	color: white;
 }
 
