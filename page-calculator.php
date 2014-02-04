@@ -102,19 +102,19 @@ Template Name: Calculator
 
 	$(function(){ // document ready
  
-  if (!!$('#cost .ginput_container').offset()) { // make sure ".sticky" element exists
+  if (!!$('#cost').offset()) { // make sure ".sticky" element exists
  
-    var stickyTop = $('#cost .ginput_container').offset().top; // returns number 
+    var stickyTop = $('#cost').offset().top; // returns number 
  
     $(window).scroll(function(){ // scroll event
  
       var windowTop = $(window).scrollTop(); // returns number 
  
       if (stickyTop < windowTop){
-        $('#cost .ginput_container').css({ position: 'fixed', top: 20, width: '28%'});
+        $('#cost').css({ position: 'fixed', top: 20, width: '28%'});
       }
       else {
-        $('#cost .ginput_container').css({ position: 'static', width: 'auto'});
+        $('#cost').css({ position: 'static', width: 'auto'});
       }
  
     });
