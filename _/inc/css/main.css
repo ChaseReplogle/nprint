@@ -8767,15 +8767,10 @@ img.avatar {
   background-color: #f2f2f2;
 }
 #cost-total input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none !important;
   width: 20px;
   height: 20px;
   background-color: #d1d1d1;
   border-radius: 30px;
-  transition: all 0.5s ease;
-  outline: none;
-  display: block;
-  position: relative;
   z-index: 9999999999999;
 }
 #cost-total input[type="range"]::-webkit-slider-thumb:focus {
