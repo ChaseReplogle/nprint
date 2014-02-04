@@ -8848,7 +8848,7 @@ img.avatar {
   margin: 0px;
   text-decoration: none;
   -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 0px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
 }
 .page-template-page-calculator-php .f-dropdown.content {
   padding: 0px;
