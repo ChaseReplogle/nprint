@@ -41,6 +41,8 @@ Template Name: Calculator
 
 			</div>
 
+			<a href="#" data-dropdown="drop2"><i class="fa fa-table"></i> Calculator</a>
+
 		</div>
 
 	</div>
@@ -98,7 +100,6 @@ Template Name: Calculator
 	$(".left-icon").prepend('<i class="fa fa-caret-square-o-left"></i>');
 	$(".right-icon").prepend('<i class="fa fa-caret-square-o-right"></i>');
 	$(".specs-icon").prepend('<i class="fa fa-pencil-square-o"></i>');
-	$(".specs-icon").prepend('<a href="#" data-dropdown="drop2"><i class="fa fa-table"></i></i></a>');
 
 	$(function(){ // document ready
  
