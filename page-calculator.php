@@ -128,7 +128,7 @@ Template Name: Calculator
 	$ = jQuery;
 
 	$("#field_2_42 select").change(function(){
-	   $("#field_2_79 option").val( this.value );
+	   $("#field_2_79 select").val( this.value );
 	});
 </script>
 
