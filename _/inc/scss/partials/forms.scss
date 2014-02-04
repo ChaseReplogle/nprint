@@ -55,6 +55,17 @@ body {
 		top: 0px;
 		z-index: 99999999999999999;
 		float: left;
+
+		i {
+			color: $lightgrey;
+		}
+
+		.f-dropdown {
+			padding: 20px;
+			text-align: left;
+			margin-left: -11px;
+			margin-top: 5px;
+		}
 	}
 
 	.gform_wrapper span.gform_description {

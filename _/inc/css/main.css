@@ -7204,6 +7204,15 @@ body .gfield_description {
   z-index: 99999999999999999;
   float: left;
 }
+body .gfield_description i {
+  color: #d1d1d1;
+}
+body .gfield_description .f-dropdown {
+  padding: 20px;
+  text-align: left;
+  margin-left: -11px;
+  margin-top: 5px;
+}
 body .gform_wrapper span.gform_description {
   color: #818080;
   font-size: 13px;
