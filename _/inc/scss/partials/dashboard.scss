@@ -258,6 +258,8 @@
 		position: fixed;
 		border: 0px;
 		background: none;
+		-webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
+		box-shadow: 0 0 0px rgba(0, 0, 0, 0);
 	}
 
 	.reveal-modal-bg {
@@ -272,8 +274,6 @@
 		text-align: right;
 		margin: 0px;
 		text-decoration: none;
-		-webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
-		box-shadow: 0 0 0px rgba(0, 0, 0, 0);
 	}
 
 	.f-dropdown.content {

@@ -8835,6 +8835,8 @@ img.avatar {
   position: fixed;
   border: 0px;
   background: none;
+  -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
 }
 .page-template-page-calculator-php .reveal-modal-bg {
   display: none !important;
@@ -8847,8 +8849,6 @@ img.avatar {
   text-align: right;
   margin: 0px;
   text-decoration: none;
-  -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
 }
 .page-template-page-calculator-php .f-dropdown.content {
   padding: 0px;
