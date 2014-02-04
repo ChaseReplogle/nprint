@@ -9113,7 +9113,7 @@ body ul.dwls_search_results li a {
   height: 40px;
   width: 212px;
   float: right;
-  padding: 20px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
@@ -9161,13 +9161,13 @@ body ul.dwls_search_results li a {
 
 .keys span.eval {
   background: #4f98c4;
-  box-shadow: 0px 4px #9da853;
+  box-shadow: 0px 4px #387ea8;
   color: #888e5f;
 }
 
 .top span.clear {
   background: #e6b279;
-  box-shadow: 0px 4px #ff7c87;
+  box-shadow: 0px 4px #de994e;
   color: white;
 }
 
@@ -9180,13 +9180,13 @@ body ul.dwls_search_results li a {
 
 .keys span.eval:hover {
   background: #387ea8;
-  box-shadow: 0px 4px #717a33;
+  box-shadow: 0px 4px #326f95;
   color: #ffffff;
 }
 
 .top span.clear:hover {
   background: #de994e;
-  box-shadow: 0px 4px #d3545d;
+  box-shadow: 0px 4px #da8d39;
   color: white;
 }
 
