@@ -29,18 +29,8 @@ Template Name: Calculator
 	</div>
 
 	<div class="columns medium-4 sidebar">
-		<div id="cost">
 
-			<div id="cost-total">
-
-				<div class="container">
-
-				</div>
-				<div class="clear"></div>
-
-			</div>
-
-			<a href="#" data-dropdown="drop2" class="support_button">Has Content Dropdown</a>
+	<a href="#" data-dropdown="drop2" class="support_button">Has Content Dropdown</a>
 				<div id="drop2" data-dropdown-content class="f-dropdown content">
 			       <div id="calculator">
 						<!-- Screen and clear key -->
@@ -70,6 +60,17 @@ Template Name: Calculator
 						</div>
 					</div>
 			    </div>
+
+		<div id="cost">
+
+			<div id="cost-total">
+
+				<div class="container">
+
+				</div>
+				<div class="clear"></div>
+
+			</div>
 
 		</div>
 
