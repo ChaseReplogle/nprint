@@ -242,10 +242,17 @@
 		float: left;
 		text-align: center;
 		color: lighten($grey, 20%);
+		border: 1px solid lightgrey;
+		padding: 20px;
+		border-top: 0px;
 
 		label {
-			color: lighten($grey, 20%);
+			color: $grey;
 		}
+	}
+
+	#field_2_32 {
+		border-left: 0px;
 	}
 
 }
