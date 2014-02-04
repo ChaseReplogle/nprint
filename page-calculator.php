@@ -111,7 +111,7 @@ Template Name: Calculator
       var windowTop = $(window).scrollTop(); // returns number 
  
       if (stickyTop < windowTop){
-        $('#cost').css({ position: 'fixed', top: 20, width: '28%'});
+        $('#cost').css({ position: 'fixed', top: 20});
       }
       else {
         $('#cost').css({ position: 'static', width: 'auto'});
@@ -122,15 +122,9 @@ Template Name: Calculator
   }
  
 });
-</script>
 
-<script>
-	$ = jQuery;
+$('#cost').width($('.sidebar').outerWidth());
 
-	$('#input_2_81').change(function(){
-   var index = $(this).find('option:selected').index();
-   $('#input_2_42 option').eq(index).prop('selected', true);
-});
 </script>
 
 <div class="footer-wrapper">
