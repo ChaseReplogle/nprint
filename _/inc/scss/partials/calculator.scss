@@ -73,7 +73,7 @@
 /* Remove right margins from operator keys */
 /* style different type of keys (operators/evaluate/clear) differently */
 .keys span.operator {
-	background: #FFF0F5;
+	background: $lightgrey;
 	margin-right: 0;
 }
 
@@ -93,7 +93,7 @@
 .keys span:hover {
 	background: $verylightgrey;
 	box-shadow: 0px 4px darken($verylightgrey, 15%);
-	color: white;
+	color: $grey;
 }
 
 .keys span.eval:hover {
