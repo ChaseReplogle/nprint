@@ -8871,7 +8871,7 @@ img.avatar {
 .page-template-page-calculator-php .gform_wrapper {
   margin: 0px;
   width: 100%;
-  max-width: 100;
+  max-width: 100%;
 }
 .page-template-page-calculator-php .gform_wrapper .support {
   background-color: transparent;
