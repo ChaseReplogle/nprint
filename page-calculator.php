@@ -30,9 +30,8 @@ Template Name: Calculator
 
 	<div class="columns medium-4 sidebar">
 
-		<h2>Cost and Markup</h2>
-
 		<div id="cost">
+			<h3>Cost and Markup</h3>
 
 			<div id="cost-total">
 
