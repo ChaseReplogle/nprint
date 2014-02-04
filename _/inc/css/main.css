@@ -7194,6 +7194,8 @@ body .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
 }
 body .gfield_description {
   padding: 0px;
+  font-size: 12px;
+  color: #d1d1d1;
 }
 body .gfield_description a {
   color: #d1d1d1;
