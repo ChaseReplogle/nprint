@@ -30,7 +30,7 @@ Template Name: Calculator
 
 	<div class="columns medium-4 sidebar">
 		<div id="cost">
-			<dl>
+			<dl class="accordion" data-accordion>
 				<dd>
 			    <a href="#panel3">Calculator</a>
 			    <div id="panel3" class="content">
