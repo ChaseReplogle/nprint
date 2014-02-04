@@ -57,9 +57,9 @@ Template Name: Calculator
 <div  id="myModal" class="reveal-modal calculator-modal" data-reveal>
    <div id="calculator">
 		<!-- Screen and clear key -->
-		<div class="top">
-			 <a class="close-reveal-modal">&#215;</a>
+		<a class="close-reveal-modal">&#215;</a>
 			 <div class="clear"></div>
+		<div class="top">
 			<span class="clear">C</span>
 			<div class="screen"></div>
 		</div>
