@@ -107,6 +107,13 @@
 
 #cost {
 	-webkit-transform: translateZ(0)
+
+	h3 {
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 18px;
+		color: $mainblue;
+	}
 }
 
 #cost-total {
