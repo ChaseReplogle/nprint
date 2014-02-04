@@ -8708,6 +8708,10 @@ img.avatar {
   z-index: 9999;
 }
 
+#cost {
+  -webkit-transform: translateZ(0);
+}
+
 #cost-total {
   background-color: #fff;
   border: 1px solid #d1d1d1;
