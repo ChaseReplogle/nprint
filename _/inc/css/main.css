@@ -7192,6 +7192,9 @@ body .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
   margin-left: 5px;
   margin-right: 12px;
 }
+body .gfield {
+  margin-bottom: 8px;
+}
 body .gfield_description {
   padding: 0px;
   font-size: 12px;
