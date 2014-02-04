@@ -124,6 +124,14 @@ Template Name: Calculator
 });
 </script>
 
+<script>
+	$ = jQuery;
+
+	$("#field_2_42 input").change(function(){
+	   $("#field_2_79 input").val( this.value );
+	});
+</script>
+
 <div class="footer-wrapper">
 
 
