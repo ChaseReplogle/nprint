@@ -8821,6 +8821,13 @@ img.avatar {
   color: #b4b3b3;
 }
 
+.page-template-page-calculator-php .f-dropdown.content {
+  padding: 0px;
+  background-color: transparent;
+  border: 0px;
+  background: transparent;
+  background: none;
+}
 .page-template-page-calculator-php input[type='submit'] {
   display: block;
 }

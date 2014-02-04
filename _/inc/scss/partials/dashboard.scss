@@ -244,6 +244,14 @@
 
 .page-template-page-calculator-php {
 
+	.f-dropdown.content {
+		padding: 0px;
+		background-color: transparent;
+		border: 0px;
+		background: transparent;
+		background: none;
+	}
+
 	input[type='submit'] {
 		display: block;
 	}
