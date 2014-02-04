@@ -43,7 +43,7 @@ Template Name: Calculator
 
 			</div>
 
-			<a href="#" data-reveal-id="myModal" data-reveal><i class="fa fa-table"></i> Calculator</a>
+			<a href="#" data-reveal-id="myModal" data-reveal class="calculator-link"><i class="fa fa-table"></i> Calculator</a>
 
 		</div>
 
@@ -54,7 +54,7 @@ Template Name: Calculator
 </div>
 
 
-<div  id="myModal" class="reveal-modal" data-reveal>
+<div  id="myModal" class="reveal-modal calculator-modal" data-reveal>
    <div id="calculator">
 		<!-- Screen and clear key -->
 		<div class="top">
