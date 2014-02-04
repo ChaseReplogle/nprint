@@ -125,7 +125,7 @@ Template Name: Calculator
  
 });
 
-$('#cost').width($('.sidebar').outerWidth());
+$('#cost').width($('.sidebar span').outerWidth());
 
 </script>
 
