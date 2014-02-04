@@ -127,9 +127,11 @@ Template Name: Calculator
 <script>
 	$ = jQuery;
 
-	$("#input_2_42").change(function(){
-	   $("#input_2_79").val( this.value );
-	});
+	$(function() {
+    	$("#input_2_42").change(function() {
+       		 $("#input_2_79")[0].selectedIndex = $(this)[0].selectedIndex;
+    });
+});​
 </script>
 
 <div class="footer-wrapper">
