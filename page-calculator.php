@@ -30,37 +30,6 @@ Template Name: Calculator
 
 	<div class="columns medium-4 sidebar">
 
-	<a href="#" data-dropdown="drop2" class="support_button">Has Content Dropdown</a>
-				<div id="drop2" data-dropdown-content class="f-dropdown content">
-			       <div id="calculator">
-						<!-- Screen and clear key -->
-						<div class="top">
-							<span class="clear">C</span>
-							<div class="screen"></div>
-						</div>
-						
-						<div class="keys">
-							<!-- operators and other keys -->
-							<span>7</span>
-							<span>8</span>
-							<span>9</span>
-							<span class="operator">+</span>
-							<span>4</span>
-							<span>5</span>
-							<span>6</span>
-							<span class="operator">-</span>
-							<span>1</span>
-							<span>2</span>
-							<span>3</span>
-							<span class="operator">÷</span>
-							<span>0</span>
-							<span>.</span>
-							<span class="eval">=</span>
-							<span class="operator">x</span>
-						</div>
-					</div>
-			    </div>
-
 		<div id="cost">
 
 			<div id="cost-total">
@@ -78,6 +47,37 @@ Template Name: Calculator
 
 	<hr>
 
+</div>
+
+
+<div id="drop2" data-dropdown-content class="f-dropdown content">
+   <div id="calculator">
+		<!-- Screen and clear key -->
+		<div class="top">
+			<span class="clear">C</span>
+			<div class="screen"></div>
+		</div>
+		
+		<div class="keys">
+			<!-- operators and other keys -->
+			<span>7</span>
+			<span>8</span>
+			<span>9</span>
+			<span class="operator">+</span>
+			<span>4</span>
+			<span>5</span>
+			<span>6</span>
+			<span class="operator">-</span>
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span class="operator">÷</span>
+			<span>0</span>
+			<span>.</span>
+			<span class="eval">=</span>
+			<span class="operator">x</span>
+		</div>
+	</div>
 </div>
 
 <?php endwhile; endif; ?>
@@ -98,6 +98,7 @@ Template Name: Calculator
 	$(".left-icon").prepend('<i class="fa fa-caret-square-o-left"></i>');
 	$(".right-icon").prepend('<i class="fa fa-caret-square-o-right"></i>');
 	$(".specs-icon").prepend('<i class="fa fa-pencil-square-o"></i>');
+	$(".specs-icon").prepend('<a href="#" data-dropdown="drop2" class="support_button"><i class="fa fa-table"></i></i></a>');
 
 	$(function(){ // document ready
  
