@@ -114,7 +114,7 @@ Template Name: Calculator
         $('#cost').css({ position: 'fixed', top: 20, width: '28%'});
       }
       else {
-        $('#cost').css({ position: 'static', width: '28%'});
+        $('#cost').css({ position: 'static', width: 'auto'});
       }
  
     });
