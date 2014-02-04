@@ -31,6 +31,15 @@ Template Name: Calculator
 	<div class="columns medium-4 sidebar">
 		<div id="cost">
 
+			<div id="cost-total">
+
+				<div class="container">
+
+				</div>
+				<div class="clear"></div>
+
+			</div>
+
 			<a href="#" data-dropdown="drop2">Has Content Dropdown</a>
 				<div id="drop2" data-dropdown-content class="f-dropdown content">
 			       <div id="calculator">
@@ -61,15 +70,6 @@ Template Name: Calculator
 						</div>
 					</div>
 			    </div>
-			  </div>
-
-			<div id="cost-total">
-
-				<div class="container">
-
-				</div>
-				<div class="clear"></div>
-			</div>
 
 		</div>
 
