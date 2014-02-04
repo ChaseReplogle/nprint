@@ -36,11 +36,7 @@ Template Name: Calculator
 
 			<div id="cost-total">
 
-				<div class="container">
-
-				</div>
-				<div class="clear"></div>
-
+				
 			</div>
 
 			<a href="#" data-reveal-id="myModal" data-reveal class="calculator-link"><i class="fa fa-table"></i> Calculator</a>
@@ -107,19 +103,19 @@ Template Name: Calculator
 
 	$(function(){ // document ready
  
-  if (!!$('#cost-total').offset()) { // make sure ".sticky" element exists
+  if (!!$('#cost').offset()) { // make sure ".sticky" element exists
  
-    var stickyTop = $('#cost-total').offset().top; // returns number 
+    var stickyTop = $('#cost').offset().top; // returns number 
  
     $(window).scroll(function(){ // scroll event
  
       var windowTop = $(window).scrollTop(); // returns number 
  
       if (stickyTop < windowTop){
-        $('#cost-total').css({ position: 'fixed', top: 20, width: '28%'});
+        $('#cost').css({ position: 'fixed', top: 20, width: '28%'});
       }
       else {
-        $('#cost-total').css({ position: 'static', width: 'auto'});
+        $('#cost').css({ position: 'static', width: 'auto'});
       }
  
     });
