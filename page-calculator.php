@@ -37,7 +37,7 @@ Template Name: Calculator
 
 			<div id="cost-total">
 
-				<div class="clear"></div>
+				<div class="clear" style="widht: 100%: display: block;"></div>
 			</div>
 
 			<a href="#" data-reveal-id="myModal" data-reveal class="calculator-link"><i class="fa fa-table"></i> Calculator</a>
@@ -116,7 +116,7 @@ Template Name: Calculator
         $('#cost').css({ position: 'fixed', top: 20});
       }
       else {
-        $('#cost').css({ position: 'static', width: 'auto'});
+        $('#cost').css({ position: 'static',});
       }
  
     });
