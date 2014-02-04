@@ -29,39 +29,36 @@ Template Name: Calculator
 	</div>
 
 	<div class="columns medium-4 sidebar">
-		<div id="cost">
-			<div id="calculator">
-				<!-- Screen and clear key -->
-				<div class="top">
-					<span class="clear">C</span>
-					<div class="screen"></div>
-				</div>
-				
-				<div class="keys">
-					<!-- operators and other keys -->
-					<span>7</span>
-					<span>8</span>
-					<span>9</span>
-					<span class="operator">+</span>
-					<span>4</span>
-					<span>5</span>
-					<span>6</span>
-					<span class="operator">-</span>
-					<span>1</span>
-					<span>2</span>
-					<span>3</span>
-					<span class="operator">÷</span>
-					<span>0</span>
-					<span>.</span>
-					<span class="eval">=</span>
-					<span class="operator">x</span>
-				</div>
+		<div id="calculator">
+			<!-- Screen and clear key -->
+			<div class="top">
+				<span class="clear">C</span>
+				<div class="screen"></div>
 			</div>
+			
+			<div class="keys">
+				<!-- operators and other keys -->
+				<span>7</span>
+				<span>8</span>
+				<span>9</span>
+				<span class="operator">+</span>
+				<span>4</span>
+				<span>5</span>
+				<span>6</span>
+				<span class="operator">-</span>
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+				<span class="operator">÷</span>
+				<span>0</span>
+				<span>.</span>
+				<span class="eval">=</span>
+				<span class="operator">x</span>
+			</div>
+		</div>
 
+		<div id="cost">
 
-
-
-		
 			<div id="cost-total">
 
 				<div class="container">
@@ -69,10 +66,6 @@ Template Name: Calculator
 				</div>
 				<div class="clear"></div>
 			</div>
-
-
-			
-
 		</div>
 
 	</div>
