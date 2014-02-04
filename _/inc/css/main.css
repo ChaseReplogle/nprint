@@ -8775,6 +8775,8 @@ img.avatar {
   transition: all 0.5s ease;
   outline: none;
   display: block;
+  position: relative;
+  z-index: 9999999999999;
 }
 #cost-total input[type="range"]::-webkit-slider-thumb:focus {
   outline-color: transparent;
