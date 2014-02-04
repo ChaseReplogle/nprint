@@ -8833,6 +8833,9 @@ img.avatar {
   height: 270px;
   position: fixed;
 }
+.page-template-page-calculator-php .reveal-modal-bg {
+  display: none;
+}
 .page-template-page-calculator-php .f-dropdown.content {
   padding: 0px;
   background-color: transparent;
