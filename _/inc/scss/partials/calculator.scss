@@ -78,13 +78,13 @@
 }
 
 .keys span.eval {
-	background: #f1ff92;
+	background: $mainblue;
 	box-shadow: 0px 4px #9da853;
 	color: #888e5f;
 }
 
 .top span.clear {
-	background: #ff9fa8;
+	background: $mainorange;
 	box-shadow: 0px 4px #ff7c87;
 	color: white;
 }
@@ -97,13 +97,13 @@
 }
 
 .keys span.eval:hover {
-	background: #abb850;
+	background: darken($mainblue, 10%);
 	box-shadow: 0px 4px #717a33;
 	color: #ffffff;
 }
 
 .top span.clear:hover {
-	background: #f68991;
+	background: darken($mainorange, 10%);
 	box-shadow: 0px 4px #d3545d;
 	color: white;
 }
