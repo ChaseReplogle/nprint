@@ -49,7 +49,37 @@ Template Name: Calculator
 </div>
 
 
-
+<div  id="myModal" class="reveal-modal calculator-modal" data-reveal>
+   <div id="calculator">
+		<!-- Screen and clear key -->
+		<a class="close-reveal-modal">&#215;</a>
+			 <div class="clear"></div>
+		<div class="top">
+			<span class="clear">C</span>
+			<div class="screen"></div>
+		</div>
+		
+		<div class="keys">
+			<!-- operators and other keys -->
+			<span>7</span>
+			<span>8</span>
+			<span>9</span>
+			<span class="operator">+</span>
+			<span>4</span>
+			<span>5</span>
+			<span>6</span>
+			<span class="operator">-</span>
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span class="operator">÷</span>
+			<span>0</span>
+			<span>.</span>
+			<span class="eval">=</span>
+			<span class="operator">x</span>
+		</div>
+	</div>
+</div>
 
 <?php endwhile; endif; ?>
 
@@ -72,19 +102,19 @@ Template Name: Calculator
 
 	$(function(){ // document ready
  
-  if (!!$('#cost').offset()) { // make sure ".sticky" element exists
+  if (!!$('#cost-total').offset()) { // make sure ".sticky" element exists
  
-    var stickyTop = $('#cost').offset().top; // returns number 
+    var stickyTop = $('#cost-total').offset().top; // returns number 
  
     $(window).scroll(function(){ // scroll event
  
       var windowTop = $(window).scrollTop(); // returns number 
  
       if (stickyTop < windowTop){
-        $('#cost').css({ position: 'fixed', top: 20, width: '28%'});
+        $('#cost-total').css({ position: 'fixed', top: 20, width: '28%'});
       }
       else {
-        $('#cost').css({ position: 'static', width: 'auto'});
+        $('#cost-total').css({ position: 'static', width: 'auto'});
       }
  
     });
