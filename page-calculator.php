@@ -30,10 +30,9 @@ Template Name: Calculator
 
 	<div class="columns medium-4 sidebar">
 		<div id="cost">
-			<dl class="accordion" data-accordion>
-				<dd>
-			    <a href="#panel3">Calculator</a>
-			    <div id="panel3" class="content">
+
+			<a href="#" data-dropdown="drop2">Has Content Dropdown</a>
+				<div id="drop2" data-dropdown-content class="f-dropdown content">
 			       <div id="calculator">
 						<!-- Screen and clear key -->
 						<div class="top">
@@ -62,8 +61,7 @@ Template Name: Calculator
 						</div>
 					</div>
 			    </div>
-			  </dd>
-			</dl>
+			  </div>
 
 			<div id="cost-total">
 
