@@ -36,7 +36,7 @@ Template Name: Calculator
 
 			<div id="cost-total">
 
-				
+				<div class="clear"></div>
 			</div>
 
 			<a href="#" data-reveal-id="myModal" data-reveal class="calculator-link"><i class="fa fa-table"></i> Calculator</a>
