@@ -33,10 +33,10 @@ Template Name: Calculator
 		<div id="cost">
 			<h3>Cost and Markup</h3>
 
-			<div id="cost-total">
+			<span id="cost-total">
 
-				<div class="clear"></div>
-			</div>
+				<span class="clear"></span>
+			</span>
 
 			<a href="#" data-reveal-id="myModal" data-reveal class="calculator-link"><i class="fa fa-table"></i> Calculator</a>
 
