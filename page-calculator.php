@@ -30,15 +30,6 @@ Template Name: Calculator
 
 	<div class="columns medium-4 sidebar">
 		<div id="cost">
-			<div id="cost-total">
-
-				<div class="container">
-
-				</div>
-				<div class="clear"></div>
-			</div>
-			
-
 			<div id="calculator">
 				<!-- Screen and clear key -->
 				<div class="top">
@@ -67,6 +58,21 @@ Template Name: Calculator
 				</div>
 			</div>
 
+
+
+
+		
+			<div id="cost-total">
+
+				<div class="container">
+
+				</div>
+				<div class="clear"></div>
+			</div>
+
+
+			
+
 		</div>
 
 	</div>
@@ -94,7 +100,28 @@ Template Name: Calculator
 	$(".right-icon").prepend('<i class="fa fa-caret-square-o-right"></i>');
 	$(".specs-icon").prepend('<i class="fa fa-pencil-square-o"></i>');
 
-	
+	$(function(){ // document ready
+ 
+  if (!!$('#cost').offset()) { // make sure ".sticky" element exists
+ 
+    var stickyTop = $('#cost').offset().top; // returns number 
+ 
+    $(window).scroll(function(){ // scroll event
+ 
+      var windowTop = $(window).scrollTop(); // returns number 
+ 
+      if (stickyTop < windowTop){
+        $('#cost').css({ position: 'fixed', top: 20, width: '28%'});
+      }
+      else {
+        $('#cost').css({ position: 'static', width: 'auto'});
+      }
+ 
+    });
+ 
+  }
+ 
+});
 </script>
 
 <div class="footer-wrapper">
