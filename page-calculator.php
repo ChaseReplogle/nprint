@@ -30,14 +30,14 @@ Template Name: Calculator
 
 	<div class="columns medium-4 sidebar">
 
-		<span>width fix</span>
+		<span style="widht: 100%: display: block;">width fix</span>
 
 		<div id="cost">
 			<h3>Cost and Markup</h3>
 
 			<div id="cost-total">
 
-				<div class="clear" style="widht: 100%: display: block;"></div>
+				<div class="clear"></div>
 			</div>
 
 			<a href="#" data-reveal-id="myModal" data-reveal class="calculator-link"><i class="fa fa-table"></i> Calculator</a>
