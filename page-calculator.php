@@ -127,9 +127,9 @@ Template Name: Calculator
 <script>
 	$ = jQuery;
 
-	$('#input_2_42').change(function(){
+	$('#input_2_81').change(function(){
    var index = $(this).find('option:selected').index();
-   $('#input_2_79 option').eq(index).prop('selected', true);
+   $('#input_2_42 option').eq(index).prop('selected', true);
 });
 </script>
 
