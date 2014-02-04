@@ -252,6 +252,17 @@
 		background: none;
 	}
 
+	.calculator-link {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 20px 0px;
+		border: 1px solid $lightgrey;
+		margin-top: 20px;
+		background-color: $verylightgrey;
+		color: $grey;
+	}
+
 	input[type='submit'] {
 		display: block;
 	}

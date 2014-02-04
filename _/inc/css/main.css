@@ -8828,6 +8828,16 @@ img.avatar {
   background: transparent;
   background: none;
 }
+.page-template-page-calculator-php .calculator-link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+  border: 1px solid #d1d1d1;
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  color: #818080;
+}
 .page-template-page-calculator-php input[type='submit'] {
   display: block;
 }

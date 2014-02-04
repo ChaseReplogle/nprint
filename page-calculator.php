@@ -30,6 +30,8 @@ Template Name: Calculator
 
 	<div class="columns medium-4 sidebar">
 
+		<h2></h2>
+
 		<div id="cost">
 
 			<div id="cost-total">
@@ -41,7 +43,7 @@ Template Name: Calculator
 
 			</div>
 
-			<a href="#" data-dropdown="drop2"><i class="fa fa-table"></i> Calculator</a>
+			<a href="#" data-dropdown="drop2" class="calculator-link"><i class="fa fa-table"></i> Calculator</a>
 
 		</div>
 
