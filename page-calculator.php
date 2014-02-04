@@ -40,7 +40,7 @@ Template Name: Calculator
 
 			</div>
 
-			<a href="#" data-dropdown="drop2">Has Content Dropdown</a>
+			<a href="#" data-dropdown="drop2" class="support_button">Has Content Dropdown</a>
 				<div id="drop2" data-dropdown-content class="f-dropdown content">
 			       <div id="calculator">
 						<!-- Screen and clear key -->
