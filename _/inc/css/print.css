@@ -94,5 +94,11 @@ input {
 }
 
 .gform_wrapper ul li.gfield {
-	
+	border-bottom: 1px dotted rgb(194, 194, 194);
+	margin: 0px;
+	padding: 0px;
+}
+
+.field_admin_only {
+	display: none;
 }
