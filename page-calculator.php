@@ -22,33 +22,45 @@ Template Name: Calculator
 
 	<div class="columns medium-8 page-main-content">
 
-	<div class="for-print title">
-		<h2>Project Quote</h2>
+	<div class="for-print quote-info">
+
+		<div class="for-print title">
+			<h2>Project Quote</h2>
+		</div>
+
+		<div class="for-print date">
+			<h3><?php echo date_i18n('j F Y', time()); ?></h3>
+		</div>
+
+		<div class="for-print date">
+			<form id="client">
+			  <div>
+			  	<label for="quote-num">Quote Number:</label>
+			    <input type="number" name="quote-num" id="quote-num" value="000001" tabindex="1">
+			  </div>
+			</form>
+		</div>
+
+		<div class="for-print client">
+			<form id="client">
+			  <div>
+			    <input type="text" name="name" id="name" value="Client's Name" tabindex="1">
+			  </div>
+			  <div>
+			    <input type="text" name="address" id="address" value="Street Address" tabindex="1">
+			    <input type="text" name="city" id="city" value="City, State, Zip Code" tabindex="1">
+			  </div>
+			</form>
+		</div>
 	</div>
 
-	<div class="for-print date">
-		<h3><?php echo date_i18n('j F Y', time()); ?></h3>
-	</div>
-
-	<div class="for-print date">
-		<form id="client">
-		  <div>
-		  	<label for="quote-num">Quote Number:</label>
-		    <input type="number" name="quote-num" id="quote-num" value="000001" tabindex="1">
-		  </div>
-		</form>
-	</div>
-
-	<div class="for-print client">
-		<form id="client">
-		  <div>
-		    <input type="text" name="name" id="name" value="Client's Name" tabindex="1">
-		  </div>
-		  <div>
-		    <input type="text" name="address" id="address" value="Street Address" tabindex="1">
-		    <input type="text" name="city" id="city" value="City, State, Zip Code" tabindex="1">
-		  </div>
-		</form>
+	<div class="for-print company-info">
+		<i class="fa fa-print"></i>
+		<h3>My Printing Company</h3>
+		<p>2023 S Saratoga Ave</p>
+		<p>Springfield, MO 65804</p>
+		<p>(573) 680-7902</p>
+		<p>support@myprintingcompany.com</p>
 	</div>
 		
 	<?php the_content(); ?>
