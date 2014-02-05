@@ -39,7 +39,7 @@ body {
 }
 
 select {
-	width: 125%;
+	width: 125% !important;
    background: transparent;
    font-size: 16px;
    line-height: 1;
