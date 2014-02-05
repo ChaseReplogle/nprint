@@ -118,5 +118,5 @@ input {
 }
 
 .gform_wrapper ul li.markup, .gform_wrapper ul li.your-cost, .gform_wrapper ul li.cost-mark-up, .gform_wrapper ul li.hidden, .gform_wrapper ul li.retail{
-	display: none;
+	font-size: 0px;
 }
