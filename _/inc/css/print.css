@@ -71,6 +71,10 @@ hr {
 	padding-bottom: 10px;
 }
 
+#name {
+	font-weight: bold;
+}
+
 h2, h3 {
 	margin: 0px;
 }
@@ -216,7 +220,7 @@ input {
 	font-weight: bold;
 }
 
-.ginput_product_price {
+.retail .ginput_product_price {
 	text-align: right;
 	font-size: 20px;
 }
