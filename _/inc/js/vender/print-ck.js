@@ -1,1 +1,1 @@
-var vars=[],hash,q=document.URL.split("?")[1];if(q!==undefined){q=q.split("&");for(var i=0;i<q.length;i++){hash=q[i].split("=");vars.push(hash[1]);vars[hash[0]]=hash[1]}}var style=vars.style;alert(style);(vars.style="print")?$("#main-css").remove():$("#print-css").remove();
+function GetURLParameter(e){var t=window.location.search.substring(1),n=t.split("&");for(var r=0;r<n.length;r++){var i=n[r].split("=");if(i[0]==e)return i[1]}}var style=GetURLParameter("style");if(style="print"){alert(style);$("#main-css").remove()}else $("#print-css").remove();

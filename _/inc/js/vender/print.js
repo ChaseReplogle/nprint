@@ -1,20 +1,22 @@
-var vars = [], hash;
-    var q = document.URL.split('?')[1];
-    if(q !== undefined){
-        q = q.split('&');
-        for(var i = 0; i < q.length; i++){
-            hash = q[i].split('=');
-            vars.push(hash[1]);
-            vars[hash[0]] = hash[1];
+function GetURLParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
         }
-}
+    }
+}​
 
-// Will alert the value of parameter a
-var style = vars['style'];
+var style = GetURLParameter('style');
+
+
+if(style = 'print') {
   alert(style);
-
-if(vars['style'] = 'print') {
-
   $("#main-css").remove();
 }
 else {
