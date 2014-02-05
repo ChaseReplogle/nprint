@@ -69,6 +69,36 @@
   $(document).foundation();
 </script>
 
+<script>
+
+	$ = jQuery;
+
+	$.urlParam = function(name){
+	    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+	    if (results===null){
+	       return null;
+	    }
+	    else{
+	       return results[1] || 0;
+	    }
+	};
+
+	$.urlParam('style');
+
+	var style = $.urlParam('style');
+	  
+
+	if (style==="print")
+	  	{
+	  	  jQuery('#main-css').remove();
+	  	}
+	else
+  		{
+		jQuery('#print-css').remove();
+		jQuery('.for-print').remove();
+	}
+</script>
+
 
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/imagesloaded.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
