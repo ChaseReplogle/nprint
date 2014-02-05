@@ -58,6 +58,11 @@ hr {
 .company-info {
 	width: 55%;
 	float: right;
+	text-align: right;
+}
+
+.company-info p {
+	margin: 0px;
 }
 
 
