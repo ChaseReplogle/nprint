@@ -169,7 +169,9 @@ Template Name: Calculator
 			$('.percent').after('<output class="cost" id="rangevalue">0</output>');
 			$('.percent').after('<div class="clear"></div>');
 			var rangevalue = $('#rangevalue').text();
-			alert(rangevalue);
+			$(rangevalue).change(function() {
+  				alert(rangevalue);
+			});
 
 			$(".cost").prependTo("#cost-total");
 
