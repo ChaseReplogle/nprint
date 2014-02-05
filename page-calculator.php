@@ -168,8 +168,8 @@ Template Name: Calculator
 			$('.percent input').attr('onchange', 'rangevalue.value=value');
 			$('.percent').after('<output class="cost" id="rangevalue">0</output>');
 			$('.percent').after('<div class="clear"></div>');
-			$ var rangevalue = '#rangevalue'.text;
-			$('.percent input').attr('value', rangevalue);
+			var rangevalue = $('#rangevalue').text();
+			alert(rangevalue);
 
 			$(".cost").prependTo("#cost-total");
 
