@@ -55,7 +55,7 @@ Template Name: Dashboard
 			<li>
 				<a href="#" class="quote-title"><?php the_title(); ?></a>
 				<span class="quote-actions">
-					<a href="/?gform_post_id=<?php $postid ?>" class="quote-edit">Edit</a> |
+					<a href="/?gform_post_id=<?php ehco $postid; ?>" class="quote-edit">Edit</a> |
 					<a href="#" class="quote-print">Print</a> |
 					<a href="#" class="quote-delete">Delete</a>
 					<a href="#" class="quote-cart secondary_button">Add to Cart</a>
