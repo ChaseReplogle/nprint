@@ -1,7 +1,7 @@
 
 $.urlParam = function(name){
     var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
-    if (results==null){
+    if (results===null){
        return null;
     }
     else{
@@ -14,11 +14,11 @@ $.urlParam('style');
 var style = $.urlParam('style');
   
 
-if (style=="print")
+if (style==="print")
   {
-    alert(style);
+    jQuery('#main-css').remove();
   }
 else
   {
-    alert('nothing');
+    jQuery('#print-css').remove();
   }
