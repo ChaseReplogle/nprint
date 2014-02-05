@@ -65,6 +65,15 @@ Template Name: Calculator
 		
 	<?php the_content(); ?>
 
+	<div class="for-print notes">
+		<form id="client">
+		  <div>
+		    <label for="textarea">Message:</label>
+		    <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+		  </div>
+		</form>
+	</div>
+
 	<a href="/dashboard" class="support_button">Cancel</a>
 
 	</div>
