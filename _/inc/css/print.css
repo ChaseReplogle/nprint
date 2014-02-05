@@ -126,3 +126,7 @@ input {
 	color: #fff;
 	border: 0px;
 }
+
+.gform_wrapper ul li.percent input {
+	display: none;
+}
