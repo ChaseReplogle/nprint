@@ -111,6 +111,9 @@
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/print.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/functions.js"></script>
 
+
+<link rel="stylesheet" id="print-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/print.css" />
+
 <!-- Asynchronous google analytics; this is the official snippet.
 	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
 	 
