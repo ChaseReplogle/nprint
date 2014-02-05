@@ -171,8 +171,8 @@ Template Name: Calculator
 
 			$('.percent input').attr('value', '50');
 
-			$("#rangevalue").text.change(function() { 
-				alert($(this).val());  
+			$("#rangevalue").text().change(function() { 
+				alert($(this));  
 			}); 
 
 			$(".cost").prependTo("#cost-total");
