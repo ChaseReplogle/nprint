@@ -61,7 +61,7 @@ Template Name: Dashboard
 					<a href="#" data-dropdown="delete" class="quote-delete">Delete</a>
 						<div id="delete" class="f-dropdown" data-dropdown-content>
 							<p>You are about to delete this quote. You won't be able to undo this action.</p>
-							<?php if ($post->post_author == $current_user->ID) { ?><p><a onclick="return confirm('Are you SURE you want to delete this Wish?')" href="<?php echo get_delete_post_link( $post->ID ) ?>">Confirm Delete</a></p><?php } ?>
+							<?php if ($post->post_author == $current_user->ID) { ?><p><a href="<?php echo get_delete_post_link( $post->ID ) ?>">Confirm Delete</a></p><?php } ?>
 						</div>
 					<a href="#" class="quote-cart secondary_button">Add to Cart</a>
 				</span>
