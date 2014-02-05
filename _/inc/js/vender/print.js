@@ -14,7 +14,7 @@ $.urlParam('style');
 var style = $.urlParam('style');
   
 
-if (style="print")
+if (style=="print")
   {
     alert(style);
   }
