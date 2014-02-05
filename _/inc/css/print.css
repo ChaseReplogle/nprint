@@ -138,14 +138,19 @@ input {
 .gform_wrapper ul li.retail .ginput_container {
 	width: 100%;
 	float: left;
+	border-top: 2px solid #fff;
 }
 
 .ginput_product_price_label {
 	float: left; 
 	width: 40%;
+	font-weight: bold;
+	font-size: 15px;
 }
 
 .ginput_product_price {
 	float: right;
 	width: 60%;
+	font-size: 15px;
+	color: #000;
 }
