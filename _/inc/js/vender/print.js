@@ -17,6 +17,7 @@ var style = $.urlParam('style');
 if (style==="print")
   {
     jQuery('#main-css').remove();
+    jQuery('#calc-js').remove();
   }
 else
   {
