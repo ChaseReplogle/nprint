@@ -90,16 +90,17 @@
 
 	if (style==="print")
 	  	{
-	  	  
-	
+	  	  jQuery('#main-css').remove();
 	  	}
 	else
   		{
+		jQuery('#print-css').remove();
 		jQuery('.for-print').remove();
 	}
 </script>
 
 
+<link rel="stylesheet" id="print-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/print.css" />
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/imagesloaded.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/video.js"></script>
