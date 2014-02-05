@@ -83,6 +83,10 @@ input {
 	float: right;
 }
 
+.gform_heading {
+	display: none;
+}
+
 .gform_wrapper .top_label .gfield_label {
 	margin: 0px !important;
 	padding: 3px 0px;
