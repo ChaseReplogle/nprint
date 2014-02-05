@@ -38,8 +38,10 @@ Template Name: Dashboard
 
 		<ul>
 
+		<?php $user_ID = get_current_user_id(); ?> 
+
 		<?php $args = array(
-			
+			'author' 	 => $user_ID,
 			'post_type'  => 'quotes',
 			'orderby' 	 => 'date',
 			'order'      => 'ASC'
@@ -48,12 +50,12 @@ Template Name: Dashboard
 		query_posts( $args ); ?>
 
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
+			 <?php $postid = get_the_ID(); ?> 
 
 			<li>
 				<a href="#" class="quote-title"><?php the_title(); ?></a>
 				<span class="quote-actions">
-					<a href="#" class="quote-edit">Edit</a> |
+					<a href="/?gform_post_id=<?php $postid ?>" class="quote-edit">Edit</a> |
 					<a href="#" class="quote-print">Print</a> |
 					<a href="#" class="quote-delete">Delete</a>
 					<a href="#" class="quote-cart secondary_button">Add to Cart</a>
