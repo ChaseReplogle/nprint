@@ -39,14 +39,7 @@ Template Name: Dashboard
 
 		<ul>
 
-
-		<?php $args = array(
-			
-			'post_type'  => 'quotes',
-			'orderby' 	 => 'date',
-			'order'      => 'ASC'
-		);
-		query_posts( $args ); ?>
+		<?php query_posts('post_type=quotes'); ?>
 
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
