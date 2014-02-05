@@ -171,8 +171,6 @@ Template Name: Calculator
 
 			$('#rangevalue').text().change(function() {
   				var input = $(this);
-  				$('.percent input').attr('max', input);
-
   				alert(input);
 			});
 
