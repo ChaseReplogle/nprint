@@ -131,7 +131,7 @@ input {
 	display: none;
 }
 
-.gform_wrapper ul li.retail label {
+.gform_wrapper ul li.retail label.gfield_label {
 	display: none;
 }
 
