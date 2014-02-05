@@ -10,7 +10,7 @@ var vars = [], hash;
 }
 
 // Will alert the value of parameter a
-if(['style'] = 'print') {
+if(vars['style'] = 'print') {
   alert('This is a print style.');
   $("#main-css").remove();
 }
