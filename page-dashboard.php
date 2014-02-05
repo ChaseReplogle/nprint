@@ -44,7 +44,7 @@ Template Name: Dashboard
 			'author' 	 => $user_ID,
 			'post_type'  => 'quotes',
 			'orderby' 	 => 'date',
-			'order'      => 'ASC'
+			'order'      => 'DESC'
 		);
 
 		query_posts( $args ); ?>
