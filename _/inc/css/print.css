@@ -106,6 +106,23 @@ h3 {
 	width: auto;
 }
 
+#notes label {
+	width: 100%;
+	display: block;
+}
+
+#notes textarea {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
 
 
 

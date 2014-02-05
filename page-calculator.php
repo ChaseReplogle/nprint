@@ -67,7 +67,7 @@ Template Name: Calculator
 	<?php the_content(); ?>
 
 	<div class="for-print notes">
-		<form id="client">
+		<form id="notes">
 		  <div>
 		    <label for="textarea">Message:</label>
 		    <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
