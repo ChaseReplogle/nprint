@@ -8664,7 +8664,7 @@ img.avatar {
 .save-quotes .view-all {
   color: #4f98c4;
   display: block;
-  text-align: right;
+  text-align: left;
 }
 .save-quotes ul {
   margin: 0px;
