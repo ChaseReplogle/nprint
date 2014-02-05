@@ -33,3 +33,12 @@ body {
 .right-off-canvas-menu {
 	display: none;
 }
+
+select {
+   background: transparent;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   -webkit-appearance: none;
+  }
