@@ -1,6 +1,6 @@
 body {
 	background-color: #dadada;
-	padding: 2% 5%;
+	padding: 1%;
 }
 
 .clear {
@@ -10,7 +10,7 @@ body {
 .page-main-content {
 	background-color: #fff;
 	width: 100%;
-	padding: 3%;
+	padding: 4%;
 	max-width: 960px;
 	border: 1px solid rgb(190, 190, 190);
 	-webkit-box-shadow: 0 0 5px 0 #C9C9C9;
