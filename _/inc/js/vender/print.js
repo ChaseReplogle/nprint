@@ -13,7 +13,6 @@ $.urlParam('style');
 
 var style = $.urlParam('style');
   
-alert(style);
 
 if (style="print")
   {
