@@ -109,7 +109,7 @@ h3 {
 
 #notes {
 	background-color: #F4F4F4;
-	padding: 20px;
+	padding: 10px;
 	border: 1px soldi rgb(224, 224, 224);
 }
 
@@ -125,6 +125,7 @@ h3 {
 	width: 100%;
 	background: transparent;
 	border: 0px;
+	height: 60px;
 }
 
 
@@ -253,7 +254,7 @@ input {
 	float: left;
 	border-top: 2px solid #000;
 	padding-top: 20px;
-	margin-top: 20px
+	margin-top: 20px;
 	border-bottom: 2px solid #000;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
