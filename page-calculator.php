@@ -175,11 +175,10 @@ Template Name: Calculator
 			    $(this).highlightFade('red');
 			});
 
-			<script>
 			  $('#rangevalue').change(function() {
 			    alert('Changed');
 			  });
-			</script>
+
 
 			$(".cost").prependTo("#cost-total");
 
