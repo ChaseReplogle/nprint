@@ -62,6 +62,8 @@ Template Name: Calculator
 		<p>(573) 680-7902</p>
 		<p>support@myprintingcompany.com</p>
 	</div>
+
+	<div class="clear"></div>
 		
 	<?php the_content(); ?>
 

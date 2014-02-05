@@ -3,6 +3,10 @@ body {
 	padding: 5%;
 }
 
+.clear {
+	clear: both;
+}
+
 .page-main-content {
 	background-color: #fff;
 	width: 100%;
@@ -44,6 +48,23 @@ hr {
 .right-off-canvas-menu {
 	display: none;
 }
+
+
+.quote-info {
+	width: 40%;
+	float: left;
+}
+
+.company-info {
+	width: 55%;
+	float: right;
+}
+
+
+
+
+
+
 
 .ginput_container {
 	overflow: hidden;
