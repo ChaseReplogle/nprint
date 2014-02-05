@@ -90,11 +90,11 @@
 
 	if (style==="print")
 	  	{
-	  	  jQuery('#main-css').remove();
+	  	  
+	<link rel="stylesheet" id="print-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/print.css" />
 	  	}
 	else
   		{
-		jQuery('#print-css').remove();
 		jQuery('.for-print').remove();
 	}
 </script>
