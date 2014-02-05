@@ -1,17 +1,16 @@
-function GetURLParameter(sParam)
-{
-    var sPageURL = window.location.search.substring(1);
-    var sURLVariables = sPageURL.split('&');
-    for (var i = 0; i < sURLVariables.length; i++) 
-    {
-        var sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] == sParam) 
-        {
-            return sParameterName[1];
-        }
+
+$.urlParam = function(name){
+    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+       return null;
     }
-}​
+    else{
+       return results[1] || 0;
+    }
+}
 
-var style = GetURLParameter('style');
-alert('test');
+// example.com?param1=name&amp;param2=&amp;id=6
+$.urlParam('style'); // name
 
+console.log(decodeURIComponent($.urlParam('style')));  
+//output: Gold Coast
