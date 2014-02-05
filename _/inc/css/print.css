@@ -1,6 +1,6 @@
 body {
 	background-color: #dadada;
-	padding: 5%;
+	padding: 2% 5%;
 }
 
 .clear {
@@ -10,7 +10,7 @@ body {
 .page-main-content {
 	background-color: #fff;
 	width: 100%;
-	padding: 2% 5%;
+	padding: 5%;
 }
 
 .footer-wrapper {
