@@ -39,7 +39,6 @@ Template Name: Dashboard
 
 		<ul>
 
-		<?php $user_ID = get_current_user_id(); ?>
 
 		<?php $args = array(
 			
