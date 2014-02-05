@@ -39,21 +39,7 @@ Template Name: Dashboard
 
 		<ul>
 
-		<?php query_posts('post_type=quotes'); ?>
-
-		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-			<li>
-				<a href="#" class="quote-title"><?php the_title(); ?></a>
-				<span class="quote-actions">
-					<a href="#" class="quote-edit">Edit</a> |
-					<a href="#" class="quote-print">Print</a> |
-					<a href="#" class="quote-delete">Delete</a>
-					<a href="#" class="quote-cart secondary_button">Add to Cart</a>
-				</span>
-			</li>
-
-		<?php endwhile; endif; ?>
+		
 
 		</ul>	
 
