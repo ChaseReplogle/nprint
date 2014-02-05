@@ -29,6 +29,10 @@ body {
 	display: none;
 }
 
+hr {
+	display: none;
+}
+
 #cost {
 	display: none;
 }
@@ -45,7 +49,7 @@ body {
 	overflow: hidden;
 }
 
-form {
+.gform_wrapper form {
 	border-top: 2px solid black;
 	padding-top: 20px;
 }

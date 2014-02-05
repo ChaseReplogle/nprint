@@ -21,6 +21,18 @@ Template Name: Calculator
 <div class="row content-row">
 
 	<div class="columns medium-8 page-main-content">
+
+	<div class="for-print client">
+		<form id="client">
+		  <div>
+		    <input type="text" name="name" id="name" value="Client's Name" tabindex="1">
+		  </div>
+		  <div>
+		    <input type="text" name="name" id="name" value="Street Address" tabindex="1">
+		    <input type="text" name="name" id="name" value="City, State, Zip Code" tabindex="1">
+		  </div>
+		</form>
+	</div>
 		
 	<?php the_content(); ?>
 
@@ -152,6 +164,7 @@ Template Name: Calculator
 		$('#cost').width($('.sidebar span').outerWidth());
 
 		jQuery('#print-css').remove();
+		jQuery('.for-print').remove();
 	}
 </script>
 
