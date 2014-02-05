@@ -19,18 +19,6 @@ Template Name: Dashboard
 
 <div class="row content-row">
 
-	<div class="columns medium-4 page-main-content">
-		<a href="/calculators">
-			<div class="calculator-button">
-				<i class="fa fa-table"></i>
-				<h3>Calculate a Quote</h3>
-				<p>Use our online project calculator to create and save quotes.</p>
-				<a href="/calculators" class="secondary_button">Let's Get Started</a>
-			</div>
-		</a>
-	</div>
-
-
 	<div class="columns medium-8 page-sidebar save-quotes">
 		<h2>Saved Quotes</h2>
 
@@ -78,6 +66,19 @@ Template Name: Dashboard
 
 		<a href="#" class="view-all">View All</a>	
 	</div>
+
+
+	<div class="columns medium-4 page-main-content">
+		<a href="/calculators">
+			<div class="calculator-button">
+				<i class="fa fa-table"></i>
+				<h3>Calculate a Quote</h3>
+				<p>Use our online project calculator to create and save quotes.</p>
+				<a href="/calculators" class="secondary_button">Let's Get Started</a>
+			</div>
+		</a>
+	</div>
+
 
 </div>
 
