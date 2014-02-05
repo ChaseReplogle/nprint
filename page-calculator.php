@@ -55,7 +55,6 @@ Template Name: Calculator
 	</div>
 
 	<div class="for-print company-info">
-		<i class="fa fa-print"></i>
 		<h3>My Printing Company</h3>
 		<p>2023 S Saratoga Ave</br>
 			Springfield, MO 65804</p>
