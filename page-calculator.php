@@ -169,7 +169,7 @@ Template Name: Calculator
 			$('.percent').after('<output class="cost" id="rangevalue">0</output>');
 			$('.percent').after('<div class="clear"></div>');
 
-			$('.percent input').val('50');
+			$('.percent input').attr('value', '50');
 
 			$(".cost").prependTo("#cost-total");
 
