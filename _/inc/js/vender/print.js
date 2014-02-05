@@ -13,10 +13,10 @@ function GetURLParameter(sParam)
 }​
 
 var style = GetURLParameter('style');
-
+alert(style);
 
 if(style == 'print') {
-  alert(style);
+  
   $("#main-css").remove();
 }
 else {
