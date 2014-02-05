@@ -7,15 +7,15 @@ $.urlParam = function(name){
     else{
        return results[1] || 0;
     }
-}
+};
 
 $.urlParam('style');
 
   
 
-if(decodeURIComponent($.urlParam('style')) = 'print') {
+if($.urlParam('style') = 'print') {
   alert("I need a print style sheet.");
-} 
+}
 else {
   alert("I'm fine. Leave me alone'.");
 }

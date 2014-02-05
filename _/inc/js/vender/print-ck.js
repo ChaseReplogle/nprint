@@ -1,1 +1,1 @@
-$.urlParam=function(e){var t=(new RegExp("[\\?&]"+e+"=([^&#]*)")).exec(window.location.href);return t==null?null:t[1]||0};$.urlParam("style");(decodeURIComponent($.urlParam("style"))="print")?alert("I need a print style sheet."):alert("I'm fine. Leave me alone'.");
+$.urlParam=function(e){var t=(new RegExp("[\\?&]"+e+"=([^&#]*)")).exec(window.location.href);return t==null?null:t[1]||0};$.urlParam("style");($.urlParam("style")="print")?alert("I need a print style sheet."):alert("I'm fine. Leave me alone'.");
