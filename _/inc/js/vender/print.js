@@ -11,9 +11,10 @@ $.urlParam = function(name){
 
 $.urlParam('style');
 
+var style = $.urlParam('style');
   
 
-if($.urlParam('style') = 'print') {
+if (style = 'print') {
   alert("I need a print style sheet.");
 }
 else {
