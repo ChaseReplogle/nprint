@@ -10,4 +10,4 @@ var vars = [], hash;
 }
 
 // Will alert the value of parameter a
-alert(vars["a"]);
+alert(vars['style']);
