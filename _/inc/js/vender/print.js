@@ -9,8 +9,13 @@ $.urlParam = function(name){
     }
 }
 
-// example.com?param1=name&amp;param2=&amp;id=6
-$.urlParam('style'); // name
+$.urlParam('style');
 
-console.log(decodeURIComponent($.urlParam('style')));  
-//output: Gold Coast
+  
+
+if(decodeURIComponent($.urlParam('style')) = 'print') {
+  alert("I need a print style sheet.");
+} 
+else {
+  alert("I'm fine. Leave me alone'.");
+}
