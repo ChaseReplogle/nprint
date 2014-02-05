@@ -10,10 +10,11 @@ var vars = [], hash;
 }
 
 // Will alert the value of parameter a
-style = vars['style'];
+var style = vars['style'];
+  alert(style);
 
 if(vars['style'] = 'print') {
-  alert(style);
+
   $("#main-css").remove();
 }
 else {

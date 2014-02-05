@@ -17,3 +17,7 @@ body {
 .page-nav-warpper {
 	display: none;
 }
+
+#myModal {
+	display: none;
+}
