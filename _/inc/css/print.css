@@ -10,7 +10,7 @@ body {
 .page-main-content {
 	background-color: #fff;
 	width: 100%;
-	padding: 5%;
+	padding: 5% 2%;
 }
 
 .footer-wrapper {
@@ -68,8 +68,6 @@ hr {
 
 #quote-num {
 	margin-bottom: 20px;
-	border-bottom: 1px solid black;
-	padding-bottom: 10px;
 }
 
 #name {
@@ -112,6 +110,7 @@ select {
    border: 0;
    border-radius: 0;
    -webkit-appearance: none;
+   width: 100%;
 }
 
 input {
@@ -121,6 +120,7 @@ input {
    border: 0;
    border-radius: 0;
    -webkit-appearance: none;
+   width: 100%;
 }
 
 .gfield_description {
