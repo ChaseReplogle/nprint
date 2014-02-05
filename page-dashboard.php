@@ -16,7 +16,6 @@ Template Name: Dashboard
 <?php include 'nav-main.php'; ?>
 <?php include 'nav-dashboard.php'; ?>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div class="row content-row">
 
@@ -39,6 +38,18 @@ Template Name: Dashboard
 
 		<ul>
 
+		<?php $args = array(
+			
+			'post_type'  => 'quotes',
+			'orderby' 	 => 'date',
+			'order'      => 'ASC'
+		);
+
+		query_posts( $args ); ?>
+
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+
 			<li>
 				<a href="#" class="quote-title">Exhibit Backdrops</a>
 				<span class="quote-actions">
@@ -49,15 +60,8 @@ Template Name: Dashboard
 				</span>
 			</li>
 
-			<li>
-				<a href="#" class="quote-title">Lightpole Signs</a>
-				<span class="quote-actions">
-					<a href="#" class="quote-edit">Edit</a> |
-					<a href="#" class="quote-print">Print</a> |
-					<a href="#" class="quote-delete">Delete</a>
-					<a href="#" class="quote-cart secondary_button">Add to Cart</a>
-				</span>
-			</li>
+
+		<?php endwhile; endif; ?>
 
 		</ul>	
 
@@ -69,8 +73,6 @@ Template Name: Dashboard
 </div>
 
 <hr>
-
-<?php endwhile; endif; ?>
 
 <div class="footer-wrapper">
 
