@@ -107,12 +107,15 @@ h3 {
 }
 
 #notes {
-	background-color: #dadada;
+	background-color: #F4F4F4;
+	padding: 20px;
+	border: 1px soldi rgb(224, 224, 224);
 }
 
 #notes label {
 	width: 100%;
 	display: block;
+	font-weight: bold;
 }
 
 #notes textarea {
