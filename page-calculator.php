@@ -171,6 +171,10 @@ Template Name: Calculator
 
 			$('.percent input').attr('value', '50');
 
+			$("#rangevalue").change(function() { 
+				alert($(this).val());  
+			}); 
+
 			$(".cost").prependTo("#cost-total");
 
 			$(".top-icon").prepend('<i class="fa fa-caret-square-o-up"></i>');
