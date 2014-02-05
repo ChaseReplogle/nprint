@@ -135,3 +135,17 @@ input {
 	display: none;
 }
 
+.gform_wrapper ul li.retail .ginput_container {
+	width: 100%;
+	float: left;
+}
+
+.ginput_product_price_label {
+	float: left; 
+	width: 40%;
+}
+
+.ginput_product_price {
+	float: right;
+	width: 60%;
+}
