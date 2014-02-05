@@ -71,7 +71,6 @@
 	<link rel="stylesheet" id="main-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/main.css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/bigvideo.css" />
 	<link rel="stylesheet" id="print-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/print.css" />
-	<link rel="stylesheet" id="print-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/formalize.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>

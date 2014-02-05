@@ -75,7 +75,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/video.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/bigvideo.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/calculator.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/formalize.js"></script>
+
 <!-- this is where we put our custom functions -->
 
 <script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/print.js"></script>
