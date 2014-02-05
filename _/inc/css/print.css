@@ -13,3 +13,7 @@ body {
 .main-nav {
 	display: none;
 }
+
+.page-nav-warpper {
+	display: none;
+}
