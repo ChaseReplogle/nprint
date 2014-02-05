@@ -65,7 +65,15 @@ hr {
 	margin: 0px;
 }
 
+.quote-num {
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
 
+h2, h3 {
+	margin: 0px;
+}
 
 
 
