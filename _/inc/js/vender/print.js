@@ -12,4 +12,8 @@ var vars = [], hash;
 // Will alert the value of parameter a
 if(['style'] > 'print') {
   alert('This is a print style.');
+  $('link[title="main"]').prop('disabled', true);
+}
+else {
+  $('link[title="print"]').prop('disabled', true);
 }
