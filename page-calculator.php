@@ -85,7 +85,7 @@ Template Name: Calculator
 
 <?php endwhile; endif; ?>
 
-<script>
+<script id="calc-js">
 	$ = jQuery;
 	$('.percent input').attr('type', 'range');
 	$('.percent input').attr('min', '0');
