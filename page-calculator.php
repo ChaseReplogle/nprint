@@ -175,7 +175,7 @@ Template Name: Calculator
 			    $(this).highlightFade('red');
 			});
 
-			  $('#rangevalue').change(function() {
+			  $(('#rangevalue').text()).change(function() {
 			    alert('Changed');
 			  });
 
