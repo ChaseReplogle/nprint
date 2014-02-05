@@ -91,6 +91,9 @@ input {
 	width: 100% !important;
 	clear: both !important;
 	margin: 0px !important;
+}
+
+.gform_wrapper .top_label li.gfield.gf_right_half {
 	border: 0px !important;
 }
 
