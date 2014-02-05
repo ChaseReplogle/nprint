@@ -51,7 +51,7 @@ Template Name: Dashboard
 
 
 			<li>
-				<a href="#" class="quote-title">Exhibit Backdrops</a>
+				<a href="#" class="quote-title"><?php the_title(); ?></a>
 				<span class="quote-actions">
 					<a href="#" class="quote-edit">Edit</a> |
 					<a href="#" class="quote-print">Print</a> |
