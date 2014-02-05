@@ -117,27 +117,4 @@
 <div class="off-canvas-wrap">
   <div class="inner-wrap">
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
