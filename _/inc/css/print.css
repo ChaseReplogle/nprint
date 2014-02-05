@@ -84,7 +84,7 @@ input {
 }
 
 .gform_wrapper .top_label .gfield_label {
-	margin: 0px;
+	margin: 0px !important;
 }
 
 .gform_wrapper .top_label li.gfield.gf_left_half, .gform_wrapper .top_label li.gfield.gf_right_half {
