@@ -57,7 +57,7 @@ Template Name: Dashboard
 				<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a>
 				<span class="quote-actions">
 					<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
-					<a href="#" class="quote-print">Print</a> |
+					<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
 					<a href="#" class="quote-delete">Delete</a>
 					<a href="#" class="quote-cart secondary_button">Add to Cart</a>
 				</span>
