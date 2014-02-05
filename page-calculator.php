@@ -22,11 +22,11 @@ Template Name: Calculator
 
 	<div class="columns medium-8 page-main-content">
 
-	<div class="for-print quote-info">
+	<div class="for-print title">
+		<h2>Project Quote</h2>
+	</div>
 
-		<div class="for-print title">
-			<h2>Project Quote</h2>
-		</div>
+	<div class="for-print quote-info">
 
 		<div class="for-print date">
 			<h3><?php echo date_i18n('j F Y', time()); ?></h3>
