@@ -1,6 +1,7 @@
 body {
 	background-color: #dadada;
 	padding: 1%;
+	background-image: url('../images/pattern.jpg');
 }
 
 .clear {
