@@ -1,5 +1,12 @@
 body {
-	background-color: lightgrey;
+	background-color: #dadada;
+	padding: 5%;
+}
+
+.page-main-content {
+	background-color: #fff;
+	width: 70%;
+	padding: 5%;
 }
 
 .footer-wrapper {
@@ -59,4 +66,19 @@ input {
 
 .gfield_description {
 	display: none;
+}
+
+.clear-break {
+	display: none;
+}
+
+.gfield_label {
+	width: 30%;
+	float: left;
+}
+
+.ginput_container {
+	overflow: hidden;
+	width: 60%;
+	float: right;
 }
