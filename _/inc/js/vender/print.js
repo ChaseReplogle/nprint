@@ -13,10 +13,4 @@ $.urlParam('style');
 
 var style = $.urlParam('style');
   
-
-if (style = 'print') {
-  alert("I need a print style sheet.");
-}
-else {
-  alert("I'm fine. Leave me alone'.");
-}
+alert(style);
