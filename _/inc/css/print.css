@@ -130,3 +130,8 @@ input {
 .gform_wrapper ul li.percent input {
 	display: none;
 }
+
+.gform_wrapper ul li.retail label {
+	display: none;
+}
+
