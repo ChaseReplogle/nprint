@@ -13,8 +13,8 @@ body {
 	width: 100%;
 	padding: 4%;
 	max-width: 960px;
-	-webkit-box-shadow: 0 0 5px 0 #000;
-	box-shadow: 0 0 5px 0 #000;
+	-webkit-box-shadow: 0 0 5px 0 #A1A1A1;
+	box-shadow: 0 0 5px 0 #A1A1A1;
 	max-height: 10in;
 }
 
