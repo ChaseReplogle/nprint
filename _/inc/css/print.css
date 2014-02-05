@@ -106,6 +106,10 @@ h3 {
 	width: auto;
 }
 
+#notes {
+	background-color: #dadada;
+}
+
 #notes label {
 	width: 100%;
 	display: block;
@@ -113,6 +117,8 @@ h3 {
 
 #notes textarea {
 	width: 100%;
+	background: transparent;
+	border: 0px;
 }
 
 
