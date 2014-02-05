@@ -25,3 +25,11 @@ body {
 #cost {
 	display: none;
 }
+
+.gform_footer {
+	display: none;
+}
+
+.right-off-canvas-menu {
+	display: none;
+}
