@@ -21,3 +21,7 @@ body {
 #myModal {
 	display: none;
 }
+
+#cost {
+	display: none;
+}
