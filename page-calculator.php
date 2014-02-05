@@ -22,14 +22,31 @@ Template Name: Calculator
 
 	<div class="columns medium-8 page-main-content">
 
+	<div class="for-print title">
+		<h2>Project Quote</h2>
+	</div>
+
+	<div class="for-print date">
+		<h3><?php echo date_i18n('j F Y', time()); ?></h3>
+	</div>
+
+	<div class="for-print date">
+		<form id="client">
+		  <div>
+		  	<label for="quote-num">Quote Number:</label>
+		    <input type="text" name="quote-num" id="quote-num" value="Quote Number" tabindex="1">
+		  </div>
+		</form>
+	</div>
+
 	<div class="for-print client">
 		<form id="client">
 		  <div>
 		    <input type="text" name="name" id="name" value="Client's Name" tabindex="1">
 		  </div>
 		  <div>
-		    <input type="text" name="name" id="name" value="Street Address" tabindex="1">
-		    <input type="text" name="name" id="name" value="City, State, Zip Code" tabindex="1">
+		    <input type="text" name="address" id="address" value="Street Address" tabindex="1">
+		    <input type="text" name="city" id="city" value="City, State, Zip Code" tabindex="1">
 		  </div>
 		</form>
 	</div>
