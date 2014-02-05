@@ -234,6 +234,8 @@ input {
 	font-size: 0px;
 	color: #fff;
 	border: 0px;
+	height: 0px;
+	display: block;
 }
 
 .gform_wrapper ul li.percent input {
