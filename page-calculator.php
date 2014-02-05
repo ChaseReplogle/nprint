@@ -36,7 +36,7 @@ Template Name: Calculator
 			<form id="quote-num">
 			  <div>
 			  	<label for="quote-num">Quote Number:</label>
-			    <input type="number" name="quote-num" id="quote-num" value="000001" tabindex="1">
+			    <input type="number" name="quote-num" value="000001" tabindex="1">
 			  </div>
 			</form>
 		</div>
