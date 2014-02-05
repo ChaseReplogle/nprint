@@ -141,7 +141,7 @@ input {
 	border-top: 2px solid #fff;
 }
 
-.ginput_product_price_label {
+.gform_wrapper ul li.retail .ginput_product_price_label {
 	float: left; 
 	width: 40%;
 	font-weight: bold;
@@ -149,7 +149,7 @@ input {
 	margin: 0px;
 }
 
-.ginput_product_price {
+.gform_wrapper ul li.retail .ginput_product_price {
 	float: right;
 	width: 60%;
 	font-size: 15px;
