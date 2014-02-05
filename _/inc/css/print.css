@@ -82,3 +82,12 @@ input {
 	width: 60%;
 	float: right;
 }
+
+.gform_wrapper .top_label .gfield_label {
+	margin: 0px;
+}
+
+.gform_wrapper .top_label li.gfield.gf_left_half, .gform_wrapper .top_label li.gfield.gf_right_half {
+	width: 100%;
+	clear: both;
+}
