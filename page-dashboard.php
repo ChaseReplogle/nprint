@@ -42,7 +42,7 @@ Template Name: Dashboard
 		<?php $user_ID = get_current_user_id(); ?>
 
 		<?php $args = array(
-			'author'     => $user_ID,
+			
 			'post_type'  => 'quotes',
 			'orderby' 	 => 'date',
 			'order'      => 'ASC'
