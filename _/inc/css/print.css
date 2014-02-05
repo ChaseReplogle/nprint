@@ -87,7 +87,7 @@ h2, h3 {
 
 h2 {
 	font-size: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	margin-top: 10px;
 }
 
@@ -222,7 +222,7 @@ input {
 
 .gform_wrapper ul li.gsection {
 	border-bottom: 0px dotted #CCC;
-	padding: 30px 0px 10px 0px !important;
+	padding: 15px 0px 10px 0px !important;
 	border: 0px;
 }
 
@@ -235,7 +235,9 @@ input {
 	color: #fff;
 	border: 0px;
 	height: 0px;
+	width: 0px;
 	display: block;
+	overflow: hidden;
 }
 
 .gform_wrapper ul li.percent input {
@@ -251,9 +253,10 @@ input {
 	float: left;
 	border-top: 2px solid #000;
 	padding-top: 20px;
+	margin-top: 20px
 	border-bottom: 2px solid #000;
 	padding-bottom: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .gform_wrapper ul li.retail .ginput_product_price_label {
