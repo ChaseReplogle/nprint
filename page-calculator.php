@@ -157,6 +157,7 @@ Template Name: Calculator
 
 	if (style==="print")
 	  	{
+	  	  echo '<link rel="stylesheet" id="print-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/print.css" />';
 	  	  jQuery('#main-css').remove();
 	  	}
 	else

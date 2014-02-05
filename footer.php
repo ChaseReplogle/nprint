@@ -91,7 +91,7 @@
 	if (style==="print")
 	  	{
 	  	  
-	<link rel="stylesheet" id="print-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/print.css" />
+	
 	  	}
 	else
   		{
