@@ -158,6 +158,10 @@ Template Name: Calculator
 	if (style==="print")
 	  	{
 
+	  		var percentVal=$('.saved-percent input').val();
+			$('.percent input').val(percentVal);
+			$('#rangevalue').text(percentVal);
+
 	  	}
 	else
   		{
