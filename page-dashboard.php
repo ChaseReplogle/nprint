@@ -72,7 +72,7 @@ Template Name: Dashboard
 		<a href="/calculators">
 			<div class="calculator-button">
 				<i class="fa fa-table"></i>
-				<h3>Calculate a Quote</h3>
+				<h3>Start a Quote</h3>
 				<p>Use our online project calculator to create and save quotes.</p>
 				<a href="/calculators" class="secondary_button">Let's Get Started</a>
 			</div>
