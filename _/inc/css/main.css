@@ -8881,8 +8881,14 @@ img.avatar {
   display: block;
   height: 0px;
 }
-.page-template-page-calculator-php .submit-options .gfield_label {
+.page-template-page-calculator-php .submit-options {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #d1d1d1;
+}
+.page-template-page-calculator-php .submit-options .gfield_label.new-submit {
   display: none;
+  visibility: hidden;
 }
 .page-template-page-calculator-php .submit-options .gfield_radio li {
   display: inline;

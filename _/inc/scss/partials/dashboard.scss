@@ -267,9 +267,14 @@
 	}
 
 	.submit-options {
-			.gfield_label {
-				display: none;
-			}
+		margin-top: 40px;
+		padding-top: 30px;
+		border-top: 1px solid $lightgrey;
+
+		.gfield_label.new-submit {
+			display: none;
+			visibility: hidden;
+		}
 
 		.gfield_radio li {
 			display: inline;
