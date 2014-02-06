@@ -216,6 +216,15 @@ Template Name: Calculator
 	$('.percent input').val(percentVal);
 	$('#rangevalue').text(percentVal);
 
+	$(function() {
+    	$('.submit-options input[type="radio"], label').addClass('js');
+    
+	    $('label').on('click', function() {
+	        $('label').removeClass('active');
+	        $(this).addClass('active');
+	    });
+	});
+
 </script>
 
 <div class="footer-wrapper">
