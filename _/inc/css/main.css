@@ -7869,6 +7869,10 @@ img.avatar {
   line-height: 20px;
   margin-bottom: 5px;
 }
+.f-dropdown a {
+  color: #4f98c4;
+  text-decoration: underline;
+}
 .f-dropdown a.delete {
   padding: 10px 10px;
   display: block;
@@ -7878,6 +7882,7 @@ img.avatar {
   font-size: 14px;
   border: 1px solid #d28027;
   font-size: 12px;
+  text-decoration: none;
 }
 .f-dropdown a.delete:hover {
   color: #fff;
