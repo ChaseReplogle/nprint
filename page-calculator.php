@@ -170,9 +170,12 @@ Template Name: Calculator
 			$('.percent').after('<output class="cost" id="rangevalue">0</output>');
 			$('.percent').after('<div class="clear"></div>');
 
-			var percentVal=$('.saved-percent input').val();
-			$('.percent input').val(percentVal);
-			$('#rangevalue').text(percentVal);
+			$(document).ready(function(){
+			  $("[type=range]").change(function(){
+			    var newval=$(this).val();
+			    $(".saved-percent input").val(newval);
+			  });
+			});
 
 
 			$(".cost").prependTo("#cost-total");
@@ -209,12 +212,10 @@ Template Name: Calculator
 		$('#cost').width($('.sidebar span').outerWidth());
 	}
 	
-			$(document).ready(function(){
-			  $("[type=range]").change(function(){
-			    var newval=$(this).val();
-			    $(".saved-percent input").val(newval);
-			  });
-			});
+	var percentVal=$('.saved-percent input').val();
+	$('.percent input').val(percentVal);
+	$('#rangevalue').text(percentVal);
+
 </script>
 
 <div class="footer-wrapper">
