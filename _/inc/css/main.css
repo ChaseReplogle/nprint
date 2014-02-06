@@ -8908,9 +8908,12 @@ img.avatar {
   background-color: #4f98c4;
   border: 1px solid #387ea8;
   display: block;
-  padding: 20px 0px;
+  padding: 25px 0px;
   color: #fff;
   text-align: center;
+}
+.page-template-page-calculator-php .submit-options .gfield_radio li label:hover {
+  background-color: #75aed1;
 }
 .page-template-page-calculator-php .submit-options .gfield_radio li input {
   display: none;

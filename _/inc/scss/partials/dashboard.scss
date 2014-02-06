@@ -297,9 +297,13 @@
 				background-color: $mainblue;
 				border: 1px solid darken($mainblue, 10%);
 				display: block;
-				padding: 20px 0px;
+				padding: 25px 0px;
 				color: #fff;
 				text-align: center;
+
+				&:hover {
+					background-color: lighten($mainblue, 10%);
+				}
 			}
 
 			input {
