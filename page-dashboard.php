@@ -55,9 +55,6 @@ Template Name: Dashboard
 				</span>
 			</li>
 
-			
-
-
 		<?php endwhile; endif; ?>
 
 		</ul>	
