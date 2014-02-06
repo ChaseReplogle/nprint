@@ -170,8 +170,11 @@ Template Name: Calculator
 			$('.percent').after('<div class="clear"></div>');
 
 			
-			$('#rangevalue').change(function(){
-			    $('.percent input').attr('value', '10');
+			$(document).ready(function(){
+			  $("[type=range]").change(function(){
+			    var newval=$(this).val();
+			    $(".saved-percent").text(newval);
+			  });
 			});
 
 
