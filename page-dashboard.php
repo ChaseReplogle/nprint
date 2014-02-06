@@ -20,7 +20,7 @@ Template Name: Dashboard
 <div class="row content-row">
 
 	<div class="columns medium-8 page-sidebar save-quotes">
-		<h2>Saved Quotes</h2>
+		<h2>My Saved Quotes</h2>
 
 		<hr>
 
