@@ -175,9 +175,9 @@ Template Name: Calculator
 			    var newval=$(this).val();
 			    $(".saved-percent input").val(newval);
 			  });
-			});
 
-			$('.percent input').attr('max', newval);
+			  $("[type=range]").val(newval);
+			});
 
 
 			$(".cost").prependTo("#cost-total");
