@@ -8903,6 +8903,10 @@ img.avatar {
   color: #818080;
   border: 1px solid #d1d1d1;
 }
+.page-template-page-calculator-php .submit-options .gfield_radio li:last-of-type label:hover {
+  background-color: #4f98c4;
+  color: #fff;
+}
 .page-template-page-calculator-php .submit-options .gfield_radio li label {
   margin: 0px;
   background-color: #4f98c4;
