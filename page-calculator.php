@@ -173,7 +173,7 @@ Template Name: Calculator
 			$(document).ready(function(){
 			  $("[type=range]").change(function(){
 			    var newval=$(this).val();
-			    $(".saved-percent input").text(newval);
+			    $(".saved-percent input").val(newval);
 			  });
 			});
 
