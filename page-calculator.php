@@ -177,6 +177,8 @@ Template Name: Calculator
 			  });
 			});
 
+			$('.percent input').attr('max', newval);
+
 
 			$(".cost").prependTo("#cost-total");
 
