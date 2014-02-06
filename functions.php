@@ -181,4 +181,12 @@ function content($limit) {
  return $content;
 }
 
+add_filter('logout_url', 'projectivemotion_logout_home', 10, 2);
+ 
+function projectivemotion_logout_home($logouturl, $redir)
+{
+$redir = get_option('siteurl');
+return $logouturl . '&amp;redirect_to=' . urlencode($redir);
+}
+
 ?>
