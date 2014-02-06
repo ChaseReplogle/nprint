@@ -75,8 +75,6 @@ Template Name: Calculator
 		</form>
 	</div>
 
-	<a href="/dashboard" class="support_button">Cancel</a>
-
 	</div>
 
 	<div class="columns medium-4 sidebar">
@@ -223,6 +221,10 @@ Template Name: Calculator
 	        $('label').removeClass('active');
 	        $(this).addClass('active');
 	    });
+	});
+
+	$('.submit-options input[type="radio"], label').click(function() {
+	    $(".gform_wrapper form").submit();
 	});
 
 </script>
