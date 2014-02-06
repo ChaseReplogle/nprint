@@ -8895,6 +8895,9 @@ img.avatar {
   width: 48%;
   float: left;
 }
+.page-template-page-calculator-php .submit-options .gfield_radio li:last-of-type {
+  float: right;
+}
 .page-template-page-calculator-php .submit-options .gfield_radio li label {
   margin: 0px;
   background-color: #4f98c4;
@@ -8903,9 +8906,6 @@ img.avatar {
   padding: 20px 0px;
   color: #fff;
   text-align: center;
-}
-.page-template-page-calculator-php .submit-options .gfield_radio li label:last-of-type {
-  background-color: #d1d1d1;
 }
 .page-template-page-calculator-php .submit-options .gfield_radio li input {
   display: none;

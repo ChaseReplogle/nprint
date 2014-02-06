@@ -281,6 +281,10 @@
 			width: 48%;
 			float: left;
 
+			&:last-of-type {
+				float: right;
+			}
+
 
 			label {
 				margin: 0px;
@@ -290,10 +294,6 @@
 				padding: 20px 0px;
 				color: #fff;
 				text-align: center;
-
-				&:last-of-type {
-					background-color: $lightgrey;
-				}
 			}
 
 			input {
