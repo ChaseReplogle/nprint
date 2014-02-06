@@ -7876,10 +7876,12 @@ img.avatar {
   color: #fff;
   font-size: 14px;
   border: 1px solid #d28027;
+  font-size: 12px;
 }
 .f-dropdown a.delete:hover {
   color: #fff;
   background-color: #e2a664;
+  text-decoration: none;
 }
 
 .row-content h2 {

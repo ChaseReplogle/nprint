@@ -56,10 +56,12 @@ img.avatar {
 		color: #fff;
 		font-size: 14px;
 		border: 1px solid darken($mainorange,20%);
+		font-size: 12px;
 		
 		&:hover {
 			color: #fff;
 			background-color: darken($mainorange,5%);
+			text-decoration: none;
 		}
 	 }
 }
