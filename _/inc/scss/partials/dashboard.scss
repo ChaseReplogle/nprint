@@ -278,11 +278,17 @@
 
 		.gfield_radio li {
 			display: block;
-			width: 48%;
+			width: 49%;
 			float: left;
 
 			&:last-of-type {
 				float: right;
+
+				label {
+					background-color: $lightgrey;
+					color: $grey;
+					border: 1px solid darken($lightgrey, 10%);
+				}
 			}
 
 
