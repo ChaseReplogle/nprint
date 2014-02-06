@@ -8876,7 +8876,20 @@ img.avatar {
   border-left: 0px;
 }
 
-.page-template-page-calculator-php .saved-percent {
+.page-template-page-calculator-php .submit-options .gfield_radio li {
+  display: inline;
+}
+.page-template-page-calculator-php .submit-options .gfield_radio li label {
+  margin: 0px;
+  background-color: #4f98c4;
+  display: inline-block;
+  padding: 15px 40px;
+  color: #fff;
+}
+.page-template-page-calculator-php .submit-options .gfield_radio li input {
+  display: none;
+}
+.page-template-page-calculator-php .submit-options .saved-percent {
   visibility: hidden;
   height: 0px;
 }

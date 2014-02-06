@@ -260,9 +260,29 @@
 }
 
 .page-template-page-calculator-php {
-	.saved-percent {
-		visibility: hidden;
-		height: 0px;
+	.submit-options {
+
+		.gfield_radio li {
+			display: inline;
+
+
+			label {
+				margin: 0px;
+				background-color: $mainblue;
+				display: inline-block;
+				padding: 15px 40px;
+				color: #fff;
+			}
+
+			input {
+				display: none;
+			}
+		}
+
+		.saved-percent {
+			visibility: hidden;
+			height: 0px;
+		}
 	}
 
 	.gform_title {
