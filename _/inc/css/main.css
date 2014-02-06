@@ -8892,14 +8892,14 @@ img.avatar {
 }
 .page-template-page-calculator-php .submit-options .gfield_radio li {
   display: block;
+  width: 48%;
+  float: left;
 }
 .page-template-page-calculator-php .submit-options .gfield_radio li label {
   margin: 0px;
   background-color: #4f98c4;
   border: 1px solid #387ea8;
   display: block;
-  width: 48%;
-  float: left;
   padding: 20px 0px;
   color: #fff;
   text-align: center;

@@ -278,6 +278,8 @@
 
 		.gfield_radio li {
 			display: block;
+			width: 48%;
+			float: left;
 
 
 			label {
@@ -285,8 +287,6 @@
 				background-color: $mainblue;
 				border: 1px solid darken($mainblue, 10%);
 				display: block;
-				width: 48%;
-				float: left;
 				padding: 20px 0px;
 				color: #fff;
 				text-align: center;
