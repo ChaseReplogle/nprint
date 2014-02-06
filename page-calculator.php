@@ -158,10 +158,6 @@ Template Name: Calculator
 	if (style==="print")
 	  	{
 
-	  		var percentVal=$('.saved-percent input').val();
-			$('.percent input').val(percentVal);
-			$('#rangevalue').text(percentVal);
-
 	  	}
 	else
   		{
@@ -177,14 +173,6 @@ Template Name: Calculator
 			var percentVal=$('.saved-percent input').val();
 			$('.percent input').val(percentVal);
 			$('#rangevalue').text(percentVal);
-
-			
-			$(document).ready(function(){
-			  $("[type=range]").change(function(){
-			    var newval=$(this).val();
-			    $(".saved-percent input").val(newval);
-			  });
-			});
 
 
 			$(".cost").prependTo("#cost-total");
@@ -220,6 +208,13 @@ Template Name: Calculator
 
 		$('#cost').width($('.sidebar span').outerWidth());
 	}
+	
+			$(document).ready(function(){
+			  $("[type=range]").change(function(){
+			    var newval=$(this).val();
+			    $(".saved-percent input").val(newval);
+			  });
+			});
 </script>
 
 <div class="footer-wrapper">
