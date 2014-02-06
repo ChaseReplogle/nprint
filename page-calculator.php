@@ -167,7 +167,8 @@ Template Name: Calculator
 			$('.percent input').attr('max', '100');
 
 			var percentVal=$('.saved-percent input').val();
-			$('.percent input').attr('value', percentVal);
+			$('.percent input').val(percentVal);
+
 			$('.percent input').attr('onchange', 'rangevalue.value=value');
 			$('.percent').after('<output class="cost" id="rangevalue">0</output>');
 			$('.percent').after('<div class="clear"></div>');
