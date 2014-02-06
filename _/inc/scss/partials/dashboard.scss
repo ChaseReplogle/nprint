@@ -292,6 +292,7 @@
 					&:hover {
 						background-color: $mainblue;
 						color: #fff;
+						border: 1px solid darken($mainblue, 10%);
 					}
 
 				}
