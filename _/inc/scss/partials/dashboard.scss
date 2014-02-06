@@ -288,6 +288,7 @@
 					background-color: $lightgrey;
 					color: $grey;
 					border: 1px solid darken($lightgrey, 10%);
+
 				}
 			}
 
@@ -303,6 +304,7 @@
 
 				&:hover {
 					background-color: lighten($mainblue, 10%);
+					color: #fff;
 				}
 			}
 
