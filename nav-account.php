@@ -53,8 +53,8 @@
             <?php wp_login_form( $args ); ?>
             <a href="<?php echo wp_lostpassword_url(); ?>" title="Lost Password">Lost Password?</a>
             <script>
-              $("#user_login").attr("placeholder", "Username or Email");});
-              $("#user_pass").attr("placeholder", "Password");});
+              $("#user_login").attr("placeholder", "Username or Email");
+              $("#user_pass").attr("placeholder", "Password");
             </script>
           </div>
           <div class="columns medium-6 membership-wrap right">
