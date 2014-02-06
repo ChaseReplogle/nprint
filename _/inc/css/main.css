@@ -8845,11 +8845,11 @@ img.avatar {
 #cost-total #field_2_32 {
   border-left: 0px;
 }
-#cost-total .saved-percent {
+
+.page-template-page-calculator-php .saved-percent {
   visibility: hidden;
   height: 0px;
 }
-
 .page-template-page-calculator-php .gform_title {
   font-size: 30px;
   border-bottom: 1px solid lightgrey;
