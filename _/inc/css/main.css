@@ -8891,16 +8891,21 @@ img.avatar {
   visibility: hidden;
 }
 .page-template-page-calculator-php .submit-options .gfield_radio li {
-  display: inline;
-  margin-right: 15px;
+  display: block;
 }
 .page-template-page-calculator-php .submit-options .gfield_radio li label {
   margin: 0px;
   background-color: #4f98c4;
   border: 1px solid #387ea8;
-  display: inline-block;
-  padding: 15px 40px;
+  display: block;
+  width: 48%;
+  float: left;
+  padding: 20px 0px;
   color: #fff;
+}
+.page-template-page-calculator-php .submit-options .gfield_radio li label:last-of-type {
+  background-color: #d1d1d1;
+  float: right;
 }
 .page-template-page-calculator-php .submit-options .gfield_radio li input {
   display: none;

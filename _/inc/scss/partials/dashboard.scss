@@ -277,17 +277,23 @@
 		}
 
 		.gfield_radio li {
-			display: inline;
-			margin-right: 15px;
+			display: block;
 
 
 			label {
 				margin: 0px;
 				background-color: $mainblue;
 				border: 1px solid darken($mainblue, 10%);
-				display: inline-block;
-				padding: 15px 40px;
+				display: block;
+				width: 48%;
+				float: left;
+				padding: 20px 0px;
 				color: #fff;
+
+				&:last-of-type {
+					background-color: $lightgrey;
+					float: right;
+				}
 			}
 
 			input {
