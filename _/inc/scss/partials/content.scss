@@ -40,6 +40,30 @@ img.avatar {
 	border-radius: 30px; /* Opera 10.5, IE 9 */
 }
 
+.f-dropdown {
+	padding: 10px;
+	 p {
+	 	font-size: 12px;
+		line-height: 20px;
+		margin-bottom: 5px;
+	 }
+
+	 a.delete {
+	 	padding: 10px 10px;
+	 	display: block;
+	 	text-align: center;
+		background-color: $mainorange;
+		color: #fff;
+		font-size: 14px;
+		border: 1px solid darken($mainorange,20%);
+		
+		&:hover {
+			color: #fff;
+			background-color: darken($mainorange,5%);
+		}
+	 }
+}
+
 .row-content {
 	h2 {
 		text-transform: uppercase;
