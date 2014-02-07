@@ -311,6 +311,12 @@
 
 }
 
+.page-template-page-dashboard-php {
+	.breadcrumbs {
+		display: none;
+	}
+}
+
 .page-template-page-calculator-php {
 	.hidden {
 		visibility: hidden;
