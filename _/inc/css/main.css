@@ -8707,6 +8707,9 @@ img.avatar {
   text-transform: none;
   color: #4f98c4;
 }
+.breadcrumbs .current {
+  color: #818080;
+}
 
 .calculator-button {
   background-color: #f2f2f2;
