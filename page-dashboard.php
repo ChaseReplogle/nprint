@@ -72,7 +72,7 @@ Template Name: Dashboard
 						<p><?php the_field('client-name'); ?></p>
 					</div>
 
-					<div class="columns medium-6">
+					<div class="columns medium-6 actions">
 						<span class="quote-actions">
 							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
 							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |

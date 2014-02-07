@@ -117,9 +117,13 @@
 			display: table;
 
 			.columns {
-				overflow: visible; 
+				overflow: hidden; 
   				text-overflow: ellipsis;
   				white-space: nowrap;
+			}
+
+			.actions {
+				overflow: visible;
 			}
 
 			a {

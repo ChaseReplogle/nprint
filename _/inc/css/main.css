@@ -8765,9 +8765,12 @@ img.avatar {
   display: table;
 }
 .save-quotes ul li .columns {
-  overflow: visible;
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.save-quotes ul li .actions {
+  overflow: visible;
 }
 .save-quotes ul li a {
   color: #818080;
