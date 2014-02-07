@@ -69,7 +69,7 @@ Template Name: Dashboard
 					</div>
 
 					<div class="columns medium-2">
-						<p>Client's Name</p>
+						<p><?php the_field('client-name'); ?></p>
 					</div>
 
 					<div class="columns medium-6">
