@@ -45,7 +45,7 @@ Template Name: Dashboard
 		<div class="columns medium-12 saved-quotes">
 
 			<h2>My Saved Quotes</h2>
-			
+
 			<ul>
 
 			<?php $user_ID = get_current_user_id(); ?> 
@@ -68,11 +68,11 @@ Template Name: Dashboard
 						<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a>
 					</div>
 
-					<div class="columns medium-3">
+					<div class="columns medium-2">
 						<p>Client's Name</p>
 					</div>
 
-					<div class="columns medium-5">
+					<div class="columns medium-6">
 						<span class="quote-actions">
 							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
 							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
