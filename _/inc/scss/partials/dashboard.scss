@@ -494,6 +494,28 @@
 		background-color: #fff;
 		border: 1px solid $lightgrey;
 	}
+
+	.company-contact {
+		position: relative;
+
+		h4 {
+			font-weight: bold;
+			color: $grey;
+		}
+
+		p {
+			margin-bottom: 8px;
+			font-size: 13px;
+			line-height: 18px;
+			color: $grey;
+		}
+
+		a {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+		}
+	}
 }
 
 @media only screen and (max-width: 40em) {

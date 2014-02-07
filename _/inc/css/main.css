@@ -9071,6 +9071,24 @@ img.avatar {
   background-color: #fff;
   border: 1px solid #d1d1d1;
 }
+.company-info .company-contact {
+  position: relative;
+}
+.company-info .company-contact h4 {
+  font-weight: bold;
+  color: #818080;
+}
+.company-info .company-contact p {
+  margin-bottom: 8px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #818080;
+}
+.company-info .company-contact a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
 
 @media only screen and (max-width: 40em) {
   #cost {
