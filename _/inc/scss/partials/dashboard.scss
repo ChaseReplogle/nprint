@@ -169,6 +169,13 @@
 						color: darken($red, 10%);
 					}
 				}
+
+				.f-dropdown {
+					p {
+						text-overflow: initial;
+						white-space: normal;
+					}
+				}
 			}
 		}
 

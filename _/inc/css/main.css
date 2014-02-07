@@ -8808,6 +8808,10 @@ img.avatar {
 .save-quotes ul li span .quote-delete:hover {
   color: #962d22;
 }
+.save-quotes ul li span .f-dropdown p {
+  text-overflow: initial;
+  white-space: normal;
+}
 .save-quotes ul li:last-child {
   border-bottom: 1px solid #d1d1d1;
 }
