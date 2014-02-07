@@ -8686,12 +8686,16 @@ img.avatar {
   font-weight: bold;
 }
 
+.account-nav ul li.account-image a .has-dropdown {
+  padding-left: 8px;
+}
+
 .account-nav ul li.account-image a:not(.button):first-child {
   padding: 0px;
 }
 .account-nav ul li.account-image a:not(.button):first-child img {
   padding: 0px;
-  margin-top: -6px;
+  margin-top: -5px;
   border: 1px solid #000;
   margin-right: -8px;
 }
@@ -8707,7 +8711,10 @@ img.avatar {
   text-transform: none;
   color: #4f98c4;
 }
-.breadcrumbs .current {
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+.breadcrumbs .current-item {
   color: #818080;
 }
 
