@@ -17,7 +17,7 @@ Template Name: Dashboard
 <?php include 'nav-dashboard.php'; ?>
 
 
-<div class="row content-row">
+<div class="content-row">
 
 	<div class="columns medium-8 page-sidebar save-quotes">
 		<div class="row company-info">
@@ -41,7 +41,7 @@ Template Name: Dashboard
 
 		</div>
 
-	<div class="row">
+	<div class="quotes">
 		<div class="columns medium-12 saved-quotes">
 
 			<h2>My Saved Quotes</h2>
