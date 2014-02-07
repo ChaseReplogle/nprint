@@ -37,7 +37,7 @@ Template Name: Dashboard
 
 				<a href="#" class="small-link">Edit</a>
 			</div>
-
+			<div class="clear"></div>
 		</div>
 
 	<div class="quotes">
