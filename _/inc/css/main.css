@@ -8822,6 +8822,10 @@ img.avatar {
 .small-link {
   color: #4f98c4;
 }
+.small-link:hover {
+  color: #4f98c4;
+  text-decoration: underline;
+}
 
 .sidebar {
   z-index: 9999;

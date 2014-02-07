@@ -190,6 +190,11 @@
 
 .small-link {
 	color: $mainblue;
+
+	&:hover {
+		color: $mainblue;
+		text-decoration: underline;
+	}
 }
 
 .sidebar {
