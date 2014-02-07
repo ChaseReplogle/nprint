@@ -9066,6 +9066,9 @@ img.avatar {
   border: 1px solid #d1d1d1;
 }
 
+.company-info {
+  margin-bottom: 40px;
+}
 .company-info .company-logo {
   padding: 20px;
   background-color: #fff;
@@ -9073,6 +9076,8 @@ img.avatar {
 }
 .company-info .company-contact {
   position: relative;
+  margin-bottom: 40px;
+  padding-left: 20px;
 }
 .company-info .company-contact h4 {
   font-weight: bold;
@@ -9088,6 +9093,7 @@ img.avatar {
   position: absolute;
   top: 0px;
   right: 0px;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 40em) {
