@@ -30,7 +30,7 @@ Template Name: Dashboard
 				<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" />
 			</div>
 
-			<div class="columns medium=8">
+			<div class="columns medium-8">
 
 				<h4>Chase's Print Shop</h4>
 				<p>2023 S Saratoga Ave</br>
@@ -45,53 +45,58 @@ Template Name: Dashboard
 			<a href="#" class="view-all">Edit Info</a>	
 
 		</div>
-		
-		<h2>My Saved Quotes</h2>
 
-		<hr>
+	<div class="row">
+		<div class="columns medium-12">
 
-		<ul>
+			<h2>My Saved Quotes</h2>
 
-		<?php $user_ID = get_current_user_id(); ?> 
+			<hr>
 
-		<?php $args = array(
-			'author' 	 => $user_ID,
-			'post_type'  => 'quotes',
-			'orderby' 	 => 'date',
-			'order'      => 'DESC'
-		);
+			<ul>
 
-		query_posts( $args ); ?>
+			<?php $user_ID = get_current_user_id(); ?> 
 
-		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			 <?php $postid = get_the_ID(); ?> 
-			 <?php $calcType = get_field("product"); ?>
+			<?php $args = array(
+				'author' 	 => $user_ID,
+				'post_type'  => 'quotes',
+				'orderby' 	 => 'date',
+				'order'      => 'DESC'
+			);
 
-			<li>
-				<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a>
-				<span class="quote-actions">
-					<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
-					<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
-					<a href="#" data-dropdown="delete" class="quote-delete">Delete</a>
-						<div id="delete" class="f-dropdown" data-dropdown-content>
-							<p>You are about to delete this quote. You won't be able to undo this action.</p>
-							<?php if ($post->post_author == $current_user->ID) { ?><p><a href="<?php echo get_delete_post_link( $post->ID ) ?>" class="delete" >Confirm Delete</a></p><?php } ?>
-						</div>
-					<a href="#" class="quote-cart secondary_button">Add to Cart</a>
-				</span>
-			</li>
+			query_posts( $args ); ?>
 
-			
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				 <?php $postid = get_the_ID(); ?> 
+				 <?php $calcType = get_field("product"); ?>
+
+				<li>
+					<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a>
+					<span class="quote-actions">
+						<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
+						<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
+						<a href="#" data-dropdown="delete" class="quote-delete">Delete</a>
+							<div id="delete" class="f-dropdown" data-dropdown-content>
+								<p>You are about to delete this quote. You won't be able to undo this action.</p>
+								<?php if ($post->post_author == $current_user->ID) { ?><p><a href="<?php echo get_delete_post_link( $post->ID ) ?>" class="delete" >Confirm Delete</a></p><?php } ?>
+							</div>
+						<a href="#" class="quote-cart secondary_button">Add to Cart</a>
+					</span>
+				</li>
+
+				
 
 
-		<?php endwhile; endif; ?>
+			<?php endwhile; endif; ?>
 
-		</ul>	
+			</ul>	
 
-		<hr>
+			<hr>
 
-		<a href="#" class="view-all">View All</a>	
+			<a href="#" class="view-all">View All</a>	
+		</div>
 	</div>
+</div>
 
 
 	<div class="columns medium-4 page-main-content">
