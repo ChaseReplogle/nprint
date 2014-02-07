@@ -8735,6 +8735,10 @@ img.avatar {
   display: inline-block;
 }
 
+.saved-quotes {
+  padding: 0px;
+}
+
 .save-quotes .view-all {
   color: #4f98c4;
   display: block;

@@ -42,7 +42,7 @@ Template Name: Dashboard
 		</div>
 
 	<div class="row">
-		<div class="columns medium-12">
+		<div class="columns medium-12 saved-quotes">
 
 			<h2>My Saved Quotes</h2>
 
