@@ -8674,6 +8674,16 @@ img.avatar {
   margin-bottom: 40px;
 }
 
+.account-image {
+  width: 30px;
+  padding-top: 6px;
+  border: 1px sold #000;
+}
+
+.account-links {
+  border-left: 0px;
+}
+
 .calculator-button {
   background-color: #f2f2f2;
   padding: 30px 30px 50px 30px;

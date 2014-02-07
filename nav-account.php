@@ -11,7 +11,7 @@
     <section class="top-bar-section right">
         <!-- Right Nav Section -->
         <ul>
-            <li class="account-image"><img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/avatar.jpg"></li>
+            <li class="account-image"><a href="/dashboard"<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/avatar.jpg"></a></li>
             <li class="account-links"><a href="/account" class="has-dropdown">Chase Replogle</a>
               <ul class="dropdown">
                 <li><a class="" href="/dashboard">My Quotes</a></li>
