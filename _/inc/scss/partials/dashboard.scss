@@ -115,7 +115,7 @@
 			display: table;
 
 			.columns {
-				overflow: hidden; 
+				overflow: visible; 
   				text-overflow: ellipsis;
   				white-space: nowrap;
 			}
@@ -131,6 +131,7 @@
 			p {
 				margin: 0px;
 				font-size: 11px;
+				padding: 5px 0px;
 			}
 
 			span {
