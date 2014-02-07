@@ -19,7 +19,7 @@ Template Name: Dashboard
 
 <div class="row content-row">
 
-	<div class="columns medium-8 left page-sidebar save-quotes">
+	<div class="columns medium-8 page-sidebar save-quotes">
 		<h2>Welcome Chase.</h2>	
 		<h5>Your Company Inforation</h5>
 
@@ -36,9 +36,8 @@ Template Name: Dashboard
 		<hr>
 
 		<a href="#" class="view-all">Edit Info</a>	
-	</div>
 
-	<div class="columns medium-8 left page-sidebar save-quotes">
+
 		<h2>My Saved Quotes</h2>
 
 		<hr>
@@ -87,7 +86,7 @@ Template Name: Dashboard
 	</div>
 
 
-	<div class="columns medium-4 right page-main-content">
+	<div class="columns medium-4 page-main-content">
 		<a href="/calculators">
 			<div class="calculator-button">
 				<i class="fa fa-table"></i>
