@@ -11,7 +11,8 @@
     <section class="top-bar-section right">
         <!-- Right Nav Section -->
         <ul>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/avatar.jpg"><a href="/account" class="has-dropdown">Chase Replogle</a>
+            <li class="account-image"><img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/avatar.jpg"></li>
+            <li><a href="/account" class="has-dropdown">Chase Replogle</a>
               <ul class="dropdown">
                 <li><a class="" href="/dashboard">My Quotes</a></li>
                 <?php wp_list_pages('title_li=&child_of=123'); ?>
