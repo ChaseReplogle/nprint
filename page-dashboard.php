@@ -38,8 +38,6 @@ Template Name: Dashboard
 				<a href="#" class="small-link">Edit</a>
 			</div>
 
-			<hr>	
-
 		</div>
 
 	<div class="quotes">
