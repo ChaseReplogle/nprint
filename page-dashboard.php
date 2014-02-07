@@ -70,11 +70,11 @@ Template Name: Dashboard
 						<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a>
 					</div>
 
-					<div class="columns medium-4">
+					<div class="columns medium-3">
 						<p>Client's Name</p>
 					</div>
 
-					<div class="columns medium-4">
+					<div class="columns medium-5">
 						<span class="quote-actions">
 							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
 							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
@@ -87,7 +87,6 @@ Template Name: Dashboard
 						</span>
 					</div>
 				</li>
-				<div class="clear"></div>
 
 				
 
