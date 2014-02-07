@@ -541,6 +541,10 @@
 }
 
 .company-info {
+	background-color: $verylightgrey;
+	padding: 20px;
+	padding-bottom: 0px;
+	border: 1px solid $lightgrey;
 	margin-bottom: 30px;
 
 	.company-logo {

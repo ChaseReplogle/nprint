@@ -9110,6 +9110,10 @@ img.avatar {
 }
 
 .company-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+  padding-bottom: 0px;
+  border: 1px solid #d1d1d1;
   margin-bottom: 30px;
 }
 .company-info .company-logo {
