@@ -8742,6 +8742,7 @@ img.avatar {
   font-size: 20px;
   font-weight: bold;
   text-transform: capitalize !important;
+  margin-bottom: 20px;
 }
 
 .save-quotes .view-all {
