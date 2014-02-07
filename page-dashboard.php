@@ -44,7 +44,7 @@ Template Name: Dashboard
 	<div class="quotes">
 		<div class="columns medium-12 saved-quotes">
 
-			<h2>My Saved Quotes</h2>
+			<h2>Recent Quotes</h2>
 
 			<ul>
 
@@ -95,7 +95,7 @@ Template Name: Dashboard
 
 			<hr>
 
-			<a href="#" class="view-all">View All</a>	
+			<a href="#" class="view-all">View All Quotes</a>	
 		</div>
 	</div>
 </div>

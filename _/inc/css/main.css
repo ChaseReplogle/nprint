@@ -8746,9 +8746,12 @@ img.avatar {
 }
 
 .save-quotes .view-all {
-  color: #4f98c4;
+  background-color: #4f98c4;
+  padding: 25px 0px;
+  text-align: center;
+  color: #fff;
   display: block;
-  text-align: left;
+  border: 1px solid #2b6182;
 }
 .save-quotes ul {
   margin: 0px;
