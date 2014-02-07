@@ -20,6 +20,21 @@ Template Name: Dashboard
 <div class="row content-row">
 
 	<div class="columns medium-8 page-sidebar save-quotes">
+		<h2>Welcome Chase.</h2>
+
+		<hr>
+
+		<h5>Your Company Inforation</h5>
+		<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" />
+		<h4>Chase's Print Shop</h4>
+		<p>2023 S Saratoga Ave</br>
+		Springfirld, MO 65804</p>
+
+		<p>(573)680-7902</p>
+		<p>ChaseReplogle@gmail.com</p>
+	</div>
+
+	<div class="columns medium-8 page-sidebar save-quotes">
 		<h2>My Saved Quotes</h2>
 
 		<hr>
