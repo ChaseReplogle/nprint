@@ -21,11 +21,6 @@ Template Name: Dashboard
 
 	<div class="columns medium-8 page-sidebar save-quotes">
 		<div class="row">
-			<h2>Welcome Chase.</h2>	
-			<h5>Your Company Inforation</h5>
-
-			<hr>
-
 			<div class="columns medium-4">
 				<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" />
 			</div>
