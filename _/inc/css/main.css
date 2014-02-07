@@ -8685,7 +8685,7 @@ img.avatar {
   border: 0px;
 }
 
-.account-nav ul li a .has-dropdown {
+.account-nav ul li a.has-dropdown {
   padding-left: 8px;
   font-weight: bold;
 }
