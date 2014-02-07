@@ -8738,6 +8738,11 @@ img.avatar {
 .saved-quotes {
   padding: 0px;
 }
+.saved-quotes h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 
 .save-quotes .view-all {
   color: #4f98c4;
