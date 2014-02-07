@@ -8766,6 +8766,9 @@ img.avatar {
 .save-quotes ul li a:hover {
   color: #4f98c4;
 }
+.save-quotes ul li p {
+  margin: 0px;
+}
 .save-quotes ul li span {
   float: right;
   color: #818080;
