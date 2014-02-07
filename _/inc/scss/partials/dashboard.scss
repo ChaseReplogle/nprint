@@ -18,7 +18,6 @@
 
 .account-nav ul li a.has-dropdown {
 	padding-left: 8px;
-	font-weight: bold;
 }
 
 .account-nav ul li.account-image {
@@ -97,12 +96,12 @@
 
 .save-quotes {
 	.view-all {
-		background-color: $mainblue;
+		background-color: $verylightgrey;
 		padding: 25px 0px;
 		text-align: center;
-		color: #fff;
+		color: $grey;
 		display: block;
-		border: 1px solid darken($mainblue, 20%);
+		border: 1px solid $lightgrey;
 	}
 
 	ul {

@@ -8687,7 +8687,6 @@ img.avatar {
 
 .account-nav ul li a.has-dropdown {
   padding-left: 8px;
-  font-weight: bold;
 }
 
 .account-nav ul li.account-image a:not(.button):first-child {
@@ -8746,12 +8745,12 @@ img.avatar {
 }
 
 .save-quotes .view-all {
-  background-color: #4f98c4;
+  background-color: #f2f2f2;
   padding: 25px 0px;
   text-align: center;
-  color: #fff;
+  color: #818080;
   display: block;
-  border: 1px solid #2b6182;
+  border: 1px solid #d1d1d1;
 }
 .save-quotes ul {
   margin: 0px;

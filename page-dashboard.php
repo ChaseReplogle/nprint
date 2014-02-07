@@ -27,12 +27,12 @@ Template Name: Dashboard
 
 			<div class="columns medium-8 company-contact">
 
-				<h4>Chase's Print Shop</h4>
+				<h4>Beyond Creative</h4>
 				<p>2023 S Saratoga Ave</br>
 				Springfirld, MO 65804</p>
 
-				<p>(573)680-7902</p>
-				<p>ChaseReplogle@gmail.com</p>
+				<p>(573) 680-7902</p>
+				<p>adam@breakbeyond.com</p>
 
 				<a href="#" class="small-link">Edit</a>
 			</div>
