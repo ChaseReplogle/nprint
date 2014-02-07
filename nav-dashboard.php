@@ -24,7 +24,7 @@
 <div class="row">
 	<div class="columns medium-12">
 		<div class="breadcrumbs">
-			<li><atitle="Go to Dashboard" href="/dashboard">Dashboard</a></li>
+			<a title="Go to Dashboard" href="/dashboard">Dashboard</a>
 		    <?php if(function_exists('bcn_display'))
 		    {
 		        bcn_display();

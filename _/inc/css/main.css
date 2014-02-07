@@ -8696,6 +8696,14 @@ img.avatar {
   border: 1px solid #000;
 }
 
+.breadcrumbs {
+  background-color: transparent;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+}
+
 .calculator-button {
   background-color: #f2f2f2;
   padding: 30px 30px 50px 30px;
