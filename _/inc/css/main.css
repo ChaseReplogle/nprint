@@ -8749,10 +8749,7 @@ img.avatar {
   display: block;
   text-align: left;
 }
-.save-quotes ul {
-  margin: 0px;
-}
-.save-quotes ul li {
+.save-quotes .quote-item {
   list-style: none;
   display: block;
   padding: 14px 20px 10px 20px;
@@ -8760,45 +8757,45 @@ img.avatar {
   border-bottom: 0px;
   background-color: #f2f2f2;
 }
-.save-quotes ul li a {
+.save-quotes .quote-item a {
   color: #818080;
 }
-.save-quotes ul li a:hover {
+.save-quotes .quote-item a:hover {
   color: #4f98c4;
 }
-.save-quotes ul li p {
+.save-quotes .quote-item p {
   margin: 0px;
 }
-.save-quotes ul li span {
+.save-quotes .quote-item span {
   float: right;
   color: #818080;
   font-size: 11px;
 }
-.save-quotes ul li span a {
+.save-quotes .quote-item span a {
   font-size: 11px;
   padding-left: 2px;
   padding-right: 2px;
 }
-.save-quotes ul li span a:hover {
+.save-quotes .quote-item span a:hover {
   color: #4f98c4;
   text-decoration: underline;
 }
-.save-quotes ul li span .quote-cart {
+.save-quotes .quote-item span .quote-cart {
   padding: 5px 10px;
   color: #fff;
   margin-left: 15px;
 }
-.save-quotes ul li span .quote-cart:hover {
+.save-quotes .quote-item span .quote-cart:hover {
   color: #fff;
   text-decoration: none;
 }
-.save-quotes ul li span .quote-delete {
+.save-quotes .quote-item span .quote-delete {
   color: #c0392b;
 }
-.save-quotes ul li span .quote-delete:hover {
+.save-quotes .quote-item span .quote-delete:hover {
   color: #962d22;
 }
-.save-quotes ul li:last-child {
+.save-quotes .quote-item:last-child {
   border-bottom: 1px solid #d1d1d1;
 }
 

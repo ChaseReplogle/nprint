@@ -46,8 +46,6 @@ Template Name: Dashboard
 
 			<h2>My Saved Quotes</h2>
 
-			<ul>
-
 			<?php $user_ID = get_current_user_id(); ?> 
 
 			<?php $args = array(
@@ -63,7 +61,7 @@ Template Name: Dashboard
 				 <?php $postid = get_the_ID(); ?> 
 				 <?php $calcType = get_field("product"); ?>
 
-				<li class="row">
+				<div class="row quote-item">
 					<div class="columns medium-4">
 						<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a>
 					</div>
@@ -84,14 +82,12 @@ Template Name: Dashboard
 							<a href="#" class="quote-cart secondary_button">Add to Cart</a>
 						</span>
 					</div>
-				</li>
+				</div>
 
 				
 
 
 			<?php endwhile; endif; ?>
-
-			</ul>	
 
 			<hr>
 
