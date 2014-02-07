@@ -23,7 +23,12 @@
 
 <div class="row">
 	<div class="columns medium-12">
-		<?php if(function_exists(simple_breadcrumb)) {simple_breadcrumb();} ?>
+		<div class="breadcrumbs">
+		    <?php if(function_exists('bcn_display'))
+		    {
+		        bcn_display();
+		    }?>
+		</div>
 	</div>
 </div>
 
