@@ -45,9 +45,7 @@ Template Name: Dashboard
 		<div class="columns medium-12 saved-quotes">
 
 			<h2>My Saved Quotes</h2>
-
-			<hr>
-
+			
 			<ul>
 
 			<?php $user_ID = get_current_user_id(); ?> 
