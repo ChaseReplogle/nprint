@@ -20,4 +20,9 @@
 
 </section>
 </nav>
+<ul class="breadcrumbs">
+  <li><a href="/dashboard">Dashboard</a></li>
+  <li><a href="/calculators">Calculators</a></li>
+  <li class="current"><a href="#"><?php the_title(); ?></a></li>
+</ul>
 </div>	
