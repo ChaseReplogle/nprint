@@ -8683,11 +8683,11 @@ img.avatar {
 .account-nav ul li.account-links a:not(.button):first-child,
 .account-nav ul li.account-image a:not(.button):first-child {
   border: 0px;
-  font-weight: bold;
 }
 
-.account-nav ul li.account-image a .has-dropdown {
+.account-nav ul li a .has-dropdown {
   padding-left: 8px;
+  font-weight: bold;
 }
 
 .account-nav ul li.account-image a:not(.button):first-child {
