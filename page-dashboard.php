@@ -17,10 +17,10 @@ Template Name: Dashboard
 <?php include 'nav-dashboard.php'; ?>
 
 
-<div class="content-row">
+<div class="row content-row">
 
 	<div class="columns medium-8 page-sidebar save-quotes">
-		<div class="row company-info">
+		<div class="company-info">
 			<div class="columns medium-4 company-logo">
 				<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" />
 			</div>
