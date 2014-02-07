@@ -8686,6 +8686,15 @@ img.avatar {
   font-weight: bold;
 }
 
+.account-nav ul li.account-image a:not(.button):first-child {
+  padding: 0px;
+}
+.account-nav ul li.account-image a:not(.button):first-child img {
+  padding: 0px;
+  margin-top: -6px;
+  border: 1px solid #000;
+}
+
 .calculator-button {
   background-color: #f2f2f2;
   padding: 30px 30px 50px 30px;
