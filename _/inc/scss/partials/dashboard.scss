@@ -188,6 +188,10 @@
 	}
 }
 
+.edit {
+	color: $mainblue;
+}
+
 .sidebar {
 	z-index: 9999;
 }
@@ -535,6 +539,7 @@
 		padding: 20px;
 		background-color: #fff;
 		border: 1px solid $lightgrey;
+		margin-bottom: 30px;
 	}
 
 	.company-contact {

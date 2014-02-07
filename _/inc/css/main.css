@@ -8819,6 +8819,10 @@ img.avatar {
   border-bottom: 1px solid #d1d1d1;
 }
 
+.edit {
+  color: #4f98c4;
+}
+
 .sidebar {
   z-index: 9999;
 }
@@ -9106,6 +9110,7 @@ img.avatar {
   padding: 20px;
   background-color: #fff;
   border: 1px solid #d1d1d1;
+  margin-bottom: 30px;
 }
 .company-info .company-contact {
   position: relative;

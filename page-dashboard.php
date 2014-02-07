@@ -34,7 +34,7 @@ Template Name: Dashboard
 				<p>(573)680-7902</p>
 				<p>ChaseReplogle@gmail.com</p>
 
-				<a href="#">Edit</a>
+				<a href="#" class="edit">Edit</a>
 			</div>
 
 			<hr>	
