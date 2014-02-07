@@ -101,68 +101,71 @@
 		text-align: left;
 	}
 
-	.quote-item {
-		list-style: none;
-		display: block;
-		padding: 14px 20px 10px 20px;
-		border: 1px solid $lightgrey;
-		border-bottom: 0px;
-		background-color: $verylightgrey;
+	ul {
+		margin: 0px;
 
-		a {
-			color: $grey;
-
-			&:hover {
-				color: $mainblue;
-			}
-		}
-
-		p {
-			margin: 0px;
-		}
-
-		span {
-			float: right;
-			color: $grey;
-			font-size: 11px;
+		li {
+			list-style: none;
+			display: block;
+			padding: 14px 20px 10px 20px;
+			border: 1px solid $lightgrey;
+			border-bottom: 0px;
+			background-color: $verylightgrey;
 
 			a {
-				font-size: 11px;
-				padding-left: 2px;
-				padding-right: 2px;
+				color: $grey;
 
 				&:hover {
 					color: $mainblue;
-					text-decoration: underline;
 				}
 			}
 
-			.quote-cart {
-				padding: 5px 10px;
-				color: #fff;
-				margin-left: 15px;
+			p {
+				margin: 0px;
+			}
 
-				&:hover {
+			span {
+				float: right;
+				color: $grey;
+				font-size: 11px;
+
+				a {
+					font-size: 11px;
+					padding-left: 2px;
+					padding-right: 2px;
+
+					&:hover {
+						color: $mainblue;
+						text-decoration: underline;
+					}
+				}
+
+				.quote-cart {
+					padding: 5px 10px;
 					color: #fff;
-					text-decoration: none;
+					margin-left: 15px;
+
+					&:hover {
+						color: #fff;
+						text-decoration: none;
+					}
 				}
-			}
 
-			.quote-delete {
-				color: $red;
+				.quote-delete {
+					color: $red;
 
-				&:hover {
-					color: darken($red, 10%);
+					&:hover {
+						color: darken($red, 10%);
+					}
 				}
 			}
 		}
-	}
 
-	.quote-item:last-child {
-		border-bottom: 1px solid $lightgrey;
+		li:last-child {
+			border-bottom: 1px solid $lightgrey;
+		}
 	}
 }
-
 
 .sidebar {
 	z-index: 9999;
