@@ -23,11 +23,7 @@
 
 <div class="row">
 	<div class="columns medium-12">
-		<ul class="breadcrumbs">
-		  <li><a href="/dashboard">Dashboard</a></li>
-		  <li><a href="/calculators">Calculators</a></li>
-		  <li class="current"><a href="#"><?php the_title(); ?></a></li>
-		</ul>
+		<?php if(function_exists(simple_breadcrumb)) {simple_breadcrumb();} ?>
 	</div>
 </div>
 
