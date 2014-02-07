@@ -111,6 +111,13 @@
 			border-bottom: 0px;
 			background-color: $verylightgrey;
 			width: 100%;
+			display: table;
+
+			.columns {
+				overflow: hidden; 
+  				text-overflow: ellipsis;
+  				white-space: nowrap;
+			}
 
 			a {
 				color: $grey;
@@ -122,6 +129,7 @@
 
 			p {
 				margin: 0px;
+				font-size: 11px;
 			}
 
 			span {

@@ -8759,6 +8759,12 @@ img.avatar {
   border-bottom: 0px;
   background-color: #f2f2f2;
   width: 100%;
+  display: table;
+}
+.save-quotes ul li .columns {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .save-quotes ul li a {
   color: #818080;
@@ -8768,6 +8774,7 @@ img.avatar {
 }
 .save-quotes ul li p {
   margin: 0px;
+  font-size: 11px;
 }
 .save-quotes ul li span {
   float: right;
