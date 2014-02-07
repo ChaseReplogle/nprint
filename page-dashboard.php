@@ -87,6 +87,7 @@ Template Name: Dashboard
 						</span>
 					</div>
 				</li>
+				<div class="clear"></div>
 
 				
 
