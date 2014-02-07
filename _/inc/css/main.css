@@ -8680,7 +8680,7 @@ img.avatar {
   border: 1px sold #000;
 }
 
-.account-links {
+.account-links a {
   border-left: 0px;
   font-weight: bold;
 }
