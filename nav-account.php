@@ -11,8 +11,8 @@
     <section class="top-bar-section right">
         <!-- Right Nav Section -->
         <ul>
-            <li class="account-image"><a href="/dashboard"><img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/avatar.jpg"></a></li>
-            <li class="account-links"><a href="/account" class="has-dropdown">Chase Replogle</a>
+            <li class="account-image"><a href="/dashboard"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-07-at-11.37.47-AM.png"></a></li>
+            <li class="account-links"><a href="/account" class="has-dropdown">Adam Deviza</a>
               <ul class="dropdown">
                 <li><a class="" href="/dashboard">My Quotes</a></li>
                 <?php wp_list_pages('title_li=&child_of=123'); ?>
