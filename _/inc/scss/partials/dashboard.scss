@@ -15,7 +15,6 @@
 .account-nav ul li.account-image a:not(.button):first-child {
 	border: 0px;
 	font-weight: bold;
-	padding-left: 8px;
 }
 
 .account-nav ul li.account-image {
@@ -27,6 +26,7 @@
 			padding: 0px;
 			margin-top: -6px;
 			border: 1px solid #000;
+			margin-right: -8px;
 		}
 
 	}
