@@ -65,7 +65,7 @@ Template Name: Dashboard
 				 <?php $postid = get_the_ID(); ?> 
 				 <?php $calcType = get_field("product"); ?>
 
-				<li>
+				<li class="row">
 					<div class="columns medium-4">
 						<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a>
 					</div>
