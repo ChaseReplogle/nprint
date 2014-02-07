@@ -20,12 +20,12 @@ Template Name: Dashboard
 <div class="row content-row">
 
 	<div class="columns medium-8 page-sidebar save-quotes">
-		<div class="row">
-			<div class="columns medium-4">
+		<div class="row company-info">
+			<div class="columns medium-4 company-logo">
 				<img src="<?php echo get_template_directory_uri(); ?>/_/inc/images/logo.png" alt="nPrint Graphix" width="386" height="190" />
 			</div>
 
-			<div class="columns medium-8">
+			<div class="columns medium-8 company-contact">
 
 				<h4>Chase's Print Shop</h4>
 				<p>2023 S Saratoga Ave</br>
@@ -33,11 +33,11 @@ Template Name: Dashboard
 
 				<p>(573)680-7902</p>
 				<p>ChaseReplogle@gmail.com</p>
+
+				<a href="#" class="view-all">Edit</a>
 			</div>
 
-			<hr>
-
-			<a href="#" class="view-all">Edit Info</a>	
+			<hr>	
 
 		</div>
 

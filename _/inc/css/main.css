@@ -9066,6 +9066,12 @@ img.avatar {
   border: 1px solid #d1d1d1;
 }
 
+.company-info .company-logo {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+}
+
 @media only screen and (max-width: 40em) {
   #cost {
     width: auto !important;
