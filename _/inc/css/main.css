@@ -7709,7 +7709,7 @@ body .clear-break {
   color: #818080;
   margin: 0px;
   padding-right: 15%;
-  padding-left: 5%;
+  padding-left: 0px;
   padding-bottom: 0px;
   padding-top: 0px;
   font-family: 'Open Sans', sans-serif;
@@ -8684,7 +8684,7 @@ img.avatar {
 .account-nav ul li.account-image a:not(.button):first-child {
   border: 0px;
   font-weight: bold;
-  padding-left: 5px;
+  padding-left: 8px;
 }
 
 .account-nav ul li.account-image a:not(.button):first-child {
@@ -8702,6 +8702,10 @@ img.avatar {
   margin: 0px;
   padding: 0px;
   padding-bottom: 10px;
+}
+.breadcrumbs a {
+  text-transform: none;
+  color: #4f98c4;
 }
 
 .calculator-button {
