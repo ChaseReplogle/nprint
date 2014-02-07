@@ -8739,9 +8739,9 @@ img.avatar {
   padding: 0px;
 }
 .saved-quotes h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: capitalize !important;
 }
 
 .save-quotes .view-all {
