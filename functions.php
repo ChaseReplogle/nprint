@@ -189,4 +189,10 @@ $redir = get_option('siteurl');
 return $logouturl . '&amp;redirect_to=' . urlencode($redir);
 }
 
+function fix_woo_var_cart()
+{
+  wp_enqueue_script('add-to-cart-variation', '/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.js',array('jquery'),'1.0',true);
+}
+add_action('wp_enqueue_scripts','fix_woo_var_cart');
+
 ?>
