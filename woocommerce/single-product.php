@@ -36,4 +36,7 @@
 		do_action('woocommerce_after_main_content');
 	?>
 
+<div class="footer-wrapper">
+
+
 <?php get_footer(); ?>
