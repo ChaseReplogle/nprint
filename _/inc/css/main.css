@@ -9454,6 +9454,10 @@ body ul.dwls_search_results li a {
   display: none;
 }
 
+.woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
+  width: 100%;
+}
+
 .video_screen {
   z-index: 0;
   position: absolute;
