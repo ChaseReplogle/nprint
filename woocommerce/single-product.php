@@ -13,7 +13,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 get_header(); ?>
 
-<?php include 'woocommerce-nav.php'; ?>
+<?php include 'wp-content/themes/nprint/nav-account.php'; ?>
+<?php include 'wp-content/themes/nprint/nav-main.php'; ?>
+<?php include 'wp-content/themes/nprint/nav-dashboard.php'; ?>
 
 	<?php
 		/**
