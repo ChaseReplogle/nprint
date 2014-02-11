@@ -1,8 +1,10 @@
 <?php
 /**
- * @package WordPress
- * @subpackage HTML5-Reset-WordPress-Theme
- * @since HTML5 Reset 2.0
+ * Display single product reviews (comments)
+ *
+ * @author 		WooThemes
+ * @package 	WooCommerce/Templates
+ * @version     2.0.3
  */
  get_header(); ?>
 
