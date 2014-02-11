@@ -6,6 +6,11 @@
  */
  get_header(); ?>
 
+ <?php include 'nav-account.php'; ?>
+<?php include 'nav-main.php'; ?>
+<?php include 'nav-dashboard.php'; ?>
+
+
 	<?php
 		/**
 		 * woocommerce_before_main_content hook
