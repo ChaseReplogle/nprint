@@ -9446,7 +9446,7 @@ body ul.dwls_search_results li a {
   display: none;
 }
 
-.submit-options {
+.submit-options, .hidden, .cost-mark-up, .retail {
   display: none;
 }
 
