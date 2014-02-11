@@ -57,6 +57,12 @@ get_header(); ?>
 
 </div>
 
+<script>
+	$ = jQuery;
+	$(".single_add_to_cart_button").prependTo(".sidebar");
+	$(".product_totals").prependTo(".sidebar");
+</script>
+
 <div class="footer-wrapper">
 
 <?php get_footer(); ?>
