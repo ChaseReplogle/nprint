@@ -72,48 +72,7 @@
 
 
 
-<script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/imagesloaded.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/video.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/bigvideo.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/calculator.js"></script>
 
-<!-- this is where we put our custom functions -->
-
-<script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/print.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/_/js/functions.js"></script>
-
-
-<link rel="stylesheet" id="print-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/print.css" />
-<script>
-
-	$ = jQuery;
-
-	$.urlParam = function(name){
-	    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
-	    if (results===null){
-	       return null;
-	    }
-	    else{
-	       return results[1] || 0;
-	    }
-	};
-
-	$.urlParam('style');
-
-	var style = $.urlParam('style');
-	  
-
-	if (style==="print")
-	  	{
-	  	  jQuery('#main-css').remove();
-	  	}
-	else
-  		{
-		jQuery('#print-css').remove();
-		jQuery('.for-print').remove();
-	}
-</script>
 
 <!-- Asynchronous google analytics; this is the official snippet.
 	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
