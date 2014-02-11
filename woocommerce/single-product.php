@@ -1,14 +1,9 @@
 <?php
 /**
- * The Template for displaying all single products.
- *
- * Override this template by copying it to yourtheme/woocommerce/single-product.php
- *
- * @author 		WooThemes
- * @package 	WooCommerce/Templates
- * @version     1.6.4
+ * @package WordPress
+ * @subpackage HTML5-Reset-WordPress-Theme
+ * @since HTML5 Reset 2.0
  */
-
  get_header(); ?>
 
 	<?php
