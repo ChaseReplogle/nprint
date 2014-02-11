@@ -9448,15 +9448,10 @@ body ul.dwls_search_results li a {
 .woocommerce .woocommerce-breadcrumb {
   display: none;
 }
-.woocommerce .cost {
-  visibility: hidden;
-  height: 0px;
-  display: block;
-}
 .woocommerce .saved-percent {
   display: none;
 }
-.woocommerce .submit-options {
+.woocommerce .cost, .woocommerce .submit-options, .woocommerce .buttons_added {
   visibility: hidden;
   height: 0px;
   display: block;

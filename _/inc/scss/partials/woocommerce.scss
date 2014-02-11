@@ -1,7 +1,7 @@
 .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
 		width: 100% !important;
 	}
-	
+
 .woocommerce {
 
 	.woocommerce-tabs {
@@ -12,17 +12,11 @@
 		display: none;
 	}
 
-	.cost  {
-		visibility: hidden;
-		height: 0px;
-		display: block;
-	}
-
 	.saved-percent {
 		display: none;
 	}
 
-	.submit-options {
+	.cost, .submit-options, .buttons_added {
 		visibility: hidden;
 		height: 0px;
 		display: block;
