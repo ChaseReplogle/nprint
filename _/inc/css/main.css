@@ -9459,6 +9459,27 @@ body ul.dwls_search_results li a {
 .woocommerce .gsection {
   display: none !important;
 }
+.woocommerce .gform_wrapper .gform_footer {
+  height: 0px;
+  width: 0px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+.woocommerce .gfield {
+  margin: 0px;
+}
+.woocommerce input {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  background-color: transparent;
+  box-shadow: none;
+}
+.woocommerce label {
+  margin: 0px;
+  padding: 0px;
+}
 
 .video_screen {
   z-index: 0;

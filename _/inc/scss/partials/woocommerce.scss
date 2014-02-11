@@ -25,5 +25,30 @@
 	.gsection {
 		display: none !important;
 	}
+
+	.gform_wrapper .gform_footer {
+		height: 0px;
+		width: 0px;
+		margin: 0px;
+		padding: 0px;
+		display: block;
+	}
+
+	.gfield {
+		margin: 0px;
+	}
+
+	input {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+	label {
+		margin: 0px;
+		padding: 0px;
+	}
 	
 }
