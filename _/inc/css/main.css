@@ -9438,31 +9438,26 @@ body ul.dwls_search_results li a {
   box-shadow: 0px 0px #d3545d;
 }
 
-.woocommerce-tabs {
+.woocommerce .woocommerce-tabs {
   display: none;
 }
-
-.woocommerce-breadcrumb {
+.woocommerce .woocommerce-breadcrumb {
   display: none;
 }
-
-.cost {
+.woocommerce .cost {
   visibility: hidden;
   height: 0px;
   display: block;
 }
-
-.saved-percent {
+.woocommerce .saved-percent {
   display: none;
 }
-
-.submit-options {
+.woocommerce .submit-options {
   visibility: hidden;
   height: 0px;
   display: block;
 }
-
-.woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
+.woocommerce .woocommerce div.product div.summary, .woocommerce .woocommerce #content div.product div.summary, .woocommerce .woocommerce-page div.product div.summary, .woocommerce .woocommerce-page #content div.product div.summary {
   width: 100% !important;
 }
 
