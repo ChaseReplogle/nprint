@@ -9438,6 +9438,10 @@ body ul.dwls_search_results li a {
   box-shadow: 0px 0px #d3545d;
 }
 
+.woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
+  width: 100% !important;
+}
+
 .woocommerce .woocommerce-tabs {
   display: none;
 }
@@ -9456,9 +9460,6 @@ body ul.dwls_search_results li a {
   visibility: hidden;
   height: 0px;
   display: block;
-}
-.woocommerce .woocommerce div.product div.summary, .woocommerce .woocommerce #content div.product div.summary, .woocommerce .woocommerce-page div.product div.summary, .woocommerce .woocommerce-page #content div.product div.summary {
-  width: 100% !important;
 }
 
 .video_screen {
