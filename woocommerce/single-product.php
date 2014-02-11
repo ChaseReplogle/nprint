@@ -17,6 +17,10 @@ get_header(); ?>
 <?php include 'wp-content/themes/nprint/nav-main.php'; ?>
 <?php include 'wp-content/themes/nprint/nav-dashboard.php'; ?>
 
+<div class="row content-row">
+
+	<div class="columns medium-8 page-main-content">
+
 	<?php
 		/**
 		 * woocommerce_before_main_content hook
@@ -41,6 +45,17 @@ get_header(); ?>
 		 */
 		do_action('woocommerce_after_main_content');
 	?>
+
+	</div>
+
+	<div class="columns medium-4 sidebar">
+
+		<h2>Test Sidebar</h2>
+
+
+	</div>
+
+</div>
 
 <div class="footer-wrapper">
 
