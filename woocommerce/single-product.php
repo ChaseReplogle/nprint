@@ -1,17 +1,17 @@
 <?php
 /**
- * Display single product reviews (comments)
+ * The Template for displaying all single products.
+ *
+ * Override this template by copying it to yourtheme/woocommerce/single-product.php
  *
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     2.0.3
+ * @version     1.6.4
  */
- get_header(); ?>
 
- 
-<?php include '/nav-account.php'; ?>
-<?php include '/nav-main.php'; ?>
-<?php include '/nav-dashboard.php'; ?>
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+get_header(); ?>
 
 	<?php
 		/**
@@ -29,7 +29,24 @@
 
 		<?php endwhile; // end of the loop. ?>
 
-<div class="footer-wrapper">
+	<?php
+		/**
+		 * woocommerce_after_main_content hook
+		 *
+		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
+		 */
+		do_action('woocommerce_after_main_content');
+	?>
 
+	<?php
+		/**
+		 * woocommerce_sidebar hook
+		 *
+		 * @hooked woocommerce_get_sidebar - 10
+		 */
+		do_action('woocommerce_sidebar');
+	?>
+
+<div class="footer-wrapper">
 
 <?php get_footer(); ?>
