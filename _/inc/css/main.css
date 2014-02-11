@@ -9456,6 +9456,9 @@ body ul.dwls_search_results li a {
   height: 0px;
   display: block;
 }
+.woocommerce .gsection {
+  display: none !important;
+}
 
 .video_screen {
   z-index: 0;
