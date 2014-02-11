@@ -9438,6 +9438,18 @@ body ul.dwls_search_results li a {
   box-shadow: 0px 0px #d3545d;
 }
 
+.woocommerce-tabs {
+  display: none;
+}
+
+.woocommerce-breadcrumb {
+  display: none;
+}
+
+.cost {
+  display: none;
+}
+
 .video_screen {
   z-index: 0;
   position: absolute;
