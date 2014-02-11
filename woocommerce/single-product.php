@@ -51,6 +51,8 @@ get_header(); ?>
 	<div class="columns medium-4 sidebar">
 
 		<h2>Test Sidebar</h2>
+		<p>Include Information about free shipping</p>
+		<p>Add multiple items to your cart</p>
 
 
 	</div>
