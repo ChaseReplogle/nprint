@@ -9,9 +9,9 @@
 			  	$section = wp_list_pages("title_li=&include=".$post->ID."&echo=1"); ?>
 				  	<?php echo $section; ?>
 
-		<?php if ('product' == get_post_type()) {
-				the_title();
-			} ?> 
+		<?php if ('product' == get_post_type()) { ?>
+				<li>Reivew</li>
+			<?php } ?> 
 </ul>
 
 <section class="top-bar-section right">
