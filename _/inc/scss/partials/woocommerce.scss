@@ -2,7 +2,7 @@
 		width: 100% !important;
 	}
 
-.woocommerce {
+.single-product {
 
 	.woocommerce-tabs {
 		display: none;
@@ -38,7 +38,7 @@
 		margin: 0px;
 	}
 
-	input {
+	.gform_wrapper input[type=text], .gform_wrapper input[type=url], .gform_wrapper input[type=email], .gform_wrapper input[type=tel], .gform_wrapper input[type=number], .gform_wrapper input[type=password] {
 		padding: 0px;
 		margin: 0px;
 		border: 0px;
