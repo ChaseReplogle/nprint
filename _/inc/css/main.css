@@ -9514,6 +9514,13 @@ body ul.dwls_search_results li a {
 .single-product .product_totals .formattedTotalPrice {
   font-size: 20px;
 }
+.single-product .single_add_to_cart_button {
+  padding: 25px;
+  width: 100%;
+  background-color: #4f98c4;
+  margin-top: 10px;
+  background: #4f98c4;
+}
 
 .video_screen {
   z-index: 0;
