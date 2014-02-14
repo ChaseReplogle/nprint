@@ -9508,6 +9508,12 @@ body ul.dwls_search_results li a {
 .single-product .gform_wrapper .gfield_required {
   display: none;
 }
+.single-product .product_totals label {
+  font-size: 20px;
+}
+.single-product .product_totals .formattedTotalPrice {
+  font-size: 20px;
+}
 
 .video_screen {
   z-index: 0;

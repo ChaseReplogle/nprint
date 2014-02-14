@@ -81,5 +81,16 @@
 	.gform_wrapper .gfield_required {
 		display: none;
 	}
+
+	.product_totals {
+
+		label {
+			font-size: 20px;
+		}
+
+		.formattedTotalPrice {
+			font-size: 20px;
+		}
+	}
 	
 }
