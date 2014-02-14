@@ -46,7 +46,10 @@ if ( ! $product->is_purchasable() ) return;
 	 	<?php do_action('woocommerce_after_add_to_cart_button'); ?>
 
 	</form>
-		<a href="#">Return to Calculator</a>
+		<?php
+	  		$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+	  		echo "<a href='$url'>Return to Calculator</a>"; 
+		?>
 
 	<?php do_action('woocommerce_after_add_to_cart_form'); ?>
 
