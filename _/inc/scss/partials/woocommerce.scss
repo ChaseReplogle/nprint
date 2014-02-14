@@ -63,5 +63,10 @@
 		width: 120% !important;
 		font-size: 14px;
 	}
+
+	.gform_wrapper ul li.half_left, .gform_wrapper ul li.half_right {
+		float: clear;
+		width: 100%;
+	}
 	
 }

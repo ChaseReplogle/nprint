@@ -9491,6 +9491,10 @@ body ul.dwls_search_results li a {
   width: 120% !important;
   font-size: 14px;
 }
+.single-product .gform_wrapper ul li.half_left, .single-product .gform_wrapper ul li.half_right {
+  float: clear;
+  width: 100%;
+}
 
 .video_screen {
   z-index: 0;
