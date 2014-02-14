@@ -5,11 +5,13 @@
      	<?php
 			  if($post->post_parent) //inner page
 			  	$section = wp_list_pages("title_li=&include=".$post->post_parent);
-			  elseif // top level page
+			  else // top level page
 			  	$section = wp_list_pages("title_li=&include=".$post->ID."&echo=1"); ?>
 				  	<?php echo $section; ?>
-			<?php else 
-				the_title(); ?>
+
+		<?php if is_page( 'Contact' ); {
+
+			}; ?> 
 </ul>
 
 <section class="top-bar-section right">
