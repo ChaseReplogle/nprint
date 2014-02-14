@@ -9468,6 +9468,7 @@ body ul.dwls_search_results li a {
 }
 .single-product .gfield {
   margin: 0px;
+  padding-bottom: 5px;
   border-bottom: 1px solid #d1d1d1;
 }
 .single-product .ginput_container {
@@ -9479,6 +9480,7 @@ body ul.dwls_search_results li a {
   border: 0px;
   background-color: transparent;
   box-shadow: none;
+  height: auto;
 }
 .single-product .gform_wrapper .top_label .gfield_label {
   margin: 0px;
@@ -9494,6 +9496,9 @@ body ul.dwls_search_results li a {
 .single-product .gform_wrapper ul li.half_left, .single-product .gform_wrapper ul li.half_right {
   float: clear;
   width: 100%;
+}
+.single-product .gfield_description {
+  display: none;
 }
 
 .video_screen {

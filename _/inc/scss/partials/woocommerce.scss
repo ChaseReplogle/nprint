@@ -36,6 +36,7 @@
 
 	.gfield {
 		margin: 0px;
+		padding-bottom: 5px;
 		border-bottom: 1px solid $lightgrey;
 	}
 
@@ -49,6 +50,7 @@
 		border: 0px;
 		background-color: transparent;
 		box-shadow: none;
+		height: auto;
 	}
 
 	.gform_wrapper .top_label .gfield_label {
@@ -67,6 +69,10 @@
 	.gform_wrapper ul li.half_left, .gform_wrapper ul li.half_right {
 		float: clear;
 		width: 100%;
+	}
+
+	.gfield_description {
+		display: none;
 	}
 	
 }
