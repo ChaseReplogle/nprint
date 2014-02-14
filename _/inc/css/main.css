@@ -9442,6 +9442,9 @@ body ul.dwls_search_results li a {
 
 .woocommerce .woocommerce-message {
   border: 0px;
+  background-color: #2ecc71;
+  background: #2ecc71;
+  color: #fff;
 }
 .woocommerce .woocommerce-message:after {
   display: none;

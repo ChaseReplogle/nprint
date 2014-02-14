@@ -1,5 +1,8 @@
 .woocommerce .woocommerce-message {
 	border: 0px;
+	background-color: $green;
+	background: $green;
+	color: #fff;
 
 	&:after {
 		display: none;
