@@ -10,7 +10,7 @@
 				  	<?php echo $section; ?>
 
 		<?php if ('product' == get_post_type()) { ?>
-				<li>Reivew</li>
+				<li><a href="<?php the_permalink();?>">Reivew</a></li>
 			<?php } ?> 
 </ul>
 
