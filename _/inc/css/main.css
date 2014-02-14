@@ -9442,12 +9442,13 @@ body ul.dwls_search_results li a {
 
 .woocommerce .woocommerce-message {
   border: 0px;
-  background-color: #2ecc71;
-  background: #2ecc71;
+  background-color: #78cb86;
+  background: #78cb86;
   color: #fff;
+  padding: 20px;
 }
-.woocommerce .woocommerce-message:after {
-  display: none;
+.woocommerce .woocommerce-message:before {
+  background-color: transparent;
 }
 
 .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {

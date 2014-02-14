@@ -3,9 +3,10 @@
 	background-color: $green;
 	background: $green;
 	color: #fff;
+	padding: 20px;
 
-	&:after {
-		display: none;
+	&:before {
+		background-color: transparent;
 	}
 }
 
