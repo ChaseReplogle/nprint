@@ -9454,9 +9454,11 @@ body ul.dwls_search_results li a {
   display: none;
 }
 .single-product .cost, .single-product .submit-options, .single-product .buttons_added {
-  visibility: hidden;
+  overflow: hidden;
   height: 0px;
   display: block;
+  margin: 0px;
+  padding: 0px;
 }
 .single-product .gsection {
   display: none !important;
@@ -9500,6 +9502,9 @@ body ul.dwls_search_results li a {
   width: 100%;
 }
 .single-product .gfield_description {
+  display: none;
+}
+.single-product .gform_wrapper .gfield_required {
   display: none;
 }
 

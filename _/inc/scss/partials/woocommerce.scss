@@ -17,9 +17,11 @@
 	}
 
 	.cost, .submit-options, .buttons_added {
-		visibility: hidden;
+		overflow: hidden;
 		height: 0px;
 		display: block;
+		margin: 0px;
+		padding: 0px;
 	}
 
 	.gsection {
@@ -72,6 +74,10 @@
 	}
 
 	.gfield_description {
+		display: none;
+	}
+
+	.gform_wrapper .gfield_required {
 		display: none;
 	}
 	
