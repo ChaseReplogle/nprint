@@ -9468,6 +9468,7 @@ body ul.dwls_search_results li a {
 }
 .single-product .gfield {
   margin: 0px;
+  border-bottom: 1px solid #d1d1d1;
 }
 .single-product .gform_wrapper input[type=text], .single-product .gform_wrapper input[type=url], .single-product .gform_wrapper input[type=email], .single-product .gform_wrapper input[type=tel], .single-product .gform_wrapper input[type=number], .single-product .gform_wrapper input[type=password] {
   padding: 0px;
