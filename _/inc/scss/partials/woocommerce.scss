@@ -99,6 +99,9 @@
 		background-color: $mainblue;
 		margin-top: 10px;
 		background: $mainblue;
+		text-shadow: 0 0px 0 rgba(0,0,0,0.6);
+		border-radius: 0px;
+		border: 1px solid darken($mainblue, 30%);
 	}
 	
 }

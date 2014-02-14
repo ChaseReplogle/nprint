@@ -9520,6 +9520,9 @@ body ul.dwls_search_results li a {
   background-color: #4f98c4;
   margin-top: 10px;
   background: #4f98c4;
+  text-shadow: 0 0px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 0px;
+  border: 1px solid #1f455b;
 }
 
 .video_screen {
