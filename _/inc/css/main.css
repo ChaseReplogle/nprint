@@ -7207,6 +7207,8 @@ body .gfield_description {
 }
 body .gfield_description i {
   color: #d1d1d1;
+  text-align: right;
+  margin-right: -25px;
 }
 body .gfield_description .f-dropdown {
   padding: 20px;
