@@ -9470,6 +9470,9 @@ body ul.dwls_search_results li a {
   margin: 0px;
   border-bottom: 1px solid #d1d1d1;
 }
+.single-product .ginput_container {
+  overflow: hidden;
+}
 .single-product .gform_wrapper input[type=text], .single-product .gform_wrapper input[type=url], .single-product .gform_wrapper input[type=email], .single-product .gform_wrapper input[type=tel], .single-product .gform_wrapper input[type=number], .single-product .gform_wrapper input[type=password] {
   padding: 0px;
   margin: 0px;
@@ -9485,6 +9488,8 @@ body ul.dwls_search_results li a {
   padding: 0px;
   border: 0px;
   background-color: transparent;
+  width: 120%;
+  font-size: 14px;
 }
 
 .video_screen {

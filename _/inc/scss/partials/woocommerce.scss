@@ -39,6 +39,10 @@
 		border-bottom: 1px solid $lightgrey;
 	}
 
+	.ginput_container {
+		overflow: hidden;
+	}
+
 	.gform_wrapper input[type=text], .gform_wrapper input[type=url], .gform_wrapper input[type=email], .gform_wrapper input[type=tel], .gform_wrapper input[type=number], .gform_wrapper input[type=password] {
 		padding: 0px;
 		margin: 0px;
@@ -56,6 +60,8 @@
 		padding: 0px;
 		border: 0px;
 		background-color: transparent;
+		width: 120%;
+		font-size: 14px;
 	}
 	
 }
