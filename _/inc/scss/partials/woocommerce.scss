@@ -18,10 +18,11 @@
 
 	.cost, .submit-options, .buttons_added {
 		overflow: hidden;
+		visibility: hidden;
 		height: 0px;
 		display: block;
-		margin: 0px;
-		padding: 0px;
+		margin: 0px !important;
+		padding: 0px !important;
 	}
 
 	.gsection {

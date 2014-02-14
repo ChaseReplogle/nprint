@@ -9455,10 +9455,11 @@ body ul.dwls_search_results li a {
 }
 .single-product .cost, .single-product .submit-options, .single-product .buttons_added {
   overflow: hidden;
+  visibility: hidden;
   height: 0px;
   display: block;
-  margin: 0px;
-  padding: 0px;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 .single-product .gsection {
   display: none !important;
