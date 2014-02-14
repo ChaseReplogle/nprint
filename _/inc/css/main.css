@@ -9476,9 +9476,14 @@ body ul.dwls_search_results li a {
   background-color: transparent;
   box-shadow: none;
 }
-.single-product label {
+.single-product .gform_wrapper .top_label .gfield_label {
   margin: 0px;
   padding: 0px;
+}
+.single-product .gform_wrapper select {
+  padding: 0px;
+  border: 0px;
+  background-color: transparent;
 }
 
 .video_screen {

@@ -46,9 +46,15 @@
 		box-shadow: none;
 	}
 
-	label {
+	.gform_wrapper .top_label .gfield_label {
 		margin: 0px;
 		padding: 0px;
+	}
+
+	.gform_wrapper select {
+		padding: 0px;
+		border: 0px;
+		background-color: transparent;
 	}
 	
 }
