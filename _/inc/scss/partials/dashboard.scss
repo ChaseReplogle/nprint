@@ -62,14 +62,18 @@
 
 		.columns.current {
 			background-color: $mainblue;
-			color: #fff;
+
+			a {
+				color: #fff;
+			}
 
 			&:after {
 				content: "";
 				display: block;
 				position: absolute;
 				top: 0px;
-				right: 0px;
+				right: -20px;
+				z-index: 9999999;
 				width: 0;
 				height: 0;
 				border-top: 50px solid transparent;
