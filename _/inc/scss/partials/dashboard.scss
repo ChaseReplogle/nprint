@@ -75,7 +75,7 @@
 
 		.columns.past {
 			background-color: $mainblue;
-			border: 0px;
+			border-right: 1px solid lighten($mainblue, 5%);
 
 			a {
 				color: #fff;
