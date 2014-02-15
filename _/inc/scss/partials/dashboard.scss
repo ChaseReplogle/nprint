@@ -73,6 +73,7 @@
 
 			a {
 				color: #fff;
+				opacity: .8;
 			}
 		}
 
@@ -81,6 +82,10 @@
 
 			a {
 				color: #fff;
+
+				span {
+					color: #fff;
+				}
 			}
 
 			&:after {
