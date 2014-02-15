@@ -16,7 +16,7 @@ Template Name: Calculator
 <?php include 'nav-main.php'; ?>
 <div class="contain-to-grid page-nav-warpper dash-nav-wrapper">
 	<nav class="top-bar page-nav" data-topbar>
-			<li class="columns dash-nav option"><a href="/dashboard">Dashboard</a></li>
+			<li class="columns dash-nav past option"><a href="/dashboard">Dashboard</a></li>
 			<li class="columns dash-nav current"><a href="/dashboard/calculators"><span>1.</span> Calculators</a></li>
 			<li class="columns dash-nav"><a href="#"><span>2.</span> Reivew</a></li>
 			<li class="columns dash-nav option"><a href="/cart"><span>3.</span> Cart</a></li>
