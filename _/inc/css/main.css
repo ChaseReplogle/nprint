@@ -8705,17 +8705,17 @@ img.avatar {
   padding: 0px;
   background: #d1d1d1;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #4f98c4 0%, #d1d1d1 100%);
+  background: -moz-linear-gradient(left, #4f98c4 48%, #d1d1d1 48%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #4f98c4), color-stop(100%, #d1d1d1));
+  background: -webkit-gradient(linear, left top, right top, color-stop(48%, #1e5799), color-stop(48%, #d1d1d1));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, #4f98c4 0%, #d1d1d1 100%);
+  background: -webkit-linear-gradient(left, #4f98c4 48%, #d1d1d1 48%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, #4f98c4 0%, #d1d1d1 100%);
+  background: -o-linear-gradient(left, #4f98c4 48%, #d1d1d1 48%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, #4f98c4 0%, #d1d1d1 100%);
+  background: -ms-linear-gradient(left, #4f98c4 48%, #d1d1d1 48%);
   /* IE10+ */
-  background: linear-gradient(to right, #4f98c4 0%, #d1d1d1 100%);
+  background: linear-gradient(to right, #4f98c4 48%, #d1d1d1 48%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$mainblue', endColorstr='$lightgrey',GradientType=1 );
   /* IE6-9 */
