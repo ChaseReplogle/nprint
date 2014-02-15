@@ -64,7 +64,10 @@
 
 				span {
 					color: lighten($grey, 20%);
-					padding-right: 5px;
+
+					i {
+						padding-right: 5px;
+					}
 				}
 			}
 		}
@@ -620,17 +623,21 @@
 	padding-bottom: 0px;
 	margin-bottom: 30px;
 
+	.columns {
+		padding: 0px !important;
+	}
+
 	.company-logo {
 		padding: 20px;
 		background-color: #fff;
 		border: 1px solid $lightgrey;
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 
 	.company-contact {
 		position: relative;
-		margin-bottom: 40px;
-		padding-left: 40px;
+		margin-bottom: 0px;
+		padding-left: 0px;
 
 		h4 {
 			font-weight: bold;
