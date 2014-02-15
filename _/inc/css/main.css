@@ -8737,6 +8737,7 @@ img.avatar {
 }
 .dash-nav-wrapper .page-nav .columns.dash-nav a span {
   color: #b4b3b3;
+  padding-right: 5px;
 }
 .dash-nav-wrapper .page-nav .columns.past {
   background-color: #4f98c4;
