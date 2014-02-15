@@ -26,7 +26,7 @@ Template Name: Dashboard
 
 
 <div class="row content-row">
-	<div class="columns medium-4 page-main-content">
+	<div class="columns medium-3 page-main-content">
 		<a href="/calculators">
 			<div class="calculator-button">
 				<i class="fa fa-table"></i>
@@ -37,7 +37,7 @@ Template Name: Dashboard
 		</a>
 	</div>
 
-	<div class="columns medium-5 page-sidebar save-quotes">
+	<div class="columns medium-7 page-sidebar save-quotes">
 
 	<div class="quotes">
 		<div class="columns medium-12 saved-quotes">
@@ -98,7 +98,7 @@ Template Name: Dashboard
 </div>
 
 
-	<div class="columns medium-3 company-info">
+	<div class="columns medium-2 company-info">
 			<div class="company-logo">
 				<img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-07-at-10.43.46-AM.png" alt="nPrint Graphix" width="386" height="190" />
 			</div>
