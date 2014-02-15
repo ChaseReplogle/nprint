@@ -14,6 +14,7 @@ Template Name: Calculator
 
 <?php include 'nav-account.php'; ?>
 <?php include 'nav-main.php'; ?>
+
 <div class="contain-to-grid page-nav-warpper dash-nav-wrapper">
 	<nav class="top-bar page-nav" data-topbar>
 			<li class="columns dash-nav past option"><a href="/dashboard">Dashboard</a></li>
