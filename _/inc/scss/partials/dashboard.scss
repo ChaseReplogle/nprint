@@ -44,7 +44,11 @@
 		padding-left: 0px;
 		width: 20%;
 		display: block;
-		text-align: left;
+		text-align: right;
+
+		&:first-child {
+			text-align: left;
+		}
 	}
 
 	.progress {

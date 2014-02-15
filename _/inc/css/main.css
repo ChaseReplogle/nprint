@@ -8709,6 +8709,9 @@ img.avatar {
   padding-left: 0px;
   width: 20%;
   display: block;
+  text-align: right;
+}
+.dash-nav-wrapper .columns.dash-nav:first-child {
   text-align: left;
 }
 .dash-nav-wrapper .progress {
