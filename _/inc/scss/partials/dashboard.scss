@@ -623,6 +623,10 @@
 	padding-bottom: 0px;
 	margin-bottom: 30px;
 
+	a {
+		font-size: 12px;
+	}
+
 	.columns {
 		padding: 0px !important;
 	}
@@ -637,7 +641,7 @@
 	.company-contact {
 		position: relative;
 		margin-bottom: 0px;
-		padding-left: 0px;
+		padding-left: 10px;
 
 		h4 {
 			font-weight: bold;
@@ -649,12 +653,6 @@
 			font-size: 13px;
 			line-height: 18px;
 			color: $grey;
-		}
-
-		a {
-			top: 0px;
-			right: 0px;
-			font-size: 12px;
 		}
 	}
 }

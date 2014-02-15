@@ -9189,6 +9189,9 @@ img.avatar {
   padding-bottom: 0px;
   margin-bottom: 30px;
 }
+.company-info a {
+  font-size: 12px;
+}
 .company-info .columns {
   padding: 0px !important;
 }
@@ -9201,7 +9204,7 @@ img.avatar {
 .company-info .company-contact {
   position: relative;
   margin-bottom: 0px;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 .company-info .company-contact h4 {
   font-weight: bold;
@@ -9212,11 +9215,6 @@ img.avatar {
   font-size: 13px;
   line-height: 18px;
   color: #818080;
-}
-.company-info .company-contact a {
-  top: 0px;
-  right: 0px;
-  font-size: 12px;
 }
 
 @media only screen and (max-width: 40em) {
