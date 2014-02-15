@@ -8733,6 +8733,8 @@ img.avatar {
   background: #d1d1d1;
 }
 .dash-nav-wrapper .page-nav .current:after {
+  content: "";
+  display: block;
   width: 0;
   height: 0;
   border-top: 60px solid transparent;
