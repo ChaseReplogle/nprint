@@ -1,4 +1,4 @@
-<div class="contain-to-grid page-nav-warpper">
+<div class="contain-to-grid page-nav-warpper dash-nav-wrapper">
 
 	<nav class="top-bar page-nav" data-topbar>
 		<div class="row">

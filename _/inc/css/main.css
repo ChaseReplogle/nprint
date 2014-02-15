@@ -8701,6 +8701,17 @@ img.avatar {
   margin-right: -8px;
 }
 
+.dash-nav-wrapper {
+  padding: 30px 0px;
+}
+.dash-nav-wrapper .columns.dash-nav {
+  list-style: none;
+  padding-left: 0px;
+  width: 20%;
+  display: block;
+  text-align: center;
+}
+
 .breadcrumbs {
   background-color: transparent;
   border: 0px;
