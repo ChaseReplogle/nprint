@@ -8731,6 +8731,10 @@ img.avatar {
   text-align: center;
   padding: 30px 0px;
   background: #d1d1d1;
+  color: #818080;
+}
+.dash-nav-wrapper .page-nav .columns.dash-nav span {
+  color: #b4b3b3;
 }
 .dash-nav-wrapper .page-nav .columns.current {
   background-color: #4f98c4;
