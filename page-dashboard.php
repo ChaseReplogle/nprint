@@ -36,11 +36,12 @@ Template Name: Dashboard
 			</div>
 		</a>
 
-			<div class="company-logo">
+		<div class="company-info row">
+			<div class="company-logo columns medium-4">
 				<img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-07-at-10.43.46-AM.png" alt="nPrint Graphix" width="386" height="190" />
 			</div>
 
-			<div class="columns medium-12 company-contact">
+			<div class="columns medium-8 company-contact">
 
 				<h4>Beyond Creative</h4>
 				<p>Adam Deviza</p>
@@ -53,6 +54,7 @@ Template Name: Dashboard
 				<a href="#" class="small-link">Edit</a>
 			</div>
 			<div class="clear"></div>
+		</div>
 
 	</div>
 
