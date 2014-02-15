@@ -80,7 +80,6 @@ Template Name: Dashboard
 									<p>You are about to delete this quote. You won't be able to undo this action.</p>
 									<?php if ($post->post_author == $current_user->ID) { ?><p><a href="<?php echo get_delete_post_link( $post->ID ) ?>" class="delete" >Confirm Delete</a></p><?php } ?>
 								</div>
-							<a href="#" class="quote-cart secondary_button">Add to Cart</a>
 						</span>
 					</div>
 				</li>
