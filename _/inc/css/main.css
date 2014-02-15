@@ -8732,14 +8732,21 @@ img.avatar {
   padding: 30px 0px;
   background: #d1d1d1;
 }
+.dash-nav-wrapper .page-nav .current {
+  background-color: #4f98c4;
+  color: #fff;
+}
 .dash-nav-wrapper .page-nav .current:after {
   content: "";
   display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   width: 0;
   height: 0;
-  border-top: 60px solid transparent;
-  border-bottom: 60px solid transparent;
-  border-left: 60px solid #4f98c4;
+  border-top: 50px solid transparent;
+  border-bottom: 55px solid transparent;
+  border-left: 20px solid #4f98c4;
 }
 
 .breadcrumbs {
