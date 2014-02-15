@@ -10,7 +10,7 @@
 			<li class="columns dash-nav"><a href="<?php the_permalink();?>">4. Checkout</a></li>
 
 			<div class="progress">
-				<span class="meter" style="width: 0%"></span>
+				<span class="meter" style="width: 1%"></span>
 			</div>
 		</div>
 

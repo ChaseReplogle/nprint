@@ -8711,6 +8711,10 @@ img.avatar {
   display: block;
   text-align: left;
 }
+.dash-nav-wrapper .progress {
+  float: left;
+  width: 100%;
+}
 
 .breadcrumbs {
   background-color: transparent;
