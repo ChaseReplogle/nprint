@@ -8731,6 +8731,7 @@ img.avatar {
   text-align: center;
   padding: 30px 0px;
   background: #d1d1d1;
+  border-right: 1px solid #c4c4c4;
 }
 .dash-nav-wrapper .page-nav .columns.dash-nav a {
   color: #818080;
@@ -8743,6 +8744,7 @@ img.avatar {
 }
 .dash-nav-wrapper .page-nav .columns.past {
   background-color: #4f98c4;
+  border: 0px;
 }
 .dash-nav-wrapper .page-nav .columns.past a {
   color: #fff;
@@ -8753,6 +8755,7 @@ img.avatar {
 }
 .dash-nav-wrapper .page-nav .columns.current {
   background-color: #4f98c4;
+  border: 0px;
 }
 .dash-nav-wrapper .page-nav .columns.current a {
   color: #fff;
