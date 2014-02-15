@@ -36,27 +36,21 @@
 	}
 }
 
-.dash-nav-wrapper {
-	padding: 30px 0px;
+.page-nav {
+	padding: 0px;
 
-	.columns.dash-nav {
-		list-style: none;
-		padding-left: 0px;
-		width: 20%;
-		display: block;
-		text-align: right;
+	.dash-nav-wrapper {
+		padding: 0px 0px;
 
-		&:first-child {
-			text-align: left;
+		.columns.dash-nav {
+			list-style: none;
+			padding-left: 0px;
+			width: 20%;
+			display: block;
+			text-align: center;
 		}
 	}
-
-	.progress {
-		float: left;
-		width: 100%;
-	}
 }
-
 
 .breadcrumbs {
 	background-color: transparent;
