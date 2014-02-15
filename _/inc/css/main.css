@@ -8753,6 +8753,12 @@ img.avatar {
 .dash-nav-wrapper .page-nav .columns.past a span {
   color: #fff;
 }
+.dash-nav-wrapper .page-nav .columns.disabled a {
+  color: #b4b3b3;
+}
+.dash-nav-wrapper .page-nav .columns.disabled a span {
+  color: #b4b3b3;
+}
 .dash-nav-wrapper .page-nav .columns.current {
   background-color: #4f98c4;
   border: 0px;

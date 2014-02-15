@@ -87,6 +87,17 @@
 			}
 		}
 
+		.columns.disabled {
+
+			a {
+				color: lighten($grey, 20%);
+
+				span {
+					color: lighten($grey, 20%);
+				}
+			}
+		}
+
 		.columns.current {
 			background-color: $mainblue;
 			border: 0px;
