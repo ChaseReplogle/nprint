@@ -9,6 +9,9 @@
 			<li class="columns medium-2"><a href="<?php the_permalink();?>">3. Cart</a></li>
 			<li class="columns medium-2"><a href="<?php the_permalink();?>">4. Checkout</a></li>
 
+			<div class="progress">
+				<span class="meter" style="width: 0%"></span>
+			</div>
 		</div>
 
 	</nav>
