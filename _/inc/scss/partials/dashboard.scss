@@ -176,7 +176,7 @@
 		text-align: center;
 		color: #fff;
 		display: block;
-		border: 1px solid dark($mainblue, 20%);
+		border: 1px solid darken($mainblue, 20%);
 	}
 
 	ul {
@@ -628,7 +628,7 @@
 	}
 
 	.columns {
-		padding: 0px !important;
+		padding: 0px;
 	}
 
 	.company-logo {
@@ -641,7 +641,7 @@
 	.company-contact {
 		position: relative;
 		margin-bottom: 0px;
-		padding-left: 10px;
+		padding-left: 20px;
 
 		h4 {
 			font-weight: bold;

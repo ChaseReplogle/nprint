@@ -8823,7 +8823,7 @@ img.avatar {
   text-align: center;
   color: #fff;
   display: block;
-  border: 1px solid dark(#4f98c4, 20%);
+  border: 1px solid #2b6182;
 }
 .save-quotes ul {
   margin: 0px;
@@ -9193,7 +9193,7 @@ img.avatar {
   font-size: 12px;
 }
 .company-info .columns {
-  padding: 0px !important;
+  padding: 0px;
 }
 .company-info .company-logo {
   padding: 20px;
@@ -9204,7 +9204,7 @@ img.avatar {
 .company-info .company-contact {
   position: relative;
   margin-bottom: 0px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .company-info .company-contact h4 {
   font-weight: bold;
