@@ -20,25 +20,6 @@ Template Name: Dashboard
 <div class="row content-row">
 
 	<div class="columns medium-8 page-sidebar save-quotes">
-		<div class="company-info">
-			<div class="columns medium-4 company-logo">
-				<img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-07-at-10.43.46-AM.png" alt="nPrint Graphix" width="386" height="190" />
-			</div>
-
-			<div class="columns medium-8 company-contact">
-
-				<h4>Beyond Creative</h4>
-				<p>Adam Deviza</p>
-				<p>2023 S Saratoga Ave</br>
-				Springfirld, MO 65804</p>
-
-				<p>(573) 680-7902</p>
-				<p>adam@breakbeyond.com</p>
-
-				<a href="#" class="small-link">Edit</a>
-			</div>
-			<div class="clear"></div>
-		</div>
 
 	<div class="quotes">
 		<div class="columns medium-12 saved-quotes">
@@ -108,6 +89,26 @@ Template Name: Dashboard
 				<a href="/calculators" class="secondary_button">Let's Get Started</a>
 			</div>
 		</a>
+
+		<div class="company-info">
+			<div class="columns medium-12 company-logo">
+				<img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-07-at-10.43.46-AM.png" alt="nPrint Graphix" width="386" height="190" />
+			</div>
+
+			<div class="columns medium-12 company-contact">
+
+				<h4>Beyond Creative</h4>
+				<p>Adam Deviza</p>
+				<p>2023 S Saratoga Ave</br>
+				Springfirld, MO 65804</p>
+
+				<p>(573) 680-7902</p>
+				<p>adam@breakbeyond.com</p>
+
+				<a href="#" class="small-link">Edit</a>
+			</div>
+			<div class="clear"></div>
+		</div>
 	</div>
 
 
