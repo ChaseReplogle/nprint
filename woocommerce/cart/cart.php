@@ -111,8 +111,6 @@ $woocommerce->show_messages();
 
 	<?php woocommerce_cart_totals(); ?>
 
-	<?php woocommerce_shipping_calculator(); ?>
-
 </div>
 
 <?php do_action( 'woocommerce_after_cart' ); ?>

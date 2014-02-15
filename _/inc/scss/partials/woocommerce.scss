@@ -21,13 +21,14 @@
 	.support_button {
 		background-color: $verylightgrey;
 		border: 1px solid $lightgrey;
-		color: $lightgrey;
+		color: $grey;
 		padding: 25px 0px;
 		width: 100%;
 		display: block;
+		text-align: center;
 
 		&:hover {
-			color: $grey;
+			background-color: darken($verylightgrey, 20%);
 		}
 	}
 
