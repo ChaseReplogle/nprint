@@ -17,6 +17,15 @@
 	}
 
 .single-product {
+	.support_button {
+		background-color: $verylightgrey;
+		border: 1px solid $lightgrey;
+		color: $lightgrey;
+
+		&:hover {
+			color: $grey;
+		}
+	}
 
 	.woocommerce-tabs {
 		display: none;
