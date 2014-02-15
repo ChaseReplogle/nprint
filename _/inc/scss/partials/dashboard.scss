@@ -625,6 +625,12 @@
 
 	a {
 		font-size: 12px;
+		color: $grey;
+		background: $verylightgrey;
+		border: 1px solid $lightgrey;
+		display: block;
+		width: 100%; 
+		text-align: center;
 	}
 
 	.columns {
