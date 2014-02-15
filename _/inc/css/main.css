@@ -9091,6 +9091,9 @@ img.avatar {
   width: 100%;
   max-width: 100%;
 }
+.page-template-page-calculator-php .gform_wrapper .gform_heading {
+  padding-bottom: 30px;
+}
 .page-template-page-calculator-php .gform_wrapper .support {
   background-color: transparent;
 }
