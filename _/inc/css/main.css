@@ -8732,11 +8732,11 @@ img.avatar {
   padding: 30px 0px;
   background: #d1d1d1;
 }
-.dash-nav-wrapper .page-nav .current {
+.dash-nav-wrapper .page-nav .columns.current {
   background-color: #4f98c4;
   color: #fff;
 }
-.dash-nav-wrapper .page-nav .current:after {
+.dash-nav-wrapper .page-nav .columns.current:after {
   content: "";
   display: block;
   position: absolute;
