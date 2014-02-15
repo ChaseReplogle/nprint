@@ -4,10 +4,10 @@
 <ul class="title-area">
    
 				<li><a href="<?php the_permalink();?>">Dashboard</a></li>
-				<li><a href="<?php the_permalink();?>">Calculators</a></li>
-				<li><a href="<?php the_permalink();?>">Reivew</a></li>
-				<li><a href="<?php the_permalink();?>">Cart</a></li>
-				<li><a href="<?php the_permalink();?>">Checkout</a></li>
+				<li><a href="<?php the_permalink();?>">1. Calculators</a></li>
+				<li><a href="<?php the_permalink();?>">2. Reivew</a></li>
+				<li><a href="<?php the_permalink();?>">3. Cart</a></li>
+				<li><a href="<?php the_permalink();?>">4. Checkout</a></li>
 
 </ul>
 
