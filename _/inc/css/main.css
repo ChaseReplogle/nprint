@@ -8738,6 +8738,12 @@ img.avatar {
 .dash-nav-wrapper .page-nav .columns.dash-nav a span {
   color: #b4b3b3;
 }
+.dash-nav-wrapper .page-nav .columns.past {
+  background-color: #4f98c4;
+}
+.dash-nav-wrapper .page-nav .columns.past a {
+  color: #fff;
+}
 .dash-nav-wrapper .page-nav .columns.current {
   background-color: #4f98c4;
 }
