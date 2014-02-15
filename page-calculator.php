@@ -22,6 +22,10 @@ Template Name: Calculator
 
 	<div class="columns medium-8 page-main-content">
 
+	<div class="for-print title">
+		<h2>Project Quote</h2>
+	</div>
+
 	<div class="for-print quote-info">
 
 		<div class="for-print date">
@@ -59,6 +63,8 @@ Template Name: Calculator
 	</div>
 
 	<div class="clear"></div>
+
+	<hr>
 		
 	<?php the_content(); ?>
 
