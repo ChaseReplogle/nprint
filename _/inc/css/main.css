@@ -9583,10 +9583,10 @@ body ul.dwls_search_results li a {
   color: #c0392b;
 }
 .woocommerce td.product-name dl.variation dt:nth-child(n+6) {
-  color: red;
+  display: none;
 }
 .woocommerce td.product-name dl.variation dd:nth-child(n+6) {
-  color: red;
+  display: none;
 }
 
 .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {

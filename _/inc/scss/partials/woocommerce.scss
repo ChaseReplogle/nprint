@@ -50,11 +50,11 @@
 	}
 
 	td.product-name dl.variation dt:nth-child(n+6) {
-		color: red;
+		display: none;
 	}
 
 	td.product-name dl.variation dd:nth-child(n+6) {
-		color: red;
+		display: none;
 	}
 }
 
