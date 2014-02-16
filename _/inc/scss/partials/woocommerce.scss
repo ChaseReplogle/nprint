@@ -27,10 +27,12 @@
 
 	.secondary_button.checkout-button.button.alt {
 		background-color: $mainblue;
-		border: darken($mainblue, 20%);
+		border: 1px solid darken($mainblue, 20%);
 		text-shadow: none;
 		box-shadow: none;
 		background: $mainblue;
+		padding: 20px 30px;
+		margin-bottom: 15px;
 	}
 
 	.button.support_button {
