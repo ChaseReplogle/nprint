@@ -9577,6 +9577,14 @@ body ul.dwls_search_results li a {
   box-shadow: none;
   background: #f2f2f2;
 }
+.woocommerce .table.cart td.product-subtotal {
+  text-align: center;
+}
+.woocommerce .table.cart a.remove {
+  width: 100%;
+  text-align: center;
+  color: #c0392b;
+}
 
 .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
   width: 100% !important;

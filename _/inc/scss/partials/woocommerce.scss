@@ -41,6 +41,16 @@
 		box-shadow: none;
 		background: $verylightgrey;
 	}
+
+	.table.cart td.product-subtotal {
+		text-align: center;
+	}
+
+	.table.cart a.remove {
+		width: 100%;
+		text-align: center;
+		color: $red;
+	}
 }
 
 
