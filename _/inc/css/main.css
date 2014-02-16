@@ -9585,7 +9585,7 @@ body ul.dwls_search_results li a {
 .woocommerce td.product-name dl.variation dt:nth-child(n+6) {
   display: none;
 }
-.woocommerce td.product-name dl.variation dd:nth-child(n+6) {
+.woocommerce td.product-name dl.variation dd:nth-child(n+7) {
   display: none;
 }
 
