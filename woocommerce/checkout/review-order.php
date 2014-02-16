@@ -111,6 +111,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 			<?php do_action( 'woocommerce_review_order_after_order_total' ); ?>
 
 		</tfoot>
+
 		<tbody>
 			<?php
 				do_action( 'woocommerce_review_order_before_cart_contents' );
@@ -136,6 +137,10 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 			?>
 		</tbody>
 	</table>
+
+</div>
+
+<div class="columns medium-6">
 
 	<div id="payment">
 		<?php if ($woocommerce->cart->needs_payment()) : ?>
@@ -204,6 +209,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 			<?php do_action( 'woocommerce_review_order_after_submit' ); ?>
 
 		</div>
+</div>
 
 		<div class="clear"></div>
 

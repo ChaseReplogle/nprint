@@ -58,11 +58,8 @@ $get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', $woocommerce-
 
 		<?php do_action( 'woocommerce_checkout_order_review' ); ?>
 
-	</div>
+</div>
 
 </form>
 
-	<div class="columns medium-6">
-		<?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
-	</div>
-</div>
+	<?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
