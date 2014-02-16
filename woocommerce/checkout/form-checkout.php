@@ -51,11 +51,17 @@ $get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', $woocommerce-
 		<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
 
 	<?php endif; ?>
+	
+<div class="row">
+	<div class="columns medium-6">
 
-	<?php do_action( 'woocommerce_checkout_order_review' ); ?>
+		<?php do_action( 'woocommerce_checkout_order_review' ); ?>
+
+	</div>
 
 </form>
 
-<hr>
-
-<?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
+	<div class="columns medium-6">
+		<?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
+	</div>
+</div>
