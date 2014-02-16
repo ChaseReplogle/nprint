@@ -2,14 +2,17 @@
 	border: 0px;
 	background-color: $verylightgrey;
 	background: $verylightgrey;
-	border: 1px solid $grey;
-	color: $lightgrey;
+	border: 1px solid $lightgrey;
+	color: $grey;
 	margin-top: 4px;
+	text-shadow: none;
 	-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.05), inset 0 0px 0px rgba(0,0,0,0.015), inset 0 0px 0 #fff, 0 0px 0px rgba(0,0,0,0.3);
 	box-shadow: inset 0 0px 0px rgba(0,0,0,0.05), inset 0 0px 0px rgba(0,0,0,0.015), inset 0 0px 0 #fff, 0 0px 0px rgba(0,0,0,0.3);
 
 	&:before {
 		background-color: transparent;
+		box-shadow: none;
+		color: $grey
 	}
 }
 
