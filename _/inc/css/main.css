@@ -8737,7 +8737,7 @@ img.avatar {
   color: #818080;
 }
 .dash-nav-wrapper .page-nav .columns.dash-nav a span {
-  color: #b4b3b3;
+  color: #818080;
 }
 .dash-nav-wrapper .page-nav .columns.dash-nav a span i {
   padding-right: 5px;
@@ -9203,7 +9203,7 @@ img.avatar {
 }
 .company-info a {
   font-size: 12px;
-  padding: 15px 0px;
+  padding: 10px 0px;
   color: #818080;
   background: #f2f2f2;
   border: 1px solid #d1d1d1;
