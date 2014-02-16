@@ -13,7 +13,16 @@ Template Name: Cart
 
 <?php include 'nav-account.php'; ?>
 <?php include 'nav-main.php'; ?>
-<?php include 'nav-page.php'; ?>
+
+<div class="contain-to-grid page-nav-warpper dash-nav-wrapper">
+	<nav class="top-bar page-nav" data-topbar>
+			<li class="columns dash-nav past option"><a href="/dashboard">Dashboard</a></li>
+			<li class="columns dash-nav past option"><a href="/dashboard/calculators"><span><i class="fa fa-check-square-o"></i></span> Calculators</a></li>
+			<li class="columns dash-nav past option"><a href="#"><span><i class="fa fa-check-square-o"></i></span> Reivew</a></li>
+			<li class="columns dash-nav current"><a href="/cart"><span><i class="fa fa-minus-square-o"></i></span> Cart</a></li>
+			<li class="columns dash-nav disabled"><a href="/checkout"><span><i class="fa fa-square-o"></i></span> Checkout</a></li>
+	</nav>
+</div>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
