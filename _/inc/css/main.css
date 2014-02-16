@@ -9646,10 +9646,14 @@ body ul.dwls_search_results li a {
 .single-product .product_totals .gfield {
   border: 1px solid lightgrey;
   padding: 20px;
+  height: 75px;
   background-color: #fff;
 }
 .single-product .product_totals .gform_footer {
   padding: 0px;
+}
+.single-product .product_totals .amount {
+  float: right;
 }
 .single-product div.product form.cart button.button {
   padding: 25px;

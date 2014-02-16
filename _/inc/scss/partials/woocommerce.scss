@@ -132,11 +132,16 @@
 		.gfield {
 			border: 1px solid lightgrey;
 			padding: 20px;
+			height: 75px;
 			background-color: #fff;
 		}
 
 		.gform_footer {
 			padding: 0px;
+		}
+
+		.amount {
+			float: right;
 		}
 	}
 
