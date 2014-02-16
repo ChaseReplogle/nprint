@@ -9571,7 +9571,7 @@ body ul.dwls_search_results li a {
   padding: 20px 30px;
   margin-bottom: 15px;
 }
-.woocommerce .button.support_button {
+.woocommerce .support_button.button {
   background-color: #f2f2f2;
   border: #d1d1d1;
   color: #818080;
