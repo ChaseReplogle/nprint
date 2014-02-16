@@ -14,9 +14,32 @@
 		box-shadow: none;
 		color: $grey
 	}
+}
 
+.woocommerce {
 	.cart-collaterals .cart_totals table {
 		width: 100%;
+	}
+
+	.cart_totals h2 {
+		font-size: 20px;
+	}
+
+	.secondary_button.checkout-button.button.alt {
+		background-color: $mainblue;
+		border: darken($mainblue, 20%);
+		text-shadow: none;
+		box-shadow: none;
+		background: $mainblue;
+	}
+
+	.button.support_button {
+		background-color: $verylightgrey;
+		border: $lightgrey;
+		color: $grey;
+		text-shadow: none;
+		box-shadow: none;
+		background: $verylightgrey;
 	}
 }
 

@@ -9555,8 +9555,27 @@ body ul.dwls_search_results li a {
   box-shadow: none;
   color: #818080;
 }
-.woocommerce .woocommerce-message .cart-collaterals .cart_totals table {
+
+.woocommerce .cart-collaterals .cart_totals table {
   width: 100%;
+}
+.woocommerce .cart_totals h2 {
+  font-size: 20px;
+}
+.woocommerce .secondary_button.checkout-button.button.alt {
+  background-color: #4f98c4;
+  border: #2b6182;
+  text-shadow: none;
+  box-shadow: none;
+  background: #4f98c4;
+}
+.woocommerce .button.support_button {
+  background-color: #f2f2f2;
+  border: #d1d1d1;
+  color: #818080;
+  text-shadow: none;
+  box-shadow: none;
+  background: #f2f2f2;
 }
 
 .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
