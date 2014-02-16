@@ -9703,13 +9703,13 @@ body ul.dwls_search_results li a {
   box-shadow: rgba(0, 0, 0, 0.07451) 0px 0px 0px 0px inset, rgba(255, 255, 255, 0.29804) 0px 0px 0px 0px inset, rgba(0, 0, 0, 0.09804) 0px 0px 0px 0px;
 }
 
-.template-page-checkout-php #billing_country_field {
+.page-template-page-checkout-php #billing_country_field {
   display: none;
 }
-.template-page-checkout-php form .form-row {
+.page-template-page-checkout-php form .form-row {
   padding: 0px;
 }
-.template-page-checkout-php form label {
+.page-template-page-checkout-php form label {
   padding: 0px;
 }
 
