@@ -9577,7 +9577,7 @@ body ul.dwls_search_results li a {
 .woocommerce table.cart td.product-subtotal {
   text-align: center;
 }
-.woocommerce table.cart a.remove {
+.woocommerce table.cart .product-remove a.remove {
   width: 100%;
   text-align: center;
   color: #c0392b;
