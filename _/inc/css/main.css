@@ -8783,6 +8783,11 @@ img.avatar {
   border-left: 20px solid #4f98c4;
 }
 
+.finished {
+  background: #4f98c4;
+  background-color: #4f98c4;
+}
+
 .breadcrumbs {
   background-color: transparent;
   border: 0px;
