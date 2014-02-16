@@ -9562,7 +9562,7 @@ body ul.dwls_search_results li a {
 .woocommerce .cart_totals h2 {
   font-size: 20px;
 }
-.woocommerce .secondary_button.checkout-button.button.alt {
+.woocommerce .cart .secondary_button.checkout-button.button.alt {
   background-color: #4f98c4;
   border: 1px solid #2b6182;
   text-shadow: none;
@@ -9571,7 +9571,7 @@ body ul.dwls_search_results li a {
   padding: 20px 30px;
   margin-bottom: 15px;
 }
-.woocommerce .support_button.button {
+.woocommerce .cart .support_button.button {
   background-color: #f2f2f2;
   border: #d1d1d1;
   color: #818080;

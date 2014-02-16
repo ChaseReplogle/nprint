@@ -25,7 +25,7 @@
 		font-size: 20px;
 	}
 
-	.secondary_button.checkout-button.button.alt {
+	.cart .secondary_button.checkout-button.button.alt {
 		background-color: $mainblue;
 		border: 1px solid darken($mainblue, 20%);
 		text-shadow: none;
@@ -35,7 +35,7 @@
 		margin-bottom: 15px;
 	}
 
-	.support_button.button {
+	.cart .support_button.button {
 		background-color: $verylightgrey;
 		border: $lightgrey;
 		color: $grey;
