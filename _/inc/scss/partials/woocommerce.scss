@@ -197,6 +197,19 @@
 		border-radius: 0px;
 		border: 1px solid darken($mainblue, 30%);
 		box-shadow: rgba(0, 0, 0, 0.0745098) 0px 0px 0px 0px inset, rgba(255, 255, 255, 0.298039) 0px 0px 0px 0px inset, rgba(0, 0, 0, 0.0980392) 0px 0px 0px 0px;
+	}	
+}
+
+.template-page-checkout-php {
+	#billing_country_field {
+		display: none;
 	}
-	
+
+	form .form-row {
+		padding: 0px;
+	}
+
+	form label {
+		padding: 0px;
+	}
 }
