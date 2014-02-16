@@ -9557,6 +9557,10 @@ body ul.dwls_search_results li a {
   width: 100% !important;
 }
 
+.single-product .gform_wrapper {
+  max-width: 100%;
+  width: 100%;
+}
 .single-product .support_button {
   background-color: #f2f2f2;
   border: 1px solid #d1d1d1;
@@ -9638,6 +9642,14 @@ body ul.dwls_search_results li a {
 }
 .single-product .product_totals .formattedTotalPrice {
   font-size: 20px;
+}
+.single-product .product_totals .gfield {
+  border: 1px solid lightgrey;
+  padding: 20px;
+  background-color: #fff;
+}
+.single-product .product_totals .gform_footer {
+  padding: 0px;
 }
 .single-product div.product form.cart button.button {
   padding: 25px;

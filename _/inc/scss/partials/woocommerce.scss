@@ -22,6 +22,11 @@
 	}
 
 .single-product {
+	.gform_wrapper {
+		max-width: 100%;
+		width: 100%;
+	}
+
 	.support_button {
 		background-color: $verylightgrey;
 		border: 1px solid $lightgrey;
@@ -122,6 +127,16 @@
 
 		.formattedTotalPrice {
 			font-size: 20px;
+		}
+
+		.gfield {
+			border: 1px solid lightgrey;
+			padding: 20px;
+			background-color: #fff;
+		}
+
+		.gform_footer {
+			padding: 0px;
 		}
 	}
 
