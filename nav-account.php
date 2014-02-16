@@ -12,7 +12,7 @@
         <!-- Right Nav Section -->
         <ul>
             <li class="account-image"><a href="/dashboard"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-07-at-11.37.47-AM.png"></a></li>
-            <li class="account-links"><a href="/account" class="has-dropdown">Adam Deviza</a>
+            <li class="account-links"><a href="/account" class="has-dropdown">Adam Deviza <i class="fa fa-caret-down"></i></a>
               <ul class="dropdown">
                 <li><a class="" href="/dashboard">My Quotes</a></li>
                 <?php wp_list_pages('title_li=&child_of=123'); ?>
