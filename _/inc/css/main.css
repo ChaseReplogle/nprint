@@ -9555,6 +9555,9 @@ body ul.dwls_search_results li a {
   box-shadow: none;
   color: #818080;
 }
+.woocommerce .woocommerce-message .cart-collaterals .cart_totals table {
+  width: 100%;
+}
 
 .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
   width: 100% !important;
