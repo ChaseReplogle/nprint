@@ -9709,8 +9709,11 @@ body ul.dwls_search_results li a {
 .page-template-page-checkout-php form .form-row {
   padding: 0px;
 }
-.page-template-page-checkout-php form label {
+.page-template-page-checkout-php form .form-row label {
   padding: 0px;
+}
+.page-template-page-checkout-php form .form-row textarea {
+  height: 450px;
 }
 
 .video_screen {

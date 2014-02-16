@@ -201,7 +201,7 @@
 }
 
 .page-template-page-checkout-php {
-	
+
 	#billing_country_field {
 		display: none;
 	}
@@ -210,7 +210,11 @@
 		padding: 0px;
 	}
 
-	form label {
+	form .form-row label {
 		padding: 0px;
+	}
+
+	form .form-row textarea {
+		height: 450px;
 	}
 }
