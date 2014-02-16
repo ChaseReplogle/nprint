@@ -218,4 +218,11 @@
 	form .form-row textarea#order_comments {
 		height: 450px;
 	}
+
+	#shiptobilling {
+		padding: 5px 20px;
+		background-color: $verylightgrey;
+		border: $lightgrey;
+		color: $grey;
+	}
 }
