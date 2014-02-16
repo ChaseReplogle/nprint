@@ -9574,10 +9574,10 @@ body ul.dwls_search_results li a {
 .woocommerce .cart .support_button.button {
   display: none;
 }
-.woocommerce .table.cart td.product-subtotal {
+.woocommerce table.cart td.product-subtotal {
   text-align: center;
 }
-.woocommerce .table.cart a.remove {
+.woocommerce table.cart a.remove {
   width: 100%;
   text-align: center;
   color: #c0392b;
