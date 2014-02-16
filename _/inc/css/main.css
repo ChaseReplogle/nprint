@@ -9722,6 +9722,9 @@ body ul.dwls_search_results li a {
   border: #d1d1d1;
   color: #818080;
 }
+.page-template-page-checkout-php #shiptobilling-checkbox {
+  margin: -2px 0px 0 0;
+}
 
 .video_screen {
   z-index: 0;
