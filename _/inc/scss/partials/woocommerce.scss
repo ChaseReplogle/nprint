@@ -212,9 +212,10 @@
 
 	form .form-row label {
 		padding: 0px;
+		margin-bottom: 3px;
 	}
 
-	form .form-row textarea {
+	form .form-row textarea#order_comments {
 		height: 450px;
 	}
 }

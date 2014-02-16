@@ -9711,8 +9711,9 @@ body ul.dwls_search_results li a {
 }
 .page-template-page-checkout-php form .form-row label {
   padding: 0px;
+  margin-bottom: 3px;
 }
-.page-template-page-checkout-php form .form-row textarea {
+.page-template-page-checkout-php form .form-row textarea#order_comments {
   height: 450px;
 }
 
