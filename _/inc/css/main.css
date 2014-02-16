@@ -8753,6 +8753,9 @@ img.avatar {
 .dash-nav-wrapper .page-nav .columns.past a span {
   color: #fff;
 }
+.dash-nav-wrapper .page-nav .columns.past a:hover {
+  opacity: 1;
+}
 .dash-nav-wrapper .page-nav .columns.disabled a {
   color: #b4b3b3;
 }
