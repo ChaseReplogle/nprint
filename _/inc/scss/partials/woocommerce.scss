@@ -36,12 +36,7 @@
 	}
 
 	.cart .support_button.button {
-		background-color: $verylightgrey;
-		border: $lightgrey;
-		color: $grey;
-		text-shadow: none;
-		box-shadow: none;
-		background: $verylightgrey;
+		display: none;
 	}
 
 	.table.cart td.product-subtotal {

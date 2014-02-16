@@ -9572,12 +9572,7 @@ body ul.dwls_search_results li a {
   margin-bottom: 15px;
 }
 .woocommerce .cart .support_button.button {
-  background-color: #f2f2f2;
-  border: #d1d1d1;
-  color: #818080;
-  text-shadow: none;
-  box-shadow: none;
-  background: #f2f2f2;
+  display: none;
 }
 .woocommerce .table.cart td.product-subtotal {
   text-align: center;
