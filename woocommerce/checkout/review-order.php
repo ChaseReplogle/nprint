@@ -13,6 +13,9 @@ global $woocommerce;
 
 $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 ?>
+<div class="row">
+<div class="columns medium-6">
+
 <div id="order_review">
 
 	<table class="shop_table">
@@ -140,6 +143,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 
 </div>
 
+
 <div class="columns medium-6">
 
 	<div id="payment">
@@ -209,6 +213,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 			<?php do_action( 'woocommerce_review_order_after_submit' ); ?>
 
 		</div>
+</div>
 </div>
 
 		<div class="clear"></div>
