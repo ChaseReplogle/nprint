@@ -9664,6 +9664,7 @@ body ul.dwls_search_results li a {
   text-shadow: 0 0px 0 rgba(0, 0, 0, 0.6);
   border-radius: 0px;
   border: 1px solid #1f455b;
+  box-shadow: rgba(0, 0, 0, 0.07451) 0px 0px 0px 0px inset, rgba(255, 255, 255, 0.29804) 0px 0px 0px 0px inset, rgba(0, 0, 0, 0.09804) 0px 0px 0px 0px;
 }
 
 .video_screen {
