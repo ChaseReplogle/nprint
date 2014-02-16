@@ -16,9 +16,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 
 <div id="order_review" class="row">
 
-	<div class="columns medium-6">
-
-		<table class="shop_table">
+		<table class="shop_table columns medium-6">
 			<thead>
 				<tr>
 					<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
@@ -141,12 +139,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 			</tbody>
 		</table>
 
-	</div>
-
-
-	<div class="columns medium-6">
-
-		<div id="payment">
+		<div id="payment"  class="columns medium-6">
 			<?php if ($woocommerce->cart->needs_payment()) : ?>
 			<ul class="payment_methods methods">
 				<?php
@@ -214,7 +207,6 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 
 			</div>
 		</div>
-	</div>
 
 	<div class="clear"></div>
 
