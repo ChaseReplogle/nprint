@@ -38,11 +38,11 @@ Template Name: Saved Quotes
 			<table id="quote-table" class="tablesorter quotes-wrapper"> 
 				<thead> 
 				<tr> 
-				    <th>Project<i class="fa fa-square-o none"></i><i class="fa fa-caret-square-o-down down"></i><i class="fa fa-caret-square-o-up up"></i></th> 
-				    <th>Client<i class="fa fa-square-o none"></i><i class="fa fa-caret-square-o-down down"></i><i class="fa fa-caret-square-o-up up"></i></th> 
-				    <th>Quantity<i class="fa fa-square-o none"></i><i class="fa fa-caret-square-o-down down"></i><i class="fa fa-caret-square-o-up up"></i></th> 
+				    <th>Project<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
+				    <th>Client<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
+				    <th>Quantity<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
 				    <th>Actions</th>
-				    <th class="headerSortDown none">Modified<i class="fa fa-caret-square-o-down down"></i><i class="fa fa-caret-square-o-up up"></i></th> 
+				    <th class="headerSortDown">Modified<i class="fa fa-sort none"><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
 				</tr> 
 				</thead> 
 				<tbody> 
