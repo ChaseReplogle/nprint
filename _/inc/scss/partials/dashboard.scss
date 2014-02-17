@@ -212,7 +212,7 @@
 	    border: 0px;
 
 	    i {
-	    	padding-left: 4px;
+	    	padding-left: 6px;
 	    }
 
 	    .up, .down {
@@ -224,7 +224,7 @@
 	    background-color: $verylightgrey; 
 
 	    .up {
-	    	display: inline;
+	    	display: inline-block;
 	    }
 
 	    .none {
@@ -236,7 +236,7 @@
 	    background-color: $verylightgrey; 
 
 	    .down {
-	    	display: inline;
+	    	display: inline-block;
 	    }
 
 	    .none {

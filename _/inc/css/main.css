@@ -8851,7 +8851,7 @@ img.avatar {
   border: 0px;
 }
 #quote-table th.header i {
-  padding-left: 4px;
+  padding-left: 6px;
 }
 #quote-table th.header .up, #quote-table th.header .down {
   display: none;
@@ -8860,7 +8860,7 @@ img.avatar {
   background-color: #f2f2f2;
 }
 #quote-table th.headerSortUp .up {
-  display: inline;
+  display: inline-block;
 }
 #quote-table th.headerSortUp .none {
   display: none;
@@ -8869,7 +8869,7 @@ img.avatar {
   background-color: #f2f2f2;
 }
 #quote-table th.headerSortDown .down {
-  display: inline;
+  display: inline-block;
 }
 #quote-table th.headerSortDown .none {
   display: none;
