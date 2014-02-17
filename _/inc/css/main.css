@@ -8846,24 +8846,26 @@ img.avatar {
 #quote-table th.header {
   cursor: pointer;
   font-weight: bold;
+  background-color: #fff;
+  color: #818080;
 }
 #quote-table th.header i {
   padding-left: 4px;
 }
 #quote-table th.header .up, #quote-table th.header .down {
-  display: none;
+  display: inline;
 }
 #quote-table th.headerSortUp {
-  background-color: #3399FF;
+  background-color: #f2f2f2;
 }
 #quote-table th.headerSortUp .up {
-  display: block;
+  display: inline;
 }
 #quote-table th.headerSortUp .none {
   display: none;
 }
 #quote-table th.headerSortDown {
-  background-color: #3399FF;
+  background-color: #f2f2f2;
 }
 #quote-table th.headerSortDown .down {
   display: block;
