@@ -1,4 +1,4 @@
-.woocommerce .woocommerce-message {
+.woocommerce .woocommerce-message, .woocommerce .woocommerce-error {
 	border: 0px;
 	background-color: $verylightgrey;
 	background: $verylightgrey;
@@ -41,7 +41,7 @@
 		text-shadow: none;
 		box-shadow: none;
 		background: $mainblue;
-		padding: 20px 30px;
+		padding: 20px 50px;
 	}
 
 	.cart .support_button.button {
