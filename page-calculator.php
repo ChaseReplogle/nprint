@@ -189,7 +189,7 @@ Template Name: Calculator
 
 			$(".cost").prependTo("#cost-total");
 
-			$(".top-icon").prepend('<i class="fa fa-caret-square-o-up"></i>');
+			$(".top-icon").prepend('<i class="fa fa-arrows"></i>');
 			$(".bottom-icon").prepend('<i class="fa fa-caret-square-o-down"></i>');
 			$(".left-icon").prepend('<i class="fa fa-caret-square-o-left"></i>');
 			$(".right-icon").prepend('<i class="fa fa-caret-square-o-right"></i>');
