@@ -32,6 +32,7 @@ body {
 
 	.gform_wrapper li.gfield.gf_list_2col label.gfield_label, .gform_wrapper li.gfield.gf_list_3col label.gfield_label, .gform_wrapper li.gfield.gf_list_4col label.gfield_label, .gform_wrapper li.gfield.gf_list_5col label.gfield_label, .gform_wrapper li.gfield.gf_list_inline label.gfield_label {
 		margin: 0px;
+		padding-left: 22px;
 	}
 
 	input[type="file"], input[type="checkbox"], input[type="radio"], select {
@@ -54,6 +55,7 @@ body {
 		text-align: left;
 		margin: 0px !important;
 		width: 200px;
+		padding: 0px;
 		top: 0px;
 		float: left;
 
