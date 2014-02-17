@@ -8837,6 +8837,67 @@ img.avatar {
   margin-bottom: 20px;
 }
 
+.quotes-wrapper .quote-item {
+  padding: 14px 20px 10px 20px;
+  border: 1px solid #d1d1d1;
+  border-bottom: 0px;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+.quotes-wrapper .quote-item .columns {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quotes-wrapper .quote-item .actions {
+  overflow: visible;
+}
+.quotes-wrapper .quote-item a {
+  color: #818080;
+}
+.quotes-wrapper .quote-item a:hover {
+  color: #4f98c4;
+}
+.quotes-wrapper .quote-item p {
+  margin: 0px;
+  font-size: 11px;
+  padding: 5px 0px;
+}
+.quotes-wrapper .quote-item span {
+  float: right;
+  color: #818080;
+  font-size: 11px;
+}
+.quotes-wrapper .quote-item span a {
+  font-size: 11px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.quotes-wrapper .quote-item span a:hover {
+  color: #4f98c4;
+  text-decoration: underline;
+}
+.quotes-wrapper .quote-item span .quote-cart {
+  padding: 5px 10px;
+  color: #fff;
+  margin-left: 15px;
+  display: inline-block;
+}
+.quotes-wrapper .quote-item span .quote-cart:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.quotes-wrapper .quote-item span .quote-delete {
+  color: #c0392b;
+}
+.quotes-wrapper .quote-item span .quote-delete:hover {
+  color: #962d22;
+}
+.quotes-wrapper .quote-item span .f-dropdown p {
+  text-overflow: initial;
+  white-space: normal;
+}
+
 .save-quotes .view-all {
   background-color: #4f98c4;
   padding: 25px 0px;
@@ -8845,10 +8906,10 @@ img.avatar {
   display: block;
   border: 1px solid #2b6182;
 }
-.save-quotes .quotes-wrapper {
+.save-quotes ul {
   margin: 0px;
 }
-.save-quotes .quotes-wrapper .quote-item {
+.save-quotes ul li {
   list-style: none;
   padding: 14px 20px 10px 20px;
   border: 1px solid #d1d1d1;
@@ -8857,60 +8918,60 @@ img.avatar {
   width: 100%;
   display: table;
 }
-.save-quotes .quotes-wrapper .quote-item .columns, .save-quotes .quotes-wrapper .quote-item td {
+.save-quotes ul li .columns {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.save-quotes .quotes-wrapper .quote-item .actions {
+.save-quotes ul li .actions {
   overflow: visible;
 }
-.save-quotes .quotes-wrapper .quote-item a {
+.save-quotes ul li a {
   color: #818080;
 }
-.save-quotes .quotes-wrapper .quote-item a:hover {
+.save-quotes ul li a:hover {
   color: #4f98c4;
 }
-.save-quotes .quotes-wrapper .quote-item p {
+.save-quotes ul li p {
   margin: 0px;
   font-size: 11px;
   padding: 5px 0px;
 }
-.save-quotes .quotes-wrapper .quote-item span {
+.save-quotes ul li span {
   float: right;
   color: #818080;
   font-size: 11px;
 }
-.save-quotes .quotes-wrapper .quote-item span a {
+.save-quotes ul li span a {
   font-size: 11px;
   padding-left: 2px;
   padding-right: 2px;
 }
-.save-quotes .quotes-wrapper .quote-item span a:hover {
+.save-quotes ul li span a:hover {
   color: #4f98c4;
   text-decoration: underline;
 }
-.save-quotes .quotes-wrapper .quote-item span .quote-cart {
+.save-quotes ul li span .quote-cart {
   padding: 5px 10px;
   color: #fff;
   margin-left: 15px;
   display: inline-block;
 }
-.save-quotes .quotes-wrapper .quote-item span .quote-cart:hover {
+.save-quotes ul li span .quote-cart:hover {
   color: #fff;
   text-decoration: none;
 }
-.save-quotes .quotes-wrapper .quote-item span .quote-delete {
+.save-quotes ul li span .quote-delete {
   color: #c0392b;
 }
-.save-quotes .quotes-wrapper .quote-item span .quote-delete:hover {
+.save-quotes ul li span .quote-delete:hover {
   color: #962d22;
 }
-.save-quotes .quotes-wrapper .quote-item span .f-dropdown p {
+.save-quotes ul li span .f-dropdown p {
   text-overflow: initial;
   white-space: normal;
 }
-.save-quotes .quotes-wrapper li:last-child {
+.save-quotes ul li:last-child {
   border-bottom: 1px solid #d1d1d1;
 }
 

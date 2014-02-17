@@ -66,7 +66,7 @@ Template Name: Dashboard
 
 			<h2>Recent Quotes</h2>
 
-			<ul class="quotes-wrapper">
+			<ul>
 
 			<?php $user_ID = get_current_user_id(); ?> 
 
@@ -84,7 +84,7 @@ Template Name: Dashboard
 				 <?php $postid = get_the_ID(); ?> 
 				 <?php $calcType = get_field("product"); ?>
 
-				<li class="quote-item">
+				<li>
 					<div class="columns medium-4">
 						<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a>
 					</div>

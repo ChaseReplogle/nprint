@@ -197,6 +197,85 @@
 	}
 }
 
+.quotes-wrapper {
+
+	.quote-item {
+		padding: 14px 20px 10px 20px;
+		border: 1px solid $lightgrey;
+		border-bottom: 0px;
+		background-color: $verylightgrey;
+		width: 100%;
+
+		.columns {
+			overflow: hidden; 
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+			.actions {
+				overflow: visible;
+			}
+
+			a {
+				color: $grey;
+
+				&:hover {
+					color: $mainblue;
+				}
+			}
+
+			p {
+				margin: 0px;
+				font-size: 11px;
+				padding: 5px 0px;
+			}
+
+			span {
+				float: right;
+				color: $grey;
+				font-size: 11px;
+
+				a {
+					font-size: 11px;
+					padding-left: 2px;
+					padding-right: 2px;
+
+					&:hover {
+						color: $mainblue;
+						text-decoration: underline;
+					}
+				}
+
+				.quote-cart {
+					padding: 5px 10px;
+					color: #fff;
+					margin-left: 15px;
+					display: inline-block;
+
+					&:hover {
+						color: #fff;
+						text-decoration: none;
+					}
+				}
+
+				.quote-delete {
+					color: $red;
+
+					&:hover {
+						color: darken($red, 10%);
+					}
+				}
+
+				.f-dropdown {
+					p {
+						text-overflow: initial;
+						white-space: normal;
+					}
+				}
+			}
+	}
+}
+
 .save-quotes {
 	.view-all {
 		background-color: $mainblue;
@@ -207,10 +286,10 @@
 		border: 1px solid darken($mainblue, 20%);
 	}
 
-	.quotes-wrapper {
+	ul {
 		margin: 0px;
 
-		.quote-item {
+		li {
 			list-style: none;
 			padding: 14px 20px 10px 20px;
 			border: 1px solid $lightgrey;
@@ -219,7 +298,7 @@
 			width: 100%;
 			display: table;
 
-			.columns, td {
+			.columns {
 				overflow: hidden; 
   				text-overflow: ellipsis;
   				white-space: nowrap;
