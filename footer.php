@@ -116,6 +116,15 @@
 	}
 </script>
 
+<script>
+	$ = jQuery;
+	$(document).ready(function() 
+	    { 
+	        $("#quote-table").tablesorter(); 
+	    } 
+	); 
+</script>
+
 <!-- Asynchronous google analytics; this is the official snippet.
 	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
 	 
