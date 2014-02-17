@@ -9717,7 +9717,7 @@ body ul.dwls_search_results li a {
   height: 450px;
 }
 .page-template-page-checkout-php .checkout #shiptobilling, .page-template-page-checkout-php .checkout #shiptobilling {
-  padding: 5px 20px;
+  padding: 5px 20px !important;
   background-color: #f2f2f2;
   border: 1px solid #d1d1d1;
   color: #818080;
