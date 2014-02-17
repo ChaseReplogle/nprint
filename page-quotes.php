@@ -35,7 +35,7 @@ Template Name: Saved Quotes
 
 			<h2>Saved Quotes</h2>
 
-			<table id="quote-table" class="tablesorter quote-wrapper"> 
+			<table id="quote-table" class="tablesorter quotes-wrapper"> 
 				<thead> 
 				<tr> 
 				    <th>Project</th> 
