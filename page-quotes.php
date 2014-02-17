@@ -42,7 +42,7 @@ Template Name: Saved Quotes
 				    <th>Client</th> 
 				    <th>Quantity</th> 
 				    <th>Actions</th>
-				    <th class="date-header">Modified</th> 
+				    <th class="headerSortDown">Modified</th> 
 				</tr> 
 				</thead> 
 				<tbody> 
