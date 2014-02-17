@@ -7200,9 +7200,10 @@ body .gfield_description {
   position: absolute;
   display: block;
   width: 99%;
-  text-align: right;
+  text-align: left;
+  margin: 0px !important;
+  width: 200px;
   top: 0px;
-  z-index: 99999999999999999;
   float: left;
 }
 body .gfield_description i {
