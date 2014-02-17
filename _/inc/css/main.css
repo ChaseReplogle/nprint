@@ -8848,12 +8848,13 @@ img.avatar {
   font-weight: bold;
   background-color: #fff;
   color: #818080;
+  border: 0px;
 }
 #quote-table th.header i {
   padding-left: 4px;
 }
 #quote-table th.header .up, #quote-table th.header .down {
-  display: inline;
+  display: none;
 }
 #quote-table th.headerSortUp {
   background-color: #f2f2f2;
@@ -8868,7 +8869,7 @@ img.avatar {
   background-color: #f2f2f2;
 }
 #quote-table th.headerSortDown .down {
-  display: block;
+  display: inline;
 }
 #quote-table th.headerSortDown .none {
   display: none;

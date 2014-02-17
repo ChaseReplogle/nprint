@@ -209,13 +209,14 @@
 	    font-weight: bold;
 	    background-color: #fff; 
 	    color: $grey;
+	    border: 0px;
 
 	    i {
 	    	padding-left: 4px;
 	    }
 
 	    .up, .down {
-	    	display: inline;
+	    	display: none;
 	    }
 	} 
 
@@ -235,7 +236,7 @@
 	    background-color: $verylightgrey; 
 
 	    .down {
-	    	display: block;
+	    	display: inline;
 	    }
 
 	    .none {
