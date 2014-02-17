@@ -8853,6 +8853,12 @@ img.avatar {
   cursor: pointer;
   font-weight: bold;
 }
+#quote-table th.header i {
+  padding-left: 4px;
+}
+#quote-table th.header .up, #quote-table th.header .down {
+  display: none;
+}
 
 .quotes-wrapper .quote-item {
   padding: 14px 20px 10px 20px;
