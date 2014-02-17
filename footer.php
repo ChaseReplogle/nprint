@@ -118,11 +118,7 @@
 
 <script>
 	$ = jQuery;
-	$(document).ready(function() 
-	    { 
-	        $("#quote-table").tablesorter(); 
-	    } 
-	); 
+	$("#quote-table").tablesorter(); 
 </script>
 
 <!-- Asynchronous google analytics; this is the official snippet.
