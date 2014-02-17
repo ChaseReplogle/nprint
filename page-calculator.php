@@ -194,6 +194,7 @@ Template Name: Calculator
 			$(".left-icon").prepend('<i class="fa fa-caret-square-o-left"></i>');
 			$(".right-icon").prepend('<i class="fa fa-caret-square-o-right"></i>');
 			$(".specs-icon").prepend('<i class="fa fa-pencil-square-o"></i>');
+			$(".delivery-icon").prepend('<i class="fa fa-truck"></i>');
 
 			$(function(){ // document ready
 		 
