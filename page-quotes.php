@@ -35,7 +35,16 @@ Template Name: Saved Quotes
 
 			<h2>Saved Quotes</h2>
 
-			<ul>
+			<table id="quote-table" class="tablesorter"> 
+				<thead> 
+				<tr> 
+				    <th>Project</th> 
+				    <th>Client</th> 
+				    <th>Quantity</th> 
+				    <th>Actions</th>
+				</tr> 
+				</thead> 
+				<tbody> 
 
 			<?php $user_ID = get_current_user_id(); ?> 
 
@@ -51,35 +60,31 @@ Template Name: Saved Quotes
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				 <?php $postid = get_the_ID(); ?> 
 				 <?php $calcType = get_field("product"); ?>
-
-				<li>
-					<div class="columns medium-4">
-						<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a>
-					</div>
-
-					<div class="columns medium-2">
-						<p><?php the_field('client-name'); ?></p>
-					</div>
-
-					<div class="columns medium-6 actions">
-						<span class="quote-actions">
-							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
-							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
-							<a href="#" data-dropdown="delete" class="quote-delete">Delete</a>
-								<div id="delete" class="f-dropdown" data-dropdown-content>
-									<p>You are about to delete this quote. You won't be able to undo this action.</p>
-									<?php if ($post->post_author == $current_user->ID) { ?><p><a href="<?php echo get_delete_post_link( $post->ID ) ?>" class="delete" >Confirm Delete</a></p><?php } ?>
-								</div>
-						</span>
-					</div>
-				</li>
-
 				
-
+					<tr> 
+					    <td><a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a></td> 
+					    <td><?php the_field('client-name'); ?></td> 
+					    <td><?php the_field('quantity'); ?></td> 
+					    <td>
+					    	<span class="quote-actions">
+								<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
+								<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
+								<a href="#" data-dropdown="delete" class="quote-delete">Delete</a>
+									<div id="delete" class="f-dropdown" data-dropdown-content>
+										<p>You are about to delete this quote. You won't be able to undo this action.</p>
+										<?php if ($post->post_author == $current_user->ID) { ?><p><a href="<?php echo get_delete_post_link( $post->ID ) ?>" class="delete" >Confirm Delete</a></p><?php } ?>
+									</div>
+							</span>
+					    </td> 
+					</tr> 
+				
+					
 
 			<?php endwhile; endif; ?>
 
-		</ul>	
+			</tbody> 
+			</table> 
+
 	</div>
 	</div>
 </div>
