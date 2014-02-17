@@ -33,7 +33,7 @@ Template Name: Saved Quotes
 	<div class="quotes">
 		<div class="columns medium-12 saved-quotes">
 
-			<h2>Recent Quotes</h2>
+			<h2>Saved Quotes</h2>
 
 			<ul>
 

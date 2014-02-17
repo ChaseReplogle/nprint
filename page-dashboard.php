@@ -74,7 +74,8 @@ Template Name: Dashboard
 				'author' 	 => $user_ID,
 				'post_type'  => 'quotes',
 				'orderby' 	 => 'date',
-				'order'      => 'DESC'
+				'order'      => 'DESC',
+				'posts_per_page' => 8
 			);
 
 			query_posts( $args ); ?>
