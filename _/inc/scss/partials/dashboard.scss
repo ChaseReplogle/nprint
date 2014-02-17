@@ -207,10 +207,10 @@
 		border: 1px solid darken($mainblue, 20%);
 	}
 
-	ul {
+	.quotes-wrapper {
 		margin: 0px;
 
-		li {
+		.quote-item {
 			list-style: none;
 			padding: 14px 20px 10px 20px;
 			border: 1px solid $lightgrey;
@@ -219,7 +219,7 @@
 			width: 100%;
 			display: table;
 
-			.columns {
+			.columns, td {
 				overflow: hidden; 
   				text-overflow: ellipsis;
   				white-space: nowrap;

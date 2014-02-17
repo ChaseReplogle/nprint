@@ -35,7 +35,7 @@ Template Name: Saved Quotes
 
 			<h2>Saved Quotes</h2>
 
-			<table id="quote-table" class="tablesorter"> 
+			<table id="quote-table" class="tablesorter quote-wrapper"> 
 				<thead> 
 				<tr> 
 				    <th>Project</th> 
@@ -61,10 +61,10 @@ Template Name: Saved Quotes
 				 <?php $postid = get_the_ID(); ?> 
 				 <?php $calcType = get_field("product"); ?>
 				
-					<tr> 
+					<tr class="quote-item"> 
 					    <td><a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a></td> 
-					    <td><?php the_field('client-name'); ?></td> 
-					    <td><?php the_field('quantity'); ?></td> 
+					    <td><p><?php the_field('client-name'); ?></p></td> 
+					    <td><p><?php the_field('quantity'); ?></p></td> 
 					    <td>
 					    	<span class="quote-actions">
 								<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |

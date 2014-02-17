@@ -8845,10 +8845,10 @@ img.avatar {
   display: block;
   border: 1px solid #2b6182;
 }
-.save-quotes ul {
+.save-quotes .quotes-wrapper {
   margin: 0px;
 }
-.save-quotes ul li {
+.save-quotes .quotes-wrapper .quote-item {
   list-style: none;
   padding: 14px 20px 10px 20px;
   border: 1px solid #d1d1d1;
@@ -8857,60 +8857,60 @@ img.avatar {
   width: 100%;
   display: table;
 }
-.save-quotes ul li .columns {
+.save-quotes .quotes-wrapper .quote-item .columns, .save-quotes .quotes-wrapper .quote-item td {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.save-quotes ul li .actions {
+.save-quotes .quotes-wrapper .quote-item .actions {
   overflow: visible;
 }
-.save-quotes ul li a {
+.save-quotes .quotes-wrapper .quote-item a {
   color: #818080;
 }
-.save-quotes ul li a:hover {
+.save-quotes .quotes-wrapper .quote-item a:hover {
   color: #4f98c4;
 }
-.save-quotes ul li p {
+.save-quotes .quotes-wrapper .quote-item p {
   margin: 0px;
   font-size: 11px;
   padding: 5px 0px;
 }
-.save-quotes ul li span {
+.save-quotes .quotes-wrapper .quote-item span {
   float: right;
   color: #818080;
   font-size: 11px;
 }
-.save-quotes ul li span a {
+.save-quotes .quotes-wrapper .quote-item span a {
   font-size: 11px;
   padding-left: 2px;
   padding-right: 2px;
 }
-.save-quotes ul li span a:hover {
+.save-quotes .quotes-wrapper .quote-item span a:hover {
   color: #4f98c4;
   text-decoration: underline;
 }
-.save-quotes ul li span .quote-cart {
+.save-quotes .quotes-wrapper .quote-item span .quote-cart {
   padding: 5px 10px;
   color: #fff;
   margin-left: 15px;
   display: inline-block;
 }
-.save-quotes ul li span .quote-cart:hover {
+.save-quotes .quotes-wrapper .quote-item span .quote-cart:hover {
   color: #fff;
   text-decoration: none;
 }
-.save-quotes ul li span .quote-delete {
+.save-quotes .quotes-wrapper .quote-item span .quote-delete {
   color: #c0392b;
 }
-.save-quotes ul li span .quote-delete:hover {
+.save-quotes .quotes-wrapper .quote-item span .quote-delete:hover {
   color: #962d22;
 }
-.save-quotes ul li span .f-dropdown p {
+.save-quotes .quotes-wrapper .quote-item span .f-dropdown p {
   text-overflow: initial;
   white-space: normal;
 }
-.save-quotes ul li:last-child {
+.save-quotes .quotes-wrapper li:last-child {
   border-bottom: 1px solid #d1d1d1;
 }
 
