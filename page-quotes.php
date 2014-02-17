@@ -54,6 +54,7 @@ Template Name: Saved Quotes
 				'post_type'  => 'quotes',
 				'orderby' 	 => 'date',
 				'order'      => 'DESC'
+				'posts_per_page' => -1
 			);
 
 			query_posts( $args ); ?>
