@@ -30,9 +30,12 @@ body {
 		padding: 12px;
 	}
 
+	.gform_wrapper label {
+		padding-left: 22px;
+	}
+
 	.gform_wrapper li.gfield.gf_list_2col label.gfield_label, .gform_wrapper li.gfield.gf_list_3col label.gfield_label, .gform_wrapper li.gfield.gf_list_4col label.gfield_label, .gform_wrapper li.gfield.gf_list_5col label.gfield_label, .gform_wrapper li.gfield.gf_list_inline label.gfield_label {
 		margin: 0px;
-		padding-left: 22px;
 	}
 
 	input[type="file"], input[type="checkbox"], input[type="radio"], select {
