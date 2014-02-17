@@ -53,7 +53,7 @@ Template Name: Saved Quotes
 				'author' 	 => $user_ID,
 				'post_type'  => 'quotes',
 				'orderby' 	 => 'date',
-				'order'      => 'DESC'
+				'order'      => 'DESC',
 				'posts_per_page' => -1
 			);
 
