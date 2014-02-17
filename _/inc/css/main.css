@@ -9716,7 +9716,7 @@ body ul.dwls_search_results li a {
 .page-template-page-checkout-php form .form-row textarea#order_comments {
   height: 450px;
 }
-.page-template-page-checkout-php #shiptobilling {
+.page-template-page-checkout-php .checkout #shiptobilling, .page-template-page-checkout-php .checkout #shiptobilling {
   padding: 5px 20px;
   background-color: #f2f2f2;
   border: #d1d1d1;
