@@ -8837,6 +8837,13 @@ img.avatar {
   margin-bottom: 20px;
 }
 
+#quote-table {
+  width: 100%;
+}
+#quote-table .action-header {
+  text-align: right;
+}
+
 .quotes-wrapper .quote-item {
   padding: 14px 20px 10px 20px;
   border: 1px solid #d1d1d1;
