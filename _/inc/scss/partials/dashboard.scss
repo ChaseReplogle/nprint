@@ -203,6 +203,19 @@
 	.action-header {
 		text-align: right;
 	}
+
+	th.headerSortUp {  
+	    background-color: #3399FF; 
+	} 
+
+	th.headerSortDown { 
+	    background-color: #3399FF; 
+	} 
+
+	th.header {    
+	    cursor: pointer; 
+	    font-weight: bold; 
+	} 
 }
 
 .quotes-wrapper {
