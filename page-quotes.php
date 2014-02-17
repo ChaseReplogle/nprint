@@ -42,7 +42,7 @@ Template Name: Saved Quotes
 				    <th>Client<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
 				    <th>Quantity<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
 				    <th>Actions</th>
-				    <th class="headerSortDown">Modified<i class="fa fa-sort none"><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
+				    <th class="headerSortDown">Modified<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
 				</tr> 
 				</thead> 
 				<tbody> 
