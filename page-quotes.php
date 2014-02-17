@@ -52,7 +52,7 @@ Template Name: Saved Quotes
 			<?php $args = array(
 				'author' 	 => $user_ID,
 				'post_type'  => 'quotes',
-				'orderby' 	 => 'date',
+				'orderby' 	 => 'modified',
 				'order'      => 'DESC',
 				'posts_per_page' => -1
 			);

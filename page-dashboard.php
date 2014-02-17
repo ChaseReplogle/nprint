@@ -73,7 +73,7 @@ Template Name: Dashboard
 			<?php $args = array(
 				'author' 	 => $user_ID,
 				'post_type'  => 'quotes',
-				'orderby' 	 => 'date',
+				'orderby' 	 => 'modified',
 				'order'      => 'DESC',
 				'posts_per_page' => 8
 			);
