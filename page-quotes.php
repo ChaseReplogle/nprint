@@ -41,8 +41,8 @@ Template Name: Saved Quotes
 				    <th>Project</th> 
 				    <th>Client</th> 
 				    <th>Quantity</th> 
-				    <th class="action-header">Actions</th>
-				    <th>Modified</th> 
+				    <th>Actions</th>
+				    <th class="date-header">Modified</th> 
 				</tr> 
 				</thead> 
 				<tbody> 

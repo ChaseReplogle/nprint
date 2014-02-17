@@ -8840,7 +8840,7 @@ img.avatar {
 #quote-table {
   width: 100%;
 }
-#quote-table .action-header {
+#quote-table .date-header {
   text-align: right;
 }
 #quote-table th.headerSortUp {
@@ -8881,7 +8881,6 @@ img.avatar {
   padding: 5px 0px;
 }
 .quotes-wrapper .quote-item span {
-  float: right;
   color: #818080;
   font-size: 11px;
 }
