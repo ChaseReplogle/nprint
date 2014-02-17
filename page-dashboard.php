@@ -114,7 +114,7 @@ Template Name: Dashboard
 
 			<hr>
 
-			<a href="#" class="view-all">View All Quotes</a>	
+			<a href="/dashboard/saved-quotes/" class="view-all">View All Quotes</a>	
 		</div>
 	</div>
 </div>
