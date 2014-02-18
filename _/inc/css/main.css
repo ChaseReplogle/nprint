@@ -8853,10 +8853,10 @@ img.avatar {
 #quote-table th.header {
   cursor: pointer;
   font-weight: bold;
+  background: transparent;
   background-color: #fff;
   color: #818080;
   border: 0px;
-  background: transparent;
   border: 1px solid #d1d1d1;
 }
 #quote-table th.header i {
@@ -8896,7 +8896,7 @@ img.avatar {
   width: 100%;
 }
 .quotes-wrapper .quote-item:nth-child(2n+1) {
-  background-color: #F2F2F2;
+  background-color: #F6F6F6;
 }
 .quotes-wrapper .quote-item .columns {
   overflow: hidden;

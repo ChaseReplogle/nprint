@@ -209,10 +209,10 @@
 	th.header {    
 	    cursor: pointer; 
 	    font-weight: bold;
+	    background: transparent;
 	    background-color: #fff; 
 	    color: $grey;
 	    border: 0px;
-	    background: transparent;
 	    border: 1px solid $lightgrey;
 
 	    i {
@@ -263,7 +263,7 @@
 		width: 100%;
 
 		&:nth-child(2n+1) {
-			background-color: #F2F2F2;
+			background-color: #F6F6F6;
 		}
 
 		.columns {
