@@ -37,7 +37,7 @@
     <section class="top-bar-section right">
         <!-- Right Nav Section -->
         <ul>
-    	  	  <li><a class="active" href="#">Become a Member</a></li>
+    	  	  <li><a class="active" href="/registration/">Become a Member</a></li>
     	  	  <li><a href="#" data-reveal-id="myModal" data-reveal>Log In</a></li>
     	  	  <li><a class="right-off-canvas-toggle" id="search-link"><i class="fa fa-search"></i> <span>Search</span></a></li>
         </ul>
