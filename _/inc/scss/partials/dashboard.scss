@@ -227,6 +227,7 @@
 	th.headerSortUp {  
 	    background-color: $verylightgrey; 
 	    color: $mainblue;
+	    background: transparent;
 
 	    .up {
 	    	display: inline-block;
@@ -240,6 +241,7 @@
 	th.headerSortDown { 
 	    background-color: $verylightgrey; 
 	    color: $mainblue;
+	    background: transparent;
 
 	    .down {
 	    	display: inline-block;
@@ -259,6 +261,11 @@
 		border-bottom: 0px;
 		background-color: $verylightgrey;
 		width: 100%;
+
+		&:nth-child(2n+1) {
+			background-color: #fff;
+			background: transparent;
+		}
 
 		.columns {
 			overflow: hidden; 

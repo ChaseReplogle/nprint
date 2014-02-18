@@ -8868,6 +8868,7 @@ img.avatar {
 #quote-table th.headerSortUp {
   background-color: #f2f2f2;
   color: #4f98c4;
+  background: transparent;
 }
 #quote-table th.headerSortUp .up {
   display: inline-block;
@@ -8878,6 +8879,7 @@ img.avatar {
 #quote-table th.headerSortDown {
   background-color: #f2f2f2;
   color: #4f98c4;
+  background: transparent;
 }
 #quote-table th.headerSortDown .down {
   display: inline-block;
@@ -8892,6 +8894,10 @@ img.avatar {
   border-bottom: 0px;
   background-color: #f2f2f2;
   width: 100%;
+}
+.quotes-wrapper .quote-item:nth-child(2n+1) {
+  background-color: #fff;
+  background: transparent;
 }
 .quotes-wrapper .quote-item .columns {
   overflow: hidden;
