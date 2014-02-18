@@ -9367,6 +9367,10 @@ img.avatar {
   color: #4f98c4;
 }
 
+.myaccount_user a {
+  color: #4f98c4;
+}
+
 @media only screen and (max-width: 40em) {
   #cost {
     width: auto !important;
