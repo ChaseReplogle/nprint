@@ -9723,6 +9723,7 @@ body ul.dwls_search_results li a {
 }
 .woocommerce table.cart .product-remove:hover {
   background-color: #c0392b;
+  color: #fff;
 }
 .woocommerce td.product-name dl.variation dt:nth-child(n+6) {
   display: none;
