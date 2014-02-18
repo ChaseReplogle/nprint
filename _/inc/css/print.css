@@ -259,6 +259,10 @@ input {
 	display: none;
 }
 
+.gform_wrapper ul li.retail {
+	margin: 0px !important;
+}
+
 .gform_wrapper ul li.retail label.gfield_label {
 	display: none;
 }
