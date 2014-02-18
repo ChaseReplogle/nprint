@@ -127,12 +127,23 @@ h3 {
 	height: 60px;
 }
 
+.delivery-icon {
+	display: none;
+}
 
+#field_2_89 {
+	visibility: hidden;
+	font-size: 0px;
+	padding: 0px;
+	margin: 0px;
+}
 
-
-
-
-
+.submit-options {
+	visibility: hidden;
+	font-size: 0px;
+	padding: 0px;
+	margin: 0px;
+}
 
 
 
