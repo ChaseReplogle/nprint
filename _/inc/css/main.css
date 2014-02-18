@@ -8856,6 +8856,7 @@ img.avatar {
   color: #818080;
   border: 0px;
   background: transparent;
+  border: 1px solid #818080;
 }
 #quote-table th.header i {
   padding-left: 6px;
@@ -8865,6 +8866,7 @@ img.avatar {
 }
 #quote-table th.headerSortUp {
   background-color: #f2f2f2;
+  color: #4f98c4;
 }
 #quote-table th.headerSortUp .up {
   display: inline-block;
@@ -8874,6 +8876,7 @@ img.avatar {
 }
 #quote-table th.headerSortDown {
   background-color: #f2f2f2;
+  color: #4f98c4;
 }
 #quote-table th.headerSortDown .down {
   display: inline-block;

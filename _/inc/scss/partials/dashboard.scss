@@ -212,6 +212,7 @@
 	    color: $grey;
 	    border: 0px;
 	    background: transparent;
+	    border: 1px solid $grey;
 
 	    i {
 	    	padding-left: 6px;
@@ -224,6 +225,7 @@
 
 	th.headerSortUp {  
 	    background-color: $verylightgrey; 
+	    color: $mainblue;
 
 	    .up {
 	    	display: inline-block;
@@ -236,6 +238,7 @@
 
 	th.headerSortDown { 
 	    background-color: $verylightgrey; 
+	    color: $mainblue;
 
 	    .down {
 	    	display: inline-block;
