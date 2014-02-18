@@ -252,6 +252,7 @@ input {
 	width: 0px;
 	display: block;
 	overflow: hidden;
+	margin: 0px !important;
 }
 
 .gform_wrapper ul li.percent input {
