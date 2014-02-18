@@ -837,6 +837,12 @@
 	}
 }
 
+.my_account_orders {
+	a {
+		color: $mainblue;
+	}
+}
+
 @media only screen and (max-width: 40em) {
 	#cost {
 		width: auto !important;
