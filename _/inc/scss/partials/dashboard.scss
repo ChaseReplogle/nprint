@@ -263,7 +263,7 @@
 		width: 100%;
 
 		&:nth-child(2n+1) {
-			background-color: #fff;
+			background-color: lighten($verylightgrey, 5%);
 			background: transparent;
 		}
 

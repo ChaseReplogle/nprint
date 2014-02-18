@@ -8896,7 +8896,7 @@ img.avatar {
   width: 100%;
 }
 .quotes-wrapper .quote-item:nth-child(2n+1) {
-  background-color: #fff;
+  background-color: white;
   background: transparent;
 }
 .quotes-wrapper .quote-item .columns {
