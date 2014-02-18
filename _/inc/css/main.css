@@ -8845,6 +8845,7 @@ img.avatar {
 #quote-table {
   width: 100%;
   border: 0px;
+  border-bottom: 1px solid #d1d1d1;
 }
 #quote-table .date-header {
   text-align: right;
