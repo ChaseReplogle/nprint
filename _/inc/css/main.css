@@ -8706,6 +8706,11 @@ img.avatar {
   margin-right: -8px;
 }
 
+.page-template-page-account-php .dash-nav-wrapper {
+  background: transparent;
+  background-color: #d1d1d1;
+}
+
 .dash-nav-wrapper {
   padding: 0px;
   background: #d1d1d1;

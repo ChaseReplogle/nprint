@@ -36,6 +36,13 @@
 	}
 }
 
+.page-template-page-account-php {
+	.dash-nav-wrapper {
+		background: transparent;
+		background-color: $lightgrey;
+	}
+}
+
 .dash-nav-wrapper {
 	padding: 0px;
 	background: $lightgrey; /* Old browsers */
