@@ -8857,7 +8857,7 @@ img.avatar {
   color: #818080;
   border: 0px;
   border: 1px solid #d1d1d1;
-  background: #fff;
+  background: transparent;
 }
 #quote-table th.header i {
   padding-left: 6px;
