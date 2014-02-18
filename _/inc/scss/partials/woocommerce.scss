@@ -56,6 +56,11 @@
 		width: 100%;
 		text-align: center;
 		color: $red;
+
+		&:hover {
+			background: transparent;
+			background-color: transparent;
+		}
 	}
 
 	table.cart .product-remove:hover {

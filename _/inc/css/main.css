@@ -9717,6 +9717,10 @@ body ul.dwls_search_results li a {
   text-align: center;
   color: #c0392b;
 }
+.woocommerce table.cart .product-remove a.remove:hover {
+  background: transparent;
+  background-color: transparent;
+}
 .woocommerce table.cart .product-remove:hover {
   background-color: #c0392b;
 }
