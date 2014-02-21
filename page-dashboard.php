@@ -46,17 +46,17 @@ Template Name: Dashboard
 			<div class="columns medium-8 company-contact">
 
 				<h4>Beyond Creative</h4>
-				<p><?php 
-					echo get_user_meta( $current_user->ID, 'billing_first_name', true ) . ' ';
-					echo get_user_meta( $current_user->ID, 'billing_last_name', true ); ?>
+				<p><?php global $current_user;
+                   get_currentuserinfo();
+                  echo $current_user->display_name; ?>
 				</p>
 
-				<p><?php
-					echo get_user_meta( $current_user->ID, 'billing_address_1', true  . '</br>');
-					echo get_user_meta( $current_user->ID, 'billing_address_2', true  . '</br>');
-					echo get_user_meta( $current_user->ID, 'billing_city', true  . '<span>, </span>' );
-					echo get_user_meta( $current_user->ID, 'billing_state', true  . '<span> </span>' );
-					echo get_user_meta( $current_user->ID, 'billing_postcode', true ); ?>
+				<p>
+					<?php echo get_user_meta( $current_user->ID, 'billing_address_1', true);?></br>
+					<?php echo get_user_meta( $current_user->ID, 'billing_address_2', true );?></br>
+					<?php echo get_user_meta( $current_user->ID, 'billing_city', true);?>, 
+					<?php echo get_user_meta( $current_user->ID, 'billing_state', true);?> 
+					<?php echo get_user_meta( $current_user->ID, 'billing_postcode', true ); ?>
 				</p>
 
 				<p>(573) 680-7902</p>
