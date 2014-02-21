@@ -47,8 +47,8 @@ Template Name: Dashboard
 
 				<h4>Beyond Creative</h4>
 				<?php 
-					echo get_user_meta( $current_user->ID, 'billing_first_name', true );
-					echo get_user_meta( $current_user->ID, 'billing_last_name', true );
+					echo get_user_meta( $current_user->ID, 'billing_first_name', true ) . ' ';
+					echo get_user_meta( $current_user->ID, 'billing_last_name', true ) . '</br>';
 					echo get_user_meta( $current_user->ID, 'billing_company', true );
 					echo get_user_meta( $current_user->ID, 'billing_address_1', true );
 					echo get_user_meta( $current_user->ID, 'billing_address_2', true );
