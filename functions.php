@@ -195,27 +195,26 @@ function fix_woo_var_cart()
 }
 add_action('wp_enqueue_scripts','fix_woo_var_cart');
 
-
-function pippin_add_business_field() {
+function pippin_add_location_field() {
 	?>
 	<p>
-		<label for="rcp_business"><?php _e('Business/Organization', 'rcp'); ?></label>
-		<input name="rcp_business" id="rcp_business" type="text"/>
+		<label for="rcp_location"><?php _e('Your Location', 'rcp'); ?></label>
+		<input name="rcp_location" id="rcp_location" type="text"/>
 	</p>
 	<?php
 }
-add_action('rcp_after_password_registration_field', 'pippin_add_business_field');
+add_action('rcp_after_password_registration_field', 'pippin_add_location_field');
  
-function pippin_save_business($posted, $user_id) {
-	if($posted['rcp_business']) {
-		update_user_meta($user_id, 'rcp_business', $posted['rcp_business']);
+function pippin_save_location($posted, $user_id) {
+	if($posted['rcp_location']) {
+		update_user_meta($user_id, 'rcp_location', $posted['rcp_location']);
 	}
 }
-add_action('rcp_form_processing', 'pippin_save_business', 10, 2);
+add_action('rcp_form_processing', 'pippin_save_location', 10, 2);
  
 function pippin_add_table_header_footer() {
 	?>
-	<th class="rcp-business-col"><?php _e('business', 'rcp'); ?></th>
+	<th class="rcp-location-col"><?php _e('Location', 'rcp'); ?></th>
 	<?php
 }
 add_action('rcp_members_page_table_header', 'pippin_add_table_header_footer');
@@ -223,7 +222,7 @@ add_action('rcp_members_page_table_footer', 'pippin_add_table_header_footer');
  
 function pippin_add_row($user_id) {
 	?>
-	<td><?php echo get_user_meta($user_id, 'rcp_business', true); ?></td>
+	<td><?php echo get_user_meta($user_id, 'rcp_location', true); ?></td>
 	<?php
 }
 add_action('rcp_members_page_table_column', 'pippin_add_row');
