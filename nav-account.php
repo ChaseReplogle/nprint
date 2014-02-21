@@ -14,7 +14,7 @@
             <li class="account-image"><a href="/dashboard"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-07-at-11.37.47-AM.png"></a></li>
             <li class="account-links"><a href="/account" class="has-dropdown"><?php global $current_user;
                 get_currentuserinfo();
-                  echo 'User ID: ' . $current_user->ID; ?></a>
+                  echo $current_user->display_name; ?></a>
               <ul class="dropdown">
                 <li><a class="" href="/dashboard/saved-quotes/">My Quotes</a></li>
                 <?php wp_list_pages('title_li=&child_of=123'); ?>
