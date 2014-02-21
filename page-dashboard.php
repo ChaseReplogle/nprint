@@ -46,8 +46,28 @@ Template Name: Dashboard
 			<div class="columns medium-8 company-contact">
 
 				<h4>Beyond Creative</h4>
-				<?php woocommerce_get_template( '/woocommerce/myaccount/my-address.php' ); ?>
+				<address>
+					<?php
+						$address = apply_filters( 'woocommerce_my_account_my_address_formatted_address', array(
+							'first_name' 	=> get_user_meta( $customer_id, $name . '_first_name', true ),
+							'last_name'		=> get_user_meta( $customer_id, $name . '_last_name', true ),
+							'company'		=> get_user_meta( $customer_id, $name . '_company', true ),
+							'address_1'		=> get_user_meta( $customer_id, $name . '_address_1', true ),
+							'address_2'		=> get_user_meta( $customer_id, $name . '_address_2', true ),
+							'city'			=> get_user_meta( $customer_id, $name . '_city', true ),
+							'state'			=> get_user_meta( $customer_id, $name . '_state', true ),
+							'postcode'		=> get_user_meta( $customer_id, $name . '_postcode', true ),
+							'country'		=> get_user_meta( $customer_id, $name . '_country', true )
+						), $customer_id, $name );
 
+						$formatted_address = $woocommerce->countries->get_formatted_address( $address );
+
+						if ( ! $formatted_address )
+							_e( 'You have not set up this type of address yet.', 'woocommerce' );
+						else
+							echo $formatted_address;
+					?>
+				</address>
 				<p>(573) 680-7902</p>
 				<p>adam@breakbeyond.com</p>
 
