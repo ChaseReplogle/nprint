@@ -59,7 +59,9 @@ Template Name: Dashboard
 				</p>
 
 				<p>(573) 680-7902</p>
-				<p>adam@breakbeyond.com</p>
+				<p><?php global $current_user;
+                   get_currentuserinfo();
+                  echo $current_user->user_email; ?></p>
 
 			</div>
 			<div class="clear"></div>
