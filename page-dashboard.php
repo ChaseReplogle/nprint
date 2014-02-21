@@ -52,8 +52,7 @@ Template Name: Dashboard
 				</p>
 
 				<p>
-					<?php echo get_user_meta( $current_user->ID, 'billing_address_1', true);?></br>
-					<?php echo get_user_meta( $current_user->ID, 'billing_address_2', true );?></br>
+					<?php echo get_user_meta( $current_user->ID, 'billing_address_1', true);?>					<?php echo get_user_meta( $current_user->ID, 'billing_address_2', true );?></br>
 					<?php echo get_user_meta( $current_user->ID, 'billing_city', true);?>, 
 					<?php echo get_user_meta( $current_user->ID, 'billing_state', true);?> 
 					<?php echo get_user_meta( $current_user->ID, 'billing_postcode', true ); ?>
