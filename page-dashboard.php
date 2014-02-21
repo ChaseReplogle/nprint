@@ -46,9 +46,7 @@ Template Name: Dashboard
 			<div class="columns medium-8 company-contact">
 
 				<h4>Beyond Creative</h4>
-				<p>Adam Deviza</p>
-				<p>2023 S Saratoga Ave</br>
-				Springfirld, MO 65804</p>
+				<?php woocommerce_get_template( '/woocommerce/myaccount/my-address.php' ); ?>
 
 				<p>(573) 680-7902</p>
 				<p>adam@breakbeyond.com</p>
