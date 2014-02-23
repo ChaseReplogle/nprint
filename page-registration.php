@@ -17,7 +17,7 @@ Template Name: Registration
 
 <nav class="top-bar page-nav" data-topbar>
 		<ul class="title-area">
-			<?php the_title();?>
+			<li><a><?php the_title();?></a></li>
 		</ul>
 	</nav>
 </div>	
@@ -43,6 +43,8 @@ Template Name: Registration
 </div>
 
 <?php endwhile; endif; ?>
+
+<hr>
 
 
 <div class="footer-wrapper">

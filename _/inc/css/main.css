@@ -8547,6 +8547,16 @@ img.avatar {
   color: #818080;
 }
 
+.page-template-page-registration-php .rcp_separator {
+  display: none;
+}
+.page-template-page-registration-php .rcp_price {
+  display: none;
+}
+.page-template-page-registration-php .rcp_level_duration {
+  display: none;
+}
+
 @media only screen and (max-width: 40em) {
   .search .support_button {
     position: relative;
