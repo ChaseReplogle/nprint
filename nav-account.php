@@ -11,7 +11,22 @@
     <section class="top-bar-section right">
         <!-- Right Nav Section -->
         <ul>
-            <li class="account-image"><a href="/dashboard"><img src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-07-at-11.37.47-AM.png"></a></li>
+
+          <?php $user_ID = get_current_user_id(); ?> 
+
+          <?php $args = array(
+            'author'   => $user_ID,
+            'post_type'  => 'businesses',
+            'posts_per_page' => 1
+          );
+
+          query_posts( $args ); ?>
+
+          <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
+             <?php $userimage = get_field("user_image"); ?>
+          <?php endwhile; endif; ?>
+
+            <li class="account-image"><a href="/dashboard"><img src="<?php echo $userimage; ?>"></a></li>
             <li class="account-links"><a href="/account" class="has-dropdown"><?php global $current_user;
                 get_currentuserinfo();
                   echo $current_user->display_name; ?></a>
