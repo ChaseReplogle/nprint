@@ -27,7 +27,7 @@
              <?php $business_image = get_field("business_logo"); ?>
              <?php $business_title = get_the_title(); ?>
              <?php $business_phone = get_field("business_phone"); ?>
-             <?php $business_email = get_field("business_phone"); ?>
+             <?php $business_email = get_field("business_email"); ?>
              <?php $business_id = get_the_ID(); ?>
           <?php endwhile; endif; ?>
 
