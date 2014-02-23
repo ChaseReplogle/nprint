@@ -16,7 +16,7 @@ Template Name: Registration
 <div class="contain-to-grid page-nav-warpper">
 	<nav class="top-bar page-nav" data-topbar>
 		<ul class="title-area">
-			<li><a href="#"><?php the_title();?></a></li>
+			<li><a href="#">Become a Member</a></li>
 		</ul>
 	</nav>
 </div>	
@@ -33,7 +33,12 @@ Template Name: Registration
 
 	<div class="columns medium-4 page-sidebar">
 
-		
+		<h3>Benefits of a Membership</h3>
+		<ul>
+			<li>Explanation of Quotes</li>
+			<li>Explanation of Free Shipping</li>
+			<li>Explanation of Calculators</li>
+		</ul>
 	</div>
 </div>
 
