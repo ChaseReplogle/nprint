@@ -8567,6 +8567,9 @@ img.avatar {
   padding-top: 30px;
   margin-top: 30px;
 }
+.page-template-page-registration-php .rcp_subscription_level {
+  margin-bottom: 10px;
+}
 .page-template-page-registration-php #rcp_submit {
   background-color: #4f98c4;
   border: 1px solid #2b6182;
