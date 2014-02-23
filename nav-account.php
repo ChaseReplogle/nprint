@@ -24,6 +24,7 @@
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
              <?php $userimage = get_field("user_image"); ?>
+             <?php $businessimage = get_field("business_logo"); ?>
           <?php endwhile; endif; ?>
 
           <?php wp_reset_query(); ?>

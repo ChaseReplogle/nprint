@@ -39,7 +39,7 @@ Template Name: Dashboard
 
 		<div class="company-info">
 			<div class="columns medium-4">
-				<img class="company-logo" src="http://nprintgraphix.wpengine.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-07-at-10.43.46-AM.png" alt="nPrint Graphix" width="386" height="190" />
+				<img class="company-logo" src="<?php echo $businessimage; ?>" alt="nPrint Graphix" width="386" height="190" />
 				<a href="#" class="small-link">Edit</a>
 			</div>
 
