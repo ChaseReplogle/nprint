@@ -942,6 +942,12 @@ img.avatar {
 	#rcp_auto_renew_wrap {
 		display: none;
 	}
+
+	.rcp_subscription_fieldset {
+		border-top: 1px solid $lightgrey;
+		padding-top: 20px;
+		margin-top: 20px;
+	}
 }
 
 

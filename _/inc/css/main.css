@@ -8559,6 +8559,11 @@ img.avatar {
 .page-template-page-registration-php #rcp_auto_renew_wrap {
   display: none;
 }
+.page-template-page-registration-php .rcp_subscription_fieldset {
+  border-top: 1px solid #d1d1d1;
+  padding-top: 20px;
+  margin-top: 20px;
+}
 
 @media only screen and (max-width: 40em) {
   .search .support_button {
