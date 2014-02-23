@@ -28,6 +28,7 @@
              <?php $business_title = get_the_title(); ?>
              <?php $business_phone = get_field("business_phone"); ?>
              <?php $business_email = get_field("business_phone"); ?>
+             <?php $business_id = get_the_ID(); ?>
           <?php endwhile; endif; ?>
 
           <?php wp_reset_query(); ?>
