@@ -38,6 +38,7 @@
                 get_currentuserinfo();
                   echo $current_user->display_name; ?></a>
               <ul class="dropdown">
+                <li><a class="" href="/dashboard">Dashboard</a></li>
                 <li><a class="" href="/dashboard/saved-quotes/">My Quotes</a></li>
                 <?php wp_list_pages('title_li=&child_of=123'); ?>
               </ul>
