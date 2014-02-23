@@ -44,10 +44,10 @@ Template Name: Registration
 
 <?php endwhile; endif; ?>
 
-<hr>
 
 
 <div class="footer-wrapper">
 
+<hr>
 
 <?php get_footer(); ?>
