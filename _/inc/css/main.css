@@ -8578,6 +8578,7 @@ img.avatar {
   color: #fff;
   text-align: center;
   margin-top: 35px;
+  display: block;
 }
 
 @media only screen and (max-width: 40em) {
