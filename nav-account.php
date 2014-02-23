@@ -26,6 +26,8 @@
              <?php $userimage = get_field("user_image"); ?>
           <?php endwhile; endif; ?>
 
+          <?php wp_reset_query(); ?>
+
             <li class="account-image"><a href="/dashboard"><img src="<?php echo $userimage; ?>"></a></li>
             <li class="account-links"><a href="/account" class="has-dropdown"><?php global $current_user;
                 get_currentuserinfo();
