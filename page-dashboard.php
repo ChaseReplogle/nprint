@@ -58,10 +58,8 @@ Template Name: Dashboard
 					<?php echo get_user_meta( $current_user->ID, 'billing_postcode', true ); ?>
 				</p>
 
-				<p>(573) 680-7902</p>
-				<p><?php global $current_user;
-                   get_currentuserinfo();
-                  echo $current_user->user_email; ?></p>
+				<p><?php echo $business_phone; ?></p>
+				<p><?php echo $business_email; ?></p>
 
 			</div>
 			<div class="clear"></div>

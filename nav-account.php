@@ -26,6 +26,8 @@
              <?php $user_image = get_field("user_image"); ?>
              <?php $business_image = get_field("business_logo"); ?>
              <?php $business_title = get_the_title(); ?>
+             <?php $business_phone = get_field("business_phone"); ?>
+             <?php $business_email = get_field("business_phone"); ?>
           <?php endwhile; endif; ?>
 
           <?php wp_reset_query(); ?>
