@@ -14,10 +14,9 @@ Template Name: Registration
 <?php include 'nav-account.php'; ?>
 <?php include 'nav-main.php'; ?>
 <div class="contain-to-grid page-nav-warpper">
-
-<nav class="top-bar page-nav" data-topbar>
+	<nav class="top-bar page-nav" data-topbar>
 		<ul class="title-area">
-			<li><a><?php the_title();?></a></li>
+			<li><a href="#"><?php the_title();?></a></li>
 		</ul>
 	</nav>
 </div>	
