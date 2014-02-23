@@ -8557,7 +8557,7 @@ img.avatar {
   display: none;
 }
 .page-template-page-registration-php #rcp_auto_renew_wrap {
-  display: none;
+  display: none !important;
 }
 .page-template-page-registration-php .rcp_header {
   display: none;
