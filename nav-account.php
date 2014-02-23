@@ -23,13 +23,14 @@
           query_posts( $args ); ?>
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
-             <?php $userimage = get_field("user_image"); ?>
-             <?php $businessimage = get_field("business_logo"); ?>
+             <?php $user_image = get_field("user_image"); ?>
+             <?php $business_image = get_field("business_logo"); ?>
+             <?php $business_title = get_the_title(); ?>
           <?php endwhile; endif; ?>
 
           <?php wp_reset_query(); ?>
 
-            <li class="account-image"><a href="/dashboard"><img src="<?php echo $userimage; ?>"></a></li>
+            <li class="account-image"><a href="/dashboard"><img src="<?php echo $user_image; ?>"></a></li>
             <li class="account-links"><a href="/account" class="has-dropdown"><?php global $current_user;
                 get_currentuserinfo();
                   echo $current_user->display_name; ?></a>

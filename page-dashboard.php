@@ -39,13 +39,13 @@ Template Name: Dashboard
 
 		<div class="company-info">
 			<div class="columns medium-4">
-				<img class="company-logo" src="<?php echo $businessimage; ?>" alt="nPrint Graphix" width="386" height="190" />
+				<img class="company-logo" src="<?php echo $business_image; ?>" alt="nPrint Graphix" width="386" height="190" />
 				<a href="#" class="small-link">Edit</a>
 			</div>
 
 			<div class="columns medium-8 company-contact">
 
-				<h4>Beyond Creative</h4>
+				<h4><?php echo $business_title; ?></h4>
 				<p><?php global $current_user;
                    get_currentuserinfo();
                   echo $current_user->display_name; ?>
