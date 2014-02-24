@@ -173,7 +173,13 @@ Template Name: Calculator
 
 	if (style==="print")
 	  	{
-	  		$('input#name').attr('value', 'Chase');
+
+	  		$(document).ready(function(){
+			  $(".client").change(function(){
+			    var newval=$(this).val();
+			    $('input#name').attr('value', newval);
+			  });
+			});
 
 	  	}
 	else
