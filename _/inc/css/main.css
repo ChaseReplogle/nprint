@@ -9365,7 +9365,7 @@ img.avatar {
   padding-bottom: 0px;
   margin-bottom: 30px;
 }
-.company-info a {
+.company-info a.edit {
   font-size: 12px;
   padding: 10px 0px;
   color: #818080;
@@ -9374,6 +9374,10 @@ img.avatar {
   display: block;
   width: 100%;
   text-align: center;
+}
+.company-info a.edit:hover {
+  color: #818080;
+  text-decoration: none;
 }
 .company-info .columns {
   padding: 0px;
