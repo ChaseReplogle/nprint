@@ -53,7 +53,7 @@ Template Name: Calculator
 		<div class="for-print client">
 			<form id="client">
 			  <div>
-					<input type="text" name="name" id="name" value="Client's Name" tabindex="1">
+					<input type="text" name="name" id="name" tabindex="1">
 			  </div>
 			  <div>
 			    <input type="text" name="address" id="address" value="Street Address" tabindex="1">
@@ -174,7 +174,7 @@ Template Name: Calculator
 	if (style==="print")
 	  	{
 
-		    var client = $('.client input').attr('value');
+		    var client = $('.client-name-field input').attr('value');
 		    $('#name').attr('value', client );
 
 	  	}
