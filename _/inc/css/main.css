@@ -8547,6 +8547,11 @@ img.avatar {
   color: #818080;
 }
 
+.page-template-page-business-php .gform_wrapper .gform_footer.left_label {
+  padding: 0px;
+  width: 100%;
+}
+
 .page-template-page-registration-php .rcp_separator {
   display: none;
 }
