@@ -9404,7 +9404,7 @@ img.avatar {
   line-height: 18px;
   color: #818080;
 }
-.company-info .company-contact a {
+.company-info .company-contact p a {
   color: #4f98c4;
   text-decoration: underline;
 }
