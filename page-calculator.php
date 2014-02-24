@@ -174,10 +174,8 @@ Template Name: Calculator
 	if (style==="print")
 	  	{
 
-	  		$(document).ready(function(){
-			    var newval=$('.client').val();
-			    $('input#name').attr('value', newval);
-			});
+		    var newval=$('.client input').val();
+		    $('input#name').attr('value', newval);
 
 	  	}
 	else
