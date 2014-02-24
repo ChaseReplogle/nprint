@@ -51,7 +51,7 @@ Template Name: Registration
 
 <div class="footer-wrapper">
 
-<div class="columns medium-12">
+<div class="row">
 	<hr>
 </div>
 
