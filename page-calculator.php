@@ -53,7 +53,12 @@ Template Name: Calculator
 		<div class="for-print client">
 			<form id="client">
 			  <div>
-			    <input type="text" name="name" id="name" value="Client's Name" tabindex="1">
+			  <?php $client = get_field('client-name'); ?>
+			  	<?php if ($client){ ?>
+			    	<input type="text" name="name" id="name" value="<?php echo $client; ?>" tabindex="1">
+			   	<?php } else { ?>
+					<input type="text" name="name" id="name" value="Client's Name" tabindex="1">
+				<?php } ?>
 			  </div>
 			  <div>
 			    <input type="text" name="address" id="address" value="Street Address" tabindex="1">
