@@ -176,6 +176,9 @@ Template Name: Calculator
 
 		    var client = $('.client-name-field input').val();
 		    $('#name').val( client );
+		    if($('#name').val().length == 0){
+		    	$('#name').val( "Client's Name" );
+		    }
 
 	  	}
 	else
