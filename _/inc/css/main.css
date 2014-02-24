@@ -9225,14 +9225,15 @@ img.avatar {
   color: #818080;
   font-size: 13px;
   border: 1px solid lightgrey;
-  padding: 5px 20px;
+  padding: 0px 20px;
+  line-height: 25px;
 }
 #cost-total .shipping label {
   font-size: 13px;
 }
 #cost-total .shipping .ginput_product_price {
   float: right;
-  margin-top: -20px;
+  margin-top: -32px;
 }
 
 .page-template-page-dashboard-php .breadcrumbs {

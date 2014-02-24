@@ -606,7 +606,8 @@
 		color: $grey;
 		font-size: 13px;
 		border: 1px solid lightgrey;
-		padding: 5px 20px;
+		padding: 0px 20px;
+		line-height: 25px;
 
 		label {
 			font-size: 13px;
@@ -614,7 +615,7 @@
 
 		.ginput_product_price {
 			float: right;
-			margin-top: -20px;
+			margin-top: -32px;
 		}
 	}
 	
