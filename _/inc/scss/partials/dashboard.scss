@@ -604,10 +604,16 @@
 
 	.shipping {
 		color: $grey;
+		margin-top: 90px;
+		font-size: 13px;
+
+		label {
+			font-size: 13px;
+		}
 
 		.ginput_product_price {
 			float: right;
-			margin-top: -25px;
+			margin-top: -20px;
 		}
 	}
 	
