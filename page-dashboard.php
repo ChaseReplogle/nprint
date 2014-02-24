@@ -108,8 +108,8 @@ Template Name: Dashboard
 					<div class="columns medium-6 actions">
 						<span class="quote-actions">
 							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
-							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
-							<a target="_blank" href="#" data-dropdown="delete" class="quote-delete">Delete</a>
+							<a target="_blank"  href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
+							<a href="#" data-dropdown="delete" class="quote-delete">Delete</a>
 								<div id="delete" class="f-dropdown" data-dropdown-content>
 									<p>You are about to delete this quote. You won't be able to undo this action.</p>
 									<?php if ($post->post_author == $current_user->ID) { ?><p><a href="<?php echo get_delete_post_link( $post->ID ) ?>" class="delete" >Confirm Delete</a></p><?php } ?>
