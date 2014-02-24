@@ -53,7 +53,7 @@ Template Name: Calculator
 		<div class="for-print client">
 			<form id="client">
 			  <div>
-					<input type="text" name="name" id="name" tabindex="1">
+					<input type="text" name="name" id="name" value="Client's Name" tabindex="1">
 			  </div>
 			  <div>
 			    <input type="text" name="address" id="address" value="Street Address" tabindex="1">
