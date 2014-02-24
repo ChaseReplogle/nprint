@@ -9433,9 +9433,9 @@ img.avatar {
 
 .empty-quotes-link {
   width: 70%;
-  margin: 0px 15%;
+  margin: 150px 15% 0px 15%;
   position: absolute;
-  top: 200px;
+  top: 0px;
   text-align: center;
 }
 
