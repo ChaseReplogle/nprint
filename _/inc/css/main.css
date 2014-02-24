@@ -9431,6 +9431,12 @@ img.avatar {
   color: #4f98c4;
 }
 
+.empty-quotes-link {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+
 @media only screen and (max-width: 40em) {
   #cost {
     width: auto !important;
