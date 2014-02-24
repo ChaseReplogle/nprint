@@ -9415,6 +9415,10 @@ img.avatar {
     position: static !important;
     top: 0px !important;
   }
+
+  .page-template-page-dashboard-php div.row.content-row > div.columns.medium-4.page-main-content {
+    margin-bottom: 0px;
+  }
 }
 .primary_button {
   padding: 12px 23px;
