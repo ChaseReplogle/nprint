@@ -46,7 +46,7 @@ Template Name: Business
 
 <script>
 	$ = jQuery;
-	$( ".rcp_subscription_message" ).text( "Choose a Business/Organization Type" );	
+	$(".business-icon").prepend('<i class="fa fa-suitcase"></i>');	
 </script>
 
 <div class="footer-wrapper">
