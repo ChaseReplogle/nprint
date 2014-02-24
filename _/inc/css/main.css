@@ -8556,6 +8556,9 @@ img.avatar {
   margin-top: 30px;
   padding: 20px;
 }
+.page-template-page-business-php label {
+  padding-left: 0px;
+}
 
 .page-template-page-registration-php .rcp_separator {
   display: none;
