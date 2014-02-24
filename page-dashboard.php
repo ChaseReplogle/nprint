@@ -58,7 +58,9 @@ Template Name: Dashboard
 						<?php echo get_user_meta( $current_user->ID, 'billing_state', true);?> 
 						<?php echo get_user_meta( $current_user->ID, 'billing_postcode', true ); ?>
 					</p>
-				<?php } ?>
+					<?php } else { ?>
+						<p><a href="/account/edit-address/">Add Address</a></p>
+					<?php } ?>
 
 				<p><?php echo $business_phone; ?></p>
 				<p><?php echo $business_email; ?></p>
