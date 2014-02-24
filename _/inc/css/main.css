@@ -9221,6 +9221,13 @@ img.avatar {
 #cost-total #field_2_32 {
   border-left: 0px;
 }
+#cost-total .shipping {
+  color: #818080;
+}
+#cost-total .shipping .ginput_product_price {
+  float: right;
+  margin-top: -25px;
+}
 
 .page-template-page-dashboard-php .breadcrumbs {
   display: none;

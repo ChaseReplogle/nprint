@@ -602,6 +602,14 @@
 		border-left: 0px;
 	}
 
+	.shipping {
+		color: $grey;
+
+		.ginput_product_price {
+			float: right;
+			margin-top: -25px;
+		}
+	}
 	
 
 }
