@@ -305,3 +305,10 @@ input {
 	margin: 0px;
 	overflow: hidden;
 }
+
+.shipping {
+	visibility: hidden;
+	height: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
