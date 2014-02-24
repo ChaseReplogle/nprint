@@ -175,7 +175,7 @@ Template Name: Calculator
 	  	{
 
 		    var newval=$('.client input[type=text]').val();
-		    $('input#name').val(newval);
+		    $('#name').val(newval);
 
 	  	}
 	else
