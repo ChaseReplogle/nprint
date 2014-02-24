@@ -299,7 +299,7 @@ input {
 	font-size: 20px;
 }
 
-.client-name-field {
+.gform_wrapper ul li.gfield.client-name-field {
 	visibility: hidden;
 	height: 0px;
 	margin: 0px;
