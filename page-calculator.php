@@ -175,10 +175,8 @@ Template Name: Calculator
 	  	{
 
 	  		$(document).ready(function(){
-			  $(".client").change(function(){
-			    var newval=$(this).val();
+			    var newval=$('.client').val();
 			    $('input#name').attr('value', newval);
-			  });
 			});
 
 	  	}
