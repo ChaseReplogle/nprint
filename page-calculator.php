@@ -173,8 +173,7 @@ Template Name: Calculator
 
 	if (style==="print")
 	  	{
-	  		$('.percent input#name').attr('value', 'Chase');
-
+	  		$('input#name').attr('value', 'Chase');
 
 	  	}
 	else
