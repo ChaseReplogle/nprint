@@ -51,7 +51,7 @@ Template Name: Dashboard
                   echo $current_user->display_name; ?>
 				</p>
 				<?php $address_contnet = get_user_meta( $current_user->ID, 'billing_address_1', true); ?>
-				<?php if (!$address_contnet){ ?>
+				<?php if ($address_contnet){ ?>
 					<p>
 						<?php echo get_user_meta( $current_user->ID, 'billing_address_1', true);?>					<?php echo get_user_meta( $current_user->ID, 'billing_address_2', true );?></br>
 						<?php echo get_user_meta( $current_user->ID, 'billing_city', true);?>, 
