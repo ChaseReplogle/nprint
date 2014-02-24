@@ -40,7 +40,7 @@ Template Name: Dashboard
 		<div class="company-info">
 			<div class="columns medium-4">
 				<img class="company-logo" src="<?php echo $business_image; ?>" alt="nPrint Graphix" width="386" height="190" />
-				<a class="edit" href="/business-information/?gform_post_id=<?php echo $business_id; ?>" class="small-link">Edit</a>
+				<a href="/business-information/?gform_post_id=<?php echo $business_id; ?>" class="small-link">Edit</a>
 			</div>
 
 			<div class="columns medium-8 company-contact">

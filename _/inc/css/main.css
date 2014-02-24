@@ -9365,7 +9365,7 @@ img.avatar {
   padding-bottom: 0px;
   margin-bottom: 30px;
 }
-.company-info a.edit {
+.company-info a.small-link {
   font-size: 12px;
   padding: 10px 0px;
   color: #818080;
@@ -9375,7 +9375,7 @@ img.avatar {
   width: 100%;
   text-align: center;
 }
-.company-info a.edit:hover {
+.company-info a.small-link:hover {
   color: #818080;
   text-decoration: none;
 }
@@ -9403,6 +9403,10 @@ img.avatar {
   font-size: 13px;
   line-height: 18px;
   color: #818080;
+}
+.company-info .company-contact a {
+  color: #4f98c4;
+  text-decoration: underline;
 }
 
 .my_account_orders a {

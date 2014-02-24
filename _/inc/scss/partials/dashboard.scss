@@ -796,7 +796,7 @@
 	padding-bottom: 0px;
 	margin-bottom: 30px;
 
-	a.edit {
+	a.small-link {
 		font-size: 12px;
 		padding: 10px 0px;
 		color: $grey;
@@ -839,6 +839,11 @@
 			font-size: 13px;
 			line-height: 18px;
 			color: $grey;
+		}
+
+		a {
+			color: $mainblue;
+			text-decoration: underline;
 		}
 	}
 }
