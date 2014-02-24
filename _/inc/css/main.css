@@ -9223,8 +9223,9 @@ img.avatar {
 }
 #cost-total .shipping {
   color: #818080;
-  margin-top: 90px;
   font-size: 13px;
+  border: 1px solid lightgrey;
+  padding: 5px 20px;
 }
 #cost-total .shipping label {
   font-size: 13px;
