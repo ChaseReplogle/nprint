@@ -64,11 +64,18 @@ Template Name: Calculator
 	</div>
 
 	<div class="for-print company-info">
-		<h3>My Printing Company</h3>
-		<p>2023 S Saratoga Ave</br>
-			Springfield, MO 65804</p>
-		<p>(573) 680-7902</p>
-		<p>support@myprintingcompany.com</p>
+		<h3><?php echo $business_title; ?></h3>
+		<?php $address_contnet = get_user_meta( $current_user->ID, 'billing_address_1', true); ?>
+				<?php if ($address_contnet){ ?>
+					<p>
+						<?php echo get_user_meta( $current_user->ID, 'billing_address_1', true);?>					<?php echo get_user_meta( $current_user->ID, 'billing_address_2', true );?></br>
+						<?php echo get_user_meta( $current_user->ID, 'billing_city', true);?>, 
+						<?php echo get_user_meta( $current_user->ID, 'billing_state', true);?> 
+						<?php echo get_user_meta( $current_user->ID, 'billing_postcode', true ); ?>
+					</p>
+					<?php } ?>
+		<p><?php echo $business_phone; ?></p>
+		<p><?php echo $business_email; ?></p>
 	</div>
 
 	<div class="clear"></div>
