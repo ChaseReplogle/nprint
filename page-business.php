@@ -48,6 +48,7 @@ Template Name: Business
 	$ = jQuery;
 	$(".business-icon").prepend('<i class="fa fa-suitcase"></i>');	
 	$("input[type='file']").append('<img id="placeholder" src="http://placehold.it/180" alt="your image" />');
+	$("input[type='file']").attr('onchange', 'readURL(this);');
 	function readURL(input) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
