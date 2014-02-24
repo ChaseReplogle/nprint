@@ -8555,6 +8555,7 @@ img.avatar {
   width: 100%;
   margin-top: 30px;
   padding: 20px;
+  border: 1px solid #2b6182;
 }
 .page-template-page-business-php label {
   padding-left: 0px;
