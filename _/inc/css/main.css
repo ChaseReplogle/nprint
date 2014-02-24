@@ -8551,6 +8551,11 @@ img.avatar {
   padding: 0px;
   width: 100%;
 }
+.page-template-page-business-php .gform_button {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+}
 
 .page-template-page-registration-php .rcp_separator {
   display: none;
