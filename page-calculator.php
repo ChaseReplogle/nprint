@@ -174,8 +174,8 @@ Template Name: Calculator
 	if (style==="print")
 	  	{
 
-		    var client = $('.client-name-field input').attr('value');
-		    $('#name').attr('value', client );
+		    var client = $('.client-name-field input').val();
+		    $('#name').val( client );
 
 	  	}
 	else
