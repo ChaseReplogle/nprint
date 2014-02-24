@@ -131,7 +131,7 @@ Template Name: Dashboard
 
 			<?php else : ?>
 
-				Test
+				<a href="/dashboard/saved-quotes/"><img class="empty-quotes" src="<?php echo get_template_directory_uri(); ?>/_/inc/images/empty-quotes.jpg"></a>
 
 		<?php endif; ?>
 
