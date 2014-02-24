@@ -121,13 +121,21 @@ Template Name: Dashboard
 				
 
 
-			<?php endwhile; endif; ?>
+			<?php endwhile; ?>
 
 			</ul>	
 
 			<hr>
 
 			<a href="/dashboard/saved-quotes/" class="view-all">View All Quotes</a>	
+
+			<?php else : ?>
+
+				Test
+
+		<?php endif; ?>
+
+			
 		</div>
 	</div>
 </div>
