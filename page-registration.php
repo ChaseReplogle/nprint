@@ -44,10 +44,15 @@ Template Name: Registration
 
 <?php endwhile; endif; ?>
 
-
+<script>
+	$ = jQuery;
+	$( ".rcp_subscription_message" ).text( "Choose a Business/Organization Type" );	
+</script>
 
 <div class="footer-wrapper">
 
-<hr>
+<div class="columns medium-12">
+	<hr>
+</div>
 
 <?php get_footer(); ?>
