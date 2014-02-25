@@ -23,8 +23,8 @@
           query_posts( $args ); ?>
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
-             <?php $user_image = get_field("user_image"); ?>
-             <?php $business_image = get_field("business_logo"); ?>
+             <?php $user_image = get_the_post_thumbnail($page->ID, 'thumbnail');  ?>
+             <?php $business_image = wp_get_attachment_image($post->ID, 'medium'); ?>
              <?php $business_title = get_the_title(); ?>
              <?php $business_phone = get_field("business_phone"); ?>
              <?php $business_email = get_field("business_email"); ?>
