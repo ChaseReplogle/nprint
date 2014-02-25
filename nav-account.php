@@ -30,7 +30,7 @@
               if ( ! is_array($attachments) ) continue;
               $count = count($attachments);
               $first_attachment = array_shift($attachments); ?>
-              <?php $business_image = wp_get_attachment_image($first_attachment->ID); ?>
+              <?php $business_image = wp_get_attachment_url($first_attachment->ID); ?>
 
              <?php $business_title = get_the_title(); ?>
              <?php $business_phone = get_field("business_phone"); ?>

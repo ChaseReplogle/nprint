@@ -39,7 +39,7 @@ Template Name: Dashboard
 
 		<div class="company-info">
 			<div class="columns medium-4">
-				<?php echo $business_image; ?>
+				<img class="company-logo" src="<?php echo $business_image; ?>" alt="nPrint Graphix" width="386" height="190" />
 				<a href="/business-information/?gform_post_id=<?php echo $business_id; ?>" class="small-link">Edit</a>
 			</div>
 
