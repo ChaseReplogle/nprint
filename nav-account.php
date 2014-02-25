@@ -24,7 +24,7 @@
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
              <?php $thumb_ID = get_post_thumbnail_id( $post->ID ); ?>
-             <?php $user_image = wp_get_attachment_url($thumb_id,'thumbnail', true);?>
+             <?php $user_image = wp_get_attachment_url($thumb_ID,'thumbnail', true);?>
              
              <?php $attachments = get_children(array('post_parent' => get_the_ID(), 'post_type' => 'attachment', 'post_mime_type' => 'image', 'exclude' => $thumb_ID, 'orderby' => 'DESC'));
               if ( ! is_array($attachments) ) continue;
