@@ -23,6 +23,14 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 			</tr>
 		</thead>
 		<tfoot>
+			
+
+			<?php if ( $woocommerce->cart->get_discounts_before_tax() ) : ?>
+
+			<tr class="discount">
+				<th><?php _e( 'Cart Discount', 'woocommerce' ); ?></th>
+				<td>-<?php echo $woocommerce->cart->get_discounts_before_tax(); ?></td>
+			</tr>
 
 			<?php endif; ?>
 
