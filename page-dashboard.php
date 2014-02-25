@@ -144,7 +144,9 @@ Template Name: Dashboard
 
 </div>
 
-<hr>
+<div class="row">
+	<hr>
+</div>
 
 <div class="footer-wrapper">
 
