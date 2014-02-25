@@ -344,12 +344,12 @@
 
 .save-quotes {
 	.view-all {
-		background-color: $mainblue;
+		background-color: $verylightgrey;
 		padding: 25px 0px;
 		text-align: center;
-		color: #fff;
+		color: $grey;
 		display: block;
-		border: 1px solid darken($mainblue, 20%);
+		border: 1px solid $lightgrey;
 	}
 
 	ul {
