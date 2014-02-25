@@ -23,8 +23,9 @@
           query_posts( $args ); ?>
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
-             <?php $user_image = get_the_post_thumbnail($page->ID, 'thumbnail');  ?>
-             <?php $business_image = wp_get_attachment_image($post->ID, 'medium'); ?>
+             <?php $thumb_id = get_post_thumbnail_id(); ?>
+             <?php $user_image = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);?>
+             <?php $business_image = wp_get_attachment_url($post->ID, 'medium'); ?>
              <?php $business_title = get_the_title(); ?>
              <?php $business_phone = get_field("business_phone"); ?>
              <?php $business_email = get_field("business_email"); ?>
