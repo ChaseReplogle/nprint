@@ -37,6 +37,8 @@ Template Name: Dashboard
 			</div>
 		</a>
 
+		<hr>
+
 		<div class="company-info">
 			<div class="columns medium-4">
 				<img class="company-logo" src="<?php echo $business_image; ?>" alt="nPrint Graphix" width="386" height="190" />
