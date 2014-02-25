@@ -131,8 +131,8 @@ Template Name: Dashboard
 
 			<?php else : ?>
 
-				<a href="/dashboard/saved-quotes/"><img class="empty-quotes" src="<?php echo get_template_directory_uri(); ?>/_/inc/images/empty-quotes.jpg"></a>
-				<a href="/dashboard/saved-quotes/" class="secondary_button empty-quotes-link">Create Your First Quote</a>
+				<a href="/dashboard/calculators/"><img class="empty-quotes" src="<?php echo get_template_directory_uri(); ?>/_/inc/images/empty-quotes.jpg"></a>
+				<a href="/dashboard/calculators/" class="secondary_button empty-quotes-link">Create Your First Quote</a>
 		<?php endif; ?>
 
 			
