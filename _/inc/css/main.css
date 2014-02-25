@@ -9454,6 +9454,19 @@ img.avatar {
   padding: 35px 0px;
 }
 
+.calc-item {
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  padding: 30px;
+}
+.calc-item i {
+  font-size: 40px;
+  color: #818080;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
 @media only screen and (max-width: 40em) {
   #cost {
     width: auto !important;
