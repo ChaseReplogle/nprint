@@ -24,33 +24,6 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 		<table cellspacing="0">
 			<tbody>
 
-				<tr class="cart-subtotal">
-					<th><strong><?php _e( 'Cart Subtotal', 'woocommerce' ); ?></strong></th>
-					<td><strong><?php echo $woocommerce->cart->get_cart_subtotal(); ?></strong></td>
-				</tr>
-
-				<?php if ( $woocommerce->cart->get_discounts_before_tax() ) : ?>
-
-					<tr class="discount">
-						<th><?php _e( 'Cart Discount', 'woocommerce' ); ?> <a href="<?php echo add_query_arg( 'remove_discounts', '1', $woocommerce->cart->get_cart_url() ) ?>"><?php _e( '[Remove]', 'woocommerce' ); ?></a></th>
-						<td>-<?php echo $woocommerce->cart->get_discounts_before_tax(); ?></td>
-					</tr>
-
-				<?php endif; ?>
-
-				<?php if ( $woocommerce->cart->needs_shipping() && $woocommerce->cart->show_shipping() && ( $available_methods || get_option( 'woocommerce_enable_shipping_calc' ) == 'yes' ) ) : ?>
-
-					<?php do_action( 'woocommerce_cart_totals_before_shipping' ); ?>
-
-					<tr class="shipping">
-						<th><?php _e( 'Shipping', 'woocommerce' ); ?></th>
-						<td><?php woocommerce_get_template( 'cart/shipping-methods.php', array( 'available_methods' => $available_methods ) ); ?></td>
-					</tr>
-
-					<?php do_action( 'woocommerce_cart_totals_after_shipping' ); ?>
-
-				<?php endif ?>
-
 				<?php foreach ( $woocommerce->cart->get_fees() as $fee ) : ?>
 
 					<tr class="fee fee-<?php echo $fee->id ?>">
