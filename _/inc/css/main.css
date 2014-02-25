@@ -9466,7 +9466,7 @@ img.avatar {
   display: block;
   text-align: center;
 }
-.calc-item .fa-print:before {
+.calc-item .fa:before {
   background-color: #f2f2f2;
   border: 1px solid #d1d1d1;
   padding: 20px;
