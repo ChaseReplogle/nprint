@@ -37,19 +37,6 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 
 			<?php endif; ?>
 
-			<?php if ( $woocommerce->cart->needs_shipping() && $woocommerce->cart->show_shipping() ) : ?>
-
-				<?php do_action('woocommerce_review_order_before_shipping'); ?>
-
-				<tr class="shipping">
-					<th><?php _e( 'Shipping', 'woocommerce' ); ?></th>
-					<td><?php woocommerce_get_template( 'cart/shipping-methods.php', array( 'available_methods' => $available_methods ) ); ?></td>
-				</tr>
-
-				<?php do_action('woocommerce_review_order_after_shipping'); ?>
-
-			<?php endif; ?>
-
 			<?php foreach ( $woocommerce->cart->get_fees() as $fee ) : ?>
 
 				<tr class="fee fee-<?php echo $fee->id ?>">
