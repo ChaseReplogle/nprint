@@ -25,7 +25,7 @@
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
              <?php $thumb_id = get_post_thumbnail_id(); ?>
              <?php $user_image = wp_get_attachment_url($thumb_id,'thumbnail-size', true);?>
-             <?php $business_image = wp_get_attachment_url($post->ID, 'medium'); ?>
+             <?php $business_image = wp_get_attachment_url(); ?>
              <?php $business_title = get_the_title(); ?>
              <?php $business_phone = get_field("business_phone"); ?>
              <?php $business_email = get_field("business_email"); ?>
