@@ -83,7 +83,14 @@ Template Name: Saved Quotes
 				
 					
 
-			<?php endwhile; endif; ?>
+			<?php endwhile; ?>
+
+				<?php else : ?>
+
+				<a href="/dashboard/calculators/"><img class="empty-quotes" src="<?php echo get_template_directory_uri(); ?>/_/inc/images/empty-quotes.jpg"></a>
+				<a href="/dashboard/calculators/" class="secondary_button empty-quotes-link">Create Your First Quote</a>
+				
+			<?php endif; ?>
 
 			</tbody> 
 			</table> 
