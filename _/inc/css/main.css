@@ -9460,7 +9460,7 @@ img.avatar {
   padding: 50px 30px;
 }
 .calc-item i {
-  font-size: 40px;
+  font-size: 60px;
   color: #818080;
   width: 100%;
   display: block;
@@ -9476,6 +9476,7 @@ img.avatar {
   display: block;
   width: 100%;
   text-align: center;
+  margin-top: 40px;
 }
 
 @media only screen and (max-width: 40em) {
