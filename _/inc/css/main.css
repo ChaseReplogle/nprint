@@ -9466,6 +9466,10 @@ img.avatar {
   display: block;
   text-align: center;
 }
+.calc-item a {
+  display: block;
+  width: 100%;
+}
 
 @media only screen and (max-width: 40em) {
   #cost {
