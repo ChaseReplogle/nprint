@@ -33,7 +33,7 @@ Template Name: Calculators
 		
 	<div class="columns medium-3 calc-item">
 	<i class="fa fa-print"></i>
-	<a class="primary_button" href="/dashboard/calculators/vinyl-banners/">Vinyl Calculator</a>
+	<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vinyl Calculator</a>
 	</div>
 
 	</div>
