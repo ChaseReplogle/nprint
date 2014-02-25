@@ -25,7 +25,13 @@
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
              <?php $thumb_id = get_post_thumbnail_id(); ?>
              <?php $user_image = wp_get_attachment_url($thumb_id,'thumbnail', true);?>
-             <?php $business_image = catch_that_image(); ?>
+             
+             <?php $attachments = get_children(array('post_parent' => get_the_ID(), 'post_type' => 'attachment', 'post_mime_type' => 'image', 'orderby' => 'menu_order'));
+              if ( ! is_array($attachments) ) continue;
+              $count = count($attachments);
+              $first_attachment = array_shift($attachments); ?>
+              <?php $business_image = wp_get_attachment_image($first_attachment->ID); ?>
+
              <?php $business_title = get_the_title(); ?>
              <?php $business_phone = get_field("business_phone"); ?>
              <?php $business_email = get_field("business_email"); ?>
