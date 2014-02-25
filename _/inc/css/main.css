@@ -7148,7 +7148,7 @@ a:hover {
 }
 
 ::selection {
-  background-color: #e6b279;
+  background-color: #c98f50;
   color: inherit;
   line-height: 1.5em;
 }
@@ -7884,16 +7884,16 @@ img.avatar {
   padding: 10px 10px;
   display: block;
   text-align: center;
-  background-color: #e6b279;
+  background-color: #c98f50;
   color: #fff;
   font-size: 14px;
-  border: 1px solid #d28027;
+  border: 1px solid #895b2a;
   font-size: 12px;
   text-decoration: none;
 }
 .f-dropdown a.delete:hover {
   color: #fff;
-  background-color: #e2a664;
+  background-color: #c3833d;
   text-decoration: none;
 }
 
@@ -9492,14 +9492,14 @@ img.avatar {
 }
 .primary_button {
   padding: 12px 23px;
-  background-color: #e6b279;
-  color: #51320f;
+  background-color: #c98f50;
+  color: #fff;
   font-size: 14px;
-  border: 1px solid #d28027;
+  border: 1px solid #895b2a;
 }
 .primary_button:hover {
   color: #fff;
-  background-color: #e2a664;
+  background-color: #c3833d;
 }
 
 .secondary_button {
@@ -9739,8 +9739,8 @@ body ul.dwls_search_results li a {
 }
 
 .top span.clear {
-  background: #e6b279;
-  box-shadow: 0px 2px #de994e;
+  background: #c98f50;
+  box-shadow: 0px 2px #b07636;
   color: white;
 }
 
@@ -9757,8 +9757,8 @@ body ul.dwls_search_results li a {
 }
 
 .top span.clear:hover {
-  background: #de994e;
-  box-shadow: 0px 2px #da8d39;
+  background: #b07636;
+  box-shadow: 0px 2px #9c6830;
   color: white;
 }
 
