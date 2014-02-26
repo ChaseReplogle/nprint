@@ -9460,8 +9460,7 @@ img.avatar {
   padding: 70px 30px 30px 30px;
 }
 .calc-item .fa-stack-2x {
-  background-color: #f2f2f2;
-  border: 1px solid #d1d1d1;
+  color: #f2f2f2;
 }
 .calc-item .fa-stack-1x {
   color: #818080;
