@@ -31,7 +31,7 @@ Template Name: Calculators
 
 	<div class="columns medium-12 page-main-content">
 	
-	<div class="row">
+	<div class="medium-block-grid-3">
 
 		<div class="columns medium-3">
 			<div class=" calc-item">
@@ -80,11 +80,6 @@ Template Name: Calculators
 				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vehical Wrap</a>
 			</div>
 		</div>
-	</div>
-
-	<div class="clear"></div>
-
-	<div class="row">
 
 		<div class="columns medium-3">
 			<div class=" calc-item">
