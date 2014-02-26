@@ -31,7 +31,7 @@ Template Name: Calculators
 
 	<div class="columns medium-12 page-main-content">
 	
-	<ul class="medium-block-grid-3">
+	<ul class="medium-block-grid-4">
 
 		<li>
 			<div class=" calc-item">
