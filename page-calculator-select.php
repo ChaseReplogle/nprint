@@ -33,7 +33,7 @@ Template Name: Calculators
 	
 	<div class="medium-block-grid-3">
 
-		<div class="columns medium-3">
+		<div>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -45,7 +45,7 @@ Template Name: Calculators
 			</div>
 		</div>
 
-		<div class="columns medium-3">
+		<div>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -57,7 +57,7 @@ Template Name: Calculators
 			</div>
 		</div>
 
-		<div class="columns medium-3">
+		<div>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -69,7 +69,7 @@ Template Name: Calculators
 			</div>
 		</div>
 
-		<div class="columns medium-3">
+		<div>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -81,7 +81,7 @@ Template Name: Calculators
 			</div>
 		</div>
 
-		<div class="columns medium-3">
+		<div>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -93,7 +93,7 @@ Template Name: Calculators
 			</div>
 		</div>
 
-		<div class="columns medium-3">
+		<div>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -105,7 +105,7 @@ Template Name: Calculators
 			</div>
 		</div>
 
-		<div class="columns medium-3">
+		<div>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
