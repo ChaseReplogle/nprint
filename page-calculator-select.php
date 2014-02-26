@@ -32,25 +32,25 @@ Template Name: Calculators
 	<div class="columns medium-12 page-main-content">
 		
 	<div class="columns medium-3 calc-item">
-		<i class="fa fa-flag-o"></i>
+		<span><i class="fa fa-flag-o"></i></span>
 		<div class="clear"></div>
 		<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vinyl Calculator</a>
 	</div>
 
 	<div class="columns medium-3 calc-item">
-		<i class="fa fa-building-o"></i>
+		<span><i class="fa fa-building-o"></i></span>
 		<div class="clear"></div>
 		<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Billboard Wraps</a>
 	</div>
 
 	<div class="columns medium-3 calc-item">
-		<i class="fa fa-pencil-square-o"></i>
+		<span><i class="fa fa-pencil-square-o"></i></span>
 		<div class="clear"></div>
 		<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Adhesive Decals</a>
 	</div>
 
 	<div class="columns medium-3 calc-item">
-		<i class="fa fa-truck"></i>
+		<span><i class="fa fa-truck"></i></span>
 		<div class="clear"></div>
 		<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vehical Wrap</a>
 	</div>
