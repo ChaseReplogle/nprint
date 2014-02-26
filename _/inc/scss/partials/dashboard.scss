@@ -890,19 +890,19 @@
 	border: 1px solid $lightgrey;
 	padding: 70px 30px 30px 30px;
 
-	i {
-		font-size: 60px;
-		color: $grey;
-		width: 100%;
-		display: block;
-		text-align: center;
-	}
-
-	.fa:before {
+	span {
 		background-color: $verylightgrey;
 		border: 1px solid $lightgrey;
 		padding: 20px;
 		border-radius: 50px;
+
+		i {
+			font-size: 60px;
+			color: $grey;
+			width: 100%;
+			display: block;
+			text-align: center;
+		}
 	}
 
 	a {
