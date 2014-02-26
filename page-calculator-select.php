@@ -79,6 +79,8 @@ Template Name: Calculators
 		</div>
 	</div>
 
+	<div class="clear"></div>
+
 	<div class="columns medium-3">
 		<div class=" calc-item">
 			<span>
