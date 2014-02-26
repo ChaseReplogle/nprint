@@ -31,9 +31,9 @@ Template Name: Calculators
 
 	<div class="columns medium-12 page-main-content">
 	
-	<div class="medium-block-grid-3">
+	<ul class="medium-block-grid-3">
 
-		<div>
+		<li>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -43,9 +43,9 @@ Template Name: Calculators
 				<div class="clear"></div>
 				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vinyl Calculator</a>
 			</div>
-		</div>
+		</li>
 
-		<div>
+		<li>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -55,9 +55,9 @@ Template Name: Calculators
 				<div class="clear"></div>
 				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Billboard Wraps</a>
 			</div>
-		</div>
+		</li>
 
-		<div>
+		<li>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -67,9 +67,9 @@ Template Name: Calculators
 				<div class="clear"></div>
 				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Adhesive Decals</a>
 			</div>
-		</div>
+		</li>
 
-		<div>
+		<li>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -79,9 +79,9 @@ Template Name: Calculators
 				<div class="clear"></div>
 				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vehical Wrap</a>
 			</div>
-		</div>
+		</li>
 
-		<div>
+		<li>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -91,9 +91,9 @@ Template Name: Calculators
 				<div class="clear"></div>
 				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Backlit and Awning</a>
 			</div>
-		</div>
+		</li>
 
-		<div>
+		<li>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -103,9 +103,9 @@ Template Name: Calculators
 				<div class="clear"></div>
 				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Specialty Design</a>
 			</div>
-		</div>
+		</li>
 
-		<div>
+		<li>
 			<div class=" calc-item">
 				<span>
 				<span class="fa-stack fa-lg">
@@ -115,9 +115,9 @@ Template Name: Calculators
 				<div class="clear"></div>
 				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Trade Show Displays</a>
 			</div>
-		</div>
+		</li>
 
-	</div>
+	</ul>
 
 	</div>
 
