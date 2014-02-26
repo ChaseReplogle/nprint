@@ -9459,6 +9459,10 @@ img.avatar {
   border: 1px solid #d1d1d1;
   padding: 70px 30px 30px 30px;
 }
+.calc-item .fa-stack {
+  font-size: 70px;
+  text-align: center;
+}
 .calc-item .fa-stack-2x {
   color: #f2f2f2;
 }
