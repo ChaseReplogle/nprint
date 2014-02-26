@@ -30,90 +30,96 @@ Template Name: Calculators
 <div class="row content-row">
 
 	<div class="columns medium-12 page-main-content">
-		
-	<div class="columns medium-3">
-		<div class=" calc-item">
-			<span>
-			<span class="fa-stack fa-lg">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
-			</span>
-			<div class="clear"></div>
-			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vinyl Calculator</a>
-		</div>
-	</div>
+	
+	<div class="row">
 
-	<div class="columns medium-3">
-		<div class=" calc-item">
-			<span>
-			<span class="fa-stack fa-lg">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-building-o fa-stack-1x fa-inverse"></i>
-			</span>
-			<div class="clear"></div>
-			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Billboard Wraps</a>
+		<div class="columns medium-3">
+			<div class=" calc-item">
+				<span>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+				</span>
+				<div class="clear"></div>
+				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vinyl Calculator</a>
+			</div>
 		</div>
-	</div>
 
-	<div class="columns medium-3">
-		<div class=" calc-item">
-			<span>
-			<span class="fa-stack fa-lg">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
-			</span>
-			<div class="clear"></div>
-			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Adhesive Decals</a>
+		<div class="columns medium-3">
+			<div class=" calc-item">
+				<span>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-building-o fa-stack-1x fa-inverse"></i>
+				</span>
+				<div class="clear"></div>
+				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Billboard Wraps</a>
+			</div>
 		</div>
-	</div>
 
-	<div class="columns medium-3">
-		<div class=" calc-item">
-			<span>
-			<span class="fa-stack fa-lg">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-truck fa-stack-1x fa-inverse"></i>
-			</span>
-			<div class="clear"></div>
-			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vehical Wrap</a>
+		<div class="columns medium-3">
+			<div class=" calc-item">
+				<span>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
+				</span>
+				<div class="clear"></div>
+				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Adhesive Decals</a>
+			</div>
+		</div>
+
+		<div class="columns medium-3">
+			<div class=" calc-item">
+				<span>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-truck fa-stack-1x fa-inverse"></i>
+				</span>
+				<div class="clear"></div>
+				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vehical Wrap</a>
+			</div>
 		</div>
 	</div>
 
 	<div class="clear"></div>
 
-	<div class="columns medium-3">
-		<div class=" calc-item">
-			<span>
-			<span class="fa-stack fa-lg">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
-			</span>
-			<div class="clear"></div>
-			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Backlit and Awning</a>
-		</div>
-	</div>
+	<div class="row">
 
-	<div class="columns medium-3">
-		<div class=" calc-item">
-			<span>
-			<span class="fa-stack fa-lg">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
-			</span>
-			<div class="clear"></div>
-			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Trade Show Displays</a>
+		<div class="columns medium-3">
+			<div class=" calc-item">
+				<span>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
+				</span>
+				<div class="clear"></div>
+				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Backlit and Awning</a>
+			</div>
 		</div>
-	</div>
 
-	<div class="columns medium-3">
-		<div class=" calc-item">
-			<span>
-			<span class="fa-stack fa-lg">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
-			</span>
-			<div class="clear"></div>
-			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Specialty Design</a>
+		<div class="columns medium-3">
+			<div class=" calc-item">
+				<span>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
+				</span>
+				<div class="clear"></div>
+				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Trade Show Displays</a>
+			</div>
+		</div>
+
+		<div class="columns medium-3">
+			<div class=" calc-item">
+				<span>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
+				</span>
+				<div class="clear"></div>
+				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Specialty Design</a>
+			</div>
 		</div>
 	</div>
 
