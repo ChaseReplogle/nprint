@@ -9457,7 +9457,7 @@ img.avatar {
 .calc-item {
   background-color: #fff;
   border: 1px solid #d1d1d1;
-  padding: 60px 30px 30px 30px;
+  padding: 40px 30px 30px 30px;
 }
 .calc-item .fa-stack {
   font-size: 70px;
@@ -9474,7 +9474,7 @@ img.avatar {
   display: block;
   width: 100%;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 40em) {
