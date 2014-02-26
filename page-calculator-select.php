@@ -33,7 +33,11 @@ Template Name: Calculators
 		
 	<div class="columns medium-3">
 		<div class=" calc-item">
-			<span><i class="fa fa-flag-o"></i></span>
+			<span>
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+			</span>
 			<div class="clear"></div>
 			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vinyl Calculator</a>
 		</div>
