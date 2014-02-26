@@ -9462,13 +9462,12 @@ img.avatar {
 .calc-item .fa-stack-1x {
   background-color: #f2f2f2;
   border: 1px solid #d1d1d1;
+  font-size: 80px;
 }
 .calc-item .fa-stack-2x {
   font-size: 60px;
   color: #818080;
   width: 100%;
-  display: block;
-  text-align: center;
 }
 .calc-item a {
   display: block;
