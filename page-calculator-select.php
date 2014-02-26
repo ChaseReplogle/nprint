@@ -79,6 +79,42 @@ Template Name: Calculators
 		</div>
 	</div>
 
+	<div class="columns medium-3">
+		<div class=" calc-item">
+			<span>
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
+			</span>
+			<div class="clear"></div>
+			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Backlit and Awning</a>
+		</div>
+	</div>
+
+	<div class="columns medium-3">
+		<div class=" calc-item">
+			<span>
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
+			</span>
+			<div class="clear"></div>
+			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Trade Show Displays</a>
+		</div>
+	</div>
+
+	<div class="columns medium-3">
+		<div class=" calc-item">
+			<span>
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
+			</span>
+			<div class="clear"></div>
+			<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Specialty Design</a>
+		</div>
+	</div>
+
 	</div>
 
 	<hr>
