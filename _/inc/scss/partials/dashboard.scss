@@ -888,11 +888,12 @@
 .calc-item {
 	background-color: #fff;
 	border: 1px solid $lightgrey;
-	padding: 70px 30px 30px 30px;
+	padding: 60px 30px 30px 30px;
 
 	.fa-stack {
 		font-size: 70px;
 		text-align: center;
+		width: 100%;
 	}
 
 	.fa-stack-2x {
