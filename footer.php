@@ -71,7 +71,11 @@
 
 
 
-<script src="<?php echo get_template_directory_uri(); ?>/_/js/global.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/_/js/global-ck.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<!-- this is where we put our custom functions -->
+
+<script src="<?php bloginfo('template_directory'); ?>/_/js/functions.js"></script>
 
 
 <link rel="stylesheet" id="print-css" href="<?php echo get_template_directory_uri(); ?>/_/inc/css/print.css" />
