@@ -29,7 +29,7 @@ global $woocommerce;
 
 	<p class="form-row" id="shiptobilling">
 		<input id="shiptobilling-checkbox" class="input-checkbox" <?php checked($shiptobilling, 1); ?> type="checkbox" name="shiptobilling" value="1" />
-		<label for="shiptobilling-checkbox" class="checkbox"><?php _e( 'Ship to billing address?', 'woocommerce' ); ?></label>
+		<label for="shiptobilling-checkbox" class="checkbox"><?php _e( 'Ship to billing address? (White Label)', 'woocommerce' ); ?></label>
 	</p>
 
 	<h3><?php _e( 'Shipping Address', 'woocommerce' ); ?></h3>
