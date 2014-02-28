@@ -109,7 +109,7 @@ Template Name: Dashboard
 
 					<div class="columns medium-6 actions">
 						<span class="quote-actions">
-							<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
+							<a href="<?php echo site_url(); ?>/dashboard/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
 							<a target="_blank"  href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>&style=print" class="quote-print">Print</a> |
 							<a href="#" data-dropdown="delete" class="quote-delete">Delete</a>
 								<div id="delete" class="f-dropdown" data-dropdown-content>
