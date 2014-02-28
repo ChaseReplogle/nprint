@@ -9588,14 +9588,16 @@ img.avatar {
 
 .no-js .right-off-canvas-menu, .js .right-off-canvas-menu {
   display: none;
-  visibility: none;
+  visibility: hidden;
   background-color: red;
   background: red;
   width: 0px;
 }
 
-.no-js .move-left .left-off-canvas-menu, .no-js .move-left .right-off-canvas-menu {
+.no-js .move-left .left-off-canvas-menu, .no-js .move-left .right-off-canvas-menu, .js .move-left .left-off-canvas-menu, .js .move-left .right-off-canvas-menu {
   display: block;
+  visibility: visible;
+  width: auto;
 }
 
 body ul.dwls_search_results {

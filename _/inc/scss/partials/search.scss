@@ -15,19 +15,21 @@
 
 	.right-off-canvas-menu {
 		display: none;
-		visibility: none;
+		visibility: hidden;
 		background-color: red;
 		background: red;
 		width: 0px;
 	}
 }
 
-.no-js {
+.no-js, .js {
 
 	.move-left {
 
 		.left-off-canvas-menu, .right-off-canvas-menu {
 			display: block;
+			visibility: visible;
+			width: auto;
 		}
 	}
 }
