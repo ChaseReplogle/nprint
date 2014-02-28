@@ -40,11 +40,12 @@
 
           <?php wp_reset_query(); ?>
 
-            <li class="account-image"><a href="/account"><img src="<?php echo $user_image; ?>"></a></li>
-            <li class="account-links"><a href="/account" class="has-dropdown"><?php global $current_user;
+            <li class="account-image"><a href="/dashboard"><img src="<?php echo $user_image; ?>"></a></li>
+            <li class="account-links"><a href="/dashboard" class="has-dropdown"><?php global $current_user;
                 get_currentuserinfo();
                   echo $current_user->display_name; ?></a>
               <ul class="dropdown">
+                <li><a class="" href="/account/">Account</a></li>
                 <li><a class="" href="/dashboard">Dashboard</a></li>
                 <li><a class="" href="/dashboard/saved-quotes/">My Quotes</a></li>
                 <?php wp_list_pages('title_li=&child_of=123'); ?>
