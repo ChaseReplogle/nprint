@@ -76,7 +76,7 @@
 
 	<!-- This is an un-minified, complete version of Modernizr. 
 		 Before you move to production, you should generate a custom build that only has the detects you need. -->
-	<script src="<?php echo get_template_directory_uri(); ?>/_/js/modernizr-2.6.2.dev.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/modernizr.jjs"></script>
 	
 	
 	<!-- Application-specific meta tags -->
