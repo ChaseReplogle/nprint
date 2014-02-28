@@ -83,9 +83,7 @@
             <h2>Sign Into Your Account</h2>
             <?php $args = array(
               'redirect' => site_url( '/dashboard' ),
-              'label_username' => __( 'Username' ),
-              'label_password' => __( 'Password' ),
-              'remember' => false,
+              'remember' => false
              ); ?>
             <?php wp_login_form( $args ); ?>
             <a href="<?php echo wp_lostpassword_url(); ?>" title="Lost Password">Lost Password?</a>
