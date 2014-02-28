@@ -9589,8 +9589,6 @@ img.avatar {
 .no-js .right-off-canvas-menu, .js .right-off-canvas-menu {
   display: none;
   visibility: hidden;
-  background-color: red;
-  background: red;
   width: 0px;
 }
 
@@ -9598,6 +9596,7 @@ img.avatar {
   display: block;
   visibility: visible;
   width: auto;
+  z-index: 9999999999999;
 }
 
 body ul.dwls_search_results {

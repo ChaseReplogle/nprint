@@ -16,8 +16,6 @@
 	.right-off-canvas-menu {
 		display: none;
 		visibility: hidden;
-		background-color: red;
-		background: red;
 		width: 0px;
 	}
 }
@@ -30,6 +28,7 @@
 			display: block;
 			visibility: visible;
 			width: auto;
+			z-index: 9999999999999;
 		}
 	}
 }
