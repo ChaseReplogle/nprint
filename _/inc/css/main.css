@@ -9589,6 +9589,9 @@ img.avatar {
 .no-js .left-off-canvas-menu, .no-js .right-off-canvas-menu {
   display: none;
   visibility: none;
+  background-color: red;
+  background: red;
+  width: 0px;
 }
 
 .no-js .move-left .left-off-canvas-menu, .no-js .move-left .right-off-canvas-menu {
