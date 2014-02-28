@@ -9586,7 +9586,7 @@ img.avatar {
   padding: 20px 30px 30px 30px;
 }
 
-.no-js .right-off-canvas-menu {
+.no-js .right-off-canvas-menu, .js .right-off-canvas-menu {
   display: none;
   visibility: none;
   background-color: red;
