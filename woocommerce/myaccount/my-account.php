@@ -27,7 +27,15 @@ $woocommerce->show_messages(); ?>
 
 <?php woocommerce_get_template( 'myaccount/my-downloads.php' ); ?>
 
+<div class="row">
+	<hr>
+</div>
+
 <?php woocommerce_get_template( 'myaccount/my-orders.php', array( 'order_count' => $order_count ) ); ?>
+
+<div class="row">
+	<hr>
+</div>
 
 <?php woocommerce_get_template( 'myaccount/my-address.php' ); ?>
 
