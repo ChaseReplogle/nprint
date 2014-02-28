@@ -83,8 +83,8 @@
             <h2>Sign Into Your Account</h2>
             <?php $args = array(
               'redirect' => site_url( '/dashboard' ),
-              'label_username' => __( '' ),
-              'label_password' => __( '' ),
+              'label_username' => __( 'Username or Email' ),
+              'label_password' => __( 'Password' ),
               'remember' => false,
              ); ?>
             <?php wp_login_form( $args ); ?>
