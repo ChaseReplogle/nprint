@@ -4,21 +4,14 @@
  * @subpackage HTML5-Reset-WordPress-Theme
  * @since HTML5 Reset 2.0
  */
-?>
+?><!doctype html>
 
-<!DOCTYPE html>
-<!--[if IE 7]>
-<html class="no-js ie ie7" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if IE 8]>
-<html class="no-js ie ie8" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if IE 9]>
-<html class="no-js lt-ie10" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html class="no-js" <?php language_attributes(); ?>>
-<!--<![endif]-->
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" <?php language_attributes(); ?>> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" <?php language_attributes(); ?>><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. --> 
 
 <head id="<?php echo of_get_option('meta_headid'); ?>" data-template-set="html5-reset-wordpress-theme">
 
@@ -83,7 +76,7 @@
 
 	<!-- This is an un-minified, complete version of Modernizr. 
 		 Before you move to production, you should generate a custom build that only has the detects you need. -->
-	<script src="<?php echo get_template_directory_uri(); ?>/_/inc/js/vender/modernizr.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/_/js/modernizr-2.6.2.dev.js"></script>
 	
 	
 	<!-- Application-specific meta tags -->
