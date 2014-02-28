@@ -9586,6 +9586,14 @@ img.avatar {
   padding: 20px 30px 30px 30px;
 }
 
+.no-js .left-off-canvas-menu, .no-js .right-off-canvas-menu {
+  display: none;
+}
+
+.no-js .move-left .left-off-canvas-menu, .no-js .move-left .right-off-canvas-menu {
+  display: block;
+}
+
 body ul.dwls_search_results {
   right: -500px !important;
   top: 120px !important;
