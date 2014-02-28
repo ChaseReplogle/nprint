@@ -65,7 +65,7 @@ Template Name: Calculators
 					<i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
 				</span>
 				<div class="clear"></div>
-				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Adhesive Decals</a>
+				<a class="secondary_button" href="/dashboard/calculators/adhesive-decals/">Adhesive Decals</a>
 			</div>
 		</li>
 
