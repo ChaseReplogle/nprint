@@ -9218,7 +9218,7 @@ img.avatar {
 #cost-total .cost-mark-up label, #cost-total .retail label {
   color: #818080;
 }
-#cost-total #field_2_32 {
+#cost-total .retail {
   border-left: 0px;
 }
 #cost-total .shipping {
