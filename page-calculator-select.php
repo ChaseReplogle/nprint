@@ -53,7 +53,7 @@ Template Name: Calculators
 					<i class="fa fa-building-o fa-stack-1x fa-inverse"></i>
 				</span>
 				<div class="clear"></div>
-				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Billboard Wraps</a>
+				<a class="secondary_button" href="/dashboard/calculators/billboard-wrap/">Billboard Wraps</a>
 			</div>
 		</li>
 
