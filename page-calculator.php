@@ -189,7 +189,7 @@ Template Name: Calculator
 			$('.percent input').attr('max', '100');
 
 			$('.percent input').attr('onchange', 'rangevalue.value=value');
-			$('.percent').after('<input class="cost" id="rangevalue">0</input>');
+			$('.percent').after('<input value="0" class="cost" id="rangevalue">0</input>');
 			$('.percent').after('<div class="clear"></div>');
 			$('#rangevalue').attr('onchange', '.percent input.value=value');
 
