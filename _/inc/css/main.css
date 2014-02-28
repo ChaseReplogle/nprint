@@ -9206,7 +9206,7 @@ img.avatar {
 #cost-total .ginput_product_price_label {
   display: none;
 }
-#cost-total #field_2_30, #cost-total #field_2_32 {
+#cost-total .cost-mark-up, #cost-total .retail {
   width: 50%;
   float: left;
   text-align: center;
@@ -9215,7 +9215,7 @@ img.avatar {
   padding: 20px;
   border-top: 0px;
 }
-#cost-total #field_2_30 label, #cost-total #field_2_32 label {
+#cost-total .cost-mark-up label, #cost-total .retail label {
   color: #818080;
 }
 #cost-total #field_2_32 {
