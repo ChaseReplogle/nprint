@@ -9118,7 +9118,7 @@ img.avatar {
 #cost-total .slider {
   width: 100%;
 }
-#cost-total #field_2_29 {
+#cost-total .your-cost {
   width: 100%;
   display: block;
   background-color: #f2f2f2;
@@ -9126,18 +9126,18 @@ img.avatar {
   margin: 46px 0px 0px 0px;
   padding: 30px;
 }
-#cost-total #field_2_29 label {
+#cost-total .your-cost label {
   text-align: center;
   width: 100%;
 }
-#cost-total #field_2_29 span {
+#cost-total .your-cost span {
   font-size: 35px;
   text-align: center;
   width: 100%;
   display: block;
   color: #818080;
 }
-#cost-total #field_2_29 .ginput_product_price_label {
+#cost-total .your-cost .ginput_product_price_label {
   display: none;
 }
 #cost-total .percent label {
