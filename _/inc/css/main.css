@@ -9395,6 +9395,17 @@ img.avatar {
   border: 1px solid #d1d1d1;
 }
 
+.page-template-page-calculator-request-php .gform_footer {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.page-template-page-calculator-request-php .gform_footer input[type=submit] {
+  width: 100%;
+  padding: 25px 0px;
+  visibility: hidden;
+}
+
 .company-info {
   padding-bottom: 0px;
   margin-bottom: 30px;
