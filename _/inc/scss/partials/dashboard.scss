@@ -820,12 +820,13 @@
 
 .page-template-page-calculator-request-php {
 	.gform_wrapper .gform_footer {
-		margin-top: 0px;
-		padding-top: 0px;
+		margin-top: 20px;
+		padding-top: 20px;
+		border-top: 1px solid $lightgrey;
 		padding-bottom: 0px;
 
 		input[type=submit] {
-			width: 100%;
+			width: 90%;
 			padding: 25px 0px;
 			visibility: visible;
 		}
