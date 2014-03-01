@@ -9247,39 +9247,39 @@ img.avatar {
   display: none;
 }
 
-.page-template-page-calculator-php .hidden {
+.page-template-page-calculator-php .hidden, .page-template-page-calculator-request-php .hidden {
   visibility: hidden;
   display: block;
   height: 0px;
 }
-.page-template-page-calculator-php .submit-options {
+.page-template-page-calculator-php .submit-options, .page-template-page-calculator-request-php .submit-options {
   margin-top: 40px;
   padding-top: 30px;
   border-top: 1px solid #d1d1d1;
 }
-.page-template-page-calculator-php .submit-options .gfield_label.new-submit {
+.page-template-page-calculator-php .submit-options .gfield_label.new-submit, .page-template-page-calculator-request-php .submit-options .gfield_label.new-submit {
   display: none;
   visibility: hidden;
 }
-.page-template-page-calculator-php .submit-options .gfield_radio li {
+.page-template-page-calculator-php .submit-options .gfield_radio li, .page-template-page-calculator-request-php .submit-options .gfield_radio li {
   display: block;
   width: 49%;
   float: left;
 }
-.page-template-page-calculator-php .submit-options .gfield_radio li:last-of-type {
+.page-template-page-calculator-php .submit-options .gfield_radio li:last-of-type, .page-template-page-calculator-request-php .submit-options .gfield_radio li:last-of-type {
   float: right;
 }
-.page-template-page-calculator-php .submit-options .gfield_radio li:last-of-type label {
+.page-template-page-calculator-php .submit-options .gfield_radio li:last-of-type label, .page-template-page-calculator-request-php .submit-options .gfield_radio li:last-of-type label {
   background-color: #d1d1d1;
   color: #818080;
   border: 1px solid #d1d1d1;
 }
-.page-template-page-calculator-php .submit-options .gfield_radio li:last-of-type label:hover {
+.page-template-page-calculator-php .submit-options .gfield_radio li:last-of-type label:hover, .page-template-page-calculator-request-php .submit-options .gfield_radio li:last-of-type label:hover {
   background-color: #4f98c4;
   color: #fff;
   border: 1px solid #387ea8;
 }
-.page-template-page-calculator-php .submit-options .gfield_radio li label {
+.page-template-page-calculator-php .submit-options .gfield_radio li label, .page-template-page-calculator-request-php .submit-options .gfield_radio li label {
   margin: 0px;
   background-color: #4f98c4;
   border: 1px solid #387ea8;
@@ -9288,18 +9288,18 @@ img.avatar {
   color: #fff;
   text-align: center;
 }
-.page-template-page-calculator-php .submit-options .gfield_radio li label:hover {
+.page-template-page-calculator-php .submit-options .gfield_radio li label:hover, .page-template-page-calculator-request-php .submit-options .gfield_radio li label:hover {
   background-color: #75aed1;
   color: #fff;
 }
-.page-template-page-calculator-php .submit-options .gfield_radio li input {
+.page-template-page-calculator-php .submit-options .gfield_radio li input, .page-template-page-calculator-request-php .submit-options .gfield_radio li input {
   display: none;
 }
-.page-template-page-calculator-php .submit-options .saved-percent {
+.page-template-page-calculator-php .submit-options .saved-percent, .page-template-page-calculator-request-php .submit-options .saved-percent {
   visibility: hidden;
   height: 0px;
 }
-.page-template-page-calculator-php .calculator-modal {
+.page-template-page-calculator-php .calculator-modal, .page-template-page-calculator-request-php .calculator-modal {
   left: auto;
   top: auto;
   display: block;
@@ -9315,10 +9315,10 @@ img.avatar {
   -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 0px rgba(0, 0, 0, 0);
 }
-.page-template-page-calculator-php .reveal-modal-bg {
+.page-template-page-calculator-php .reveal-modal-bg, .page-template-page-calculator-request-php .reveal-modal-bg {
   display: none !important;
 }
-.page-template-page-calculator-php .close-reveal-modal {
+.page-template-page-calculator-php .close-reveal-modal, .page-template-page-calculator-request-php .close-reveal-modal {
   position: absolute;
   top: 5px;
   right: 10px;
@@ -9327,14 +9327,14 @@ img.avatar {
   margin: 0px;
   text-decoration: none;
 }
-.page-template-page-calculator-php .f-dropdown.content {
+.page-template-page-calculator-php .f-dropdown.content, .page-template-page-calculator-request-php .f-dropdown.content {
   padding: 0px;
   background-color: transparent;
   border: 0px;
   background: transparent;
   background: none;
 }
-.page-template-page-calculator-php .calculator-link {
+.page-template-page-calculator-php .calculator-link, .page-template-page-calculator-request-php .calculator-link {
   display: block;
   width: 100%;
   text-align: center;
@@ -9344,43 +9344,43 @@ img.avatar {
   background-color: #f2f2f2;
   color: #818080;
 }
-.page-template-page-calculator-php input[type='submit'] {
+.page-template-page-calculator-php input[type='submit'], .page-template-page-calculator-request-php input[type='submit'] {
   display: block;
 }
-.page-template-page-calculator-php .gform_wrapper {
+.page-template-page-calculator-php .gform_wrapper, .page-template-page-calculator-request-php .gform_wrapper {
   margin: 0px;
   width: 100%;
   max-width: 100%;
 }
-.page-template-page-calculator-php .gform_wrapper .gform_heading {
+.page-template-page-calculator-php .gform_wrapper .gform_heading, .page-template-page-calculator-request-php .gform_wrapper .gform_heading {
   border-bottom: 1px solid lightgrey;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
-.page-template-page-calculator-php .gform_wrapper .gform_heading h3 {
+.page-template-page-calculator-php .gform_wrapper .gform_heading h3, .page-template-page-calculator-request-php .gform_wrapper .gform_heading h3 {
   margin-bottom: 10px;
 }
-.page-template-page-calculator-php .gform_wrapper .support {
+.page-template-page-calculator-php .gform_wrapper .support, .page-template-page-calculator-request-php .gform_wrapper .support {
   background-color: transparent;
 }
-.page-template-page-calculator-php .gform_wrapper .support input {
+.page-template-page-calculator-php .gform_wrapper .support input, .page-template-page-calculator-request-php .gform_wrapper .support input {
   background-color: #f2f2f2;
 }
-.page-template-page-calculator-php .gform_wrapper .support label {
+.page-template-page-calculator-php .gform_wrapper .support label, .page-template-page-calculator-request-php .gform_wrapper .support label {
   font-weight: normal;
   font-size: 13px;
 }
-.page-template-page-calculator-php .gform_wrapper .gform_footer {
+.page-template-page-calculator-php .gform_wrapper .gform_footer, .page-template-page-calculator-request-php .gform_wrapper .gform_footer {
   margin-top: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.page-template-page-calculator-php .gform_wrapper .gform_footer input[type=submit] {
+.page-template-page-calculator-php .gform_wrapper .gform_footer input[type=submit], .page-template-page-calculator-request-php .gform_wrapper .gform_footer input[type=submit] {
   width: 100%;
   padding: 25px 0px;
   visibility: hidden;
 }
-.page-template-page-calculator-php .support_button {
+.page-template-page-calculator-php .support_button, .page-template-page-calculator-request-php .support_button {
   display: block;
   margin: 10px 0px;
   padding: 20px 0px;
@@ -9389,7 +9389,7 @@ img.avatar {
   background-color: #f2f2f2;
   border: 1px solid #d1d1d1;
 }
-.page-template-page-calculator-php .support_button:hover {
+.page-template-page-calculator-php .support_button:hover, .page-template-page-calculator-request-php .support_button:hover {
   color: #d1d1d1;
   background-color: #f2f2f2;
   border: 1px solid #d1d1d1;
