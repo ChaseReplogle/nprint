@@ -87,14 +87,14 @@ Template Name: Calculators
 
 		<li>
 			<div class=" calc-item">
-				<a href="/dashboard/calculators/vehical-wrap/">
+				<a href="/dashboard/calculators/vehicle-wrap/">
 					<span class="fa-stack fa-lg">
 						<i class="fa fa-circle fa-stack-2x"></i>
 						<i class="fa fa-truck fa-stack-1x fa-inverse"></i>
 					</span>
 				</a>
 				<div class="clear"></div>
-				<a class="secondary_button" href="/dashboard/calculators/vehical-wrap/">Vehical Wrap</a>
+				<a class="secondary_button" href="/dashboard/calculators/vehicle-wrap/">Vehical Wrap</a>
 			</div>
 		</li>
 
