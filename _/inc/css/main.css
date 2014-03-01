@@ -8968,6 +8968,12 @@ img.avatar {
 .quotes-wrapper .quote-item a:hover {
   color: #4f98c4;
 }
+.quotes-wrapper .quote-item a.delete {
+  color: #fff;
+}
+.quotes-wrapper .quote-item a.delete:hover {
+  color: #fff;
+}
 .quotes-wrapper .quote-item p {
   margin: 0px;
   font-size: 13px;
