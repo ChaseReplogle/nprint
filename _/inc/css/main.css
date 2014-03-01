@@ -9299,11 +9299,6 @@ img.avatar {
   visibility: hidden;
   height: 0px;
 }
-.page-template-page-calculator-php .gform_heading {
-  border-bottom: 1px solid lightgrey;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
-}
 .page-template-page-calculator-php .calculator-modal {
   left: auto;
   top: auto;
@@ -9358,7 +9353,9 @@ img.avatar {
   max-width: 100%;
 }
 .page-template-page-calculator-php .gform_wrapper .gform_heading {
-  padding-bottom: 30px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 .page-template-page-calculator-php .gform_wrapper .support {
   background-color: transparent;

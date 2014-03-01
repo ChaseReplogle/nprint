@@ -705,12 +705,6 @@
 		}
 	}
 
-	.gform_heading {
-		border-bottom: 1px solid lightgrey;
-		padding-bottom: 20px;
-		margin-bottom: 30px;
-	}
-
 	.calculator-modal {
 		left: auto;
 		top: auto;
@@ -771,7 +765,9 @@
 		max-width: 100%;
 
 		.gform_heading {
-			padding-bottom: 30px;
+			border-bottom: 1px solid lightgrey;
+			padding-bottom: 20px;
+			margin-bottom: 30px;
 		}
 
 		.support {
