@@ -14,13 +14,7 @@ global $woocommerce;
 $woocommerce->show_messages(); ?>
 
 <p class="myaccount_user">
-	<?php
-	printf(
-		__( 'Hello, <strong>%s</strong>. From your account dashboard you can view your recent orders, manage your shipping and billing addresses and <a href="%s">change your password</a>.', 'woocommerce' ),
-		$current_user->display_name,
-		get_permalink( woocommerce_get_page_id( 'change_password' ) )
-	);
-	?>
+	Hello, <strong><?php echo $current_user->display_name; ?></strong>. From your account dashboard you can view your <a href="/account/orders/">recent orders</a>, manage your <a href="/account/edit-address/">shipping and billing addresses</a>, <a href="/business-information/?gform_post_id=<?php echo $business_id; ?>">user image</a>, <a href="/business-information/?gform_post_id=<?php echo $business_id; ?>">business info</a>, and <a href="/account/change-password/">change your password</a>
 </p>
 
 <?php do_action( 'woocommerce_before_my_account' ); ?>
