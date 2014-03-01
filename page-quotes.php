@@ -78,7 +78,7 @@ Template Name: Saved Quotes
 									</div>
 							</span>
 					    </td> 
-					    <td><p><?php the_modified_date('M j, Y'); ?> <?php the_modified_date('g:i A'); ?></p></td>
+					    <td><p><?php the_modified_date('M j, Y'); ?></p></td>
 					</tr> 
 				
 					
