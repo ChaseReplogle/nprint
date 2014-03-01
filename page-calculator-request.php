@@ -94,7 +94,8 @@ Template Name: Calculator Request
 	</div>
 
 	<div class="columns medium-4 sidebar">
-
+		<h2>Requesting a Quote</h2>
+		<p>Information here on requesting a quote. Things like, how long it takes, how you'll hear back, etc.</p>
 		
 	</div>
 
