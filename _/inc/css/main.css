@@ -9398,7 +9398,7 @@ img.avatar {
 .page-template-page-calculator-request-php .gform_wrapper .gform_footer {
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 1px solid #d1d1d1;
+  border-top: 1px dotted #d1d1d1;
   padding-bottom: 0px;
 }
 .page-template-page-calculator-request-php .gform_wrapper .gform_footer input[type=submit] {
