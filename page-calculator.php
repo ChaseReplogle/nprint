@@ -79,8 +79,6 @@ Template Name: Calculator
 	</div>
 
 	<div class="clear"></div>
-
-	<hr>
 		
 	<?php the_content(); ?>
 
