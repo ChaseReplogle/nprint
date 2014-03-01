@@ -9403,7 +9403,7 @@ img.avatar {
 .page-template-page-calculator-request-php .gform_footer input[type=submit] {
   width: 100%;
   padding: 25px 0px;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .company-info {
