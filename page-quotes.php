@@ -64,12 +64,13 @@ Template Name: Saved Quotes
 				 <?php $postid = get_the_ID(); ?> 
 				 <?php $calcType = get_field("product"); ?>
 				 <?php $cleanProduct = str_replace("-", " ", $calcType); ?>
+				 <?php $properProduct = ucwords($cleanProduct); ?>
 				
 					<tr class="quote-item"> 
 					    <td><a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a></td> 
 					    <td><p><?php the_field('client-name'); ?></p></td> 
 					    <td><p><?php the_field('quantity'); ?></p></td> 
-					    <td><p><?php echo $cleanProduct; ?></p></td> 
+					    <td><p><?php echo $properProduct; ?></p></td> 
 					    <td>
 					    	<span class="quote-actions">
 								<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
