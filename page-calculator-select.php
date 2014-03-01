@@ -35,23 +35,25 @@ Template Name: Calculators
 
 		<li>
 			<div class=" calc-item">
-				<span>
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
-				</span>
+				<a href="/dashboard/calculators/vinyl-banner/">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
 				<div class="clear"></div>
-				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vinyl Calculator</a>
+				<a class="secondary_button" href="/dashboard/calculators/vinyl-banner/">Vinyl Calculator</a>
 			</div>
 		</li>
 
 		<li>
 			<div class=" calc-item">
-				<span>
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-building-o fa-stack-1x fa-inverse"></i>
-				</span>
+				<a href="/dashboard/calculators/billboard-wrap/">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-building-o fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
 				<div class="clear"></div>
 				<a class="secondary_button" href="/dashboard/calculators/billboard-wrap/">Billboard Wraps</a>
 			</div>
@@ -59,37 +61,40 @@ Template Name: Calculators
 
 		<li>
 			<div class=" calc-item">
-				<span>
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
-				</span>
+				<a href="/dashboard/calculators/adhesive-decal/">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
 				<div class="clear"></div>
-				<a class="secondary_button" href="/dashboard/calculators/adhesive-decals/">Adhesive Decals</a>
+				<a class="secondary_button" href="/dashboard/calculators/adhesive-decal/">Adhesive Decals</a>
 			</div>
 		</li>
 
 		<li>
 			<div class=" calc-item">
-				<span>
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-truck fa-stack-1x fa-inverse"></i>
-				</span>
+				<a href="/dashboard/calculators/backlit-and-awning/">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
 				<div class="clear"></div>
-				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Vehical Wrap</a>
+				<a class="secondary_button" href="/dashboard/calculators/backlit-and-awning/">Backlit and Awning</a>
 			</div>
 		</li>
 
 		<li>
 			<div class=" calc-item">
-				<span>
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
-				</span>
+				<a href="/dashboard/calculators/vehical-wrap/">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-truck fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
 				<div class="clear"></div>
-				<a class="secondary_button" href="/dashboard/calculators/vinyl-banners/">Backlit and Awning</a>
+				<a class="secondary_button" href="/dashboard/calculators/vehical-wrap/">Vehical Wrap</a>
 			</div>
 		</li>
 

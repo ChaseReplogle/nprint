@@ -8973,6 +8973,7 @@ img.avatar {
 }
 .quotes-wrapper .quote-item a.delete:hover {
   color: #fff;
+  text-decoration: none;
 }
 .quotes-wrapper .quote-item p {
   margin: 0px;
