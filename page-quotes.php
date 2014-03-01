@@ -41,6 +41,7 @@ Template Name: Saved Quotes
 				    <th>Project<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
 				    <th>Client<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
 				    <th>Quantity<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
+				    <th>Type<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
 				    <th>Actions</th>
 				    <th class="headerSortDown">Modified<i class="fa fa-sort none"></i><i class="fa fa-sort-asc down"></i><i class="fa fa-sort-desc up"></i></th> 
 				</tr> 
@@ -62,11 +63,13 @@ Template Name: Saved Quotes
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				 <?php $postid = get_the_ID(); ?> 
 				 <?php $calcType = get_field("product"); ?>
+				 <?php $cleanProduct = str_replace("-", " ", $calcType); ?>
 				
 					<tr class="quote-item"> 
 					    <td><a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-title"><?php the_title(); ?></a></td> 
 					    <td><p><?php the_field('client-name'); ?></p></td> 
 					    <td><p><?php the_field('quantity'); ?></p></td> 
+					    <td><p><?php echo $cleanProduct; ?></p></td> 
 					    <td>
 					    	<span class="quote-actions">
 								<a href="<?php echo site_url(); ?>/calculators/<?php echo $calcType; ?>/?gform_post_id=<?php echo $postid; ?>" class="quote-edit">Edit</a> |
