@@ -146,12 +146,8 @@ Template Name: Calculator Request
 			$(".specs-icon").prepend('<i class="fa fa-pencil-square-o"></i>');
 			$(".delivery-icon").prepend('<i class="fa fa-truck"></i>');
 		 
-		  }
+		}
 		 
-		});
-
-	}
-	
 </script>
 
 <div class="footer-wrapper">
