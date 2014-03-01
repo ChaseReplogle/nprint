@@ -833,6 +833,10 @@
 	}
 }
 
+.gform_wrapper .ginput_container + .gfield_description.validation_message {
+	margin-top: 50px !important;
+}
+
 .company-info {
 	padding-bottom: 0px;
 	margin-bottom: 30px;
