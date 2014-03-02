@@ -213,4 +213,22 @@ function gform_form_input_autocomplete( $input, $field, $value, $lead_id, $form_
     return $input;
 }
 
+add_filter('login_redirect', '_catch_login_error', 10, 3);
+ 
+function _catch_login_error($redir1, $redir2, $wperr_user)
+{
+    if(!is_wp_error($wperr_user) || !$wperr_user->get_error_code()) return $redir1;
+ 
+    switch($wperr_user->get_error_code())
+    {
+        case 'incorrect_password':
+        case 'empty_password':
+        case 'invalid_username':
+        default:
+            wp_redirect('#'); // modify this as you wish
+    }
+ 
+    return $redir1;
+}
+
 ?>
