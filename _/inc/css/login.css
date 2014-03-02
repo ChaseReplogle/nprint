@@ -3,7 +3,7 @@ body.login {
 }
 
 .login form {
-	padding: 26px 24px 76px;
+	padding: 26px 24px 106px;
 }
 
 .login form .forgetmenot {
@@ -21,4 +21,12 @@ body.login {
 	background: none;
 	background-color: #4f98c4;
 	margin-top: 15px;
+}
+
+.login #backtoblog a {
+	padding: 12px 23px;
+	background-color: lightgrey;
+	color: grey;
+	font-size: 14px;
+	border: 1px solid grey;
 }
