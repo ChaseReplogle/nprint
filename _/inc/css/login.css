@@ -23,10 +23,16 @@ body.login {
 	margin-top: 15px;
 }
 
+.login #backtoblog {
+	margin: 0px;
+}
+
 .login #backtoblog a {
 	padding: 12px 23px;
 	background-color: lightgrey;
 	color: grey;
 	font-size: 14px;
 	border: 1px solid grey;
+	width: 100%;
+	display: block;
 }
