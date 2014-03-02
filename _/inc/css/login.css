@@ -1,3 +1,11 @@
 body.login {
 	background-image: url('../images/pattern.jpg');
 }
+
+.login form {
+	padding: 26px 24px 76px;
+}
+
+.login form .forgetmenot {
+	margin-bottom: 10px;
+}
