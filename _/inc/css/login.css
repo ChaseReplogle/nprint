@@ -12,7 +12,6 @@ body.login {
 
 .wp-core-ui .button-primary {
 	padding: 12px 23px !important;
-	background-color: #4f98c4;
 	color: #fff;
 	font-size: 14px;
 	border: 1px solid black;
@@ -20,4 +19,6 @@ body.login {
 	display: block;
 	height: auto !important;
 	background: none !important;
+	background-color: #4f98c4;
+	margin-top: 15px;
 }
