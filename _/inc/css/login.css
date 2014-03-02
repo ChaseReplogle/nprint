@@ -29,10 +29,10 @@ body.login {
 
 .login #backtoblog a {
 	padding: 12px 23px;
-	background-color: lightgrey;
-	color: grey;
+	background-color: lightgray;
+	color: gray;
 	font-size: 14px;
-	border: 1px solid grey;
+	border: 1px solid gray;
 	width: auto;
 	display: block;
 	text-align: center;
