@@ -33,6 +33,8 @@ body.login {
 	color: grey;
 	font-size: 14px;
 	border: 1px solid grey;
-	width: 100%;
+	width: auto;
 	display: block;
+	text-align: center;
+	text-decoration: none;
 }
