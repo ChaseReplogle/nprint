@@ -2,6 +2,16 @@ body.login {
 	background-image: url('../images/pattern.jpg');
 }
 
+#login {
+	width: 320px;
+	padding: 74px 0 0;
+	margin: auto;
+}
+
+.login h1 a {
+	background-image: url('../images/login-logo.jpg');
+}
+
 .login form {
 	padding: 26px 24px 106px;
 }
