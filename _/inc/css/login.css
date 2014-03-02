@@ -30,11 +30,12 @@ body.login {
 .login #backtoblog a {
 	padding: 12px 23px;
 	background-color: lightgray;
-	color: gray;
+	color: gray !important;
 	font-size: 14px;
 	border: 1px solid gray;
 	width: auto;
 	display: block;
 	text-align: center;
 	text-decoration: none;
+	text-shadow: 0px;
 }
