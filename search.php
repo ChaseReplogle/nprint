@@ -25,6 +25,17 @@
 </div>	
 
 <div class="row content-row">
+	<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
+		<div class="search-form">
+			<input type="text" size="18" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" placeholder="Search"/>
+			<button type="submit" id="searchsubmit" class="btn btn-success">
+            	<i class="fa fa-search"></i>
+        	</button>
+		</div>
+	</form>
+</div>
+
+<div class="row content-row">
 	<div class="columns medium-12 page-title">
 		<h1>Search Results For: <?php printf( __( '%s', 'twentytwelve' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 		<hr>
