@@ -9,8 +9,6 @@
 <?php include 'nav-account.php'; ?>
 <?php include 'nav-main.php'; ?>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
 <div class="row content-row">
 	
 	<div class="columns medium-8">
@@ -23,8 +21,6 @@
 		<a href="/contact/">Contact Us</a>
 	</div>
 </div>
-
-<?php endwhile; endif; ?>
 
 <div class="row">
 	<hr>
