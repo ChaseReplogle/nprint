@@ -8,7 +8,6 @@
 
 <?php include 'nav-account.php'; ?>
 <?php include 'nav-main.php'; ?>
-<?php include 'nav-page.php'; ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
