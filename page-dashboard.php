@@ -143,7 +143,9 @@ if ( is_user_logged_in() ) { ?>
 	</div>
 </div>
 
-<?php } ?>
+<?php } else {
+    echo 'Visitor';
+} ?>
 
 
 </div>
