@@ -142,11 +142,13 @@ body {
 }
 
 .rcp_form label {
-	width: 30%;
+	width: 100%;
+	display: block;
 }
 
 .rcp_form input[type="text"], .rcp_form input[type="password"], .rcp_form input[type="email"] {
-	width: 70%;
+	width: 100%;
+	display: block;
 }
 
 
