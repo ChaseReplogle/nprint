@@ -7282,13 +7282,14 @@ body .clear-break {
 }
 
 .rcp_form label {
-  width: 30%;
-  display: block;
+  width: 30% !important;
+  display: block !important;
+  float: left !important;
 }
 
 .rcp_form input[type="text"], .rcp_form input[type="password"], .rcp_form input[type="email"] {
-  width: 70%;
-  display: block;
+  width: 70% !important;
+  display: block !important;
 }
 
 @media only screen and (max-width: 40em) {
