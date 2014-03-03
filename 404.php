@@ -26,6 +26,9 @@
 
 <?php endwhile; endif; ?>
 
+<div class="row">
+	<hr>
+</div>
 
 <div class="footer-wrapper">
 	<div class="g7">
