@@ -8461,42 +8461,42 @@ img.avatar {
   color: #d1d1d1;
 }
 
-.post-type-archive-support .content-row, .single-support .content-row {
+.post-type-archive-support .content-row, .single-support .content-row, .search-results .content-row {
   padding-bottom: 0px;
 }
-.post-type-archive-support .content-row .page-title, .single-support .content-row .page-title {
+.post-type-archive-support .content-row .page-title, .single-support .content-row .page-title, .search-results .content-row .page-title {
   margin-bottom: 0px;
 }
-.post-type-archive-support .columns .support-links .current-page-item, .single-support .columns .support-links .current-page-item {
+.post-type-archive-support .columns .support-links .current-page-item, .single-support .columns .support-links .current-page-item, .search-results .columns .support-links .current-page-item {
   color: #d1d1d1;
 }
-.post-type-archive-support .columns .support-links .current-page-item a, .single-support .columns .support-links .current-page-item a {
+.post-type-archive-support .columns .support-links .current-page-item a, .single-support .columns .support-links .current-page-item a, .search-results .columns .support-links .current-page-item a {
   color: #d1d1d1;
   text-decoration: none;
 }
-.post-type-archive-support .columns .support-links li, .single-support .columns .support-links li {
+.post-type-archive-support .columns .support-links li, .single-support .columns .support-links li, .search-results .columns .support-links li {
   color: #818080;
 }
-.post-type-archive-support .columns .support-links li a, .single-support .columns .support-links li a {
+.post-type-archive-support .columns .support-links li a, .single-support .columns .support-links li a, .search-results .columns .support-links li a {
   color: #4f98c4;
   text-decoration: underline;
   padding: 4px;
   display: block;
 }
-.post-type-archive-support .columns #s, .single-support .columns #s {
+.post-type-archive-support .columns #s, .single-support .columns #s, .search-results .columns #s {
   padding: 30px;
   font-size: 16px;
 }
-.post-type-archive-support .columns .search-form, .single-support .columns .search-form {
+.post-type-archive-support .columns .search-form, .single-support .columns .search-form, .search-results .columns .search-form {
   width: 100%;
 }
-.post-type-archive-support .columns .search-form #searchsubmit, .single-support .columns .search-form #searchsubmit {
+.post-type-archive-support .columns .search-form #searchsubmit, .single-support .columns .search-form #searchsubmit, .search-results .columns .search-form #searchsubmit {
   padding: 20px;
 }
-.post-type-archive-support .team, .single-support .team {
+.post-type-archive-support .team, .single-support .team, .search-results .team {
   padding: 30px 0px;
 }
-.post-type-archive-support .contact, .single-support .contact {
+.post-type-archive-support .contact, .single-support .contact, .search-results .contact {
   background-color: #f2f2f2;
   color: #d1d1d1;
   border: 1px solid #d1d1d1;
@@ -8505,7 +8505,7 @@ img.avatar {
   padding: 15px 25px;
   font-size: 12px;
 }
-.post-type-archive-support .support-answer h2, .single-support .support-answer h2 {
+.post-type-archive-support .support-answer h2, .single-support .support-answer h2, .search-results .support-answer h2 {
   margin-bottom: 30px;
 }
 
