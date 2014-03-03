@@ -15,6 +15,9 @@ Template Name: Dashboard
 <?php include 'nav-account.php'; ?>
 <?php include 'nav-main.php'; ?>
 
+<?php
+if ( is_user_logged_in() ) { ?>
+
 <div class="contain-to-grid page-nav-warpper dash-nav-wrapper">
 	<nav class="top-bar page-nav" data-topbar>
 			<li class="columns dash-nav current"><a href="/dashboard">Dashboard</a></li>
@@ -140,6 +143,7 @@ Template Name: Dashboard
 	</div>
 </div>
 
+<?php } ?>
 
 
 </div>
