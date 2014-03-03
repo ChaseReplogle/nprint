@@ -16,8 +16,8 @@
 	<div class="columns medium-12">
 		<h2>Sorry, this page doesn't exist</h2>
 		<p>It looks like the page you were looking for dosn't exist. The best thing to do is to start again from the <a href="/">homepage.</a> Feel free to contact us if the problem persists or if you definetly can't find what you're looking for.</p>
-		<a class="support_link" href="/support/">Find Support Articles</a>
-		<a class="support_link" href="/contact/">Contact Us</a>
+		<a class="support_button" href="/support/">Find Support Articles</a>
+		<a class="support_button" href="/contact/">Contact Us</a>
 	</div>
 
 </div>
