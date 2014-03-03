@@ -16,7 +16,7 @@
 		<p>It looks like the page you were looking for dosn't exist. The best thing to do is to start again from the <a href="/">homepage.</a> Feel free to contact us if the problem persists or if you definetly can't find what you're looking for.</p>
 	</div>
 
-	<div class="columns medium-4>">
+	<div class="columns medium-4">
 		<a href="/support/">Find Support Articles</a>
 		<a href="/contact/">Contact Us</a>
 	</div>
