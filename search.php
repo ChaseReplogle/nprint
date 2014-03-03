@@ -24,7 +24,7 @@
 </nav>
 </div>	
 
-<div class="row content-row">
+<div class="row">
 	<div class="columns medium-12 page-title">
 		<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
 			<div class="search-form">
@@ -37,9 +37,11 @@
 	</div>
 </div>
 
-<hr>
+<div class="row">
+	<hr>
+</div>
 
-<div class="row content-row">
+<div class="row">
 	<div class="columns medium-12 page-title">
 		<h1>Search Results For: <?php printf( __( '%s', 'twentytwelve' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 		<hr>
