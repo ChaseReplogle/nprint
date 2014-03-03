@@ -7277,8 +7277,12 @@ body .clear-break {
   height: 1px;
 }
 
+.rcp_form label {
+  width: 30%;
+}
+
 .rcp_form input[type="text"], .rcp_form input[type="password"], .rcp_form input[type="email"] {
-  width: auto;
+  width: 70%;
 }
 
 @media only screen and (max-width: 40em) {
