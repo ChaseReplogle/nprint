@@ -12,11 +12,14 @@ Template Name: Dashboard
  */
  get_header(); ?>
 
+ <?php if (!is_user_logged_in() ) {
+wp_redirect ( home_url("") );
+exit;
+}
+?>
+
 <?php include 'nav-account.php'; ?>
 <?php include 'nav-main.php'; ?>
-
-<?php
-if ( is_user_logged_in() ) { ?>
 
 <div class="contain-to-grid page-nav-warpper dash-nav-wrapper">
 	<nav class="top-bar page-nav" data-topbar>
@@ -143,9 +146,6 @@ if ( is_user_logged_in() ) { ?>
 	</div>
 </div>
 
-<?php } else {
-    echo 'Visitor';
-} ?>
 
 
 </div>
