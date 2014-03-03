@@ -1157,5 +1157,12 @@ img.avatar {
 
 }
 
-
+.error404 {
+	p {
+		a {
+			color: $mainblue;
+			text-decoration: underline;
+		}
+	}
+}
 
