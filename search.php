@@ -37,9 +37,7 @@
 	</div>
 </div>
 
-<div class="row cotent-row">
-	<hr>
-</div>
+<hr>
 
 <div class="row content-row">
 	<div class="columns medium-12 page-title">
