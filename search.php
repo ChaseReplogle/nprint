@@ -38,10 +38,6 @@
 </div>
 
 <div class="row">
-	<hr>
-</div>
-
-<div class="row">
 	<div class="columns medium-12 page-title">
 		<h1>Search Results For: <?php printf( __( '%s', 'twentytwelve' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 		<hr>
