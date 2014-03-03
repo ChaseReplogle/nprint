@@ -1,8 +1,10 @@
 <?php
 /**
+ * The template for displaying 404 pages (Not Found)
+ *
  * @package WordPress
- * @subpackage HTML5-Reset-WordPress-Theme
- * @since HTML5 Reset 2.0
+ * @subpackage Twenty_Thirteen
+ * @since Twenty Thirteen 1.0
  */
  get_header(); ?>
 
